@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import CTASection from '../../components/CTASection.astro';
+
+import services from '../../data/services.json';
+---
+
+<BaseLayout
+  title="Excavation Services | AccuRite Excavation"
+  description="Full-service excavation contractor in Northern Utah. Residential, commercial, government, retaining walls, utilities, demolition, septic, and more."
+  schemaType="page"
+>
+  <Hero
+    headline="Our Excavation Services"
+    subheadline="From basement digs to military contracts — we have the equipment and expertise for any project."
+    compact={true}
+  />
+
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services.map(service => (
+          <ServiceCard
+            slug={service.slug}
+            name={service.name}
+            description={service.description}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

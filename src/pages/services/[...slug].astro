@@ -1,0 +1,111 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import TrustBar from '../../components/TrustBar.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import TestimonialCard from '../../components/TestimonialCard.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import CTASection from '../../components/CTASection.astro';
+
+import business from '../../data/business.json';
+import servicesData from '../../data/services.json';
+import reviews from '../../data/reviews.json';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  return services.map(service => ({
+    params: { slug: service.id.replace(/\.md$/, '') },
+    props: { entry: service },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const slug = entry.id.replace(/\.md$/, '');
+
+// Match JSON data for this service
+const serviceJson = servicesData.find(s => s.slug === slug);
+
+// Get related services from frontmatter
+const relatedSlugs = entry.data.relatedServices || [];
+const relatedServices = servicesData.filter(s => relatedSlugs.includes(s.slug));
+
+// Filter reviews for this service
+const serviceReviews = reviews.filter(r => r.service === slug);
+
+// FAQs from frontmatter
+const faqs = entry.data.faqs || [];
+---
+
+<BaseLayout
+  title={entry.data.title + ' | AccuRite Excavation'}
+  description={entry.data.description}
+  schemaType="service"
+  schemaData={{ service: serviceJson, faqs }}
+>
+  <Hero
+    headline={entry.data.title}
+    subheadline={entry.data.description}
+    compact={true}
+  />
+
+  <TrustBar />
+
+  <!-- Service Content -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="prose prose-gray max-w-none [&>h2]:font-heading [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-charcoal [&>h2]:mt-10 [&>h2]:mb-4 [&>h3]:font-heading [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-charcoal [&>p]:text-gray-600 [&>p]:leading-relaxed [&>ul]:text-gray-600 [&>ol]:text-gray-600">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials for this service -->
+  {serviceReviews.length > 0 && (
+    <section class="bg-gray-50 py-12 lg:py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal text-center mb-8">
+          What Customers Say About Our {serviceJson?.shortName || 'Service'}
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {serviceReviews.map(review => (
+            <TestimonialCard
+              name={review.name}
+              rating={review.rating}
+              text={review.text}
+              source={review.source}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- FAQs -->
+  {faqs.length > 0 && (
+    <FAQSection faqs={faqs} heading={`${serviceJson?.shortName || 'Service'} FAQs`} />
+  )}
+
+  <!-- Related Services -->
+  {relatedServices.length > 0 && (
+    <section class="bg-gray-50 py-12 lg:py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-heading text-2xl font-bold text-charcoal text-center mb-8">
+          Related Services
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          {relatedServices.map(service => (
+            <ServiceCard
+              slug={service.slug}
+              name={service.name}
+              description={service.description}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <CTASection showForm={true} />
+</BaseLayout>

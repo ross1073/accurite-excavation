@@ -1,0 +1,102 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CTASection from '../../components/CTASection.astro';
+
+import servicesData from '../../data/services.json';
+import locationsData from '../../data/locations.json';
+import business from '../../data/business.json';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.id.replace(/\.md$/, '') },
+    props: { entry: post },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+// Related services from frontmatter
+const relatedServiceSlugs = entry.data.relatedServices || [];
+const relatedServices = servicesData.filter(s => relatedServiceSlugs.includes(s.slug));
+
+// Related locations from frontmatter
+const relatedLocationSlugs = entry.data.relatedLocations || [];
+const relatedLocations = locationsData.filter(l => relatedLocationSlugs.includes(l.slug));
+---
+
+<BaseLayout
+  title={entry.data.title + ' | AccuRite Excavation Blog'}
+  description={entry.data.description}
+  schemaType="blog"
+  schemaData={{ post: entry }}
+>
+  <article class="py-12 lg:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Article Header -->
+      <header class="mb-10">
+        <h1 class="font-heading text-3xl lg:text-4xl font-bold text-charcoal leading-tight">
+          {entry.data.title}
+        </h1>
+        <div class="mt-4 flex items-center gap-3 text-sm text-gray-500">
+          <time datetime={entry.data.pubDate.toISOString()}>
+            {entry.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          </time>
+          {entry.data.author && <span>by {entry.data.author}</span>}
+        </div>
+        {entry.data.tags && entry.data.tags.length > 0 && (
+          <div class="mt-4 flex flex-wrap gap-2">
+            {entry.data.tags.map(tag => (
+              <span class="px-3 py-1 bg-gray-100 text-gray-600 text-xs rounded-full">{tag}</span>
+            ))}
+          </div>
+        )}
+      </header>
+
+      <!-- Article Content -->
+      <div class="prose prose-gray max-w-none [&>h2]:font-heading [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-charcoal [&>h2]:mt-10 [&>h2]:mb-4 [&>h3]:font-heading [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-charcoal [&>p]:text-gray-600 [&>p]:leading-relaxed [&>ul]:text-gray-600 [&>ol]:text-gray-600">
+        <Content />
+      </div>
+
+      <!-- Related Links -->
+      {(relatedServices.length > 0 || relatedLocations.length > 0) && (
+        <footer class="mt-12 pt-8 border-t border-gray-200">
+          {relatedServices.length > 0 && (
+            <div class="mb-6">
+              <h3 class="font-heading text-lg font-bold text-charcoal mb-3">Related Services</h3>
+              <div class="flex flex-wrap gap-2">
+                {relatedServices.map(service => (
+                  <a
+                    href={`/services/${service.slug}`}
+                    class="px-4 py-2 border border-gray-200 rounded-full text-sm text-gray-600 hover:border-gold-dark hover:text-gold-dark transition-colors"
+                  >
+                    {service.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+          {relatedLocations.length > 0 && (
+            <div>
+              <h3 class="font-heading text-lg font-bold text-charcoal mb-3">Service Areas</h3>
+              <div class="flex flex-wrap gap-2">
+                {relatedLocations.map(location => (
+                  <a
+                    href={`/locations/${location.slug}`}
+                    class="px-4 py-2 border border-gray-200 rounded-full text-sm text-gray-600 hover:border-gold-dark hover:text-gold-dark transition-colors"
+                  >
+                    {location.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </footer>
+      )}
+    </div>
+  </article>
+
+  <CTASection />
+</BaseLayout>

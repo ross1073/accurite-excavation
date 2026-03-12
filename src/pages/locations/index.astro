@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import CTASection from '../../components/CTASection.astro';
+
+import locations from '../../data/locations.json';
+import business from '../../data/business.json';
+
+// Group locations by county
+const byCounty: Record<string, typeof locations> = {};
+locations.forEach(loc => {
+  if (!byCounty[loc.county]) byCounty[loc.county] = [];
+  byCounty[loc.county].push(loc);
+});
+---
+
+<BaseLayout
+  title="Service Areas | Excavation Across Northern Utah"
+  description="AccuRite Excavation serves Weber, Davis, Box Elder, and Morgan counties. View all cities and towns in our service area."
+  schemaType="page"
+>
+  <Hero
+    headline="Service Areas Across Northern Utah"
+    subheadline="Serving Weber, Davis, Box Elder, and Morgan counties from our Ogden headquarters."
+    compact={true}
+  />
+
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {Object.entries(byCounty).map(([county, cities]) => (
+          <div>
+            <h2 class="font-heading text-xl font-bold text-charcoal mb-4">
+              {county} County
+            </h2>
+            <ul class="space-y-2">
+              {cities.map(city => (
+                <li>
+                  <a
+                    href={`/locations/${city.slug}`}
+                    class="flex items-center justify-between text-gray-700 hover:text-gold-dark transition-colors"
+                  >
+                    <span>{city.name}</span>
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>
