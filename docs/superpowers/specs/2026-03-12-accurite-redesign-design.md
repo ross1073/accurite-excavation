@@ -97,7 +97,7 @@ Every existing WordPress URL gets mapped to its new equivalent. Implemented via 
 - `/the-accurite-excavation-promise/about-us-2-2` -> `/about`
 - All existing blog post URLs -> new `/blog/[slug]` or relevant service page
 
-Full redirect map to be built from sitemap data during implementation.
+Full redirect map to be built as an explicit early implementation task: crawl the old WordPress site, extract all URLs from sitemaps, and produce the complete Netlify `_redirects` file before launch.
 
 ---
 
@@ -231,7 +231,7 @@ Structured analysis of all 5 competitors before finalizing content and design:
 
 **Output:** Competitive intelligence report that informs keyword priorities, content depth benchmarks, design benchmarks, and link building targets.
 
-**Timing:** Early phase — before writing content or finalizing page designs.
+**Timing:** This is a deliverable of this project and a prerequisite that must be completed before content writing or page design finalization begins. It is the first major implementation phase.
 
 ---
 
@@ -250,6 +250,9 @@ Structured analysis of all 5 competitors before finalizing content and design:
 - All 18 location pages
 - Dedicated Contact/Quote page
 - NOT on blog posts (keep informational, link to service pages)
+
+### LeadConnector Integration Method
+Forms are embedded via LeadConnector's iframe/JS snippet (to be confirmed with the specific embed code from Shawn's LeadConnector account during implementation). This affects the `CTASection.astro` component.
 
 ### Trust Signals Near Every CTA
 - "25+ Years in Business"
@@ -276,7 +279,7 @@ No page ends without a clear next step.
 ### Brand
 - **Primary color:** Gold (#E8C840)
 - **Secondary color:** Charcoal (#333333)
-- **Typography:** Bold industrial sans-serif (specific Google Font pairing selected during implementation)
+- **Typography:** Bold industrial sans-serif — specific Google Font pairing to be selected and documented as an early implementation task (affects all page templates)
 - **Logo:** Existing AccuRite logo with diagonal spade/A lettermark
 - **Aesthetic:** Clean & professional. Whitespace-heavy, project photos do the talking. Established contractor, 25+ years of credibility.
 
@@ -292,7 +295,7 @@ No page ends without a clear next step.
 - About teaser: Brief company story with link to About page
 - Notable clients: Government/military logos (Army Corps, National Park Service, USPS, etc.)
 - Testimonial carousel: 3-5 top reviews
-- Service area map: Interactive or static map showing all 18 cities
+- Service area map: Static SVG or lightweight embedded map showing all 18 cities (mapping technology to be decided early — static SVG preferred to avoid API costs and page weight impact)
 - Final CTA: Phone + form
 
 ### Service Pages
@@ -458,7 +461,7 @@ public/
 
 ## 9. Ogden Rock Walls Cross-Linking Strategy
 
-The separate Ogden Rock Walls niche site (planned as its own Astro build) will coexist with the main AccuRite site:
+The separate Ogden Rock Walls niche site (planned as its own Astro build, outside the scope of this project) will coexist with the main AccuRite site. No work for the niche site is included in this plan — this section is context only to ensure the retaining walls service page is written with cross-linking in mind:
 
 - **Main site** has its own retaining walls service page with unique content
 - **Niche site** goes deeper on rock/retaining walls specifically across 18 cities
