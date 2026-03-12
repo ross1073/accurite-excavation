@@ -63,7 +63,7 @@ const phoneTel = business.phoneTel;
             <div class="bg-white border border-gray-200 rounded-lg shadow-lg py-2 w-56 max-h-80 overflow-y-auto">
               {locations.map(loc => (
                 <a
-                  href={`/service-area/${loc.slug}`}
+                  href={`/locations/${loc.slug}`}
                   class="block px-4 py-2 text-sm text-charcoal hover:bg-gold/10 hover:text-gold-dark transition-colors"
                 >
                   {loc.name}, UT
@@ -148,7 +148,7 @@ const phoneTel = business.phoneTel;
         <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Service Areas</p>
         <div class="grid grid-cols-2 gap-x-4">
           {locations.map(loc => (
-            <a href={`/service-area/${loc.slug}`} class="block py-1.5 text-sm text-charcoal hover:text-gold-dark">
+            <a href={`/locations/${loc.slug}`} class="block py-1.5 text-sm text-charcoal hover:text-gold-dark">
               {loc.name}
             </a>
           ))}

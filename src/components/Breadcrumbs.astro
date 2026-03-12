@@ -14,7 +14,7 @@ function resolveSlug(segment: string, parentSegment?: string): string {
     const service = services.find(s => s.slug === segment);
     if (service) return service.name;
   }
-  if (parentSegment === 'service-area') {
+  if (parentSegment === 'locations') {
     const location = locations.find(l => l.slug === segment);
     if (location) return `${location.name}, UT`;
   }
