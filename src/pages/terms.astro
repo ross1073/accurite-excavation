@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import business from '../data/business.json';
+---
+
+<BaseLayout
+  title="Terms of Service | AccuRite Excavation"
+  description="Terms of service for AccuRite Excavation & Hauling, Inc. website and services."
+  schemaType="page"
+>
+  <section class="py-12 lg:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="font-heading text-3xl lg:text-4xl font-bold text-charcoal">Terms of Service</h1>
+      <p class="mt-2 text-sm text-gray-500">Last updated: March 2026</p>
+
+      <div class="mt-8 space-y-8">
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Agreement to Terms</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            By accessing or using the {business.shortName} website (accuriteexcavation.com), you agree to be bound by these terms of service. If you do not agree with any part of these terms, please do not use our website.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Services</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            {business.name} provides excavation and hauling services in Northern Utah. Information on our website is for general informational purposes. Actual project scoping, pricing, and timelines are determined through direct consultation and written estimates.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Estimates and Pricing</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            Estimates provided through our website or over the phone are non-binding until confirmed in a written agreement. Final pricing may vary based on site conditions, scope changes, or unforeseen circumstances discovered during excavation. Any changes to scope or pricing will be communicated and agreed upon before work proceeds.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Intellectual Property</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            All content on this website — including text, images, logos, and design — is the property of {business.name} and protected by applicable intellectual property laws. You may not reproduce, distribute, or modify any content without our written permission.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Limitation of Liability</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            The information on this website is provided "as is" without warranties of any kind. {business.shortName} is not liable for any damages arising from your use of this website. Our liability for excavation services is governed by the terms of individual service agreements.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">External Links</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            Our website may contain links to external sites. We are not responsible for the content or privacy practices of those sites.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Governing Law</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            These terms are governed by the laws of the State of Utah. Any disputes will be resolved in Weber County, Utah.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Contact</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            Questions about these terms? Contact us at <a href={`tel:${business.phoneTel}`} class="text-gold-dark">{business.phone}</a> or visit our <a href="/contact" class="text-gold-dark underline">contact page</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

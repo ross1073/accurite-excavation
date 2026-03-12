@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import CTASection from '../components/CTASection.astro';
+
+import services from '../data/services.json';
+---
+
+<BaseLayout
+  title="Project Gallery | AccuRite Excavation"
+  description="Browse photos of AccuRite Excavation projects across Northern Utah. Residential basements, retaining walls, demolition, utilities, and more."
+  schemaType="page"
+>
+  <Hero
+    headline="Our Work Speaks for Itself"
+    subheadline="Browse real projects completed across the Wasatch Front."
+    compact={true}
+  />
+
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap justify-center gap-2 mb-10">
+        <button
+          class="gallery-filter px-4 py-2 rounded-full text-sm font-medium border border-gold-dark text-gold-dark bg-white hover:bg-gold-dark hover:text-white transition-colors"
+          data-filter="all"
+          aria-pressed="true"
+        >
+          All Projects
+        </button>
+        {services.map(service => (
+          <button
+            class="gallery-filter px-4 py-2 rounded-full text-sm font-medium border border-gray-300 text-gray-600 bg-white hover:border-gold-dark hover:text-gold-dark transition-colors"
+            data-filter={service.slug}
+            aria-pressed="false"
+          >
+            {service.name}
+          </button>
+        ))}
+      </div>
+
+      <!-- Gallery Grid (placeholder until photos are added in Task 23) -->
+      <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="gallery-item aspect-[4/3] bg-gray-100 rounded-lg flex items-center justify-center" data-service="residential-excavation">
+          <div class="text-center text-gray-400 p-4">
+            <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p class="text-sm font-medium">Residential Excavation</p>
+            <p class="text-xs mt-1">Photos coming soon</p>
+          </div>
+        </div>
+        <div class="gallery-item aspect-[4/3] bg-gray-100 rounded-lg flex items-center justify-center" data-service="rock-walls-retaining-walls">
+          <div class="text-center text-gray-400 p-4">
+            <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p class="text-sm font-medium">Rock Walls & Retaining Walls</p>
+            <p class="text-xs mt-1">Photos coming soon</p>
+          </div>
+        </div>
+        <div class="gallery-item aspect-[4/3] bg-gray-100 rounded-lg flex items-center justify-center" data-service="demolition">
+          <div class="text-center text-gray-400 p-4">
+            <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p class="text-sm font-medium">Demolition</p>
+            <p class="text-xs mt-1">Photos coming soon</p>
+          </div>
+        </div>
+        <div class="gallery-item aspect-[4/3] bg-gray-100 rounded-lg flex items-center justify-center" data-service="government-projects">
+          <div class="text-center text-gray-400 p-4">
+            <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p class="text-sm font-medium">Government Projects</p>
+            <p class="text-xs mt-1">Photos coming soon</p>
+          </div>
+        </div>
+        <div class="gallery-item aspect-[4/3] bg-gray-100 rounded-lg flex items-center justify-center" data-service="septic-systems">
+          <div class="text-center text-gray-400 p-4">
+            <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p class="text-sm font-medium">Septic Systems</p>
+            <p class="text-xs mt-1">Photos coming soon</p>
+          </div>
+        </div>
+        <div class="gallery-item aspect-[4/3] bg-gray-100 rounded-lg flex items-center justify-center" data-service="underground-utilities">
+          <div class="text-center text-gray-400 p-4">
+            <svg class="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <p class="text-sm font-medium">Underground Utilities</p>
+            <p class="text-xs mt-1">Photos coming soon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>
+
+<script src="/js/gallery-filter.js" defer></script>

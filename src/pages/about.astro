@@ -1,0 +1,196 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import TrustBar from '../components/TrustBar.astro';
+import CTASection from '../components/CTASection.astro';
+
+import business from '../data/business.json';
+import clients from '../data/clients.json';
+---
+
+<BaseLayout
+  title="About AccuRite Excavation | Ogden, UT Since 1995"
+  description="Family-owned excavation contractor serving Northern Utah since 1995. E100 licensed, fully insured, and trusted by government agencies and homeowners alike."
+  schemaType="page"
+>
+  <Hero
+    headline="Family-Owned. Locally Trusted. Since 1995."
+    subheadline="Over three decades of excavation expertise across the Wasatch Front — from residential basements to federal military contracts."
+    compact={true}
+  />
+
+  <!-- Company Story -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
+          Our Story
+        </h2>
+        <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
+          <p>
+            {business.owner} founded {business.shortName} in {business.founded} with a single excavator and a commitment to doing the job right. What started as a small residential operation in Ogden has grown into one of Northern Utah's most trusted excavation contractors.
+          </p>
+          <p>
+            Over {new Date().getFullYear() - business.founded} years later, AccuRite has completed thousands of projects across Weber, Davis, and Morgan counties. We've dug basements in Ogden neighborhoods, built retaining walls along the Wasatch bench, installed septic systems in Morgan Valley, and completed military construction at Hill Air Force Base and Camp Williams.
+          </p>
+          <p>
+            We've earned the trust of federal agencies, municipal governments, and commercial general contractors — but we still treat every residential homeowner with the same professionalism and attention to detail that built our reputation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Owner Bio -->
+  <section class="bg-gray-50 py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
+          Meet {business.owner}
+        </h2>
+        <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
+          <p>
+            Shawn has been in the excavation industry for over three decades. He personally oversees every project, from the initial site visit through final grading. His hands-on approach means clients work directly with the owner — not a sales rep or project manager.
+          </p>
+          <p>
+            Born and raised in Northern Utah, Shawn knows the local soil conditions, terrain challenges, and municipal requirements across every city we serve. That local expertise is why contractors, homeowners, and government agencies keep calling AccuRite back.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Credentials -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal text-center mb-10">
+        Licensed, Insured, and Proven
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        <div class="text-center p-6 border border-gray-200 rounded-lg">
+          <div class="text-3xl font-bold text-gold-dark">{business.license}</div>
+          <div class="mt-2 text-sm text-gray-600">Utah Contractor License</div>
+        </div>
+        <div class="text-center p-6 border border-gray-200 rounded-lg">
+          <div class="text-3xl font-bold text-gold-dark">{new Date().getFullYear() - business.founded}+</div>
+          <div class="mt-2 text-sm text-gray-600">Years in Business</div>
+        </div>
+        <div class="text-center p-6 border border-gray-200 rounded-lg">
+          <div class="text-3xl font-bold text-gold-dark">{business.reviews.rating}</div>
+          <div class="mt-2 text-sm text-gray-600">Google Star Rating</div>
+        </div>
+        <div class="text-center p-6 border border-gray-200 rounded-lg">
+          <div class="text-3xl font-bold text-gold-dark">{business.reviews.count}</div>
+          <div class="mt-2 text-sm text-gray-600">Five-Star Reviews</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipment -->
+  <section class="bg-gray-50 py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
+          Our Equipment
+        </h2>
+        <p class="mt-4 text-gray-600 leading-relaxed">
+          AccuRite maintains a full fleet of excavation equipment — from compact mini-excavators for tight residential lots to large track hoes for commercial and government projects. We own our equipment outright, which means no rental delays and lower costs passed on to you.
+        </p>
+        <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-600">
+          <li class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            Excavators (multiple sizes)
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            Skid steers and loaders
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            Dump trucks and trailers
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            Compactors and graders
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            Trenchers
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-gold-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            Rock hammers and breakers
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notable Clients -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal text-center mb-4">
+        Trusted by Government Agencies and General Contractors
+      </h2>
+      <p class="text-gray-600 text-center max-w-2xl mx-auto mb-8">
+        We've completed projects for some of the most demanding organizations in the country — and they keep coming back.
+      </p>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-w-3xl mx-auto">
+        {clients.map(client => (
+          <div class="text-center p-4 border border-gray-200 rounded-lg">
+            <span class="text-sm font-medium text-gray-700">{client.name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="bg-gray-50 py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
+          The AccuRite Promise
+        </h2>
+        <div class="mt-6 space-y-6">
+          <div>
+            <h3 class="font-heading text-lg font-bold text-charcoal">Honest Pricing</h3>
+            <p class="mt-1 text-gray-600">We give you a straightforward quote and stick to it. No hidden fees, no surprise charges.</p>
+          </div>
+          <div>
+            <h3 class="font-heading text-lg font-bold text-charcoal">On-Time Completion</h3>
+            <p class="mt-1 text-gray-600">We understand that delays cost money. Our track record of finishing on schedule is why contractors and builders rely on us.</p>
+          </div>
+          <div>
+            <h3 class="font-heading text-lg font-bold text-charcoal">Clean Job Sites</h3>
+            <p class="mt-1 text-gray-600">We leave your property the way we found it — minus the dirt we were hired to move.</p>
+          </div>
+          <div>
+            <h3 class="font-heading text-lg font-bold text-charcoal">Direct Communication</h3>
+            <p class="mt-1 text-gray-600">You work directly with Shawn. One phone call, one point of contact, no runaround.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <TrustBar />
+
+  <CTASection
+    headline="Let's Talk About Your Project"
+    subheadline="Call Shawn directly or request a free estimate online."
+  />
+</BaseLayout>

@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import business from '../data/business.json';
+---
+
+<BaseLayout
+  title="Privacy Policy | AccuRite Excavation"
+  description="Privacy policy for AccuRite Excavation & Hauling, Inc. Learn how we collect, use, and protect your information."
+  schemaType="page"
+>
+  <section class="py-12 lg:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="font-heading text-3xl lg:text-4xl font-bold text-charcoal">Privacy Policy</h1>
+      <p class="mt-2 text-sm text-gray-500">Last updated: March 2026</p>
+
+      <div class="mt-8 prose prose-gray max-w-none space-y-8">
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Who We Are</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            {business.name} ("AccuRite," "we," "us," or "our") operates the website accuriteexcavation.com. This privacy policy explains how we collect, use, and protect your personal information when you visit our website or use our services.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Information We Collect</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">We may collect the following information:</p>
+          <ul class="mt-2 space-y-1 text-gray-600">
+            <li><strong>Contact information</strong> you provide through our estimate request form: name, phone number, email address, and project details.</li>
+            <li><strong>Usage data</strong> collected automatically: IP address, browser type, pages visited, and time spent on our site.</li>
+            <li><strong>Cookies and analytics data</strong> through Google Analytics (GA4) to understand how visitors use our website.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">How We Use Your Information</h2>
+          <ul class="mt-2 space-y-1 text-gray-600">
+            <li>To respond to your estimate requests and inquiries</li>
+            <li>To provide excavation services you request</li>
+            <li>To improve our website and user experience</li>
+            <li>To comply with legal obligations</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Cookies and Tracking</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            Our website uses Google Analytics (GA4) to collect anonymized usage data. This helps us understand how visitors interact with our site so we can improve it. Google Analytics uses cookies to track user behavior. You can opt out by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" class="text-gold-dark underline">Google Analytics Opt-out Browser Add-on</a>.
+          </p>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            Our estimate request form is powered by a third-party service (LeadConnector) which may set its own cookies to facilitate form submission and communication.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Utah Consumer Privacy Act (UCPA)</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            If you are a Utah resident, you have the right to:
+          </p>
+          <ul class="mt-2 space-y-1 text-gray-600">
+            <li>Know whether we are processing your personal data</li>
+            <li>Access your personal data</li>
+            <li>Delete your personal data</li>
+            <li>Obtain a portable copy of your data</li>
+            <li>Opt out of targeted advertising</li>
+          </ul>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            To exercise these rights, contact us at {business.phone} or write to us at {business.address.street}, {business.address.city}, {business.address.state} {business.address.zip}.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Data Sharing</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            We do not sell your personal information. We may share information with service providers who assist in operating our website and business (such as Google Analytics and our form provider), but only as necessary to provide our services.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Data Security</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            Our website is served over HTTPS with security headers to protect your data in transit. We take reasonable measures to protect your personal information from unauthorized access or disclosure.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-heading text-xl font-bold text-charcoal">Contact Us</h2>
+          <p class="mt-2 text-gray-600 leading-relaxed">
+            If you have questions about this privacy policy, contact us at:
+          </p>
+          <address class="mt-2 not-italic text-gray-600">
+            {business.name}<br />
+            {business.address.street}<br />
+            {business.address.city}, {business.address.state} {business.address.zip}<br />
+            Phone: <a href={`tel:${business.phoneTel}`} class="text-gold-dark">{business.phone}</a>
+          </address>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
