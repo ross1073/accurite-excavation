@@ -1,20 +1,120 @@
 ---
-// Homepage - AccuRite Excavation
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import TrustBar from '../components/TrustBar.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import TestimonialCard from '../components/TestimonialCard.astro';
+import CTASection from '../components/CTASection.astro';
+
+import business from '../data/business.json';
+import services from '../data/services.json';
+import reviews from '../data/reviews.json';
+import clients from '../data/clients.json';
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Utah Excavation Specialist | AccuRite Excavation</title>
-    <meta name="description" content="AccuRite Excavation & Hauling - Ogden's trusted excavation contractor since 1995. Residential, commercial, and government excavation across the Wasatch Front." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  </head>
-  <body class="font-body text-charcoal">
-    <h1 class="font-heading text-4xl font-bold">AccuRite Excavation & Hauling</h1>
-    <p>Ogden's trusted excavation contractor since 1995.</p>
-  </body>
-</html>
+<BaseLayout
+  title="Utah Excavation Specialist | AccuRite Excavation"
+  description="AccuRite Excavation & Hauling - Ogden's trusted excavation contractor since 1995. Residential, commercial, and government excavation across the Wasatch Front. Call (801) 814-6975."
+  schemaType="home"
+  hideBreadcrumbs={true}
+>
+  <!-- Hero -->
+  <Hero
+    headline="Ogden's Trusted Excavation Contractor Since 1995"
+    subheadline="Residential, commercial, and government excavation across the Wasatch Front. E100 licensed, fully insured, and backed by 49 five-star reviews."
+  />
+
+  <!-- Trust Bar -->
+  <TrustBar />
+
+  <!-- Services Grid -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal text-center mb-8">
+        Our Excavation Services
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services.map(service => (
+          <ServiceCard
+            slug={service.slug}
+            name={service.name}
+            description={service.description}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- About Teaser -->
+  <section class="bg-gray-50 py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
+          {business.name}
+        </h2>
+        <p class="mt-4 text-gray-600 leading-relaxed">
+          Founded by Shawn Durrant in {business.founded}, AccuRite Excavation has been serving
+          the Wasatch Front for over {new Date().getFullYear() - business.founded} years.
+          From residential basement digs to government military projects, we bring the equipment,
+          expertise, and reliability that Northern Utah trusts. E100 licensed and fully insured.
+        </p>
+        <a
+          href="/about"
+          class="mt-6 inline-flex items-center gap-1 text-gold-dark font-medium hover:underline"
+        >
+          Learn more about us
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notable Clients -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-xl font-bold text-charcoal text-center mb-8">
+        Trusted By
+      </h2>
+      <div class="flex flex-wrap items-center justify-center gap-8 text-sm text-gray-500">
+        {clients.map(client => (
+          <span class="font-medium">{client.name}</span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-gray-50 py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal text-center mb-8">
+        What Our Customers Say
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        {reviews.slice(0, 3).map(review => (
+          <TestimonialCard
+            name={review.name}
+            rating={review.rating}
+            text={review.text}
+            source={review.source}
+          />
+        ))}
+      </div>
+      <div class="mt-8 text-center">
+        <a
+          href="/reviews"
+          class="inline-flex items-center gap-1 text-gold-dark font-medium hover:underline"
+        >
+          See all {business.reviews.count} reviews
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <CTASection />
+</BaseLayout>

@@ -1,0 +1,25 @@
+---
+interface Props {
+  slug: string;
+  name: string;
+  description: string;
+}
+
+const { slug, name, description } = Astro.props;
+---
+
+<a
+  href={`/services/${slug}`}
+  class="group block bg-white border border-gray-200 rounded-lg p-6 hover:border-gold-dark hover:shadow-md transition-all"
+>
+  <h3 class="font-heading text-lg font-bold text-charcoal group-hover:text-gold-dark transition-colors">
+    {name}
+  </h3>
+  <p class="mt-2 text-sm text-gray-600 line-clamp-2">{description}</p>
+  <span class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-gold-dark">
+    Learn more
+    <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+    </svg>
+  </span>
+</a>

@@ -1,0 +1,50 @@
+---
+import services from '../data/services.json';
+import locations from '../data/locations.json';
+
+const pathname = Astro.url.pathname;
+const segments = pathname.split('/').filter(Boolean);
+
+// Don't show breadcrumbs on homepage
+if (segments.length === 0) return;
+
+// Resolve slug to display name
+function resolveSlug(segment: string, parentSegment?: string): string {
+  if (parentSegment === 'services') {
+    const service = services.find(s => s.slug === segment);
+    if (service) return service.name;
+  }
+  if (parentSegment === 'service-area') {
+    const location = locations.find(l => l.slug === segment);
+    if (location) return `${location.name}, UT`;
+  }
+  // Fallback: capitalize and replace hyphens
+  return segment.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+const breadcrumbItems = segments.map((seg, i) => ({
+  name: resolveSlug(seg, segments[i - 1]),
+  href: '/' + segments.slice(0, i + 1).join('/'),
+  isLast: i === segments.length - 1,
+}));
+---
+
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+  <ol class="flex items-center gap-2 text-sm text-gray-500">
+    <li>
+      <a href="/" class="hover:text-gold-dark transition-colors">Home</a>
+    </li>
+    {breadcrumbItems.map(item => (
+      <li class="flex items-center gap-2">
+        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+        {item.isLast ? (
+          <span class="text-charcoal font-medium" aria-current="page">{item.name}</span>
+        ) : (
+          <a href={item.href} class="hover:text-gold-dark transition-colors">{item.name}</a>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>

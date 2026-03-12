@@ -1,0 +1,107 @@
+---
+import business from '../data/business.json';
+import services from '../data/services.json';
+import locations from '../data/locations.json';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-charcoal text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+      <!-- Company Info / NAP -->
+      <div>
+        <p class="font-heading text-xl font-bold mb-4">
+          Accu<span class="text-gold">Rite</span> Excavation
+        </p>
+        <address class="not-italic text-sm text-gray-300 space-y-2">
+          <p>{business.address.street}</p>
+          <p>{business.address.city}, {business.address.state} {business.address.zip}</p>
+          <p>
+            <a
+              href={`tel:${business.phoneTel}`}
+              class="text-gold hover:text-gold/80 font-semibold transition-colors"
+            >
+              {business.phone}
+            </a>
+          </p>
+        </address>
+        <div class="mt-4 text-sm text-gray-300">
+          <p>E100 Licensed & Fully Insured</p>
+          <p>Serving the Wasatch Front since {business.founded}</p>
+        </div>
+        <div class="mt-4 flex items-center gap-2">
+          <span class="text-gold text-lg">&#9733;</span>
+          <span class="text-sm text-gray-300">
+            {business.reviews.rating} stars &middot; {business.reviews.count} Google reviews
+          </span>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <p class="font-heading text-lg font-bold mb-4">Services</p>
+        <ul class="space-y-2">
+          {services.map(service => (
+            <li>
+              <a
+                href={`/services/${service.slug}`}
+                class="text-sm text-gray-300 hover:text-gold transition-colors"
+              >
+                {service.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Service Areas -->
+      <div>
+        <p class="font-heading text-lg font-bold mb-4">Service Areas</p>
+        <ul class="grid grid-cols-2 gap-x-4 gap-y-2">
+          {locations.map(loc => (
+            <li>
+              <a
+                href={`/service-area/${loc.slug}`}
+                class="text-sm text-gray-300 hover:text-gold transition-colors"
+              >
+                {loc.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Hours & Quick Links -->
+      <div>
+        <p class="font-heading text-lg font-bold mb-4">Business Hours</p>
+        <dl class="text-sm text-gray-300 space-y-1">
+          {Object.entries(business.hours).map(([day, hours]) => (
+            <div class="flex justify-between">
+              <dt class="capitalize">{day}</dt>
+              <dd>{hours}</dd>
+            </div>
+          ))}
+        </dl>
+        <div class="mt-6">
+          <a
+            href="/free-estimate"
+            class="inline-block bg-gold-dark text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-gold-dark/90 transition-colors"
+          >
+            Get a Free Estimate
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="mt-12 pt-8 border-t border-gray-600 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400">
+      <p>&copy; {year} {business.name}. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="/privacy-policy" class="hover:text-gold transition-colors">Privacy Policy</a>
+        <a href="/terms" class="hover:text-gold transition-colors">Terms of Service</a>
+        <a href="/sitemap-index.xml" class="hover:text-gold transition-colors">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>

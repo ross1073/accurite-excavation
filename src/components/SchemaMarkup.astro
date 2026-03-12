@@ -1,0 +1,140 @@
+---
+interface Props {
+  type: 'home' | 'service' | 'location' | 'blog' | 'reviews' | 'page';
+  data?: Record<string, any>;
+}
+
+const { type, data = {} } = Astro.props;
+
+import business from '../data/business.json';
+import locations from '../data/locations.json';
+
+const siteUrl = 'https://accuriteexcavation.com';
+
+// Organization schema (all pages)
+const organization = {
+  '@type': 'Organization',
+  '@id': `${siteUrl}/#organization`,
+  name: business.name,
+  url: siteUrl,
+  telephone: business.phone,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: business.address.street,
+    addressLocality: business.address.city,
+    addressRegion: business.address.state,
+    postalCode: business.address.zip,
+    addressCountry: 'US',
+  },
+};
+
+// WebSite schema (all pages)
+const website = {
+  '@type': 'WebSite',
+  '@id': `${siteUrl}/#website`,
+  url: siteUrl,
+  name: business.shortName,
+  publisher: { '@id': `${siteUrl}/#organization` },
+};
+
+// HomeAndConstructionBusiness (homepage)
+const localBusiness = {
+  '@type': 'HomeAndConstructionBusiness',
+  '@id': `${siteUrl}/#localbusiness`,
+  name: business.name,
+  url: siteUrl,
+  telephone: business.phone,
+  address: organization.address,
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: business.geo.latitude,
+    longitude: business.geo.longitude,
+  },
+  openingHoursSpecification: Object.entries(business.hours)
+    .filter(([, v]) => v !== 'Closed')
+    .map(([day, hours]) => {
+      const parts = (hours as string).split(' - ');
+      return {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: day.charAt(0).toUpperCase() + day.slice(1),
+        opens: parts[0],
+        closes: parts[1],
+      };
+    }),
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: business.reviews.rating,
+    reviewCount: business.reviews.count,
+  },
+  areaServed: locations.map(loc => ({
+    '@type': 'City',
+    name: loc.name,
+  })),
+};
+
+// Breadcrumbs from URL path
+const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
+const breadcrumbs = {
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    ...pathSegments.map((seg, i) => ({
+      '@type': 'ListItem',
+      position: i + 2,
+      name: data.breadcrumbName || seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase()),
+      item: `${siteUrl}/${pathSegments.slice(0, i + 1).join('/')}`,
+    })),
+  ],
+};
+
+// Assemble schema based on page type
+let schemas: Record<string, any>[] = [organization, website, breadcrumbs];
+
+if (type === 'home') {
+  schemas.push(localBusiness);
+}
+
+if (type === 'service' && data.service) {
+  schemas.push({
+    '@type': 'Service',
+    name: data.service.name,
+    description: data.service.description,
+    provider: { '@id': `${siteUrl}/#localbusiness` },
+    areaServed: localBusiness.areaServed,
+  });
+}
+
+if (type === 'location' && data.city) {
+  schemas.push({
+    '@type': 'LocalBusiness',
+    name: `${business.shortName} - ${data.city}`,
+    telephone: business.phone,
+    address: {
+      ...organization.address,
+      addressLocality: data.city,
+    },
+    parentOrganization: { '@id': `${siteUrl}/#organization` },
+  });
+}
+
+if (data.faqs && data.faqs.length > 0) {
+  schemas.push({
+    '@type': 'FAQPage',
+    mainEntity: data.faqs.map((faq: { question: string; answer: string }) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  });
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': schemas,
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

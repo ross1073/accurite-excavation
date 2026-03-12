@@ -1,0 +1,56 @@
+---
+import SEOHead from '../components/SEOHead.astro';
+import SchemaMarkup from '../components/SchemaMarkup.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  schemaType?: 'home' | 'service' | 'location' | 'blog' | 'reviews' | 'page';
+  schemaData?: Record<string, any>;
+  canonical?: string;
+  ogImage?: string;
+  ogType?: string;
+  noindex?: boolean;
+  hideBreadcrumbs?: boolean;
+}
+
+const {
+  title,
+  description,
+  schemaType = 'page',
+  schemaData = {},
+  canonical,
+  ogImage,
+  ogType,
+  noindex,
+  hideBreadcrumbs = false,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <SEOHead
+      title={title}
+      description={description}
+      canonical={canonical}
+      ogImage={ogImage}
+      ogType={ogType}
+      noindex={noindex}
+    />
+    <SchemaMarkup type={schemaType} data={schemaData} />
+  </head>
+  <body class="font-body text-charcoal bg-white min-h-screen flex flex-col">
+    <Header />
+    {!hideBreadcrumbs && <Breadcrumbs />}
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+    <script src="/js/mobile-menu.js" defer></script>
+  </body>
+</html>
