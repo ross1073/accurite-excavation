@@ -97,7 +97,16 @@ Every existing WordPress URL gets mapped to its new equivalent. Implemented via 
 - `/the-accurite-excavation-promise/about-us-2-2` -> `/about`
 - All existing blog post URLs -> new `/blog/[slug]` or relevant service page
 
-Full redirect map to be built as an explicit early implementation task: crawl the old WordPress site, extract all URLs from sitemaps, and produce the complete Netlify `_redirects` file before launch.
+Full redirect map to be built as an explicit early implementation task: crawl the old WordPress site, extract all URLs from sitemaps, and produce the complete Netlify `_redirects` file before launch. The redirect map must cover ALL WordPress URL types:
+
+- **Page and post URLs** (listed above)
+- **Query parameter URLs:** `?p=123`, `?page_id=45` (WordPress shorthand post URLs — people bookmark these)
+- **Pagination URLs:** `/page/2/`, `/page/3/` on archive and category pages
+- **Category/tag archives:** `/category/excavation/`, `/category/residential/`, `/tag/ogden/`, etc.
+- **Media/attachment URLs:** WordPress creates individual pages for every uploaded image — these may have backlinks and Google Image Search equity
+- **Feed URLs:** `/feed/`, `/rss/`, `/comments/feed/`, per-category feeds -> redirect to homepage or blog index
+- **wp-content/uploads:** Image URLs at `/wp-content/uploads/YYYY/MM/filename.jpg` may be hotlinked or indexed in Google Image Search — redirect to `/gallery` or serve images from the same paths
+- **Old sitemap URLs:** `/sitemap.xml`, `/sitemap_index.xml`, `/wp-sitemap.xml` -> new sitemap location
 
 ---
 
@@ -117,7 +126,7 @@ Full redirect map to be built as an explicit early implementation task: crawl th
 ### B. Schema Markup
 
 - **Sitewide:** Organization, WebSite with SearchAction, BreadcrumbList
-- **Homepage:** LocalBusiness with full NAP, geo coordinates, opening hours, AggregateRating, license info, areaServed for all 18 cities
+- **Homepage:** HomeAndConstructionBusiness (most specific applicable schema.org subtype — ExcavationContractor does not exist) with full NAP, geo coordinates, opening hours, AggregateRating, license info, areaServed for all 18 cities
 - **Service pages:** Service schema linked to parent LocalBusiness, with description and areaServed
 - **Location pages:** LocalBusiness with specific areaServed, plus Service schemas for services offered in that city
 - **Blog posts:** Article schema with author, datePublished, dateModified
@@ -150,6 +159,13 @@ Each page needs 40-60% unique content minimum to avoid doorway page penalties:
 - Cross-links to nearby city pages (Ogden <-> North Ogden <-> South Ogden)
 
 Prioritize the top 5-6 cities first (where AccuRite has the most projects and photos), build rich pages, then expand.
+
+**Fallback strategy for low-project cities:** For cities where AccuRite has limited project history (e.g., Sunset, Washington Terrace, Harrisville), use:
+- Projects from the broader region with context ("serving the greater Ogden area including [city]")
+- Specific neighborhood/development references unique to that city
+- Municipal-specific zoning and permit information (research city government sites)
+- Geographic/terrain details that genuinely differ (elevation, soil composition, water table)
+- If genuinely unique content cannot reach the 40-60% threshold, do NOT publish that city page — defer it until real content exists. A missing page is better than a doorway page penalty.
 
 ### E. E-E-A-T Signals
 
@@ -206,6 +222,20 @@ Platforms for consistency: GBP, Apple Maps, Bing Places, Yelp, Facebook, BBB, Ho
 - FAQ content in Q&A format that AI assistants can surface
 - Consistent entity information across all platforms
 
+### K. Post-Launch SEO Monitoring (First 30 Days)
+
+Critical — migrations always cause temporary ranking fluctuations. Active monitoring prevents a dip from becoming a disaster:
+
+- Daily ranking checks for top 20 target keywords during weeks 1-4
+- Search Console Index Coverage report checked daily for first 2 weeks (watch for spikes in 404s, soft-404s, crawl errors)
+- Search Console Page Indexing report — verify new pages are being discovered and indexed
+- Request re-indexing of top 10 priority pages via URL Inspection tool on day 1
+- Full-site crawl with Screaming Frog (or equivalent) on day 1 post-launch to validate all redirects
+- Weekly crawl for first month to catch any redirect issues
+- Monitor Google Image Search traffic (may drop if wp-content/uploads redirects are incomplete)
+- Compare organic traffic week-over-week in GA4 — set alert for >20% drop
+- If rankings drop significantly after 2 weeks and are not recovering, investigate and be prepared to escalate
+
 ---
 
 ## 4. Competitive Analysis Phase
@@ -254,6 +284,8 @@ Structured analysis of all 5 competitors before finalizing content and design:
 ### LeadConnector Integration Method
 Forms are embedded via LeadConnector's iframe/JS snippet (to be confirmed with the specific embed code from Shawn's LeadConnector account during implementation). This affects the `CTASection.astro` component.
 
+**Performance note:** LeadConnector JS embeds typically add 200-400KB. To protect the < 500KB page weight target, lazy-load the form embed (only load when the CTA section scrolls into view or on user interaction). Include a `noscript` fallback showing the phone number prominently in case JS fails to load.
+
 ### Trust Signals Near Every CTA
 - "25+ Years in Business"
 - "E100 Licensed & Fully Insured"
@@ -277,8 +309,9 @@ No page ends without a clear next step.
 ## 6. Design & UX
 
 ### Brand
-- **Primary color:** Gold (#E8C840)
+- **Primary color:** Gold (#E8C840) — **accessibility constraint:** gold on white is only 1.87:1 contrast (fails WCAG AA). Gold must be used as an accent/decorative color only, never for text on light backgrounds. A darker gold variant (~#9A7B00 or similar) is needed for any text or interactive elements on white. Gold on charcoal (#333) is 5.39:1 which passes for large text.
 - **Secondary color:** Charcoal (#333333)
+- **Accessibility target:** WCAG 2.1 AA compliance — 4.5:1 contrast for normal text, 3:1 for large text. All interactive elements keyboard-navigable. ARIA labels on icon-only buttons (click-to-call, hamburger menu). Alt text on all meaningful images, empty alt on decorative images.
 - **Typography:** Bold industrial sans-serif — specific Google Font pairing to be selected and documented as an early implementation task (affects all page templates)
 - **Logo:** Existing AccuRite logo with diagonal spade/A lettermark
 - **Aesthetic:** Clean & professional. Whitespace-heavy, project photos do the talking. Established contractor, 25+ years of credibility.
@@ -294,7 +327,7 @@ No page ends without a clear next step.
 - Trust bar: Years in business, license, insurance, Google rating
 - About teaser: Brief company story with link to About page
 - Notable clients: Government/military logos (Army Corps, National Park Service, USPS, etc.)
-- Testimonial carousel: 3-5 top reviews
+- Testimonials: Static grid of 3 top review cards (not a carousel — carousels have poor engagement and accessibility issues)
 - Service area map: Static SVG or lightweight embedded map showing all 18 cities (mapping technology to be decided early — static SVG preferred to avoid API costs and page weight impact)
 - Final CTA: Phone + form
 
@@ -366,10 +399,17 @@ No page ends without a clear next step.
 
 ### Content Workflow
 1. Competitive analysis determines keyword targets and content depth benchmarks
-2. SEO Machine `/research` and `/write` commands draft each page
-3. Each draft reviewed against competitors for depth and uniqueness
-4. Shawn reviews for accuracy
-5. Final SEO optimization pass before publishing
+2. **Content extraction from Shawn:** Structured interview sessions (phone/in-person) to capture project stories, city-specific knowledge, and technical expertise. Prepare a questionnaire in advance. Record sessions if possible. Do NOT rely on Shawn reviewing written content on his own timeline — he's running a business on job sites.
+3. SEO Machine `/research` and `/write` commands draft each page
+4. Each draft reviewed against competitors for depth and uniqueness
+5. Shawn reviews for accuracy (batch reviews — send 3-5 pages at a time, not 60)
+6. Final SEO optimization pass before publishing
+
+### Content Ownership (Post-Launch)
+- Ross manages all content updates and new blog posts via SEO Machine
+- Target cadence: 2 blog posts per month minimum
+- Shawn provides project photos and brief details after each major job (via text/email — keep it easy for him)
+- Ross publishes and optimizes
 
 ### Blog Strategy (post-launch)
 - Ongoing content targeting informational queries feeding into service pages
@@ -387,7 +427,8 @@ No page ends without a clear next step.
 - **Styling:** Tailwind CSS
 - **Content:** Astro Content Collections (Markdown/MDX)
 - **Data:** JSON files for services, locations, business info (single source of truth)
-- **Hosting:** Netlify (CDN, auto-deploys from GitHub, `_redirects` for 301s)
+- **Hosting:** Netlify Free tier (100GB bandwidth, 300 build min/month — sufficient for a contractor site). Upgrade to Pro ($19/mo) only if needed.
+- **Interactive components:** Vanilla JS (no framework) for gallery filtering, mobile menu, sticky header. Keeps bundle minimal. Astro islands not needed at this scale.
 - **Repository:** GitHub
 
 ### Project Structure
@@ -447,15 +488,50 @@ public/
 - CLS < 0.05
 - Total page weight < 500KB on initial load
 
+### Additional Pages
+- **Custom 404 page:** Branded design with navigation, search suggestion, phone number CTA, and links to top service pages. Migrations guarantee broken external links — don't lose those visitors.
+- **Privacy Policy:** Required for GA4, LeadConnector cookies, and Utah Consumer Privacy Act (UCPA) compliance. Include opt-out mechanism for targeted advertising.
+- **Terms of Service**
+- **Favicons and PWA manifest:** Apple touch icons, favicon set, web app manifest for browser tabs, bookmarks, and mobile home screens.
+
+### Content Management
+All content is managed via Markdown files + Git. Shawn does not edit the site directly — all updates go through Ross. This is acceptable given the site's update frequency (monthly blog posts, occasional business info changes). If self-service editing becomes needed later, Decap CMS (free, works with GitHub + Netlify) can be added without restructuring.
+
+### Pre-Launch Steps
+- **Verify email/MX records:** Before ANY DNS changes, confirm where accuriteexcavation.com email is routed. If MX records are tied to the current WordPress host, DNS changes could break Shawn's email. Document current MX records and ensure they are preserved in the new DNS configuration.
+- **Lower DNS TTL to 300 seconds** at least 48 hours before the cutover. This allows fast rollback if needed. (Default TTL is often 86400/24 hours — if we don't lower it, rollback takes a full day.)
+- **Deploy to staging subdomain first** (staging.accuriteexcavation.com) and run for at least a few days with real analytics before cutting over.
+
 ### Launch Checklist
-- All 301 redirects verified with crawl tool
-- Schema markup validated on every page type
-- XML sitemap submitted to Google Search Console
+- All 301 redirects verified with full-site crawl tool (Screaming Frog or equivalent)
+- Query parameter redirects tested (`?p=` URLs)
+- Media/attachment URL redirects verified
+- Schema markup validated on every page type (Google Rich Results Test)
+- XML sitemap submitted to Google Search Console and Bing Webmaster Tools
 - Google Business Profile links updated to point to new page URLs
+- Apple Business Connect profile reviewed
 - All pages pass mobile-friendly test
 - Core Web Vitals passing in PageSpeed Insights
+- WCAG 2.1 AA compliance verified (contrast, keyboard nav, screen reader)
 - GA4 tracking verified on all pages
-- Old WordPress site kept as backup for 30 days
+- Microsoft Clarity installed (free heatmaps/session recording for CRO insights)
+- Cookie consent / privacy notice functional
+- Custom 404 page working
+- Crawl all pages post-deploy to warm CDN cache
+- Old WordPress site kept running on a subdomain (old.accuriteexcavation.com) for 30 days as rollback option
+- DNS TTL was lowered 48+ hours prior
+
+### Rollback Plan
+If critical issues emerge post-launch (major ranking drops, broken lead flow, email disruption):
+1. Switch DNS back to old WordPress site (fast if TTL was lowered)
+2. Old site is still running on subdomain — no restoration needed
+3. Trigger criteria: >30% organic traffic drop sustained for 1 week, or any period where forms/phone tracking shows zero leads
+4. Rollback window: 30 days post-launch (after which WordPress hosting can be decommissioned)
+
+### Google Review Count
+The "4.9 stars, 49 reviews" displayed as a trust signal is static on a static site. Plan for keeping this current:
+- Manual update quarterly (simple JSON edit in `business.json`)
+- Or integrate a lightweight third-party Google Reviews widget that pulls live data (evaluate impact on page weight)
 
 ---
 
@@ -469,6 +545,7 @@ The separate Ogden Rock Walls niche site (planned as its own Astro build, outsid
 - Niche site links to AccuRite as parent brand
 - AccuRite site can reference "our specialized rock wall division" with a link out
 - Both sites benefit from cross-trust signals
+- **If niche site is delayed or canceled:** The retaining walls service page on the main site stands on its own — no broken cross-links. Only add the "specialized division" reference once the niche site is actually live.
 
 ---
 
