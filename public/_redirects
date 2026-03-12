@@ -1,0 +1,113 @@
+# AccuRite Excavation - 301 Redirect Map
+# WordPress to Astro migration
+# Generated: 2026-03-12
+
+# ============================================
+# Page Redirects
+# ============================================
+/the-accurite-excavation-promise                    /about          301
+/request-a-quote                                    /free-estimate  301
+/our-services                                       /services       301
+/our-services/services                              /services       301
+/our-services/services-2                            /services       301
+/our-services/services-3                            /services       301
+/the-accurite-excavation-promise/about-us-2         /about          301
+/the-accurite-excavation-promise/about-us-2-2       /about          301
+/accurite-gallery                                   /gallery        301
+/the-accurite-excavation-reviews                    /reviews        301
+
+# ============================================
+# Blog Post Redirects -> Blog or Service Pages
+# ============================================
+/our-work-past-projects                             /gallery                                301
+/accurite-excavating-hauling-receives-praise-from-national-park-service  /blog/national-park-service-project  301
+/commercial-construction-begins-here-precision-excavation-services       /services/commercial-projects        301
+/davis-county-waterline-construction                /services/underground-utilities          301
+/excavation-companies-near-me                       /                                       301
+/excavation-in-utah                                 /                                       301
+/exploring-our-legacy-accurite-excavations-commitment-as-utahs-excavation-experts  /about   301
+/get-a-quote                                        /free-estimate                          301
+/avoid-flooding-in-your-new-home                    /blog/avoid-flooding-new-home            301
+/ogden-city-engineered-fill                         /services/grading-land-clearing          301
+/building-dreams-from-the-ground-up-residential-excavation-by-accurite-excavation-in-utah  /services/residential-excavation  301
+/safe-excavation-for-your-new-home-business-or-commercial-property  /services/residential-excavation  301
+/sand-rock-topsoil-and-fill                         /services/hauling-delivery               301
+/sniper-tower-military-special-project              /services/government-projects            301
+/shooting-range-at-camp-williams                    /blog/camp-williams-shooting-range       301
+/the-importance-of-soil-stabilization               /blog/soil-stabilization-importance      301
+/steam-plant-hill-air-force-base-utah               /blog/hill-afb-steam-plant-project       301
+/utah-mortuary-excavation-project                   /services/commercial-projects            301
+/utah-residential-excavation-contractor             /services/residential-excavation         301
+/what-makes-the-best-excavation-company-in-utah-heres-why-homeowners-trust-accurite-excavation  /about  301
+/we-are-qualified-general-engineers-in-utah         /about                                  301
+/we-have-an-e100-license                            /about                                  301
+/we-build-roads                                     /services/grading-land-clearing          301
+/we-have-military-project-experience                /services/government-projects            301
+/we-have-the-machine-power                          /about                                  301
+/we-install-replace-and-repair-residential-septic-tanks  /services/septic-systems            301
+/underground-utilities                              /services/underground-utilities          301
+
+# ============================================
+# Category Redirects
+# ============================================
+/category/commercial                                /services/commercial-projects            301
+/category/excavation                                /services                               301
+/category/homepage                                  /                                       301
+/category/residential                               /services/residential-excavation         301
+/category/uncategorized                             /blog                                   301
+
+# ============================================
+# Tag Redirects
+# ============================================
+/tag/excavation                                     /services                               301
+/tag/excavator                                      /services                               301
+/tag/homepage                                       /                                       301
+/tag/residential                                    /services/residential-excavation         301
+/tag/utah                                           /                                       301
+
+# ============================================
+# Attachment Page Redirects (WordPress media pages)
+# ============================================
+/accurite-gallery/*                                 /gallery                                301
+/steam-plant-hill-air-force-base-utah/*             /blog/hill-afb-steam-plant-project       301
+/the-importance-of-soil-stabilization/*             /blog/soil-stabilization-importance      301
+/avoid-flooding-in-your-new-home/*                  /blog/avoid-flooding-new-home            301
+/utah-residential-excavation-contractor/*           /services/residential-excavation         301
+/we-are-qualified-general-engineers-in-utah/*       /about                                  301
+/we-have-the-machine-power/*                        /about                                  301
+/we-build-roads/*                                   /services/grading-land-clearing          301
+/ogden-city-engineered-fill/*                       /services/grading-land-clearing          301
+/we-have-an-e100-license/*                          /about                                  301
+/we-install-replace-and-repair-residential-septic-tanks/*  /services/septic-systems          301
+/we-have-military-project-experience/*              /services/government-projects            301
+/sniper-tower-military-special-project/*            /services/government-projects            301
+/shooting-range-at-camp-williams/*                  /blog/camp-williams-shooting-range       301
+/our-services/*                                     /services                               301
+/get-a-quote/*                                      /free-estimate                          301
+/commercial-construction-begins-here-precision-excavation-services/*  /services/commercial-projects  301
+/accurite-excavating-hauling-receives-praise-from-national-park-service/*  /blog/national-park-service-project  301
+/exploring-our-legacy-accurite-excavations-commitment-as-utahs-excavation-experts/*  /about  301
+/the-accurite-excavation-promise/*                  /about                                  301
+
+# ============================================
+# WordPress Infrastructure Redirects
+# ============================================
+/wp-admin/*                                         /               301
+/wp-login.php                                       /               301
+/wp-content/*                                       /               301
+/xmlrpc.php                                         /               301
+/wp-json/*                                          /               301
+
+# Author and archive redirects
+/author/*                                           /about          301
+/page/*                                             /blog           301
+
+# Feed redirects
+/feed                                               /               301
+/feed/*                                             /               301
+/comments/feed                                      /               301
+/comments/feed/*                                    /               301
+
+# Category and tag catch-alls (for any we missed)
+/category/*                                         /services       301
+/tag/*                                              /               301
