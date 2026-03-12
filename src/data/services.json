@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "residential-excavation",
+    "name": "Residential Excavation",
+    "shortName": "Residential",
+    "description": "Foundation digs, basement excavation, grading, and site preparation for homes across the Wasatch Front.",
+    "icon": "home",
+    "keywords": {
+      "primary": "residential excavation Ogden Utah",
+      "secondary": ["home excavation", "basement dig", "foundation excavation", "residential site prep"]
+    }
+  },
+  {
+    "slug": "commercial-projects",
+    "name": "Commercial Projects",
+    "shortName": "Commercial",
+    "description": "Large-scale commercial excavation including building pads, parking lots, subdivisions, and multi-family developments.",
+    "icon": "commercial",
+    "keywords": {
+      "primary": "commercial excavation contractor Utah",
+      "secondary": ["commercial site development", "commercial site prep", "parking lot excavation"]
+    }
+  },
+  {
+    "slug": "government-projects",
+    "name": "Government Projects",
+    "shortName": "Government",
+    "description": "Government and military excavation contracts with security clearance, bonding, and full compliance.",
+    "icon": "government",
+    "keywords": {
+      "primary": "government excavation contractor Utah",
+      "secondary": ["public works contractor", "municipal excavation", "military contractor"]
+    }
+  },
+  {
+    "slug": "rock-walls-retaining-walls",
+    "name": "Rock Walls & Retaining Walls",
+    "shortName": "Rock Walls",
+    "description": "Engineered boulder retaining walls and decorative rock walls for residential and commercial properties along the Wasatch bench.",
+    "icon": "wall",
+    "keywords": {
+      "primary": "rock retaining wall Ogden Utah",
+      "secondary": ["retaining wall contractor", "boulder retaining wall", "rock wall builder"]
+    }
+  },
+  {
+    "slug": "underground-utilities",
+    "name": "Underground Utilities",
+    "shortName": "Utilities",
+    "description": "Water lines, sewer lines, storm drain, gas, and utility trenching for residential and commercial projects.",
+    "icon": "utilities",
+    "keywords": {
+      "primary": "underground utilities contractor Ogden Utah",
+      "secondary": ["sewer line installation", "water line installation", "storm drain", "utility trenching"]
+    }
+  },
+  {
+    "slug": "grading-land-clearing",
+    "name": "Grading & Land Clearing",
+    "shortName": "Grading",
+    "description": "Land grading, lot clearing, and site preparation for residential and commercial construction projects.",
+    "icon": "grading",
+    "keywords": {
+      "primary": "land grading contractor Ogden Utah",
+      "secondary": ["land clearing", "lot clearing", "site grading", "rough grading"]
+    }
+  },
+  {
+    "slug": "demolition",
+    "name": "Demolition",
+    "shortName": "Demolition",
+    "description": "Residential and commercial structure demolition, concrete removal, and debris hauling.",
+    "icon": "demolition",
+    "keywords": {
+      "primary": "demolition contractor Ogden Utah",
+      "secondary": ["house demolition", "building demolition", "concrete demolition", "selective demolition"]
+    }
+  },
+  {
+    "slug": "septic-systems",
+    "name": "Septic Systems",
+    "shortName": "Septic",
+    "description": "Septic tank installation, repair, replacement, and perc testing for rural properties in Northern Utah.",
+    "icon": "septic",
+    "keywords": {
+      "primary": "septic system installation Ogden Utah",
+      "secondary": ["septic contractor Weber County", "septic tank installation", "perc test", "septic repair"]
+    }
+  },
+  {
+    "slug": "hauling-delivery",
+    "name": "Hauling & Delivery",
+    "shortName": "Hauling",
+    "description": "Material delivery (gravel, topsoil, fill dirt, sand) and debris removal/hauling services.",
+    "icon": "hauling",
+    "keywords": {
+      "primary": "material hauling Ogden Utah",
+      "secondary": ["gravel delivery", "topsoil delivery", "fill dirt delivery", "dump truck hauling"]
+    }
+  },
+  {
+    "slug": "water-features-ponds",
+    "name": "Water Features & Ponds",
+    "shortName": "Water Features",
+    "description": "Custom pond construction, waterfalls, water gardens, and decorative water feature excavation.",
+    "icon": "water",
+    "keywords": {
+      "primary": "pond construction Utah",
+      "secondary": ["water feature installation", "koi pond builder", "waterfall installation", "backyard pond"]
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  { "slug": "ogden", "name": "Ogden", "county": "Weber", "region": "Ogden Metro", "population": 87321, "geo": { "lat": 41.223, "lng": -111.9738 }, "nearby": ["north-ogden", "south-ogden", "riverdale", "roy"], "tier": 1 },
+  { "slug": "north-ogden", "name": "North Ogden", "county": "Weber", "region": "Ogden Metro", "population": 21431, "geo": { "lat": 41.3072, "lng": -111.9602 }, "nearby": ["ogden", "pleasant-view", "harrisville"], "tier": 2 },
+  { "slug": "south-ogden", "name": "South Ogden", "county": "Weber", "region": "Ogden Metro", "population": 17849, "geo": { "lat": 41.1919, "lng": -111.9713 }, "nearby": ["ogden", "riverdale", "washington-terrace"], "tier": 2 },
+  { "slug": "roy", "name": "Roy", "county": "Weber", "region": "Ogden Metro", "population": 40397, "geo": { "lat": 41.1616, "lng": -112.0264 }, "nearby": ["ogden", "riverdale", "clearfield"], "tier": 1 },
+  { "slug": "layton", "name": "Layton", "county": "Davis", "region": "Davis County", "population": 82426, "geo": { "lat": 41.0602, "lng": -111.9711 }, "nearby": ["kaysville", "clearfield"], "tier": 1 },
+  { "slug": "clearfield", "name": "Clearfield", "county": "Davis", "region": "Davis County", "population": 33297, "geo": { "lat": 41.1108, "lng": -112.0261 }, "nearby": ["layton", "roy"], "tier": 1 },
+  { "slug": "kaysville", "name": "Kaysville", "county": "Davis", "region": "Davis County", "population": 33436, "geo": { "lat": 41.0352, "lng": -111.9385 }, "nearby": ["layton", "clearfield"], "tier": 1 },
+  { "slug": "brigham-city", "name": "Brigham City", "county": "Box Elder", "region": "Box Elder County", "population": 19594, "geo": { "lat": 41.5102, "lng": -112.0155 }, "nearby": ["perry", "willard"], "tier": 1 },
+  { "slug": "perry", "name": "Perry", "county": "Box Elder", "region": "Box Elder County", "population": 5520, "geo": { "lat": 41.4647, "lng": -112.0322 }, "nearby": ["brigham-city", "willard"], "tier": 3 },
+  { "slug": "willard", "name": "Willard", "county": "Box Elder", "region": "Box Elder County", "population": 2025, "geo": { "lat": 41.4086, "lng": -112.0361 }, "nearby": ["perry", "brigham-city"], "tier": 3 },
+  { "slug": "pleasant-view", "name": "Pleasant View", "county": "Weber", "region": "Ogden Metro", "population": 10844, "geo": { "lat": 41.3186, "lng": -111.9919 }, "nearby": ["north-ogden", "harrisville"], "tier": 3 },
+  { "slug": "farr-west", "name": "Farr West", "county": "Weber", "region": "Weber County", "population": 7776, "geo": { "lat": 41.2947, "lng": -112.0283 }, "nearby": ["pleasant-view", "west-haven"], "tier": 3 },
+  { "slug": "west-haven", "name": "West Haven", "county": "Weber", "region": "Weber County", "population": 16267, "geo": { "lat": 41.2033, "lng": -112.0511 }, "nearby": ["ogden", "roy"], "tier": 2 },
+  { "slug": "riverdale", "name": "Riverdale", "county": "Weber", "region": "Ogden Metro", "population": 9099, "geo": { "lat": 41.1722, "lng": -111.9939 }, "nearby": ["ogden", "south-ogden", "roy"], "tier": 2 },
+  { "slug": "washington-terrace", "name": "Washington Terrace", "county": "Weber", "region": "Ogden Metro", "population": 9276, "geo": { "lat": 41.1739, "lng": -111.9602 }, "nearby": ["south-ogden", "ogden", "riverdale"], "tier": 3 },
+  { "slug": "harrisville", "name": "Harrisville", "county": "Weber", "region": "Ogden Metro", "population": 7234, "geo": { "lat": 41.2814, "lng": -111.9883 }, "nearby": ["north-ogden", "pleasant-view", "ogden"], "tier": 3 },
+  { "slug": "eden", "name": "Eden", "county": "Weber", "region": "Ogden Valley", "population": 790, "geo": { "lat": 41.3261, "lng": -111.8747 }, "nearby": ["huntsville"], "tier": 3 },
+  { "slug": "huntsville", "name": "Huntsville", "county": "Weber", "region": "Ogden Valley", "population": 608, "geo": { "lat": 41.2597, "lng": -111.7697 }, "nearby": ["eden"], "tier": 3 }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Mike M.",
+    "rating": 5,
+    "text": "We hired AccuRite, in the fall of 2010, to do the excavation on our new home in Huntsville. They did a fantastic job. They treated us fairly and honestly. They have a good reputation with everyone I have spoken with. I highly recommend them.",
+    "service": "residential-excavation",
+    "location": "huntsville",
+    "source": "google"
+  },
+  {
+    "name": "Ryan",
+    "rating": 5,
+    "text": "I first found out about Accurite Excavation & Hauling through a friend of mine that had some dirt removal done. I called Shawn and got a quote on retaining walls, and had Accurite Excavation & Hauling come out. Very impressed with the honesty and hard work. I would highly recommend them!",
+    "service": "rock-walls-retaining-walls",
+    "location": "ogden",
+    "source": "google"
+  },
+  {
+    "name": "Travis",
+    "rating": 5,
+    "text": "I feel very comfortable using Accurite, they do a great job never cutting corners and are very trustworthy, lucky to have family owned businesses that are dependable and good work to help build and give back to their community.",
+    "service": null,
+    "location": "ogden",
+    "source": "google"
+  },
+  {
+    "name": "Kelly W.",
+    "rating": 5,
+    "text": "Accurite gave us a fair quote and finished ahead of schedule.",
+    "service": null,
+    "location": null,
+    "source": "google"
+  }
+]

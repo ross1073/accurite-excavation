@@ -1,0 +1,40 @@
+{
+  "name": "AccuRite Excavation & Hauling, Inc.",
+  "shortName": "AccuRite Excavation",
+  "owner": "Shawn Durrant",
+  "founded": 1995,
+  "incorporated": 1999,
+  "address": {
+    "street": "2940 Midland Dr",
+    "city": "Ogden",
+    "state": "UT",
+    "zip": "84401"
+  },
+  "phone": "(801) 814-6975",
+  "phoneTel": "+18018146975",
+  "email": "",
+  "license": "E100",
+  "insured": true,
+  "hours": {
+    "monday": "6:30 AM - 6:00 PM",
+    "tuesday": "6:30 AM - 6:00 PM",
+    "wednesday": "6:30 AM - 6:00 PM",
+    "thursday": "6:30 AM - 6:00 PM",
+    "friday": "6:30 AM - 6:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "geo": {
+    "latitude": 41.223,
+    "longitude": -111.9738
+  },
+  "social": {
+    "facebook": "",
+    "google": ""
+  },
+  "reviews": {
+    "rating": 4.9,
+    "count": 49,
+    "lastUpdated": "2026-03-12"
+  }
+}

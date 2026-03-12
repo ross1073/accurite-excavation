@@ -1,0 +1,11 @@
+[
+  { "name": "Army Corps of Engineers", "type": "government", "logo": "army-corps.png" },
+  { "name": "National Park Service", "type": "government", "logo": "nps.png" },
+  { "name": "U.S. Postal Service", "type": "government", "logo": "usps.png" },
+  { "name": "Ogden City Airport", "type": "government", "logo": null },
+  { "name": "Weber County Engineering", "type": "government", "logo": null },
+  { "name": "Big D Construction", "type": "commercial", "logo": null },
+  { "name": "Alpine Community Church", "type": "commercial", "logo": null },
+  { "name": "O'Reilly's", "type": "commercial", "logo": null },
+  { "name": "HHI", "type": "commercial", "logo": null }
+]
