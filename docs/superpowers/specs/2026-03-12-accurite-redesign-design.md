@@ -399,11 +399,11 @@ No page ends without a clear next step.
 
 ### Content Workflow
 1. Competitive analysis determines keyword targets and content depth benchmarks
-2. **Content extraction from Shawn:** Structured interview sessions (phone/in-person) to capture project stories, city-specific knowledge, and technical expertise. Prepare a questionnaire in advance. Record sessions if possible. Do NOT rely on Shawn reviewing written content on his own timeline — he's running a business on job sites.
-3. SEO Machine `/research` and `/write` commands draft each page
-4. Each draft reviewed against competitors for depth and uniqueness
-5. Shawn reviews for accuracy (batch reviews — send 3-5 pages at a time, not 60)
-6. Final SEO optimization pass before publishing
+2. SEO Machine `/research` and `/write` commands draft each page using existing content files, website copy, blog posts, and online research — no client input needed to produce drafts
+3. Each draft reviewed against competitors for depth and uniqueness
+4. Final SEO optimization pass
+5. **Optional Shawn review:** If timing works, batch send 3-5 pages for accuracy check. But drafts should be publishable without his review — we have enough source material from the existing site, content files, and public information to write authoritatively.
+6. **Shawn enhancement layer (ongoing, not blocking):** Whenever Shawn sends project photos, job stories, or corrections via text/email, incorporate them to strengthen pages over time. This is additive, not a prerequisite.
 
 ### Content Ownership (Post-Launch)
 - Ross manages all content updates and new blog posts via SEO Machine
