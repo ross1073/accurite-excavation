@@ -26,7 +26,7 @@ Four additions to the existing Astro 5 site before launch:
 2. **Google Reviews 4.9** — real Google logo colors, star rating, review count
 3. **Utah Licensed E100** — official state seal look, gold/cream, circular with double border
 4. **Licensed & Insured** — shield-style badge, distinct from E100 seal (different color — dark blue or green)
-5. **Established 1999 / 25+ Years** — black heritage seal with gold AccuRite brand accents
+5. **Established 1995 / 30+ Years** — black heritage seal with gold AccuRite brand accents (business.json `founded: 1995`, incorporated 1999)
 
 ### Design Requirements
 
@@ -68,8 +68,8 @@ public/images/
 
 ### Optimization Pipeline
 
-- All images converted to **WebP** format
-- **Responsive `srcset`** with 3 breakpoints: 640w, 1024w, 1536w
+- Use **Astro `<Image>` component** from `astro:assets` for automatic build-time optimization (WebP conversion, srcset generation, dimension attributes)
+- Place source images in `src/assets/images/` (Astro-managed) for build-time processing; only pre-optimized badges go in `public/images/badges/`
 - **Lazy loading** (`loading="lazy"`) on all below-fold images
 - Hero images **eager loaded** (`loading="eager"`, `fetchpriority="high"`)
 - Descriptive, keyword-rich `alt` tags on every image
@@ -145,9 +145,9 @@ Auto-populated from URL parameters via client-side JS on page load:
 
 | Page Type | Placement | Layout |
 |---|---|---|
-| **Service pages** (10) | Hero area, top of page | Two-column: content left, form right (sidebar) |
+| **Service pages** (10) | Hero area, top of page | Two-column: content left, form right (sidebar). **Note:** requires restructuring from current single-column `max-w-3xl` centered layout. Prose content continues single-column below the hero two-column section. |
 | **Contact page** | Main content area | Two-column: info left, form right (existing layout) |
-| **Free estimate page** | Hero area, top of page | Two-column: value prop left, form right |
+| **Free estimate page** | Hero area, top of page | Two-column: value prop left, form right. **Note:** currently single-column centered — requires layout restructure. |
 | **Location pages** (18+) | Above footer, after content | Full-width section with form centered |
 | **About page** | Above footer | Full-width CTA section with form |
 | **Blog posts** | Above footer | Full-width CTA section with form |
@@ -158,7 +158,7 @@ Auto-populated from URL parameters via client-side JS on page load:
 Props:
 - `variant`: `"hero"` (sidebar, compact) or `"section"` (full-width, below content)
 - `heading`: optional override (default: "Get Your Free Estimate")
-- `webhookUrl`: HighLevel webhook URL
+- `webhookUrl`: HighLevel webhook URL (pre-launch blocker — user to provide; fallback: display phone CTA only if URL not configured)
 
 ### Tracking Script: `public/js/form-tracking.js`
 
@@ -173,17 +173,24 @@ Props:
 
 ### Target Geography
 
-Four counties, all cities within:
+Five counties, all cities within:
 
-**Weber County:** Ogden (HQ), North Ogden, South Ogden, Roy, Riverdale, Washington Terrace, Pleasant View, Farr West, West Haven, Harrisville, Eden, Huntsville *(existing pages)*
+**Weber County:** Ogden (HQ), North Ogden, South Ogden, Roy, Riverdale, Washington Terrace, Pleasant View, Farr West, West Haven, Harrisville, Eden, Huntsville *(12 existing pages)*
 
-**Davis County:** Layton, Kaysville, Farmington, Bountiful, Centerville, Clearfield, Clinton, Syracuse, West Point, Fruit Heights, Woods Cross *(partial — need to add: Bountiful, Centerville, Clinton, Syracuse, West Point, Fruit Heights, Woods Cross, Farmington)*
+**Box Elder County:** Brigham City, Perry, Willard *(3 existing pages)*
 
-**Salt Lake County (NEW):** Salt Lake City, Sandy, West Jordan, South Jordan, Draper, Murray, Midvale, West Valley City, Taylorsville, Cottonwood Heights, Holladay, Riverton, Herriman *(all new pages)*
+**Davis County:** Layton, Kaysville, Clearfield *(3 existing pages)* + Bountiful, Centerville, Clinton, Syracuse, West Point, Fruit Heights, Woods Cross, Farmington *(8 new pages needed)*
 
-**Morgan County:** Morgan *(existing page — check for expansion)*
+**Salt Lake County (NEW):** Salt Lake City, Sandy, West Jordan, South Jordan, Draper, Murray, Midvale, West Valley City, Taylorsville, Cottonwood Heights, Holladay, Riverton, Herriman *(13 new pages needed)*
+
+**Morgan County (NEW):** Morgan *(1 new page needed — no existing page despite earlier assumption)*
+
+**Existing location pages: 18** (12 Weber + 3 Box Elder + 3 Davis)
 
 ### New Location Pages Needed
+
+**Morgan County (1):**
+- Morgan
 
 **Davis County additions (8):**
 - Bountiful, Centerville, Clinton, Syracuse, West Point, Fruit Heights, Woods Cross, Farmington
@@ -191,7 +198,9 @@ Four counties, all cities within:
 **Salt Lake County (13):**
 - Salt Lake City, Sandy, West Jordan, South Jordan, Draper, Murray, Midvale, West Valley City, Taylorsville, Cottonwood Heights, Holladay, Riverton, Herriman
 
-**Total new location pages: ~21**
+**Total new location pages: 22**
+
+**Note:** Each new location page also needs an entry in `locations.json` with slug, name, county, region, population, geo coords, nearby cities, and tier.
 
 ### Keyword Strategy
 
@@ -221,16 +230,16 @@ Based on DataForSEO research (March 2026):
 - Every page must have unique title + description (no duplicates)
 
 #### Schema Markup
-- **LocalBusiness** — verify on homepage, add `areaServed` with all 4 counties
+- **LocalBusiness** — verify on homepage, add `areaServed` with all 5 counties (existing schema maps city names from locations.json — add county-level entries alongside)
 - **Service** — one per service page with `areaServed`, `provider`, `serviceType`
 - **BreadcrumbList** — verify on all pages
 - **FAQPage** — add to service pages (see Content section)
 - **Review/AggregateRating** — verify on reviews page + homepage
-- **GeoCircle/ServiceArea** — add to each location page for Maps relevance
+- **GeoCircle/ServiceArea** — add to each location page for Maps relevance. Use `ServiceArea` with `GeoCircle` centered on city geo coords (from locations.json), radius 15 miles for metro cities, 25 miles for rural (Morgan, Eden, Huntsville)
 - **Organization** — add `sameAs` for BBB, Google Business Profile URLs
 
 #### Sitemap & Crawlability
-- XML sitemap via `@astrojs/sitemap` (add if not installed)
+- XML sitemap via `@astrojs/sitemap` (already installed — verify configuration includes all new pages)
 - `robots.txt` — verify, ensure all important pages crawlable
 - Canonical URLs on every page (already in SEOHead — verify correctness)
 - No orphan pages — every page reachable within 3 clicks from homepage
@@ -299,7 +308,7 @@ Based on DataForSEO research (March 2026):
 2. **Images** — download real photos, optimize, assign to pages
 3. **Trust badges** — generate badge images, create component, place on pages
 4. **SEO technical fixes** — schema, meta tags, sitemap, internal linking, page speed
-5. **New location pages** (21) — Salt Lake County + Davis County additions
+5. **New location pages** (22) — Salt Lake County + Davis County + Morgan additions
 6. **Content depth** — FAQ sections, expanded service page content, blog posts
 7. **Final audit** — Lighthouse, mobile check, redirect testing
 
@@ -327,7 +336,8 @@ Based on DataForSEO research (March 2026):
 - `src/components/SchemaMarkup.astro` — expanded schema types
 - `src/components/Footer.astro` — county-organized city links
 
-### New Content (21 location pages)
+### New Content (22 location pages)
+- `src/content/locations/morgan.md`
 - `src/content/locations/bountiful.md`
 - `src/content/locations/centerville.md`
 - `src/content/locations/clinton.md`
@@ -351,17 +361,28 @@ Based on DataForSEO research (March 2026):
 - `src/content/locations/herriman.md`
 
 ### New Images
-- `public/images/badges/` — 5 trust badge images
-- `public/images/hero/` — homepage + service hero images
-- `public/images/services/` — per-service images
-- `public/images/gallery/` — project photos
-- `public/images/about/` — team/equipment photos
-- `public/images/og/` — social sharing card
+- `src/assets/images/hero/` — homepage + service hero images (Astro-managed)
+- `src/assets/images/services/` — per-service images (Astro-managed)
+- `src/assets/images/gallery/` — project photos (Astro-managed)
+- `src/assets/images/about/` — team/equipment photos (Astro-managed)
+- `public/images/badges/` — 5 trust badge images (pre-optimized, public)
+- `public/images/og/og-default.jpg` — social sharing card
+
+### Modified Components
+- `src/components/SEOHead.astro` — fix ogImage default path from `/images/og-default.jpg` to `/images/og/og-default.jpg`
+- `src/components/CTASection.astro` — update to embed ContactForm when `showForm` is true (currently renders empty placeholder)
 
 ### New/Modified Data
-- `src/data/locations.json` — add new cities with county info
-- `src/data/business.json` — add BBB URL, Google Business Profile URL
+- `src/data/locations.json` — add 22 new cities with slug, name, county, region, population, geo coords, nearby cities, tier
+- `src/data/business.json` — add BBB URL, Google Business Profile URL (user to provide)
 
-### Config
-- `astro.config.mjs` — add `@astrojs/sitemap` if not present
-- `public/robots.txt` — verify sitemap reference
+### Schema/Config
+- `src/content/config.ts` — add `heroImage` field to locations collection schema
+- `astro.config.mjs` — verify sitemap config includes all new pages (already installed)
+- `public/robots.txt` — verify sitemap reference (already present)
+
+### Pre-launch Blockers (user to provide)
+- HighLevel webhook URL for contact form
+- BBB profile URL
+- Google Business Profile URL
+- Real photos downloaded from Google Drive to local folder
