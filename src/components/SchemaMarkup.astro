@@ -26,6 +26,10 @@ const organization = {
     postalCode: business.address.zip,
     addressCountry: 'US',
   },
+  sameAs: [
+    business.social.bbb,
+    business.social.google,
+  ],
 };
 
 // WebSite schema (all pages)
@@ -66,10 +70,18 @@ const localBusiness = {
     ratingValue: business.reviews.rating,
     reviewCount: business.reviews.count,
   },
-  areaServed: locations.map(loc => ({
-    '@type': 'City',
-    name: loc.name,
-  })),
+  areaServed: [
+    ...locations.map(loc => ({ '@type': 'City', name: loc.name })),
+    { '@type': 'AdministrativeArea', name: 'Weber County, Utah' },
+    { '@type': 'AdministrativeArea', name: 'Davis County, Utah' },
+    { '@type': 'AdministrativeArea', name: 'Salt Lake County, Utah' },
+    { '@type': 'AdministrativeArea', name: 'Morgan County, Utah' },
+    { '@type': 'AdministrativeArea', name: 'Box Elder County, Utah' },
+  ],
+  sameAs: [
+    business.social.bbb,
+    business.social.google,
+  ],
 };
 
 // Breadcrumbs from URL path
@@ -104,16 +116,28 @@ if (type === 'service' && data.service) {
   });
 }
 
-if (type === 'location' && data.city) {
+if (type === 'location' && data.location) {
+  const loc = data.location;
+  const isRural = loc.county === 'Morgan' || loc.name === 'Eden' || loc.name === 'Huntsville';
+  const geoRadius = isRural ? '40234' : '24140';
   schemas.push({
     '@type': 'LocalBusiness',
-    name: `${business.shortName} - ${data.city}`,
+    name: `${business.shortName} - ${loc.name}`,
     telephone: business.phone,
     address: {
       ...organization.address,
-      addressLocality: data.city,
+      addressLocality: loc.name,
     },
     parentOrganization: { '@id': `${siteUrl}/#organization` },
+    areaServed: {
+      '@type': 'GeoCircle',
+      geoMidpoint: {
+        '@type': 'GeoCoordinates',
+        latitude: loc.geo.lat,
+        longitude: loc.geo.lng,
+      },
+      geoRadius,
+    },
   });
 }
 
