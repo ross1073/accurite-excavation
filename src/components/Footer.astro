@@ -4,6 +4,14 @@ import services from '../data/services.json';
 import locations from '../data/locations.json';
 
 const year = new Date().getFullYear();
+
+const countyOrder = ['Weber', 'Davis', 'Salt Lake', 'Morgan', 'Box Elder'];
+
+const locationsByCounty = countyOrder.reduce((acc, county) => {
+  const locs = locations.filter(loc => loc.county === county);
+  if (locs.length > 0) acc[county] = locs;
+  return acc;
+}, {} as Record<string, typeof locations>);
 ---
 
 <footer class="bg-charcoal text-white">
@@ -55,21 +63,28 @@ const year = new Date().getFullYear();
         </ul>
       </div>
 
-      <!-- Service Areas -->
+      <!-- Service Areas — grouped by county -->
       <div>
         <p class="font-heading text-lg font-bold mb-4">Service Areas</p>
-        <ul class="grid grid-cols-2 gap-x-4 gap-y-2">
-          {locations.map(loc => (
-            <li>
-              <a
-                href={`/locations/${loc.slug}`}
-                class="text-sm text-gray-300 hover:text-gold transition-colors"
-              >
-                {loc.name}
-              </a>
-            </li>
+        <div class="space-y-4">
+          {countyOrder.filter(county => locationsByCounty[county]).map(county => (
+            <div>
+              <p class="text-xs uppercase tracking-wider text-gold/70 font-semibold mb-1">{county} County</p>
+              <ul class="grid grid-cols-2 gap-x-4 gap-y-1">
+                {locationsByCounty[county].map(loc => (
+                  <li>
+                    <a
+                      href={`/locations/${loc.slug}`}
+                      class="text-sm text-gray-300 hover:text-gold transition-colors"
+                    >
+                      {loc.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
 
       <!-- Hours & Quick Links -->
@@ -97,7 +112,23 @@ const year = new Date().getFullYear();
     <!-- Bottom Bar -->
     <div class="mt-12 pt-8 border-t border-gray-600 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400">
       <p>&copy; {year} {business.name}. All rights reserved.</p>
-      <div class="flex gap-6">
+      <div class="flex flex-wrap gap-4 sm:gap-6 justify-center sm:justify-end">
+        <a
+          href={business.social.bbb}
+          target="_blank"
+          rel="noopener"
+          class="hover:text-gold transition-colors"
+        >
+          BBB Profile
+        </a>
+        <a
+          href={business.social.google}
+          target="_blank"
+          rel="noopener"
+          class="hover:text-gold transition-colors"
+        >
+          Google Reviews
+        </a>
         <a href="/privacy-policy" class="hover:text-gold transition-colors">Privacy Policy</a>
         <a href="/terms" class="hover:text-gold transition-colors">Terms of Service</a>
         <a href="/sitemap-index.xml" class="hover:text-gold transition-colors">Sitemap</a>
