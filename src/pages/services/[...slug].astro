@@ -7,6 +7,7 @@ import ServiceCard from '../../components/ServiceCard.astro';
 import TestimonialCard from '../../components/TestimonialCard.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import CTASection from '../../components/CTASection.astro';
+import ContactForm from '../../components/ContactForm.astro';
 
 import business from '../../data/business.json';
 import servicesData from '../../data/services.json';
@@ -54,9 +55,18 @@ const faqs = entry.data.faqs || [];
 
   <!-- Service Content -->
   <section class="py-12 lg:py-16">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="prose prose-gray max-w-none [&>h2]:font-heading [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-charcoal [&>h2]:mt-10 [&>h2]:mb-4 [&>h3]:font-heading [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-charcoal [&>p]:text-gray-600 [&>p]:leading-relaxed [&>ul]:text-gray-600 [&>ol]:text-gray-600">
-        <Content />
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+        <!-- Left: prose content -->
+        <div class="lg:col-span-2">
+          <div class="prose prose-gray max-w-none [&>h2]:font-heading [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-charcoal [&>h2]:mt-10 [&>h2]:mb-4 [&>h3]:font-heading [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-charcoal [&>p]:text-gray-600 [&>p]:leading-relaxed [&>ul]:text-gray-600 [&>ol]:text-gray-600">
+            <Content />
+          </div>
+        </div>
+        <!-- Right: sticky form sidebar -->
+        <div class="lg:col-span-1 lg:sticky lg:top-8">
+          <ContactForm variant="hero" />
+        </div>
       </div>
     </div>
   </section>

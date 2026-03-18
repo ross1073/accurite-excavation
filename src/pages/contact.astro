@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
+import ContactForm from '../components/ContactForm.astro';
 
 import business from '../data/business.json';
 ---
@@ -75,23 +76,9 @@ import business from '../data/business.json';
           </div>
         </div>
 
-        <!-- Form Placeholder -->
+        <!-- Contact Form -->
         <div>
-          <h2 class="font-heading text-2xl font-bold text-charcoal">Request a Free Estimate</h2>
-          <p class="mt-2 text-gray-600">Fill out the form and we'll get back to you within one business day.</p>
-
-          <div class="mt-6 bg-gray-50 border border-gray-200 rounded-lg p-8 min-h-[400px] flex items-center justify-center">
-            <!-- LeadConnector form will be embedded here -->
-            <div class="text-center text-gray-500">
-              <p class="font-medium">Estimate Request Form</p>
-              <p class="mt-1 text-sm">LeadConnector form loading...</p>
-              <noscript>
-                <p class="mt-4">
-                  Please call us at <a href={`tel:${business.phoneTel}`} class="text-gold-dark underline">{business.phone}</a> to request an estimate.
-                </p>
-              </noscript>
-            </div>
-          </div>
+          <ContactForm variant="hero" heading="Request a Free Estimate" />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 ---
 import business from '../data/business.json';
+import ContactForm from './ContactForm.astro';
 
 interface Props {
   headline?: string;
@@ -39,12 +40,7 @@ const {
 
     {showForm && (
       <div class="mt-10 max-w-xl mx-auto">
-        <!-- LeadConnector form will be lazy-loaded here -->
-        <noscript>
-          <p class="text-gray-300">
-            Please call us at <a href={`tel:${business.phoneTel}`} class="text-gold underline">{business.phone}</a> to request an estimate.
-          </p>
-        </noscript>
+        <ContactForm variant="section" heading="" />
       </div>
     )}
   </div>
