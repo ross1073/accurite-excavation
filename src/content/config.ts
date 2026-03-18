@@ -41,6 +41,8 @@ const locations = defineCollection({
       images: z.array(z.string()).optional(),
     })).optional(),
     testimonials: z.array(z.string()).optional(),
+    heroImage: z.string().optional(),
+    landmarkImage: z.string().optional(),
   }),
 });
 
