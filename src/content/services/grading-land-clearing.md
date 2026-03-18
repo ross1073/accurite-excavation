@@ -119,7 +119,7 @@ We handle permit applications as part of our service. Permit fees are separate f
 
 ## Why AccuRite for Grading and Land Clearing
 
-We've been grading land in Northern Utah for over 30 years. We own and operate the equipment we work with, which means we're not marking up rental costs or waiting on machines to arrive. Our operators know the local soils and terrain.
+We've been grading land in Northern Utah for over 16 years. We own and operate the equipment we work with, which means we're not marking up rental costs or waiting on machines to arrive. Our operators know the local soils and terrain.
 
 We also handle what comes before and after grading. [Residential excavation](/services/residential-excavation) for foundations and basements, utility trenching, and demolition of existing structures are all in our scope. That means fewer contractors to coordinate on your project.
 

@@ -1,11 +1,11 @@
 ---
 title: "Excavation Services in Ogden, UT"
-description: "AccuRite Excavation provides residential and commercial excavation in Ogden, Utah. 30+ years of local experience. Call (801) 814-6975."
+description: "AccuRite Excavation provides residential and commercial excavation in Ogden, Utah. 16+ years of local experience. Call (801) 814-6975."
 city: "Ogden"
 county: "Weber"
 metaTitle: "Excavation Contractor in Ogden, UT | AccuRite Excavation"
-metaDescription: "Trusted Ogden excavation contractor since 1995. Residential, commercial, retaining walls, utilities. 4.9 stars from 49 reviews. Call (801) 814-6975."
-localIntro: "AccuRite Excavation has been based in Ogden since 1995, which means we know this city's terrain better than any out-of-town crew. From the heavy clay soils on the valley floor to the fractured limestone and hardpan on the east bench above Harrison Blvd, we have dug through it all. Whether your project is in a tight historic district lot downtown or a sloped lot on the bench, we show up with the right equipment and a plan that fits the ground."
+metaDescription: "Trusted Ogden excavation contractor since 2010. Residential, commercial, retaining walls, utilities. 4.9 stars from 49 reviews. Call (801) 814-6975."
+localIntro: "AccuRite Excavation has been based in Ogden since 2010, which means we know this city's terrain better than any out-of-town crew. From the heavy clay soils on the valley floor to the fractured limestone and hardpan on the east bench above Harrison Blvd, we have dug through it all. Whether your project is in a tight historic district lot downtown or a sloped lot on the bench, we show up with the right equipment and a plan that fits the ground."
 permitInfo: "Weber County Engineering handles excavation permits for projects in Ogden. You'll need a permit for foundation work, utility trenching, and any grading that moves more than 50 cubic yards of material. For commercial demo or large site prep in the downtown redevelopment corridor, additional review from Ogden City may apply. We pull and manage permits as part of every job."
 soilInfo: "Ogden sits on two very different soil types depending on where you are. The valley floor west of Washington Blvd has heavy clay with poor drainage and a high water table in some western neighborhoods near the Ogden River. The east bench above Harrison Blvd transitions to rocky hardpan and fractured limestone that requires hydraulic hammering on many projects. Knowing which you are dealing with before breaking ground affects scheduling, equipment choice, and cost."
 faqs:
@@ -25,7 +25,7 @@ projects: []
 testimonials: []
 ---
 
-AccuRite Excavation has called Ogden home since 1995. That's 30 years of digging in Weber County soils, pulling Weber County permits, and working on lots that range from the flat grid of midtown to the steep slopes above Harrison Blvd. We're not a Wasatch Front company that occasionally sends a crew north. Ogden is where we work.
+AccuRite Excavation has called Ogden home since 2010. That's over 16 years of digging in Weber County soils, pulling Weber County permits, and working on lots that range from the flat grid of midtown to the steep slopes above Harrison Blvd. We're not a Wasatch Front company that occasionally sends a crew north. Ogden is where we work.
 
 ## Excavation Work in Ogden's Two Distinct Terrains
 

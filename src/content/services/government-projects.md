@@ -100,7 +100,7 @@ For sole-source and emergency procurement situations, we can mobilize quickly an
 
 The agencies we've worked with return to us because we complete projects on schedule, handle the paperwork correctly, and don't create problems that land back on the contracting officer's desk. Government projects have enough variables without a contractor who misses deadlines or cuts corners on documentation.
 
-We're a Northern Utah company. We've built relationships with agency personnel across Weber, Davis, Box Elder, and Morgan counties over 30 years of doing this work. That local presence matters when a project needs a quick decision or a site issue needs to be resolved without a procurement delay.
+We're a Northern Utah company. We've built relationships with agency personnel across Weber, Davis, Box Elder, and Morgan counties over 16 years of doing this work. That local presence matters when a project needs a quick decision or a site issue needs to be resolved without a procurement delay.
 
 For [commercial site work](/services/commercial-projects) that doesn't fall under a government contract, we handle that with the same level of documentation and accountability.
 

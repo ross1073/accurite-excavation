@@ -2,8 +2,8 @@
   "name": "AccuRite Excavation & Hauling, Inc.",
   "shortName": "AccuRite Excavation",
   "owner": "Shawn Durrant",
-  "founded": 1995,
-  "incorporated": 1999,
+  "founded": 2010,
+  "yearsExperience": 16,
   "address": {
     "street": "2940 Midland Dr",
     "city": "Ogden",
@@ -30,7 +30,8 @@
   },
   "social": {
     "facebook": "",
-    "google": ""
+    "google": "https://google.com/maps/place/AccuRite+Excavation+%26+Hauling,+Inc./data=!4m2!3m1!1s0x0:0x10e0b92e4cac2d87",
+    "bbb": "https://www.bbb.org/us/ut/huntsville/profile/excavating-contractors/accurite-excavation-hauling-inc-1166-22284228"
   },
   "reviews": {
     "rating": 4.9,

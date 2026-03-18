@@ -134,7 +134,7 @@ If your project also involves [residential excavation](/services/residential-exc
 
 ## Why AccuRite for Underground Utility Work
 
-We've been doing utility work in Weber and Davis County for over 30 years. We know the local code requirements, the permit process, and the soil conditions in different parts of the valley. We know which areas are likely to hit rock and which run sandy loam all the way down.
+We've been doing utility work in Weber and Davis County for over 16 years. We know the local code requirements, the permit process, and the soil conditions in different parts of the valley. We know which areas are likely to hit rock and which run sandy loam all the way down.
 
 Our E100 license covers this scope of work. We carry general liability and workers' comp. And we handle Blue Stakes coordination as a standard part of every project, not as an afterthought.
 
