@@ -110,6 +110,28 @@ public/images/
 11. Team/crew: owner portrait or team group shot with equipment
 12. OG social card: AccuRite branding with tagline
 
+### Location Landmark Images (~40 images)
+
+One city-relevant landmark/landscape photo per location page. Source from Unsplash, Pexels, or Wikimedia Commons (free commercial-use licensed). Only generate via AI if no good free photo exists.
+
+**Directory:** `src/assets/images/locations/`
+**Naming:** `{city-slug}-landmark.jpg` (e.g., `ogden-landmark.jpg`)
+
+Examples of what to source per city:
+- Ogden: Union Station, Historic 25th Street, or Ogden River
+- Layton: Wasatch Range foothills view
+- Salt Lake City: skyline, Capitol building, or city creek
+- Draper: Point of the Mountain
+- Clearfield: Hill Air Force Base area
+- Syracuse: Antelope Island view
+- Morgan: Morgan Valley with mountains
+- Brigham City: Box Elder Tabernacle or Peach City sign
+- Sandy: Snowbird/Little Cottonwood Canyon mouth
+- West Jordan: Jordan River trail area
+- Herriman: new development with mountain backdrop
+
+Each image gets a descriptive, keyword-rich alt tag (e.g., "View of Ogden Utah with Wasatch Mountains — excavation services in Ogden")
+
 ---
 
 ## 3. Contact Form
@@ -310,14 +332,33 @@ Based on DataForSEO research (March 2026):
 - Add cost/pricing section where appropriate (informational intent capture)
 - Review keyword density — primary keyword in H1, first paragraph, 2-3 subheadings
 
-#### Location Pages (18 existing + 21 new = 39 total)
-- Each page: unique H1 targeting `[service] in [city], Utah`
-- Content: local knowledge (neighborhoods, soil conditions, permit requirements)
+#### Location Pages (18 existing + 22 new = 40 total)
+
+**Content Quality Standard — NO Doorway Pages**
+
+Every location page must pass Google's helpful content standard. This means each page reads like it was written by someone who actually works in that city — not a template with the city name swapped. Google specifically penalizes scaled location pages that don't add unique value per page.
+
+Each location page MUST include:
+
+- **Local soil & terrain** — specific ground conditions (clay-heavy in Layton, rocky in Draper, high water table areas, frost line differences between valley floor and bench communities)
+- **City-specific permits & regulations** — which cities require excavation permits, building department contacts, HOA considerations in specific neighborhoods, setback requirements
+- **Neighborhood-level detail** — specific subdivisions, developments, or areas where excavation work is common (e.g., older Ogden neighborhoods for basement digs, Herriman growth areas for new construction pad prep)
+- **Local geography & landmarks** — proximity to mountains, rivers, canyons, highways that affect the work and give the page local flavor
+- **Real project context** — types of projects common in that area (military work near Hill AFB in Clearfield, slope work in foothill communities, tight-access jobs in older downtown areas, large lot grading in rural Morgan)
+- **Unique challenges** — what makes excavation different in this city vs neighboring cities
+- **Local landmark image** — one city-relevant photo per page sourced from Unsplash, Pexels, or Wikimedia Commons (Creative Commons licensed, free for commercial use). Examples: Ogden's Union Station, Wasatch peaks from Layton, Point of the Mountain from Draper, Salt Lake Temple/skyline, Antelope Island from Syracuse. If no good free photo exists for a city, generate one via AI.
+
+**Quality test:** If you removed the city name from the H1, could you still tell which city the page is about from the content alone? If not, the content isn't local enough.
+
+Page structure:
+- Unique H1 targeting `[primary service keyword] in [city], Utah`
+- Landmark/city image near top of page with descriptive alt tag
+- 800-1,200 words minimum of genuinely unique content
 - Embedded Google Map
 - Links to all services
+- "Nearby Areas We Serve" section with links to adjacent cities
 - Unique meta title/description per page
-- Check for keyword cannibalization — each page should target distinct city
-- 800-1,200 words minimum per location page
+- No keyword cannibalization — each page targets its distinct city
 
 #### Blog Content Expansion
 - 5 existing posts — review for internal link opportunities
