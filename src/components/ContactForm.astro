@@ -1,0 +1,255 @@
+---
+import services from '../data/services.json';
+
+interface Props {
+  variant?: 'hero' | 'section';
+  heading?: string;
+}
+
+const {
+  variant = 'section',
+  heading = 'Get Your Free Estimate',
+} = Astro.props;
+
+const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/uRXK3vFHqEQHApRA2dXE/webhook-trigger/f7eb4f71-39c0-4d90-8cd1-ef9760d49aa1';
+---
+
+{variant === 'hero' ? (
+  <div class="bg-white rounded-lg shadow-lg p-6">
+    <h2 class="font-heading text-xl font-bold text-charcoal mb-4">{heading}</h2>
+    <div data-form-container style="min-height: 400px;">
+      <form
+        data-contact-form
+        data-webhook-url={WEBHOOK_URL}
+        novalidate
+      >
+        <div class="space-y-3">
+          <div>
+            <label for="hero-name" class="block text-sm font-semibold text-charcoal mb-1">Full Name <span class="text-red-600">*</span></label>
+            <input
+              type="text"
+              id="hero-name"
+              name="full_name"
+              required
+              autocomplete="name"
+              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+            />
+          </div>
+          <div>
+            <label for="hero-phone" class="block text-sm font-semibold text-charcoal mb-1">Phone <span class="text-red-600">*</span></label>
+            <input
+              type="tel"
+              id="hero-phone"
+              name="phone"
+              required
+              autocomplete="tel"
+              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+            />
+          </div>
+          <div>
+            <label for="hero-email" class="block text-sm font-semibold text-charcoal mb-1">Email <span class="text-red-600">*</span></label>
+            <input
+              type="email"
+              id="hero-email"
+              name="email"
+              required
+              autocomplete="email"
+              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+            />
+          </div>
+          <div>
+            <label for="hero-service" class="block text-sm font-semibold text-charcoal mb-1">Service Needed <span class="text-red-600">*</span></label>
+            <select
+              id="hero-service"
+              name="service"
+              required
+              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent bg-white"
+            >
+              <option value="">Select a service...</option>
+              {services.map((service) => (
+                <option value={service.slug}>{service.name}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label for="hero-description" class="block text-sm font-semibold text-charcoal mb-1">Project Description</label>
+            <textarea
+              id="hero-description"
+              name="project_description"
+              rows="4"
+              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent resize-y"
+            ></textarea>
+          </div>
+          <div>
+            <span class="block text-sm font-semibold text-charcoal mb-1">Preferred Contact Method</span>
+            <div class="flex gap-4">
+              <label class="flex items-center gap-1.5 text-sm text-charcoal cursor-pointer">
+                <input type="radio" name="contact_method" value="Call" checked class="accent-gold-dark" /> Call
+              </label>
+              <label class="flex items-center gap-1.5 text-sm text-charcoal cursor-pointer">
+                <input type="radio" name="contact_method" value="Text" class="accent-gold-dark" /> Text
+              </label>
+              <label class="flex items-center gap-1.5 text-sm text-charcoal cursor-pointer">
+                <input type="radio" name="contact_method" value="Email" class="accent-gold-dark" /> Email
+              </label>
+            </div>
+          </div>
+
+          <!-- Hidden tracking fields -->
+          <input type="hidden" name="utm_source" />
+          <input type="hidden" name="utm_medium" />
+          <input type="hidden" name="utm_campaign" />
+          <input type="hidden" name="utm_content" />
+          <input type="hidden" name="utm_term" />
+          <input type="hidden" name="gclid" />
+          <input type="hidden" name="gbraid" />
+          <input type="hidden" name="wbraid" />
+          <input type="hidden" name="gad_source" />
+          <input type="hidden" name="page_url" />
+          <input type="hidden" name="page_referrer" />
+          <input type="hidden" name="landing_page" />
+
+          <!-- Honeypot -->
+          <div style="position: absolute; left: -9999px; opacity: 0; height: 0; overflow: hidden;">
+            <label for="hero-website">Website</label>
+            <input type="text" id="hero-website" name="website" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <!-- Error message -->
+          <div data-form-error class="hidden text-red-600 text-sm font-semibold"></div>
+
+          <button
+            type="submit"
+            class="w-full inline-flex items-center justify-center bg-gold-dark text-white px-6 py-3 rounded-lg font-semibold text-base hover:bg-gold-dark/90 transition-colors"
+          >
+            Get Your Free Estimate
+          </button>
+
+          <p class="text-center text-sm text-gray-500 mt-2">
+            Or call <a href="tel:+18018146975" class="text-gold-dark font-semibold hover:underline">(801) 814-6975</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+) : (
+  <section class="bg-charcoal py-12">
+    <div class="max-w-xl mx-auto px-4">
+      <h2 class="font-heading text-2xl font-bold text-white text-center mb-6">{heading}</h2>
+      <div data-form-container style="min-height: 400px;">
+        <form
+          data-contact-form
+          data-webhook-url={WEBHOOK_URL}
+          novalidate
+        >
+          <div class="space-y-4">
+            <div>
+              <label for="section-name" class="block text-sm font-semibold text-white mb-1">Full Name <span class="text-red-400">*</span></label>
+              <input
+                type="text"
+                id="section-name"
+                name="full_name"
+                required
+                autocomplete="name"
+                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+              />
+            </div>
+            <div>
+              <label for="section-phone" class="block text-sm font-semibold text-white mb-1">Phone <span class="text-red-400">*</span></label>
+              <input
+                type="tel"
+                id="section-phone"
+                name="phone"
+                required
+                autocomplete="tel"
+                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+              />
+            </div>
+            <div>
+              <label for="section-email" class="block text-sm font-semibold text-white mb-1">Email <span class="text-red-400">*</span></label>
+              <input
+                type="email"
+                id="section-email"
+                name="email"
+                required
+                autocomplete="email"
+                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+              />
+            </div>
+            <div>
+              <label for="section-service" class="block text-sm font-semibold text-white mb-1">Service Needed <span class="text-red-400">*</span></label>
+              <select
+                id="section-service"
+                name="service"
+                required
+                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+              >
+                <option value="">Select a service...</option>
+                {services.map((service) => (
+                  <option value={service.slug}>{service.name}</option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label for="section-description" class="block text-sm font-semibold text-white mb-1">Project Description</label>
+              <textarea
+                id="section-description"
+                name="project_description"
+                rows="4"
+                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent resize-y"
+              ></textarea>
+            </div>
+            <div>
+              <span class="block text-sm font-semibold text-white mb-1">Preferred Contact Method</span>
+              <div class="flex gap-4">
+                <label class="flex items-center gap-1.5 text-sm text-white cursor-pointer">
+                  <input type="radio" name="contact_method" value="Call" checked class="accent-gold-dark" /> Call
+                </label>
+                <label class="flex items-center gap-1.5 text-sm text-white cursor-pointer">
+                  <input type="radio" name="contact_method" value="Text" class="accent-gold-dark" /> Text
+                </label>
+                <label class="flex items-center gap-1.5 text-sm text-white cursor-pointer">
+                  <input type="radio" name="contact_method" value="Email" class="accent-gold-dark" /> Email
+                </label>
+              </div>
+            </div>
+
+            <!-- Hidden tracking fields -->
+            <input type="hidden" name="utm_source" />
+            <input type="hidden" name="utm_medium" />
+            <input type="hidden" name="utm_campaign" />
+            <input type="hidden" name="utm_content" />
+            <input type="hidden" name="utm_term" />
+            <input type="hidden" name="gclid" />
+            <input type="hidden" name="gbraid" />
+            <input type="hidden" name="wbraid" />
+            <input type="hidden" name="gad_source" />
+            <input type="hidden" name="page_url" />
+            <input type="hidden" name="page_referrer" />
+            <input type="hidden" name="landing_page" />
+
+            <!-- Honeypot -->
+            <div style="position: absolute; left: -9999px; opacity: 0; height: 0; overflow: hidden;">
+              <label for="section-website">Website</label>
+              <input type="text" id="section-website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <!-- Error message -->
+            <div data-form-error class="hidden text-red-400 text-sm font-semibold"></div>
+
+            <button
+              type="submit"
+              class="w-full inline-flex items-center justify-center bg-gold-dark text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gold-dark/90 transition-colors"
+            >
+              Get Your Free Estimate
+            </button>
+
+            <p class="text-center text-sm text-gray-400 mt-2">
+              Or call <a href="tel:+18018146975" class="text-gold-dark font-semibold hover:underline">(801) 814-6975</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+)}
