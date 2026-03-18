@@ -37,7 +37,12 @@ In `src/pages/about.astro`:
 - [ ] **Step 3: Fix index.astro hardcoded references**
 
 In `src/pages/index.astro`:
+- Line 18: Change meta description from `"since 1995"` to `"since 2010"`
 - Line 24: Change hero headline from `"Ogden's Trusted Excavation Contractor Since 1995"` to `"Ogden's Trusted Excavation Contractor Since 2010"`
+
+- [ ] **Step 3b: Fix "1995" and "30 years" references in existing location .md files**
+
+Search all 18 existing files in `src/content/locations/` for any references to "1995", "30 years", "three decades", or similar. Update to "2010" / "16 years" / "over a decade and a half" as appropriate. Run: `grep -rl "1995\|30 years\|three decades" src/content/`
 
 - [ ] **Step 4: Add social URLs to business.json**
 
@@ -521,9 +526,11 @@ Expand schema markup for better search visibility.
 **Files:**
 - Modify: `src/components/SchemaMarkup.astro`
 
-- [ ] **Step 1: Read current SchemaMarkup.astro**
+- [ ] **Step 1: Read current SchemaMarkup.astro and fix data passing**
 
 Read `src/components/SchemaMarkup.astro` fully to understand current schema types.
+
+**IMPORTANT:** `locations/[...slug].astro` passes `{ location: locationJson, faqs }` as `schemaData`, but `SchemaMarkup.astro` may read properties differently. Verify the data prop names match between the page and the component. Fix any mismatches before adding GeoCircle — otherwise the new schema won't have access to geo coordinates.
 
 - [ ] **Step 2: Add county-level areaServed to LocalBusiness schema**
 
@@ -909,7 +916,23 @@ In `src/pages/locations/[...slug].astro`, add after the services section:
 </section>
 ```
 
-Note: Google Maps Embed API requires an API key. Ask user for their Google Maps API key, or use a static map image as fallback.
+**IMPORTANT:** Google Maps Embed API requires an API key. Use a simple Google Maps link instead (no API key needed):
+```astro
+<a
+  href={`https://www.google.com/maps/search/excavation+${encodeURIComponent(entry.data.city)}+Utah`}
+  target="_blank"
+  rel="noopener"
+  class="block rounded-lg overflow-hidden border border-gray-200 hover:border-gold-dark transition-colors"
+>
+  <img
+    src={`https://maps.googleapis.com/maps/api/staticmap?center=${locationJson?.geo?.lat},${locationJson?.geo?.lng}&zoom=12&size=600x300&maptype=roadmap&key=YOUR_KEY`}
+    alt={`Map of ${entry.data.city}, Utah`}
+    class="w-full h-[300px] object-cover"
+    loading="lazy"
+  />
+</a>
+```
+If no Google Maps API key is available, skip the map embed entirely and just link to Google Maps with a styled button. The map embed is a nice-to-have, not a blocker.
 
 - [ ] **Step 5: Build and verify**
 
@@ -1008,41 +1031,54 @@ git commit -m "feat: add hero images and Areas We Serve section to service pages
 
 ---
 
-## Task 14: Blog Internal Links + Outbound Links on About Page
+## Task 14: Blog — Internal Links + New Posts + Outbound Links on About Page
 
-Add internal links from blog posts to service/location pages, and outbound authority links to about page.
+Add internal links to existing blog posts, write 5 new blog posts targeting informational queries, and add outbound authority links to the about page.
 
 **Files:**
-- Modify: 5 blog content `.md` files in `src/content/blog/`
+- Modify: 5 existing blog `.md` files in `src/content/blog/`
+- Create: 5 new blog `.md` files in `src/content/blog/`
 - Modify: `src/pages/about.astro`
 
 - [ ] **Step 1: Add contextual internal links to existing blog posts**
 
-Read each of the 5 blog posts. Add in-content markdown links to:
+Read each of the 5 existing blog posts. Add in-content markdown links to:
 - 2+ relevant service pages (e.g., `[residential excavation](/services/residential-excavation)`)
 - 2+ relevant location pages (e.g., `[excavation services in Ogden](/locations/ogden)`)
 
 Links should be contextual and natural — woven into existing sentences, not bolted on.
 
-- [ ] **Step 2: Add outbound links to about page**
+- [ ] **Step 2: Write 5 new blog posts targeting informational queries**
+
+Create 5 new `.md` files in `src/content/blog/` with topics from the spec:
+
+1. `how-much-does-excavation-cost-utah.md` — comprehensive cost guide, links to service pages + location pages
+2. `retaining-wall-permit-utah.md` — permit requirements by county (Weber, Davis, Salt Lake, Morgan), links to retaining wall service page + location pages
+3. `how-to-choose-excavation-contractor-utah.md` — buyer's guide, links to about page, service pages
+4. `basement-excavation-vs-dig-out.md` — comparison article, links to residential excavation service page
+5. `retaining-wall-types-utah-soil.md` — boulder vs block vs concrete, best for Utah clay/rocky soil, links to retaining wall service page
+
+Each post: 1,000-1,500 words, proper frontmatter (title, description, pubDate, author, heroImage, tags, relatedServices, relatedLocations), 2+ internal links to services, 2+ internal links to locations.
+
+- [ ] **Step 3: Add outbound links to about page**
 
 In `src/pages/about.astro`, add to the credentials section:
-- Link to BBB profile: `<a href="${business.social.bbb}" target="_blank" rel="noopener">BBB Accredited Business</a>`
+- Link to BBB profile: `<a href={business.social.bbb} target="_blank" rel="noopener">BBB Accredited Business</a>`
 - Link to Utah DOPL license verification (use https://dopl.utah.gov/): mention E100 license links to state verification
 - Link to Google Business Profile
 
 Import `business` data (already imported).
 
-- [ ] **Step 3: Build and verify**
+- [ ] **Step 4: Build and verify**
 
 Run: `npm run build`
-Expected: Blog posts have internal links, about page has outbound authority links.
+Expected: Blog posts have internal links, 5 new blog posts generated, about page has outbound authority links.
 
-- [ ] **Step 4: Commit**
+- [ ] **Step 5: Commit**
 
 ```bash
 git add src/content/blog/ src/pages/about.astro
-git commit -m "feat: add internal links to blog posts, outbound authority links on about page"
+git commit -m "feat: add 5 new blog posts, internal links to existing posts, outbound links on about page"
 ```
 
 ---
@@ -1138,8 +1174,9 @@ Check `public/_redirects` still works with Netlify. Test a few old WordPress URL
 
 - [ ] **Step 7: Commit any fixes**
 
+Stage only the specific files that were fixed (do NOT use `git add -A`):
 ```bash
-git add -A
+git add <specific files changed>
 git commit -m "fix: SEO audit fixes — meta tags, headings, schema, performance"
 ```
 
@@ -1193,25 +1230,25 @@ Fill out and submit the contact form on the staging site. Verify it hits the Hig
 
 | Task | Description | Dependencies |
 |---|---|---|
-| 1 | Fix business.json dates | None |
+| 1 | Fix business.json dates + social URLs | None |
 | 2 | ContactForm component + tracking | None |
 | 3 | Integrate form on pages | Tasks 1, 2 |
 | 4 | Copy/optimize real photos | None |
 | 5 | Generate missing images | None |
-| 6 | TrustBadges component | Task 5 (badges) |
+| 6 | TrustBadges component | Tasks 1 (social URLs), 5 (badge images) |
 | 7 | Schema markup enhancements | Task 1 (social URLs) |
-| 8 | Footer + outbound links | Task 9 (new locations data) |
+| 8 | Footer + outbound links | Tasks 1 (social URLs), 9 (new locations data) |
 | 9 | Add 22 new city entries to locations.json | None |
 | 10 | Source landmark images | None |
 | 11 | Write 22 new location pages | Tasks 9, 10 |
 | 12 | Enhance existing location pages | Task 10 |
-| 13 | Service page enhancements | Tasks 4, 5 (images) |
-| 14 | Blog internal links + about outbound links | Task 1 |
+| 13 | Service page enhancements | Tasks 4, 5 (images), 9 (locations data) |
+| 14 | Blog posts + internal links + about outbound links | Task 1 |
 | 15 | Wire images to pages | Tasks 4, 5 |
 | 16 | Final SEO audit | All previous tasks |
 | 17 | Staging deploy | Task 16 |
 
 **Parallelizable groups:**
-- Tasks 1, 2, 4, 5, 9, 10 can all run in parallel (no dependencies)
-- Tasks 3, 6, 7, 8, 11, 12, 13, 14, 15 depend on earlier tasks
-- Tasks 16, 17 must run last
+- **Wave 1** (no dependencies): Tasks 1, 2, 4, 5, 9, 10
+- **Wave 2** (depend on Wave 1): Tasks 3, 6, 7, 8, 11, 12, 13, 14, 15
+- **Wave 3** (sequential): Tasks 16, 17
