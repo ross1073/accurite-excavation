@@ -26,7 +26,7 @@ Four additions to the existing Astro 5 site before launch:
 2. **Google Reviews 4.9** — real Google logo colors, star rating, review count
 3. **Utah Licensed E100** — official state seal look, gold/cream, circular with double border
 4. **Licensed & Insured** — shield-style badge, distinct from E100 seal (different color — dark blue or green)
-5. **Established 1995 / 30+ Years** — black heritage seal with gold AccuRite brand accents (business.json `founded: 1995`, incorporated 1999)
+5. **Established 2010 / 16 Years Experience** — black heritage seal with gold AccuRite brand accents
 
 ### Design Requirements
 
@@ -79,12 +79,36 @@ public/images/
 
 | Page | Image Needed | Source |
 |---|---|---|
-| Homepage hero | Excavator on job site, Wasatch mountains backdrop | Real photo or generated |
-| About page | Shawn / team photo, equipment fleet, HQ exterior | Real photos preferred |
-| Service pages (10) | One hero image per service | Mix real + generated |
-| Location pages (18+) | City-relevant imagery or reuse service photos | Generated or stock |
-| Gallery | 12-20 project photos | Real photos from Drive |
-| OG default | Branded social card (logo + tagline) | Generated |
+| Homepage hero | Excavator on job site, Wasatch mountains backdrop | Real (Equipment folder) |
+| About page | Team/crew with equipment | **Generate** (1-2 images) |
+| Residential Excavation | Basement dig, foundation work | Real (16 photos in Residential Ex) |
+| Commercial Projects | Commercial site work | Real (8 photos in Commercial Jobs) |
+| Government Projects | Hill AFB / military project | Real (Hill AFB photos) |
+| Demolition | Excavator demolishing structure | **Generate** (1 image) |
+| Rock Walls / Retaining Walls | Boulder wall, block wall, completed project | **Generate** (2-3 images) |
+| Septic Systems | Septic tank installation | Real (Utilities-Septic-Install) + maybe **generate 1** |
+| Underground Utilities | Trenching, utility lines | Real (9 photos in Trenching & Utility) |
+| Grading / Land Clearing | Graded lot, clearing work | Real (13 photos in Dirt) |
+| Hauling / Delivery | Trucks hauling dirt/gravel | Real (Custom-Hauling, Sand-and-Gravel) |
+| Water Features / Ponds | Backyard waterfall, pond excavation | **Generate** (2 images) |
+| Gallery | 12-20 project photos | Real (best-of across all categories) |
+| Location pages (39) | Reuse service photos per page | Real (no generation needed) |
+| OG default | Branded social card (logo + tagline) | **Generate** (1 image) |
+
+### Images to Generate (12 total)
+
+1. Trust badge: Utah E100 state seal
+2. Trust badge: Licensed & Insured shield
+3. Trust badge: Established 2010 heritage seal
+4. Demolition: excavator demolishing structure, Utah landscape
+5. Retaining wall: boulder/rock retaining wall, residential yard
+6. Retaining wall: concrete block retaining wall, completed project
+7. Retaining wall: retaining wall with landscaping, side view
+8. Water feature: backyard waterfall with rock work
+9. Water feature: pond excavation/installation
+10. Team/crew: workers with excavation equipment on job site
+11. Team/crew: owner portrait or team group shot with equipment
+12. OG social card: AccuRite branding with tagline
 
 ---
 
@@ -253,13 +277,23 @@ Based on DataForSEO research (March 2026):
 - Verify Lighthouse scores > 90 on all Core Web Vitals
 
 #### Internal Linking
-- Every service page links to 2-3 related services
-- Every service page links to 3-5 top location pages
+- Every service page links to 2-3 related services ("Related Services" section)
+- Every service page links to 3-5 top location pages ("Areas We Serve" section)
 - Every location page links to all services offered in that area
-- Blog posts link to relevant service + location pages
-- Footer includes top city links organized by county
-- Add "Related Services" section to each service page
-- Add "Nearby Areas We Serve" section to each location page
+- Every location page links to 3-5 nearby location pages ("Nearby Areas We Serve" section)
+- Blog posts link to relevant service + location pages (contextual in-content links)
+- Footer includes top city links organized by county (Weber, Davis, Salt Lake, Morgan, Box Elder)
+- Homepage links to all service pages and top location pages
+- Breadcrumbs on every page (already implemented — verify correctness)
+
+#### Outbound Links (Authority & Trust Signals)
+- **BBB profile** link on about page + footer: `https://www.bbb.org/us/ut/huntsville/profile/excavating-contractors/accurite-excavation-hauling-inc-1166-22284228`
+- **Google Business Profile** link on contact page + footer: Google Maps listing
+- **Utah DOPL** (Division of Professional Licensing) — link to license verification page from about page and E100 badge
+- **Local government links** on location pages where relevant (city permit offices, building departments)
+- **Industry associations** — if AccuRite is a member of any (e.g., Utah Excavation Contractors Association, AGC of Utah), link to those
+- All outbound links open in new tab (`target="_blank" rel="noopener"`)
+- Schema `sameAs` array includes BBB URL and Google Business Profile URL
 
 #### Image SEO
 - All images have descriptive `alt` tags with target keywords
@@ -381,8 +415,8 @@ Based on DataForSEO research (March 2026):
 - `astro.config.mjs` — verify sitemap config includes all new pages (already installed)
 - `public/robots.txt` — verify sitemap reference (already present)
 
-### Pre-launch Blockers (user to provide)
-- HighLevel webhook URL for contact form
-- BBB profile URL
-- Google Business Profile URL
-- Real photos downloaded from Google Drive to local folder
+### Pre-launch Blockers (resolved)
+- HighLevel webhook URL: `https://services.leadconnectorhq.com/hooks/uRXK3vFHqEQHApRA2dXE/webhook-trigger/f7eb4f71-39c0-4d90-8cd1-ef9760d49aa1`
+- BBB profile: `https://www.bbb.org/us/ut/huntsville/profile/excavating-contractors/accurite-excavation-hauling-inc-1166-22284228`
+- Google Business Profile: `https://google.com/maps/place/AccuRite+Excavation+%26+Hauling,+Inc./data=!4m2!3m1!1s0x0:0x10e0b92e4cac2d87`
+- Photos: `~/Desktop/Accurite/` (select highest-res, deduplicate)
