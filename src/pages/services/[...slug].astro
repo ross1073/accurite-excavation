@@ -12,6 +12,7 @@ import ContactForm from '../../components/ContactForm.astro';
 import business from '../../data/business.json';
 import servicesData from '../../data/services.json';
 import reviews from '../../data/reviews.json';
+import locationsData from '../../data/locations.json';
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -116,6 +117,28 @@ const faqs = entry.data.faqs || [];
       </div>
     </section>
   )}
+
+  <!-- Areas We Serve -->
+  <section class="py-12 lg:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-2xl font-bold text-charcoal text-center mb-8">
+        Areas We Serve for {serviceJson?.shortName || entry.data.title}
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 max-w-4xl mx-auto">
+        {locationsData.filter(l => l.tier <= 2).map(loc => (
+          <a
+            href={`/locations/${loc.slug}`}
+            class="px-4 py-2 border border-gray-200 rounded-lg text-sm text-gray-600 hover:border-gold-dark hover:text-gold-dark transition-colors text-center"
+          >
+            {loc.name}, UT
+          </a>
+        ))}
+      </div>
+      <p class="mt-4 text-sm text-gray-500 text-center">
+        <a href="/locations" class="text-gold-dark hover:underline">View all service areas →</a>
+      </p>
+    </div>
+  </section>
 
   <CTASection showForm={true} />
 </BaseLayout>
