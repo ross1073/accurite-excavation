@@ -11,13 +11,13 @@ keywords:
     - "utility trenching Northern Utah"
 faqs:
   - question: "How much does utility line installation cost in Utah?"
-    answer: "Utility trenching and installation typically costs $30-$75 per linear foot in Northern Utah, depending on depth, soil conditions, and the type of utility being installed. Water and sewer lines cost more than shallow conduit runs."
+    answer: "Utility installation costs depend on trench depth, linear footage, soil conditions (especially rock), and the type of utility being installed. Water and sewer lines require deeper trenches than electrical conduit, which affects cost. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "How deep are utility lines buried in Utah?"
     answer: "Water lines must be buried below the frost line, typically 42-48 inches in Weber and Davis counties. Sewer lines are usually 36-60 inches deep. Gas lines require a minimum of 18 inches of cover."
   - question: "What is Blue Stakes/811 and when do I need it?"
     answer: "Blue Stakes (Utah's 811 service) marks existing underground utilities before any digging begins. It is required by Utah law before excavation and is free. Call 811 at least 48 hours before digging. We handle this on every project."
   - question: "How much does trenching cost per foot?"
-    answer: "Basic trenching in Northern Utah runs $5-$15 per linear foot for standard depths. Rocky soil or deep trenches cost more. The total project cost includes trenching, pipe or conduit, backfill, and compaction."
+    answer: "Trenching costs depend on depth, linear footage, and soil conditions. Rocky soil or deep trenches cost more than shallow runs in sandy loam. Total project cost includes trenching, pipe or conduit, backfill, and compaction. Contact us for a [free estimate](/free-estimate) based on your specific project."
 relatedServices:
   - "residential-excavation"
   - "septic-systems"
@@ -111,17 +111,14 @@ For commercial projects, we work from engineered utility plans and coordinate wi
 
 ## Utility Trenching and Installation Costs
 
-**Trenching only:** $5-$15 per linear foot for standard depths in normal soil. Rocky soil, deep trenches, or confined access pushes this higher.
+Underground utility costs vary by project because several factors have a major impact on scope:
 
-**Complete sewer lateral installation:** $3,000-$8,000 for a typical residential connection, including trench, PVC pipe, fittings, connection at main, and backfill with compaction. Longer runs or difficult access cost more.
+- **Trench depth** — water lines buried at 42-48 inches cost more than shallow electrical conduit runs at 18-24 inches
+- **Linear footage** — longer runs from the street to the house or across a commercial site increase material and labor
+- **Soil conditions** — hitting rock during trenching in benchland areas of Ogden dramatically increases time and equipment costs compared to sandy valley-floor soil
+- **Utility type** — sewer laterals, water service lines, storm drains, and gas trenches each have different pipe, fitting, and installation requirements
 
-**Water service replacement:** $2,500-$6,000 for a typical residential replacement from meter to house. Longer runs or copper pipe cost more.
-
-**Storm drain installation:** $3,500-$10,000+ for residential systems depending on length, number of inlets, and outlet type.
-
-**Gas trench and conduit:** $1,500-$4,000 for a typical residential run, not including gas contractor fees for the actual gas line and connections.
-
-These are general ranges. Soil conditions and access are the biggest variables. Call us with your project details and we'll give you a real number.
+We provide detailed quotes based on your specific site conditions and project scope. [Get a free estimate](/free-estimate) so we can give you an accurate number.
 
 ---
 

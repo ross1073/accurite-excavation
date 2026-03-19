@@ -11,9 +11,9 @@ keywords:
     - "residential site prep Utah"
 faqs:
   - question: "How much does residential excavation cost in Utah?"
-    answer: "Equipment rates run $200-$350 per hour. A full basement dig typically falls between $3,900 and $6,900 depending on size, soil, and access. Site prep for a new home usually runs $1,500-$5,000."
+    answer: "Residential excavation costs depend on lot size, soil conditions (rock vs clay), excavation depth, and equipment access to the site. Every project is different, so we provide detailed quotes after a site visit. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "How much does it cost to dig a basement in Utah?"
-    answer: "Most basement excavations along the Wasatch Front run $3,900-$6,900. Price depends on square footage, depth, soil conditions, and how easy it is to get equipment to the site."
+    answer: "Basement excavation costs vary by project based on square footage, depth, soil conditions, and how easy it is to get equipment to the site. Rocky soil on the Wasatch bench costs more than sandy valley-floor lots. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "Do I need a permit for excavation in Ogden?"
     answer: "Yes. Most excavation work in Ogden requires a permit from Ogden City or Weber County Engineering. We handle the permit process as part of our service."
   - question: "How long does basement excavation take?"
@@ -86,17 +86,14 @@ We remove excavated material from the site or stockpile it on-site if it can be 
 
 ## Residential Excavation Costs in Utah
 
-Costs vary based on project size, soil conditions, site access, and current equipment rates.
+Every residential excavation project is different, and costs reflect that. The main variables that affect your price are:
 
-**Equipment rates:** $200-$350 per hour depending on machine size and mobilization distance.
+- **Lot size and excavation depth** — a full basement dig costs more than a shallow crawl space or driveway cut
+- **Soil conditions** — rocky hardpan on the Wasatch bench takes significantly more time and equipment than sandy valley-floor soil
+- **Equipment access** — tight lots in older Ogden neighborhoods require smaller machines and more careful work
+- **Scope of work** — whether the project includes just excavation or also grading, haul-off, and utility trenching
 
-**Basement excavation:** Most full basement digs in Weber and Davis County run $3,900-$6,900. Larger footprints, rocky soil, or difficult access push toward the upper end.
-
-**Site prep for new construction:** $1,500-$5,000 depending on lot size, clearing needs, and terrain.
-
-**Driveway cuts:** $500-$2,500 depending on length, grade change, and soil.
-
-These are general ranges. We provide detailed quotes after seeing the site because soil conditions and access are the biggest variables we can't assess remotely.
+We provide detailed quotes after a site visit because these variables can't be assessed remotely. [Get a free estimate](/free-estimate) based on your actual site conditions.
 
 ---
 

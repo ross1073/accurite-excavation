@@ -11,13 +11,13 @@ keywords:
     - "dump truck hauling Northern Utah"
 faqs:
   - question: "How much does gravel delivery cost in Ogden?"
-    answer: "Gravel delivery in the Ogden area typically runs $35-$65 per ton delivered, depending on the type of gravel and delivery distance. Minimum delivery is usually one dump truck load (10-14 tons)."
+    answer: "Gravel delivery costs depend on the type of gravel, quantity ordered, and delivery distance from our yard. Minimum delivery is usually one dump truck load (10-14 tons). Contact us for a [free estimate](/free-estimate) based on your specific needs."
   - question: "How do I calculate how much gravel I need?"
     answer: "Measure the area in square feet and multiply by the desired depth in feet. Divide by 27 to get cubic yards, then multiply by 1.4 to convert to tons. Or just call us with your measurements and we will calculate it for you."
   - question: "What is the difference between fill dirt and topsoil?"
     answer: "Fill dirt is subsoil used to raise grade levels and fill holes. It compacts well but does not support plant growth. Topsoil is the nutrient-rich surface layer used for landscaping, gardens, and lawns."
   - question: "How much does road base delivery cost?"
-    answer: "Road base material in Northern Utah costs $25-$45 per ton delivered. It is a compactable blend of crushed rock and fines used for driveways, parking areas, and construction access roads."
+    answer: "Road base pricing depends on quantity and delivery distance. It is a compactable blend of crushed rock and fines used for driveways, parking areas, and construction access roads. Contact us for a [free estimate](/free-estimate) based on your specific needs."
 relatedServices:
   - "grading-land-clearing"
   - "demolition"
@@ -115,13 +115,13 @@ A 20x30 foot driveway at 4 inches deep works out to roughly 9 tons of road base.
 
 ## Delivery Pricing
 
-**Road base and gravel:** $25-$65 per ton delivered in Weber and Davis counties, depending on material type and distance from our yard.
+Delivery pricing depends on a few key variables:
 
-**Topsoil:** $45-$75 per ton delivered, depending on quality and quantity.
+- **Material type** — road base, topsoil, fill dirt, sand, and decorative rock each have different per-ton costs based on current material pricing from local quarries and suppliers
+- **Quantity** — larger orders typically get better per-ton pricing
+- **Delivery distance** — deliveries closer to our Ogden yard cost less than runs to the edges of Weber or Davis County
 
-**Fill dirt:** $20-$45 per ton delivered for clean fill material.
-
-These are general ranges. Prices vary based on current material costs, delivery distance, and order size. Large orders often get better per-ton pricing.
+We deliver in dump truck loads (10-14 tons per load depending on material density). Call us with your material type, quantity, and delivery address and we'll give you a delivered price. [Get a free estimate](/free-estimate) for your delivery or hauling project.
 
 ---
 

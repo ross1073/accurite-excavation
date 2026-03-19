@@ -14,7 +14,7 @@ faqs:
   - question: "What are soil conditions like on the Oquirrh Mountain side?"
     answer: "The western side of South Jordan approaching the Oquirrh Mountains sits on alluvial fan deposits — a mix of gravel, sand, and rocky material washed down from the mountains. This material is coarser and better-drained than the valley floor clay but may contain caliche layers that resist digging and impede drainage. Upper foothill lots can hit rock at shallow depths. We evaluate each property's specific soil conditions during our site visit."
   - question: "How much does residential excavation cost in South Jordan?"
-    answer: "Costs vary by location within the city. Daybreak and central South Jordan lots on relatively flat, pre-graded ground typically run $3,500 to $10,000 for foundation excavation. Custom home lots on the western side approaching the Oquirrh foothills with rock and slope can run $10,000 to $25,000 depending on conditions. We provide project-specific estimates based on actual site conditions."
+    answer: "Costs vary by location within the city. Daybreak and central South Jordan lots on relatively flat, pre-graded engineered fill are more affordable to excavate. Custom home lots on the western side approaching the Oquirrh foothills with rock, caliche layers, and slope cost significantly more due to the specialized equipment and additional time required. Foundation size, depth, soil conditions, and retaining wall needs all factor into the final price. We provide project-specific estimates after a free on-site evaluation."
 projects: []
 testimonials: []
 ---

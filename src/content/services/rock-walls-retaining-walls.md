@@ -11,7 +11,7 @@ keywords:
     - "retaining wall installation Utah"
 faqs:
   - question: "How much does a rock retaining wall cost in Utah?"
-    answer: "Rock retaining walls in Utah typically cost $15-$50 per square foot depending on material, wall height, and site access. A 50-foot-long, 4-foot-tall boulder wall might run $8,000-$15,000 installed."
+    answer: "Retaining wall costs depend on wall height and length, material type (boulder, block, or concrete), site access, and whether engineering is required. Taller walls need heavier materials and more extensive base preparation, which increases the scope. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "Do I need a permit for a retaining wall in Ogden?"
     answer: "In Ogden and Weber County, retaining walls over 4 feet tall require a building permit. Walls near property lines or on slopes may need engineering. We handle the permit process."
   - question: "Rock wall vs concrete retaining wall: which is better?"
@@ -112,17 +112,14 @@ We handle the permit application and coordinate with engineers when required. Do
 
 ## Retaining Wall Costs in Northern Utah
 
-Retaining walls are priced by the square face foot of wall, not by linear foot. This accounts for wall height, which significantly affects material and labor requirements.
+Retaining wall costs vary significantly from project to project. The key factors that drive pricing are:
 
-**Natural boulder walls:** $20-$50 per square face foot installed. A 4-foot-tall, 50-foot-long wall has 200 square face feet; installed cost typically runs $8,000-$15,000.
+- **Wall height and length** — taller walls require larger boulders, deeper footings, and more material, so cost per square face foot increases with height
+- **Material type** — natural boulder walls, dry stack rock, concrete block, and gabion walls each have different material and labor costs
+- **Site access** — hillside properties with limited equipment access require more time and specialized work
+- **Engineering requirements** — walls over 4 feet or those supporting significant loads may need stamped engineering plans, which adds to the project scope
 
-**Dry stack rock walls:** $15-$30 per square face foot for smaller, hand-placed stone walls.
-
-**Concrete block walls:** $20-$40 per square face foot depending on block type and engineering requirements.
-
-**Gabion walls:** $15-$30 per square face foot, not including material delivery.
-
-These numbers include excavation, base prep, drainage installation, stone placement, and backfill. They don't include engineered drawings when required, which typically add $500-$2,000 depending on complexity.
+Our quotes include excavation, base preparation, drainage installation, stone placement, and backfill. We price by the square face foot of wall (not linear foot) because wall height is a major cost driver. [Get a free estimate](/free-estimate) so we can assess your specific site and give you an accurate number.
 
 ---
 

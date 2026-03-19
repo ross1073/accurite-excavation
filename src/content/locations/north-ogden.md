@@ -12,7 +12,7 @@ faqs:
   - question: "What makes hillside excavation in North Ogden different from valley floor work?"
     answer: "Steep grades, rock close to the surface, and clay soils that shift seasonally all add complexity. Many hillside lots require engineered grading plans, and rock hammering is common on upper bench properties. We assess site conditions before quoting so there are no surprises mid-project."
   - question: "How much do retaining walls cost in North Ogden?"
-    answer: "Costs vary depending on height, material, and site access. A basic boulder or block wall runs $50-120 per linear foot installed. Taller engineered walls on steep lots cost more due to drainage requirements and structural engineering. We provide detailed quotes after seeing the site."
+    answer: "Retaining wall costs in North Ogden depend on height, length, material choice, and site access. Taller engineered walls on steep lots cost more due to drainage requirements and structural engineering. Rocky bench soil conditions and equipment access also factor into the price. Every wall project is different, so we provide detailed quotes after seeing the site. Contact us for a free on-site estimate."
   - question: "Do I need a permit for a retaining wall on my North Ogden property?"
     answer: "Weber County requires a permit for retaining walls over 4 feet tall, and walls over that height must be engineered. Shorter walls on private property may not require a permit, but it depends on location and intended use. We can help you figure out what applies to your project."
   - question: "Can you excavate on steep lots that are hard to access with heavy equipment?"

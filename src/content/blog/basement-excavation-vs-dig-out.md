@@ -50,7 +50,7 @@ Basement dig-outs typically involve:
 - Removing material from inside the house (often through windows or a wall opening)
 - Installing a new slab at the lowered elevation
 
-This is meaningfully more complex and expensive than a new basement excavation. The combination of structural engineering, permits, interior excavation logistics, and concrete work adds up. A basement dig-out is a project that typically runs **$30,000 to $60,000 or more** depending on size and conditions — and that range assumes no surprises.
+This is meaningfully more complex and expensive than a new basement excavation. The combination of structural engineering, permits, interior excavation logistics, and concrete work adds up — making a dig-out significantly more costly than excavating a new basement of similar size. The total depends on the footprint, the amount of lowering required, foundation condition, access constraints, and whether any surprises appear once work begins.
 
 ## Crawl Space Conversion
 
@@ -88,4 +88,4 @@ The best starting point for either project is a site visit from a contractor who
 
 AccuRite handles new basement excavation across northern Utah as part of our regular residential work. For dig-outs, we can assess the site, discuss the scope, and connect you with structural engineering resources if needed.
 
-[Contact AccuRite](/contact) to talk through your basement project — whether you are breaking ground on a new home or adding headroom to an existing one.
+[Request a free estimate](/free-estimate) to talk through your basement project — whether you are breaking ground on a new home or adding headroom to an existing one.

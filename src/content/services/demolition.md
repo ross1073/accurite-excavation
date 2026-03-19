@@ -11,13 +11,13 @@ keywords:
     - "residential demolition contractor Utah"
 faqs:
   - question: "How much does it cost to demolish a house in Utah?"
-    answer: "Full house demolition in Utah typically runs $9,000-$18,900 depending on the structure's size, materials, and whether asbestos abatement is needed. Concrete-only demolition (driveways, foundations) costs significantly less."
+    answer: "Demolition costs depend on the structure's size, construction type, whether asbestos abatement is needed, and site access. Every demolition project is unique, so we quote after a site walk. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "What are the demolition permit requirements in Ogden?"
     answer: "Ogden City requires a demolition permit ($50-$100 application fee plus $50/month inspection fee). You also need utility disconnection confirmation and, for structures built before 1981, asbestos testing."
   - question: "Do I need asbestos testing before demolition in Utah?"
     answer: "Yes, if the structure was built before 1981. Weber County Health Department requires a certified asbestos inspection before any demolition permit is issued. We can coordinate this testing as part of the project."
   - question: "How much does concrete demolition and removal cost?"
-    answer: "Concrete demolition and removal (driveways, sidewalks, foundations) typically runs $3-$8 per square foot in Northern Utah, depending on thickness and rebar content."
+    answer: "Concrete demolition and removal costs depend on the slab's square footage, thickness, and whether it contains rebar. Reinforced concrete takes longer to break and costs more to remove. Contact us for a [free estimate](/free-estimate) based on your specific project."
 relatedServices:
   - "commercial-projects"
   - "hauling-delivery"
@@ -100,15 +100,14 @@ After demolition and cleanup, we grade the site to a clean, uniform surface. If 
 
 ## Demolition Costs in Utah
 
-**Full house demolition:** $9,000-$18,900 for a typical single-family home. Variables include square footage, foundation type, access, and whether asbestos abatement is needed. Asbestos abatement adds $1,500-$5,000+ depending on the scope of contamination.
+Demolition costs vary based on the specifics of each project. The main factors that affect pricing are:
 
-**Outbuilding and garage demolition:** $1,500-$5,000 depending on size and construction type.
+- **Structure size and construction type** — a wood-frame garage is a very different job than a concrete-block commercial building
+- **Asbestos presence** — structures built before 1981 may require certified abatement before demolition can begin, which adds to the scope
+- **Site access** — tight urban lots or properties with limited equipment access require more time and smaller machines
+- **Foundation type** — removing a full perimeter foundation with heavy reinforcement costs more than a simple slab
 
-**Concrete demolition and removal:** $3-$8 per square foot. A 600-square-foot driveway runs roughly $1,800-$4,800 for demo and haul.
-
-**Foundation removal:** $5,000-$12,000 for a full perimeter foundation depending on depth, thickness, and reinforcement.
-
-Permit fees and asbestos testing are in addition to demolition costs. We include these in your quote so there are no surprises.
+Ogden City demolition permit fees ($50-$100 application fee plus $50/month inspection fee) and asbestos testing costs are in addition to our demolition work and are included in your quote so there are no surprises. [Get a free estimate](/free-estimate) based on your specific project.
 
 ---
 

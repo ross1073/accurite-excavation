@@ -11,7 +11,7 @@ keywords:
     - "septic repair Northern Utah"
 faqs:
   - question: "How much does a septic system cost in Utah?"
-    answer: "A new septic system in Northern Utah typically costs $8,000-$25,000 depending on system type, soil conditions, and property layout. Conventional gravity systems are on the lower end; engineered or mound systems cost more."
+    answer: "Septic system costs depend on the system type (conventional gravity, pressure distribution, or mound), soil conditions, property layout, and permit requirements. Engineered systems for challenging soil cost more than conventional gravity systems in good soil. Contact us for a [free estimate](/free-estimate) based on your specific property."
   - question: "What is the septic permit process in Weber County?"
     answer: "Weber County requires a septic permit ($535 application fee plus $40 UDEQ fee, totaling $575). You need an approved perc test, site evaluation, and system design before the permit is issued."
   - question: "How much does a perc test cost in Utah?"
@@ -70,7 +70,7 @@ We can coordinate the perc test through a certified soil scientist and attend th
 
 Gravity systems are the simplest and least expensive option. Effluent flows from the house to the septic tank by gravity, then to a distribution box, then out through perforated pipe in a gravel-filled trench. They work well in soil with good absorption rates and adequate slope.
 
-Most rural properties in Weber and Morgan counties that have decent sandy loam or loamy soil can use a conventional system. These run $8,000-$14,000 installed.
+Most rural properties in Weber and Morgan counties that have decent sandy loam or loamy soil can use a conventional system, which is the most affordable option.
 
 ### Pressure Distribution Systems
 
@@ -131,19 +131,20 @@ We'll give you our honest read after assessing the system. We're not going to pu
 
 ## Septic System Costs in Utah
 
-**New conventional gravity system:** $8,000-$14,000 including excavation, tank, leach field, and permit coordination.
+Septic system costs vary significantly based on your property's specific conditions. The main factors that drive pricing are:
 
-**Pressure distribution system:** $12,000-$18,000 depending on pump requirements and field size.
+- **System type** — conventional gravity systems are the most affordable; pressure distribution and mound systems cost more due to additional components and engineering
+- **Soil conditions** — tight clay soils or rocky ground require more excavation work and may dictate a more complex system design
+- **Property layout** — longer runs from the house to the drain field, difficult terrain, or limited access increase the scope of work
+- **Permit and testing requirements** — some sites need more extensive soil evaluation or engineered designs
 
-**Mound system:** $15,000-$25,000 depending on mound height and field dimensions.
+Government and third-party fees are separate from our installation costs:
 
 **Perc test coordination:** $750-$1,900 depending on number of test holes and site conditions.
 
 **Weber County permit fees:** $575 total ($535 application plus $40 UDEQ).
 
-**Repair work:** Varies widely, from $1,000-$1,500 for a distribution box replacement to $3,000-$6,000 for partial leach field repair.
-
-These numbers don't include engineering fees when required. For systems that need a licensed engineer's stamp, add $500-$1,500.
+We include all applicable fees in your quote so the total cost is clear upfront. [Get a free estimate](/free-estimate) based on your specific property and soil conditions.
 
 ---
 

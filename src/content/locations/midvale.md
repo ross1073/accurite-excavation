@@ -14,7 +14,7 @@ faqs:
   - question: "Are there contamination concerns with excavation in Midvale?"
     answer: "Some areas of Midvale have environmental history from past mining and smelting operations. The Sharon Steel/Midvale Slag Superfund site has been remediated, but properties in or near former industrial areas may require environmental assessment before excavation. This assessment is handled by environmental consultants. We work alongside environmental professionals when contaminated soil management is part of the scope."
   - question: "What does residential excavation cost in Midvale?"
-    answer: "Residential excavation in Midvale is valley floor clay work, which is among the more affordable excavation terrain. Foundation digs for new construction or additions typically run $3,000 to $8,000. Utility replacement and foundation repair excavation are similar. There is no rock to contend with in Midvale, which keeps costs predictable."
+    answer: "Residential excavation in Midvale is valley floor clay work, which is among the more affordable excavation terrain on the Wasatch Front. There is no rock to contend with in Midvale, which keeps costs more predictable than foothill communities. The final price depends on foundation size, depth, access, and whether dewatering is needed near the Jordan River or Big Cottonwood Creek corridors. Contact us for a free on-site estimate."
 projects: []
 testimonials: []
 ---

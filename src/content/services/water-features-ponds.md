@@ -11,7 +11,7 @@ keywords:
     - "backyard pond construction"
 faqs:
   - question: "How much does a koi pond cost in Utah?"
-    answer: "A small koi pond (6x8 feet) starts around $2,800-$7,000. Medium ponds (10x15 feet) run $7,000-$18,000. Large custom water features with waterfalls and streams can exceed $27,000."
+    answer: "Koi pond costs depend on pond size, design complexity, materials (liner vs concrete), and the filtration system required. Smaller backyard ponds cost significantly less than large custom features with waterfalls and streams. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "Do I need a permit for a pond in Utah?"
     answer: "Small decorative ponds (under 24 inches deep) typically do not require a permit. Larger ponds, especially those that alter drainage patterns, may need a grading permit. We will advise you during the design phase."
   - question: "How deep does a pond need to be in Utah?"
@@ -118,15 +118,15 @@ Adjacent [grading and land clearing](/services/grading-land-clearing) for the su
 
 ## Cost Ranges for Pond Construction in Utah
 
-**Small koi pond (6x8 feet, basic liner construction):** $2,800-$7,000
+Water feature costs vary widely because no two projects are alike. The main factors that affect pricing are:
 
-**Medium koi pond (10x15 feet with waterfall):** $7,000-$18,000
+- **Pond size and depth** — a small backyard koi pond is a very different scope than a large natural swimming pond
+- **Design complexity** — adding waterfalls, streams, or multiple levels increases excavation and rockwork
+- **Materials** — EPDM liner construction is more affordable than concrete; the type of edging rock and boulders also affects cost
+- **Filtration system** — koi ponds require robust filtration; natural swimming ponds need separate biological filtration zones
+- **Site conditions** — rocky bench properties require more excavation effort, and tight backyard access may require smaller equipment
 
-**Large feature with stream and extensive rockwork:** $18,000-$27,000+
-
-**Natural swimming pond:** $25,000-$60,000+ depending on size and filtration design
-
-These are rough ranges. The biggest variables are site access, soil conditions, rock work complexity, and whether the scope includes surrounding [retaining walls](/services/rock-walls-retaining-walls) or grade changes.
+The scope may also include surrounding [retaining walls](/services/rock-walls-retaining-walls) or grade changes that affect the total project cost. [Get a free estimate](/free-estimate) so we can design a feature that fits your yard and your budget.
 
 ---
 

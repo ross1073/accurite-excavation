@@ -11,9 +11,9 @@ keywords:
     - "rough grading contractor Utah"
 faqs:
   - question: "How much does land grading cost per acre in Utah?"
-    answer: "Land grading in Northern Utah typically costs $1,000-$5,000 per acre for residential lots. Commercial grading and larger properties may cost more depending on the amount of cut and fill required."
+    answer: "Land grading costs depend on acreage, terrain, and the amount of cut and fill required. Flat lots with good soil grade quickly, while steep or rocky properties need significantly more work. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "How much does land clearing cost in Utah?"
-    answer: "Land clearing runs $2,000-$6,500 per acre in Weber and Davis counties, depending on tree density, brush, and whether stumps need to be removed."
+    answer: "Land clearing costs depend on acreage, vegetation density, tree size, and whether stumps need to be removed. Heavily wooded lots cost more than scrub brush. Contact us for a [free estimate](/free-estimate) based on your specific property."
   - question: "Do I need a permit for land grading in Ogden?"
     answer: "Ogden City requires a grading permit for projects that move more than 50 cubic yards of material or alter drainage patterns. We handle permit applications as part of our service."
   - question: "What is the difference between rough grading and finish grading?"
@@ -100,13 +100,14 @@ Existing structures, concrete, and debris on a lot fall under our [demolition se
 
 ## Grading Costs in Northern Utah
 
-**Residential lot grading:** $1,000-$5,000 per acre depending on terrain and the amount of cut and fill involved.
+Grading and land clearing costs vary based on the specifics of each property. The key factors that affect pricing are:
 
-**Land clearing:** $2,000-$6,500 per acre in Weber and Davis counties. Heavily wooded lots with large trees and stumps run toward the upper end. Scrub brush and smaller vegetation is faster and cheaper.
+- **Acreage** — larger sites require more equipment time and material movement
+- **Terrain** — steep slopes, hardpan caliche on the Wasatch bench, or rocky ground take significantly longer to grade than flat valley-floor lots
+- **Amount of cut and fill** — sites that need major elevation changes require more passes and more material handling
+- **Vegetation density** — heavily wooded lots with large trees and stumps cost more to clear than scrub brush or open ground
 
-**Drainage regrading:** Most residential drainage regrading jobs run $800-$3,500. Scope varies significantly based on yard size and how much material needs to move.
-
-These are general ranges. We provide quotes after a site visit because terrain, access, and existing conditions are the variables that matter most.
+We provide quotes after a site visit because terrain, access, and existing conditions are the variables that matter most and can't be assessed from photos alone. [Get a free estimate](/free-estimate) based on your specific property.
 
 ---
 
