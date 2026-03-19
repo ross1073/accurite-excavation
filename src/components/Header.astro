@@ -1,7 +1,9 @@
 ---
+import { Image } from 'astro:assets';
 import business from '../data/business.json';
 import services from '../data/services.json';
 import locations from '../data/locations.json';
+import logo from '../assets/images/accurite-logo-full.webp';
 
 const phone = business.phone;
 const phoneTel = business.phoneTel;
@@ -11,10 +13,13 @@ const phoneTel = business.phoneTel;
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16 lg:h-20">
       <!-- Logo -->
-      <a href="/" class="flex items-center gap-2 shrink-0">
-        <span class="font-heading text-xl lg:text-2xl font-bold text-charcoal leading-tight">
-          Accu<span class="text-gold-dark">Rite</span> Excavation
-        </span>
+      <a href="/" class="flex items-center shrink-0">
+        <Image
+          src={logo}
+          alt="AccuRite Excavation & Hauling"
+          class="h-10 lg:h-14 w-auto"
+          loading="eager"
+        />
       </a>
 
       <!-- Desktop Navigation -->

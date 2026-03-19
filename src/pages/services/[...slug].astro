@@ -1,5 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
 import TrustBar from '../../components/TrustBar.astro';
@@ -7,12 +9,20 @@ import ServiceCard from '../../components/ServiceCard.astro';
 import TestimonialCard from '../../components/TestimonialCard.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import CTASection from '../../components/CTASection.astro';
-import ContactForm from '../../components/ContactForm.astro';
 
 import business from '../../data/business.json';
 import servicesData from '../../data/services.json';
 import reviews from '../../data/reviews.json';
 import locationsData from '../../data/locations.json';
+
+// Hero images for each service
+const heroImages = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/services/hero/*.{jpg,jpeg,png,webp}', { eager: true });
+
+// Gallery images for inline photos
+const galleryImages = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/gallery/*.{jpg,jpeg,png,webp}', { eager: true });
+
+// Service-specific images
+const serviceImages = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/services/*.{jpg,jpeg,png,webp}', { eager: true });
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -38,6 +48,50 @@ const serviceReviews = reviews.filter(r => r.service === slug);
 
 // FAQs from frontmatter
 const faqs = entry.data.faqs || [];
+
+// Map slugs to hero image filenames
+const heroImageMap: Record<string, string> = {
+  'residential-excavation': 'residential-hero',
+  'commercial-projects': 'commercial-hero',
+  'government-projects': 'government-hero',
+  'rock-walls-retaining-walls': 'rockwalls-hero',
+  'underground-utilities': 'utilities-hero',
+  'grading-land-clearing': 'grading-hero',
+  'demolition': 'demolition-hero',
+  'septic-systems': 'septic-hero',
+  'hauling-delivery': 'hauling-hero',
+  'water-features-ponds': 'water-features-hero',
+};
+
+// Find the hero image for this service
+const heroKey = heroImageMap[slug];
+const heroImageEntry = heroKey
+  ? Object.entries(heroImages).find(([path]) => path.includes(heroKey))
+  : null;
+const backgroundImage = heroImageEntry ? heroImageEntry[1].default : undefined;
+
+// Get gallery images relevant to this service
+const serviceGalleryMap: Record<string, string[]> = {
+  'residential-excavation': ['residential-basement', 'residential-excavation-foundation'],
+  'commercial-projects': ['commercial-dance-studio', 'commercial-site-work'],
+  'government-projects': ['hill-afb-military'],
+  'rock-walls-retaining-walls': ['retaining-wall'],
+  'underground-utilities': ['underground-utilities-trenching'],
+  'grading-land-clearing': ['grading-excavation', 'grading-land-clearing', 'dirt-work'],
+  'demolition': ['demolition'],
+  'septic-systems': ['septic-installation'],
+  'hauling-delivery': ['hauling'],
+  'water-features-ponds': ['pond', 'waterfall'],
+};
+
+const relevantPatterns = serviceGalleryMap[slug] || [];
+const galleryPhotos = Object.entries(galleryImages)
+  .filter(([path]) => relevantPatterns.some(p => path.toLowerCase().includes(p)))
+  .map(([path, mod]) => ({
+    src: mod.default,
+    alt: path.split('/').pop()?.replace(/\.[^.]+$/, '').replace(/-/g, ' ').replace(/\d+$/, '').trim() || `${serviceJson?.name} project`,
+  }))
+  .slice(0, 4);
 ---
 
 <BaseLayout
@@ -49,7 +103,8 @@ const faqs = entry.data.faqs || [];
   <Hero
     headline={entry.data.title}
     subheadline={entry.data.description}
-    compact={true}
+    backgroundImage={backgroundImage}
+    showForm={true}
   />
 
   <TrustBar />
@@ -57,24 +112,50 @@ const faqs = entry.data.faqs || [];
   <!-- Service Content -->
   <section class="py-12 lg:py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-        <!-- Left: prose content -->
-        <div class="lg:col-span-2">
-          <div class="prose prose-gray max-w-none [&>h2]:font-heading [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-charcoal [&>h2]:mt-10 [&>h2]:mb-4 [&>h3]:font-heading [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-charcoal [&>p]:text-gray-600 [&>p]:leading-relaxed [&>ul]:text-gray-600 [&>ol]:text-gray-600">
-            <Content />
-          </div>
-        </div>
-        <!-- Right: sticky form sidebar -->
-        <div class="lg:col-span-1 lg:sticky lg:top-8">
-          <ContactForm variant="hero" />
+      <div class="max-w-4xl mx-auto">
+        <div class="prose prose-gray max-w-none [&>h2]:font-heading [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-charcoal [&>h2]:mt-10 [&>h2]:mb-4 [&>h3]:font-heading [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-charcoal [&>p]:text-gray-600 [&>p]:leading-relaxed [&>ul]:text-gray-600 [&>ol]:text-gray-600 [&>a]:text-gold-dark [&>a]:hover:underline [&_a]:text-gold-dark [&_a]:hover:underline">
+          <Content />
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Project Photos Gallery -->
+  {galleryPhotos.length > 0 && (
+    <section class="bg-gray-50 py-12 lg:py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal text-center mb-8">
+          {serviceJson?.shortName || entry.data.title} Projects
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {galleryPhotos.map(photo => (
+            <div class="overflow-hidden rounded-lg bg-gray-100">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+                widths={[400, 800]}
+                sizes="(max-width: 640px) 100vw, 50vw"
+              />
+            </div>
+          ))}
+        </div>
+        <div class="mt-6 text-center">
+          <a href="/gallery" class="inline-flex items-center gap-1 text-gold-dark font-medium hover:underline">
+            View full gallery
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- Testimonials for this service -->
   {serviceReviews.length > 0 && (
-    <section class="bg-gray-50 py-12 lg:py-16">
+    <section class="py-12 lg:py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal text-center mb-8">
           What Customers Say About Our {serviceJson?.shortName || 'Service'}
@@ -88,6 +169,14 @@ const faqs = entry.data.faqs || [];
               source={review.source}
             />
           ))}
+        </div>
+        <div class="mt-6 text-center">
+          <a href="/reviews" class="inline-flex items-center gap-1 text-gold-dark font-medium hover:underline">
+            See all {business.reviews.count} reviews
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
@@ -140,5 +229,5 @@ const faqs = entry.data.faqs || [];
     </div>
   </section>
 
-  <CTASection showForm={true} />
+  <CTASection />
 </BaseLayout>

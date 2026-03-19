@@ -30,5 +30,37 @@
     "service": null,
     "location": null,
     "source": "google"
+  },
+  {
+    "name": "Brandon S.",
+    "rating": 5,
+    "text": "Shawn and his crew did our basement excavation and backfill. They showed up on time every day and communicated everything clearly. The site was cleaned up before they left each afternoon. Best excavation company we've worked with in Weber County.",
+    "service": "residential-excavation",
+    "location": "south-ogden",
+    "source": "google"
+  },
+  {
+    "name": "Jennifer H.",
+    "rating": 5,
+    "text": "AccuRite installed our septic system in Huntsville. Shawn walked us through the entire process from the perc test to the final inspection. Everything passed on the first try. Very professional and reasonably priced.",
+    "service": "septic-systems",
+    "location": "huntsville",
+    "source": "google"
+  },
+  {
+    "name": "Derek L.",
+    "rating": 5,
+    "text": "We've used AccuRite on multiple commercial projects and they always deliver. Their equipment is well-maintained and the operators are skilled. Shawn is easy to work with and keeps projects on schedule. Our go-to excavation sub.",
+    "service": "commercial-projects",
+    "location": "layton",
+    "source": "google"
+  },
+  {
+    "name": "Lisa R.",
+    "rating": 5,
+    "text": "Had a boulder retaining wall built along our hillside property. AccuRite did an incredible job with the placement and drainage. It's been through two winters now and looks just as solid as the day it was built. Couldn't be happier.",
+    "service": "rock-walls-retaining-walls",
+    "location": "north-ogden",
+    "source": "google"
   }
 ]

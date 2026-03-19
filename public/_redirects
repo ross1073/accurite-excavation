@@ -90,6 +90,50 @@
 /the-accurite-excavation-promise/*                  /about                                  301
 
 # ============================================
+# Static HTML Site Redirects (pre-Astro)
+# ============================================
+/commercial-excavation.html    /services/commercial-projects          301
+/commercial-excavation         /services/commercial-projects          301
+/residential-excavation.html   /services/residential-excavation       301
+/residential-excavation        /services/residential-excavation       301
+/demolition.html               /services/demolition                   301
+/demolition                    /services/demolition                   301
+/foundation-excavation.html    /services/residential-excavation       301
+/foundation-excavation         /services/residential-excavation       301
+/hauling.html                  /services/hauling-delivery             301
+/hauling                       /services/hauling-delivery             301
+/land-grading.html             /services/grading-land-clearing        301
+/land-grading                  /services/grading-land-clearing        301
+/rock-walls.html               /services/rock-walls-retaining-walls   301
+/rock-walls                    /services/rock-walls-retaining-walls   301
+/roads.html                    /services/grading-land-clearing        301
+/roads                         /services/grading-land-clearing        301
+/septic-systems.html           /services/septic-systems               301
+/septic-systems                /services/septic-systems               301
+/underground-utilities.html    /services/underground-utilities        301
+/about.html                    /about                                 301
+/contact.html                  /contact                               301
+/services.html                 /services                              301
+/index.html                    /                                      301
+
+# Static HTML location pages
+/bountiful.html                /locations/bountiful                   301
+/clearfield.html               /locations/clearfield                  301
+/clinton.html                  /locations/clinton                     301
+/farmington.html               /locations/farmington                  301
+/huntsville.html               /locations/huntsville                  301
+/kaysville.html                /locations/kaysville                   301
+/layton.html                   /locations/layton                      301
+/morgan-county.html            /locations/morgan                      301
+/north-ogden.html              /locations/north-ogden                 301
+/roy.html                      /locations/roy                         301
+/salt-lake-city.html           /locations/salt-lake-city              301
+/south-ogden.html              /locations/south-ogden                 301
+/syracuse.html                 /locations/syracuse                    301
+/washington-terrace.html       /locations/washington-terrace          301
+/weber-county.html             /locations/ogden                       301
+
+# ============================================
 # WordPress Infrastructure Redirects
 # ============================================
 /wp-admin/*                                         /               301

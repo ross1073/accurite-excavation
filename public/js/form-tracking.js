@@ -1,4 +1,6 @@
 (function() {
+  window.dataLayer = window.dataLayer || [];
+
   if (!sessionStorage.getItem('landing_page')) {
     sessionStorage.setItem('landing_page', window.location.href);
   }
@@ -6,6 +8,7 @@
   document.addEventListener('DOMContentLoaded', function() {
     var forms = document.querySelectorAll('[data-contact-form]');
     forms.forEach(initForm);
+    initClickTracking();
   });
 
   function initForm(form) {
@@ -44,6 +47,16 @@
       })
       .then(function(response) {
         if (!response.ok) throw new Error('Network response was not ok');
+
+        // Push form submission event to dataLayer
+        window.dataLayer.push({
+          event: 'generate_lead',
+          form_location: getFormLocation(form),
+          service_selected: data.service || '',
+          contact_method: data.contact_method || '',
+          page_path: window.location.pathname,
+        });
+
         var formContainer = form.closest('[data-form-container]');
         formContainer.innerHTML = '<div class="text-center py-8"><div class="text-2xl font-bold text-green-700 mb-2">Thank You!</div><p class="text-gray-600">We\'ll be in touch within one business day. For immediate assistance, call <a href="tel:+18018146975" class="text-gold-dark font-semibold hover:underline">(801) 814-6975</a>.</p></div>';
       })
@@ -57,5 +70,52 @@
         }
       });
     });
+  }
+
+  function getFormLocation(form) {
+    var hero = form.closest('.relative');
+    if (hero && hero.closest('section.relative')) return 'hero';
+    var cta = form.closest('section.bg-charcoal');
+    if (cta) return 'cta_section';
+    return 'page';
+  }
+
+  function initClickTracking() {
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('a');
+      if (!link) return;
+      var href = link.getAttribute('href') || '';
+
+      // Track phone call taps
+      if (href.startsWith('tel:')) {
+        window.dataLayer.push({
+          event: 'phone_call',
+          link_text: link.textContent.trim(),
+          link_location: getLinkLocation(link),
+          page_path: window.location.pathname,
+        });
+      }
+
+      // Track Free Estimate / CTA button clicks
+      if (href === '/free-estimate' || href === '/contact') {
+        window.dataLayer.push({
+          event: 'cta_click',
+          link_text: link.textContent.trim(),
+          link_url: href,
+          link_location: getLinkLocation(link),
+          page_path: window.location.pathname,
+        });
+      }
+    });
+  }
+
+  function getLinkLocation(el) {
+    if (el.closest('header')) return 'header';
+    if (el.closest('footer')) return 'footer';
+    if (el.closest('#mobile-menu')) return 'mobile_menu';
+    var section = el.closest('section');
+    if (section && section.classList.contains('relative')) return 'hero';
+    if (section && section.classList.contains('bg-charcoal')) return 'cta_section';
+    return 'body';
   }
 })();
