@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import business from '../data/business.json';
 
 interface Props {
@@ -7,7 +9,7 @@ interface Props {
   ctaText?: string;
   ctaLink?: string;
   showPhone?: boolean;
-  backgroundImage?: string;
+  backgroundImage?: ImageMetadata;
   compact?: boolean;
 }
 
@@ -30,11 +32,13 @@ const {
 >
   {backgroundImage && (
     <div class="absolute inset-0">
-      <img
+      <Image
         src={backgroundImage}
         alt=""
         class="w-full h-full object-cover"
         loading="eager"
+        widths={[800, 1200, 1920]}
+        sizes="100vw"
       />
       <div class="absolute inset-0 bg-charcoal/70"></div>
     </div>

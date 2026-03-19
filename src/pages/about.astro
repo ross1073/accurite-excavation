@@ -3,9 +3,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import TrustBadges from '../components/TrustBadges.astro';
 import CTASection from '../components/CTASection.astro';
+import { Image } from 'astro:assets';
 
 import business from '../data/business.json';
 import clients from '../data/clients.json';
+import ownerImage from '../assets/images/about/accurite-owner-equipment.png';
+import equipmentImage from '../assets/images/about/accurite-equipment-fleet.jpg';
+import teamImage from '../assets/images/about/accurite-team-jobsite.png';
 ---
 
 <BaseLayout
@@ -22,20 +26,30 @@ import clients from '../data/clients.json';
   <!-- Company Story -->
   <section class="py-12 lg:py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto">
-        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
-          Our Story
-        </h2>
-        <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
-          <p>
-            {business.owner} founded {business.shortName} in {business.founded} with a single excavator and a commitment to doing the job right. What started as a small residential operation in Ogden has grown into one of Northern Utah's most trusted excavation contractors.
-          </p>
-          <p>
-            Over {new Date().getFullYear() - business.founded} years later, AccuRite has completed thousands of projects across Weber, Davis, and Morgan counties. We've dug basements in Ogden neighborhoods, built retaining walls along the Wasatch bench, installed septic systems in Morgan Valley, and completed military construction at Hill Air Force Base and Camp Williams.
-          </p>
-          <p>
-            We've earned the trust of federal agencies, municipal governments, and commercial general contractors — but we still treat every residential homeowner with the same professionalism and attention to detail that built our reputation.
-          </p>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+        <div>
+          <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
+            Our Story
+          </h2>
+          <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
+            <p>
+              {business.owner} founded {business.shortName} in {business.founded} with a single excavator and a commitment to doing the job right. What started as a small residential operation in Ogden has grown into one of Northern Utah's most trusted excavation contractors.
+            </p>
+            <p>
+              Over {new Date().getFullYear() - business.founded} years later, AccuRite has completed thousands of projects across Weber, Davis, and Morgan counties. We've dug basements in Ogden neighborhoods, built retaining walls along the Wasatch bench, installed septic systems in Morgan Valley, and completed military construction at Hill Air Force Base and Camp Williams.
+            </p>
+            <p>
+              We've earned the trust of federal agencies, municipal governments, and commercial general contractors — but we still treat every residential homeowner with the same professionalism and attention to detail that built our reputation.
+            </p>
+          </div>
+        </div>
+        <div>
+          <Image
+            src={teamImage}
+            alt="AccuRite Excavation team on a job site in Northern Utah"
+            class="rounded-lg w-full"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>
@@ -44,17 +58,27 @@ import clients from '../data/clients.json';
   <!-- Owner Bio -->
   <section class="bg-gray-50 py-12 lg:py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto">
-        <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
-          Meet {business.owner}
-        </h2>
-        <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
-          <p>
-            Shawn has been in the excavation industry for over 16 years. He personally oversees every project, from the initial site visit through final grading. His hands-on approach means clients work directly with the owner — not a sales rep or project manager.
-          </p>
-          <p>
-            Born and raised in Northern Utah, Shawn knows the local soil conditions, terrain challenges, and municipal requirements across every city we serve. That local expertise is why contractors, homeowners, and government agencies keep calling AccuRite back.
-          </p>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+        <div>
+          <Image
+            src={ownerImage}
+            alt="Shawn Durrant, owner of AccuRite Excavation"
+            class="rounded-lg w-full"
+            loading="lazy"
+          />
+        </div>
+        <div>
+          <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
+            Meet {business.owner}
+          </h2>
+          <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
+            <p>
+              Shawn has been in the excavation industry for over 16 years. He personally oversees every project, from the initial site visit through final grading. His hands-on approach means clients work directly with the owner — not a sales rep or project manager.
+            </p>
+            <p>
+              Born and raised in Northern Utah, Shawn knows the local soil conditions, terrain challenges, and municipal requirements across every city we serve. That local expertise is why contractors, homeowners, and government agencies keep calling AccuRite back.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -99,7 +123,8 @@ import clients from '../data/clients.json';
   <!-- Equipment -->
   <section class="bg-gray-50 py-12 lg:py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+        <div>
         <h2 class="font-heading text-2xl lg:text-3xl font-bold text-charcoal">
           Our Equipment
         </h2>
@@ -144,6 +169,15 @@ import clients from '../data/clients.json';
             Rock hammers and breakers
           </li>
         </ul>
+        </div>
+        <div>
+          <Image
+            src={equipmentImage}
+            alt="AccuRite Excavation equipment fleet ready for a job site"
+            class="rounded-lg w-full"
+            loading="lazy"
+          />
+        </div>
       </div>
     </div>
   </section>
