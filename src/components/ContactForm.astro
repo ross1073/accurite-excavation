@@ -24,62 +24,51 @@ const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/uRXK3vFHqEQHApRA
         novalidate
       >
         <div class="space-y-3">
-          <div>
-            <label for="hero-name" class="block text-sm font-semibold text-charcoal mb-1">Full Name <span class="text-red-600">*</span></label>
-            <input
-              type="text"
-              id="hero-name"
-              name="full_name"
-              required
-              autocomplete="name"
-              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
-            />
-          </div>
-          <div>
-            <label for="hero-phone" class="block text-sm font-semibold text-charcoal mb-1">Phone <span class="text-red-600">*</span></label>
-            <input
-              type="tel"
-              id="hero-phone"
-              name="phone"
-              required
-              autocomplete="tel"
-              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
-            />
-          </div>
-          <div>
-            <label for="hero-email" class="block text-sm font-semibold text-charcoal mb-1">Email <span class="text-red-600">*</span></label>
-            <input
-              type="email"
-              id="hero-email"
-              name="email"
-              required
-              autocomplete="email"
-              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
-            />
-          </div>
-          <div>
-            <label for="hero-service" class="block text-sm font-semibold text-charcoal mb-1">Service Needed <span class="text-red-600">*</span></label>
-            <select
-              id="hero-service"
-              name="service"
-              required
-              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent bg-white"
-            >
-              <option value="">Select a service...</option>
-              {services.map((service) => (
-                <option value={service.slug}>{service.name}</option>
-              ))}
-            </select>
-          </div>
-          <div>
-            <label for="hero-description" class="block text-sm font-semibold text-charcoal mb-1">Project Description</label>
-            <textarea
-              id="hero-description"
-              name="project_description"
-              rows="4"
-              class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent resize-y"
-            ></textarea>
-          </div>
+          <input
+            type="text"
+            id="hero-name"
+            name="full_name"
+            required
+            autocomplete="name"
+            placeholder="Full Name *"
+            class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+          />
+          <input
+            type="tel"
+            id="hero-phone"
+            name="phone"
+            required
+            autocomplete="tel"
+            placeholder="Phone *"
+            class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+          />
+          <input
+            type="email"
+            id="hero-email"
+            name="email"
+            required
+            autocomplete="email"
+            placeholder="Email *"
+            class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+          />
+          <select
+            id="hero-service"
+            name="service"
+            required
+            class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent bg-white"
+          >
+            <option value="">Service Needed *</option>
+            {services.map((service) => (
+              <option value={service.slug}>{service.name}</option>
+            ))}
+          </select>
+          <textarea
+            id="hero-description"
+            name="project_description"
+            rows="3"
+            placeholder="Tell us about your project..."
+            class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent resize-y"
+          ></textarea>
           <div>
             <span class="block text-sm font-semibold text-charcoal mb-1">Preferred Contact Method</span>
             <div class="flex gap-4">
@@ -142,63 +131,52 @@ const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/uRXK3vFHqEQHApRA
           data-webhook-url={WEBHOOK_URL}
           novalidate
         >
-          <div class="space-y-4">
-            <div>
-              <label for="section-name" class="block text-sm font-semibold text-white mb-1">Full Name <span class="text-red-400">*</span></label>
-              <input
-                type="text"
-                id="section-name"
-                name="full_name"
-                required
-                autocomplete="name"
-                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
-              />
-            </div>
-            <div>
-              <label for="section-phone" class="block text-sm font-semibold text-white mb-1">Phone <span class="text-red-400">*</span></label>
-              <input
-                type="tel"
-                id="section-phone"
-                name="phone"
-                required
-                autocomplete="tel"
-                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
-              />
-            </div>
-            <div>
-              <label for="section-email" class="block text-sm font-semibold text-white mb-1">Email <span class="text-red-400">*</span></label>
-              <input
-                type="email"
-                id="section-email"
-                name="email"
-                required
-                autocomplete="email"
-                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
-              />
-            </div>
-            <div>
-              <label for="section-service" class="block text-sm font-semibold text-white mb-1">Service Needed <span class="text-red-400">*</span></label>
-              <select
-                id="section-service"
-                name="service"
-                required
-                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
-              >
-                <option value="">Select a service...</option>
-                {services.map((service) => (
-                  <option value={service.slug}>{service.name}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label for="section-description" class="block text-sm font-semibold text-white mb-1">Project Description</label>
-              <textarea
-                id="section-description"
-                name="project_description"
-                rows="4"
-                class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent resize-y"
-              ></textarea>
-            </div>
+          <div class="space-y-3">
+            <input
+              type="text"
+              id="section-name"
+              name="full_name"
+              required
+              autocomplete="name"
+              placeholder="Full Name *"
+              class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+            />
+            <input
+              type="tel"
+              id="section-phone"
+              name="phone"
+              required
+              autocomplete="tel"
+              placeholder="Phone *"
+              class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+            />
+            <input
+              type="email"
+              id="section-email"
+              name="email"
+              required
+              autocomplete="email"
+              placeholder="Email *"
+              class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+            />
+            <select
+              id="section-service"
+              name="service"
+              required
+              class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
+            >
+              <option value="">Service Needed *</option>
+              {services.map((service) => (
+                <option value={service.slug}>{service.name}</option>
+              ))}
+            </select>
+            <textarea
+              id="section-description"
+              name="project_description"
+              rows="3"
+              placeholder="Tell us about your project..."
+              class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent resize-y"
+            ></textarea>
             <div>
               <span class="block text-sm font-semibold text-white mb-1">Preferred Contact Method</span>
               <div class="flex gap-4">
