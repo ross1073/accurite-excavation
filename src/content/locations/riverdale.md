@@ -15,6 +15,7 @@ faqs:
     answer: "Absolutely. We handle residential excavation throughout Riverdale, including basement digs, utility line replacement, drainage grading, and demolition of older structures. The housing stock in some parts of Riverdale is aging, and we see a fair number of projects involving water and sewer line replacements."
   - question: "How far in advance do I need to book?"
     answer: "For smaller residential jobs, we can often schedule within a few weeks. Commercial projects with permit requirements may need more lead time depending on city review timelines. Call us early in your planning process and we'll give you an honest timeline."
+landmarkImage: "/src/assets/images/locations/riverdale-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -43,7 +44,7 @@ Access is usually good on Riverdale Road properties, which keeps our equipment c
 
 Residential work in Riverdale tends to involve utility replacements and drainage projects more than new construction. Older homes on aging sewer and water lines are common, and clay soils mean drainage problems surface regularly after wet seasons.
 
-We do [basement excavation](/services/excavation) for additions and new builds, [utility trenching](/services/utility-trenching) for line replacements, and [grading and drainage](/services/grading-drainage) work to redirect water away from foundations.
+We do [residential excavation](/services/residential-excavation) for additions and new builds, [underground utility](/services/underground-utilities) trenching for line replacements, and [grading](/services/grading-land-clearing) work to redirect water away from foundations.
 
 ### Grading and Drainage
 
@@ -68,6 +69,28 @@ Waterline and sewer replacements are common calls in Riverdale neighborhoods whe
 
 For new construction, we trench and backfill for all utility connections from the main to the structure.
 
-### Getting a Quote
+### Retaining Walls and Grade Changes
 
-We offer free on-site estimates in Riverdale and throughout Weber County. Give us a call or fill out our contact form and we'll set up a time to walk the project with you.
+Though Riverdale is mostly flat, some properties near the South Ogden border have grade transitions that need management. [Retaining walls](/services/rock-walls-retaining-walls) create clean transitions between lot levels, hold back fill against structures, and prevent erosion on grade changes between neighboring properties. We build walls from natural boulder, concrete block, and timber depending on the application.
+
+### Septic Systems
+
+A few properties on Riverdale's edges and in adjacent unincorporated areas rely on [septic systems](/services/septic-systems) rather than city sewer. We dig tank pits and drain field trenches to spec and coordinate with Weber County Health Department on permits.
+
+### Foundation Excavation and Site Prep
+
+While Riverdale is largely built out, infill construction and property additions do happen. New structures need [residential excavation](/services/residential-excavation) for foundations, whether that is a full basement, crawl space, or slab-on-grade. We excavate to depth, ensure proper trench wall stability in Riverdale's clay soil, and leave a clean hole for your foundation crew.
+
+For accessory dwelling units, detached garages, and shop buildings, we handle the full site prep sequence: clearing, [grading](/services/grading-land-clearing), foundation excavation, and utility connections. Clay soil compaction during backfill is done in lifts to prevent the settling that plagues improperly backfilled trenches in this type of ground.
+
+### Riverdale City Permit Process
+
+Riverdale City's Building Department processes excavation permits on a reasonable timeline for a city of its size. For projects that disturb more than one acre, a UPDES stormwater permit through the Utah Division of Water Quality is required on top of the city permit. We identify what permits your project needs and handle the applications so you don't have to navigate multiple agencies.
+
+### Hauling and Material Delivery
+
+Every excavation project generates material that needs to go somewhere, and many projects need material brought in. We [haul away](/services/hauling-delivery) demolished concrete, excess cut material, and debris from Riverdale job sites. We also deliver fill, base gravel, and topsoil when your project requires it. Having our own trucks keeps the schedule tight and costs predictable.
+
+### Serving Riverdale and Nearby Weber County
+
+AccuRite covers all of Riverdale and regularly works in neighboring [Ogden](/locations/ogden), [Roy](/locations/roy), [South Ogden](/locations/south-ogden), and [Washington Terrace](/locations/washington-terrace). Whether you need [commercial site prep](/services/commercial-projects), [demolition](/services/demolition), or [residential excavation](/services/residential-excavation), give us a call or fill out our contact form for a free on-site estimate.

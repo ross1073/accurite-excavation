@@ -15,6 +15,7 @@ faqs:
     answer: "Yes. Properties in the lower areas near Willard Bay often have a higher seasonal water table, particularly in late winter and spring. This can affect trench stability, backfill compaction, and septic system design. We take note of current and seasonal water table conditions during our site assessment. Some projects may need to be scheduled outside of high-water periods."
   - question: "Can you grade a driveway and building pad on a rural Willard property?"
     answer: "Yes. Driveway establishment, building pad grading, and drainage grading for rural properties is work we do throughout Box Elder County. We'll look at the site conditions, your goals, and what the terrain requires to give you an accurate quote."
+landmarkImage: "/src/assets/images/locations/willard-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -57,6 +58,30 @@ Some Willard properties have terrain that needs management, particularly on lots
 
 We handle excavation and footing prep for retaining structures and can advise on wall type based on the height, soil conditions, and your aesthetic preferences.
 
+### Demolition and Clearing
+
+Willard properties being converted from agricultural use often have structures that need to come down: old barns, sheds, irrigation infrastructure, and deteriorated outbuildings. We handle [demolition](/services/demolition) and site clearing, removing everything down to bare ground and leaving the site graded for new construction. All debris is loaded and [hauled off](/services/hauling-delivery).
+
+For existing residential properties, we demolish detached garages, concrete slabs, driveways, and outbuildings that have outlived their usefulness.
+
+### Commercial and Government Projects
+
+While Willard is primarily residential, small commercial projects along the I-15 corridor and [government infrastructure work](/services/government-projects) do come up. We handle commercial site prep, utility installations, and grading for projects of all sizes in the Willard area.
+
+### Water Features on Willard Properties
+
+Willard's larger lot sizes and semi-rural character make [water features and ponds](/services/water-features-ponds) a natural fit for many properties. We excavate and grade for decorative ponds, stock ponds, and water garden features, including liner bed preparation and proper drainage integration.
+
+### Hauling and Material Delivery
+
+Every excavation project generates material, and many projects require imported fill, gravel, or topsoil. We [haul away](/services/hauling-delivery) excess cut material, demolished concrete, and debris from Willard job sites. We also deliver structural fill, base gravel, drain rock, and topsoil when your project calls for it.
+
+### Willard Bay Proximity and Water Table Considerations
+
+Properties in lower Willard, particularly those closer to Willard Bay and the Great Salt Lake shoreline, sit in a zone with elevated seasonal water tables. Spring snowmelt and high reservoir levels can push the water table close enough to the surface to affect excavation planning. Trench walls in saturated soil are less stable, backfill compaction is harder to achieve, and septic drain fields need adequate separation from seasonal high water.
+
+We monitor these conditions and schedule work accordingly when the timeline allows. For projects that cannot wait for optimal conditions, we have dewatering equipment to manage groundwater during excavation so work can proceed safely and to specification.
+
 ### Free Estimates in Willard and Box Elder County
 
-We serve Willard, Perry, Brigham City, and the surrounding Box Elder County area. Call us or use our contact form to schedule a free on-site visit.
+We serve Willard, [Perry](/locations/perry), [Brigham City](/locations/brigham-city), and the surrounding Box Elder County area. We also cover Weber County including [Ogden](/locations/ogden) and [Roy](/locations/roy). Whether you need [residential excavation](/services/residential-excavation), [commercial site prep](/services/commercial-projects), or [grading and land clearing](/services/grading-land-clearing), call us or use our contact form to schedule a free on-site visit.

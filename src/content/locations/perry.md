@@ -15,6 +15,7 @@ faqs:
     answer: "Bench properties in Perry can be straightforward or challenging depending on exactly where you are. Gravel and cobble layers are common as you gain elevation, and some spots have harder material that slows equipment. We always do a site visit before quoting on bench-area properties so we're pricing what's actually there, not what we assume."
   - question: "Can you do grading work on a rural property in Perry?"
     answer: "Yes. Rural property grading, including driveway establishment, pad prep for outbuildings, and drainage grading, is work we handle regularly in Box Elder County. Larger acreage jobs may require a UPDES permit if more than an acre is disturbed. We'll let you know if that applies to your project."
+landmarkImage: "/src/assets/images/locations/perry-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -51,6 +52,30 @@ For both new construction and replacement work, we trench for water, sewer, gas,
 
 Low-lying areas and flat lots in Perry can accumulate water if drainage isn't handled properly. We regrade yards and foundation perimeters, install French drains, and direct stormwater to appropriate outlets. This is especially relevant on new construction sites where surrounding lots may not yet be built, leaving the drainage pattern temporary.
 
+### Demolition and Site Clearing
+
+Older Perry properties sometimes include structures that need to come down before new construction or remodeling can begin. We handle [demolition](/services/demolition) of detached garages, concrete slabs, driveways, and outbuildings. Agricultural structures like old barns, sheds, and irrigation infrastructure are also part of the clearing work we do on Perry properties being converted to residential use.
+
+All debris is loaded and [hauled off site](/services/hauling-delivery), and the area is left graded to rough finish.
+
+### Hauling and Material Delivery
+
+Excavation generates material, and most projects also need material brought in. We haul away excess clay, demolished concrete, and unusitable fill from Perry job sites. We also deliver structural fill, drain rock, base gravel, and topsoil when your project requires imported material. Owning our own trucks keeps costs predictable and the schedule tight.
+
+### Underground Utilities for New Construction
+
+New homes in Perry require [utility connections](/services/underground-utilities) from the main lines to the structure. Depending on the lot size and location, these utility runs can be substantial. We trench for water, sewer, gas, and electrical conduit at proper depth with correct separation distances. For properties served by on-site septic rather than municipal sewer, the utility scope includes both the conventional utility connections and the septic system excavation.
+
+### Water Features on Larger Properties
+
+Perry's generous lot sizes give homeowners space for amenities like [water features and ponds](/services/water-features-ponds). We handle the excavation, grading, and liner bed preparation for decorative ponds and water features on Perry residential properties.
+
+### Perry's Soil Profile and What It Means for Your Project
+
+Perry's alluvial clay and gravel soils were deposited by ancient Lake Bonneville, and they behave accordingly. The clay layer on top holds moisture, expands with seasonal wet cycles, and creates drainage challenges when building. Below the clay, gravel lenses provide better drainage and bearing strength. The depth of each layer varies across the city, with the bench areas to the east having shallower clay before hitting gravel and cobble.
+
+For septic systems in particular, the soil profile matters because clay doesn't percolate well. Your system designer will account for Perry's specific soil conditions in the drain field design, and we dig to those exact specifications.
+
 ### Serving Perry and Box Elder County
 
-We work throughout Box Elder County and regularly serve Perry, Willard, Brigham City, and surrounding communities. Call or fill out our contact form to schedule a free on-site estimate.
+We work throughout Box Elder County and regularly serve Perry, [Willard](/locations/willard), [Brigham City](/locations/brigham-city), and surrounding communities. We also serve Weber County including [Ogden](/locations/ogden) and [Roy](/locations/roy). Whether you need [residential excavation](/services/residential-excavation), [commercial site work](/services/commercial-projects), or [grading and land clearing](/services/grading-land-clearing), call or fill out our contact form to schedule a free on-site estimate.

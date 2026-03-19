@@ -15,6 +15,7 @@ faqs:
     answer: "Huntsville Town issues its own building permits rather than going through Weber County. The town has a permit process you'll work through directly with Huntsville Town offices. Plan ahead because small town offices can have limited hours and longer review periods than larger municipalities. We work within whatever permit timeline applies and can start the process early in planning when permits are required for our work."
   - question: "We're considering a lot near Pineview Reservoir for a custom home. Are there special considerations for excavation close to the water?"
     answer: "Waterfront and near-waterfront properties in Ogden Valley can have elevated seasonal water tables, particularly from snowmelt in early spring. This affects trench stability, backfill compaction, and especially septic system design, since leach fields need adequate separation from seasonal high water. Your septic designer will account for this in the system layout. We factor water table conditions into our excavation approach and timing on these properties."
+landmarkImage: "/src/assets/images/locations/huntsville-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -63,6 +64,18 @@ For older properties replacing aging waterlines or dealing with failed septic co
 
 Huntsville Town handles its own permits, which means your project goes through the town office rather than the county. Small municipalities can have variable review timelines, and we recommend starting the permit process early. We can coordinate with you on the sequencing of permits and work so the project moves efficiently.
 
+### Grading and Erosion Control
+
+Water moves fast on mountain terrain, and Huntsville properties near the reservoir or on hillsides need careful [grading and drainage](/services/grading-land-clearing) management. We establish drainage swales, grade building pads for positive drainage away from foundations, and install erosion control measures on disturbed hillside areas. Getting water management right during construction protects the finished home for decades.
+
+### Demolition and Clearing
+
+Some Huntsville properties include old ranch structures, deteriorated outbuildings, or aging cabins that need to come down before new construction begins. We handle [demolition](/services/demolition) and site clearing, including concrete slab removal, structure teardowns, and [hauling](/services/hauling-delivery) of all debris off site. The area is left graded and ready for new construction.
+
+### Water Features
+
+Huntsville's mountain setting and proximity to Pineview Reservoir make [water features and ponds](/services/water-features-ponds) a natural addition to many properties. We excavate and grade for decorative ponds, stream features, and water gardens that complement the Ogden Valley landscape.
+
 ### Serving Huntsville and Ogden Valley
 
-We cover Huntsville, Eden, Liberty, and the surrounding Ogden Valley area as part of our regular service territory. Call us or fill out our contact form to schedule a free on-site estimate.
+We cover Huntsville, [Eden](/locations/eden), Liberty, and the surrounding Ogden Valley area as part of our regular service territory. We also serve [Ogden](/locations/ogden), [North Ogden](/locations/north-ogden), and the broader Weber County region. Whether you need [residential excavation](/services/residential-excavation), [commercial site prep](/services/commercial-projects), [retaining walls](/services/rock-walls-retaining-walls), or [underground utility work](/services/underground-utilities), call us or fill out our contact form to schedule a free on-site estimate.

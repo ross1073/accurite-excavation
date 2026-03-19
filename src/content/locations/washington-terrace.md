@@ -15,6 +15,7 @@ faqs:
     answer: "Basement lowering is possible but it's a job that requires careful planning. We need to evaluate the existing foundation, access to the space, and soil conditions before committing to a scope. We can come out and assess your specific situation and give you an honest answer about feasibility and cost."
   - question: "Can you demolish an old garage on my property?"
     answer: "Yes. Detached garage and outbuilding demolition is a routine job for us. We break it down, haul off the debris, remove the slab if needed, and leave the area graded. We pull the demolition permit from Washington Terrace when required."
+landmarkImage: "/src/assets/images/locations/washington-terrace-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -54,7 +55,7 @@ Everything is hauled off and the site is left graded to rough finish.
 
 Over decades, grading settles and shifts. What drained well in 1965 may now pond near the foundation. Clay soils compact and sink unevenly, and downspout extensions get buried or disconnected. The result is water sitting where it shouldn't.
 
-We re-grade yards and foundation perimeters to reestablish positive drainage, and we install [French drains and drainage channels](/services/grading-drainage) where surface grading alone isn't enough. This is some of the most cost-effective work we do in established neighborhoods because it protects the foundation.
+We re-grade yards and foundation perimeters to reestablish positive drainage, and we install [French drains and drainage channels](/services/grading-land-clearing) where surface grading alone isn't enough. This is some of the most cost-effective work we do in established neighborhoods because it protects the foundation.
 
 ### Retaining Walls
 
@@ -62,8 +63,24 @@ Washington Terrace is mostly flat, but some properties on the east side toward t
 
 ### Working in Tight Lots
 
-Washington Terrace lots are modest in size and the homes are close together. We're used to working in these conditions and choose equipment accordingly. For utility work near structures, we use compact machines that fit without damaging fences, landscaping, or neighboring property.
+Washington Terrace lots are modest in size and the homes are close together. We're used to working in these conditions and choose equipment accordingly. For [utility work](/services/underground-utilities) near structures, we use compact machines that fit without damaging fences, landscaping, or neighboring property.
 
-### Free Estimates in Washington Terrace
+### Site Prep for New Construction and Additions
 
-We serve Washington Terrace as part of our core Weber County service area. Call or fill out our contact form to set up a free on-site estimate.
+While Washington Terrace is largely built out, infill construction and home additions keep us busy with [residential excavation](/services/residential-excavation). Foundation digs for additions and accessory dwelling units require careful work around existing structures. We handle foundation excavation, backfill compaction, and coordination with your foundation contractor to keep the project moving.
+
+For the occasional vacant lot that becomes available for new construction, we provide full site prep including clearing, [grading](/services/grading-land-clearing), foundation excavation, and utility trenching.
+
+### Washington Terrace Soil Challenges
+
+The clay soils throughout Washington Terrace create specific challenges that affect almost every project. During wet spring months, the clay absorbs moisture and expands, making it heavier to move and harder to compact. In dry summer conditions, the clay contracts and cracks. This seasonal cycle is why so many older homes in Washington Terrace develop foundation cracks, uneven sidewalks, and drainage problems over time.
+
+Understanding this cycle matters for excavation. We schedule work with soil moisture conditions in mind, use appropriate compaction equipment for clay, and ensure backfill is properly moistured before compaction. These details separate a job that holds up for decades from one that develops settlement problems within a few years.
+
+### Hauling and Material Delivery
+
+Every project generates material that has to leave the site, and many require material brought in. We [haul away](/services/hauling-delivery) old concrete, excavated clay, and demolition debris. We also deliver structural fill, drain rock, and topsoil. Owning our own trucks means we control the hauling schedule and keep your project on track.
+
+### Serving Washington Terrace and Nearby Communities
+
+We serve Washington Terrace as part of our core Weber County service area, along with nearby [Ogden](/locations/ogden), [South Ogden](/locations/south-ogden), [Riverdale](/locations/riverdale), and [Roy](/locations/roy). Whether you need [demolition](/services/demolition), [septic work](/services/septic-systems), or [commercial site prep](/services/commercial-projects), call or fill out our contact form to set up a free on-site estimate.

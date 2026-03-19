@@ -17,6 +17,7 @@ faqs:
     answer: "In most cases, yes. We carry equipment suited for rocky mountain terrain, and cobbles and broken rock are routine for us in Ogden Valley. In situations with shallow bedrock or massive rock requiring blasting, we work with licensed blasters to break material before we excavate. We flag this possibility during the estimate process and get you an honest assessment of what we're dealing with before we start."
   - question: "What does excavation cost for a custom home in Eden compared to a valley floor home?"
     answer: "Mountain site prep in Eden typically costs more than a comparable footprint on the valley floor, for a few reasons: terrain access is harder, rocky conditions slow equipment, cut material often needs to be hauled off rather than spread on flat ground, and utility runs can be longer. The premium varies by site. A flat Eden valley floor lot might price comparably to a valley job. A steeply sloped bench lot with shallow bedrock will cost significantly more. We give you a real number after walking the site."
+landmarkImage: "/src/assets/images/locations/eden-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -79,3 +80,7 @@ We establish drainage swales, install rock check dams during construction, and g
 ### Planning Your Eden Project
 
 Eden projects benefit from early contractor involvement. Terrain, soil, septic requirements, and permitting can all affect your timeline and budget in ways that are easier to plan for than to react to. Call us early in your process and we'll walk the site with you.
+
+### Serving Eden and Ogden Valley
+
+AccuRite covers Eden, [Huntsville](/locations/huntsville), Liberty, and the entire Ogden Valley area. We also serve the broader Weber County region including [Ogden](/locations/ogden), [North Ogden](/locations/north-ogden), and [Pleasant View](/locations/pleasant-view). Whether you need [residential excavation](/services/residential-excavation), [commercial site prep](/services/commercial-projects), [demolition](/services/demolition), [grading and land clearing](/services/grading-land-clearing), or [hauling and delivery](/services/hauling-delivery), contact us for a free on-site assessment of your Eden property.

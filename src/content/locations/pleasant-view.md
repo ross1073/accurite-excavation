@@ -15,6 +15,7 @@ faqs:
     answer: "Pleasant View City and Weber County may require a geotech report for hillside development, particularly on steeper slopes or where significant cut-and-fill work is proposed. A soils engineer assesses site stability and recommends grading and foundation approaches. We can tell you whether your project scope is likely to trigger that requirement."
   - question: "What type of retaining wall works best on rocky Pleasant View lots?"
     answer: "Boulder walls are a natural fit for the rocky bench terrain. They hold up well in rocky soil, require less extensive footing work than block walls, and blend with the mountain setting. For situations requiring a cleaner line or tighter tolerances, segmental block walls work well too. We recommend based on your specific slope and aesthetic goals."
+landmarkImage: "/src/assets/images/locations/pleasant-view-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -73,4 +74,6 @@ Pleasant View is a smaller city with its own permit process. Weber County Engine
 
 We handle permit applications as part of the project scope and coordinate with Pleasant View City and Weber County on what documentation is required. If a geotech report is needed, we can refer you to qualified soils engineers in the area.
 
-Call Accurite for a free on-site estimate in Pleasant View. We'll assess your terrain, explain what the project involves, and give you a written quote with no surprises.
+### Serving Pleasant View and Nearby Communities
+
+AccuRite works throughout Pleasant View and nearby [North Ogden](/locations/north-ogden), [Ogden](/locations/ogden), [Harrisville](/locations/harrisville), and [Farr West](/locations/farr-west). Whether you need [residential excavation](/services/residential-excavation), [commercial site prep](/services/commercial-projects), [demolition](/services/demolition), or [hauling and delivery](/services/hauling-delivery), call us for a free on-site estimate. We'll assess your terrain, explain what the project involves, and give you a written quote with no surprises.

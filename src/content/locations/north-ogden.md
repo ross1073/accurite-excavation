@@ -17,6 +17,7 @@ faqs:
     answer: "Weber County requires a permit for retaining walls over 4 feet tall, and walls over that height must be engineered. Shorter walls on private property may not require a permit, but it depends on location and intended use. We can help you figure out what applies to your project."
   - question: "Can you excavate on steep lots that are hard to access with heavy equipment?"
     answer: "Yes. We have equipment sized for tight hillside access, including mini excavators that fit where full-size machines can't. Steep lots sometimes require additional rigging or shoring, which we factor into planning from the start."
+landmarkImage: "/src/assets/images/locations/north-ogden-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -61,8 +62,22 @@ We start with a site visit. North Ogden lots vary enough that we don't quote ove
 
 From there you get a written estimate that covers the full scope. We pull permits where required and coordinate with Weber County Engineering on projects that need grading plan approval.
 
-Our equipment is sized for residential and light commercial work. We're not a massive operation taking on highway contracts; our focus is on the kind of projects homeowners and small developers have in North Ogden.
+Our equipment is sized for [residential](/services/residential-excavation) and light [commercial](/services/commercial-projects) work. We're not a massive operation taking on highway contracts; our focus is on the kind of projects homeowners and small developers have in North Ogden.
 
-### Serving All of North Ogden
+### Demolition and Site Clearing
 
-We work throughout North Ogden, from lower bench neighborhoods near Washington Boulevard up to the upper mountain lots where terrain gets serious. If you have a hillside lot that needs work, call us for a free estimate.
+Older properties in lower North Ogden sometimes need [demolition](/services/demolition) work before new construction begins. We handle concrete slab removal, detached garage teardowns, and site clearing for renovation and new build projects. All debris is loaded and [hauled off site](/services/hauling-delivery), leaving a clean surface for the next phase.
+
+### Septic Systems on Rural North Ogden Lots
+
+Some larger lots in the upper bench areas and adjacent unincorporated areas require [septic systems](/services/septic-systems) rather than municipal sewer connections. We excavate tank pits and drain field trenches to designer specifications, coordinating with Weber-Morgan Health Department requirements for permitting and inspection. Rocky bench soil can complicate septic excavation, but we have the equipment and experience to handle it.
+
+### North Ogden's Bench Terrain and What It Means for Your Project
+
+The Ben Lomond bench creates one of the most dramatic soil transitions in Weber County. Lower North Ogden neighborhoods near Washington Boulevard sit on valley floor clay, similar to what you'd find anywhere else in the Ogden metro area. Standard excavation techniques work fine here, and projects move at a predictable pace.
+
+Move up the bench and everything changes. The ancient Lake Bonneville shoreline left behind a mix of cobbles, sandy clay, and angular rock fragments that complicates digging significantly. Go higher still, above the bench, and you encounter fractured limestone and bedrock that requires hydraulic hammering. Understanding exactly where these transitions happen on your specific lot is why we always do a thorough site visit before pricing a North Ogden project.
+
+### Serving All of North Ogden and Nearby Communities
+
+We work throughout North Ogden, from lower bench neighborhoods near Washington Boulevard up to the upper mountain lots where terrain gets serious. We also serve nearby [Ogden](/locations/ogden), [Pleasant View](/locations/pleasant-view), [Harrisville](/locations/harrisville), and other Weber County communities. Whether you need [grading and land clearing](/services/grading-land-clearing), [underground utilities](/services/underground-utilities), or a [water feature excavation](/services/water-features-ponds) for your bench property, call us for a free estimate.

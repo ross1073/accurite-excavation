@@ -19,6 +19,7 @@ faqs:
     answer: "If the wall is over 4 feet tall, yes. Kaysville City requires stamped engineer drawings for retaining walls above that height before issuing a permit. We work with structural engineers who do this work regularly and can refer you to one if you don't already have a relationship with a local engineer."
   - question: "Does AccuRite do custom home site prep on Kaysville hillside lots?"
     answer: "Yes, and it's one of the more involved types of work we do. Hillside custom home sites require clearing, rock hammering in most cases, significant cut-and-fill to establish the building pad, retaining wall construction to hold the cut bank, and drainage work to manage runoff on the slope. We handle the full sequence and coordinate with your builder so the site is ready when the foundation crew arrives."
+landmarkImage: "/src/assets/images/locations/kaysville-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -75,6 +76,16 @@ Kaysville City's two-week permit review timeline is predictable, which makes it 
 
 We've worked with Kaysville City's permitting process on many projects. We know what a complete application looks like and make sure ours don't come back for missing items.
 
+## Utility Trenching in Kaysville
+
+[Underground utility work](/services/underground-utilities) in Kaysville serves both new construction and replacement needs. New custom homes on the bench require water, sewer, gas, and electrical conduit trenching at proper depth through terrain that often includes rock. Older valley floor neighborhoods have aging utility infrastructure that needs replacement as pipes reach the end of their service life.
+
+We trench through rocky bench terrain with equipment designed for it. Utility runs on bench lots cost more than valley work because of the rock, but we include that reality in the estimate upfront.
+
+## Hauling and Material Delivery
+
+Bench lot excavation generates significant volumes of rock and cut material that needs to go somewhere. We [haul away](/services/hauling-delivery) demolished rock, unsuitable fill, and excess cut material from Kaysville job sites. We also deliver structural fill, drain rock, and base gravel when projects require imported material.
+
 ## Serving Kaysville and Surrounding Davis County
 
-AccuRite covers Kaysville from our Ogden base and also works regularly in [Layton](/locations/layton) to the north and [Clearfield](/locations/clearfield) to the northwest. For questions about your Kaysville project, call (801) 814-6975 or request a free estimate online.
+AccuRite covers Kaysville from our Ogden base and also works regularly in [Layton](/locations/layton) to the north, [Clearfield](/locations/clearfield) to the northwest, and [Farmington](/locations/farmington) to the south. Whether you need [residential excavation](/services/residential-excavation), [grading and land clearing](/services/grading-land-clearing), or [demolition](/services/demolition), call (801) 814-6975 or request a free estimate online.

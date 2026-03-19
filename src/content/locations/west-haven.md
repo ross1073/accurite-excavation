@@ -17,6 +17,7 @@ faqs:
     answer: "A standard single-family lot in West Haven typically takes 1-3 days for grading and site prep once we're on site, depending on scope. Utility trenching adds time depending on run lengths. We schedule efficiently and coordinate with your builder to fit into the construction timeline."
   - question: "Do you work with production home builders or just custom projects?"
     answer: "Both. We work with production builders running multiple lots at a time as well as custom home builders and owner-builders on individual lots. Our crew is set up to handle volume work efficiently while still giving each lot the attention it needs."
+landmarkImage: "/src/assets/images/locations/west-haven-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -69,4 +70,18 @@ We understand that new construction runs on tight schedules. Delays in site prep
 
 We've built relationships with builders and developers in the Ogden area and take those working relationships seriously. Builders who call us back for the next project are the measure of whether we did good work on the last one.
 
-Call Accurite for a free estimate on your West Haven new construction, development, or site prep project.
+### Retaining Walls and Grade Management
+
+While West Haven is mostly flat, properties along the edges of developments sometimes need [retaining walls](/services/rock-walls-retaining-walls) to manage grade transitions between lots, roads, and drainage features. We handle footing excavation, wall construction, and drainage installation behind the wall. Block walls and boulder walls are both options depending on height and aesthetic.
+
+### Demolition and Site Clearing
+
+Before new construction can begin on some West Haven lots, existing structures need to come down. We handle [demolition](/services/demolition) of old agricultural buildings, concrete slabs, and outbuildings. All debris is loaded and [hauled off](/services/hauling-delivery) so the site is clean and ready for grading.
+
+### Septic Systems on West Haven Properties
+
+Some West Haven properties, particularly those on the western edge of the development area, require [septic systems](/services/septic-systems) rather than municipal sewer connections. We dig tank pits and drain field trenches to designer specifications and coordinate with Weber County Health Department on permitting and inspection.
+
+### Serving West Haven and Nearby Communities
+
+AccuRite covers all of West Haven and works regularly in nearby [Ogden](/locations/ogden), [Roy](/locations/roy), [Farr West](/locations/farr-west), and [Riverdale](/locations/riverdale). Whether you need [residential excavation](/services/residential-excavation), [commercial site work](/services/commercial-projects), [grading and land clearing](/services/grading-land-clearing), or [underground utility work](/services/underground-utilities), call us for a free estimate on your West Haven project.

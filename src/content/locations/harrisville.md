@@ -15,6 +15,7 @@ faqs:
     answer: "Yes. Bench-area properties in Harrisville and nearby North Ogden often have significant grade changes that need proper retention. We handle excavation and footing work for retaining walls, and we can work with your wall contractor or build the whole project depending on the type of wall. For taller walls, we'll want to see an engineering plan."
   - question: "How hard is excavation work near the North Ogden bench compared to the valley floor?"
     answer: "It depends on exactly where you are. The bench transition zone can have heavy clay, large cobbles, or caliche layers that slow things down. Full rock that requires blasting is less common but not unheard of closer to the mountain. We always include a site visit in our estimate process so we can assess conditions before quoting."
+landmarkImage: "/src/assets/images/locations/harrisville-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -41,18 +42,42 @@ We reestablish proper slope away from the foundation, extend or redirect downspo
 
 Harrisville homeowners call us for utility work when water or sewer lines need replacement, or for new utility installations related to additions or detached structures. We trench, coordinate with your licensed plumber, backfill with proper compaction, and restore the surface.
 
-[Utility trenching](/services/utility-trenching) in clay soils requires attention to backfill compaction. Poorly compacted clay settles significantly over time, leaving depressions in driveways and yards. We take compaction seriously on every trench we backfill.
+[Underground utility](/services/underground-utilities) trenching in clay soils requires attention to backfill compaction. Poorly compacted clay settles significantly over time, leaving depressions in driveways and yards. We take compaction seriously on every trench we backfill.
 
 ### Residential Excavation
 
-For homeowners in Harrisville building additions, finishing basements, or starting new construction on vacant lots, we handle [excavation](/services/excavation) to depth, shoring where needed for tight cuts, and coordination with your foundation contractor.
+For homeowners in Harrisville building additions, finishing basements, or starting new construction on vacant lots, we handle [residential excavation](/services/residential-excavation) to depth, shoring where needed for tight cuts, and coordination with your foundation contractor.
 
 Bench-area properties may encounter harder material than typical valley floor soil. We assess conditions during the estimate process and factor difficulty into our pricing honestly.
 
 ### Demolition
 
-We handle small residential demolition in Harrisville, including detached garages, sheds, old concrete slabs, and driveways. Debris is hauled off and the site is left graded. Permits are pulled when required by the city.
+We handle small residential [demolition](/services/demolition) in Harrisville, including detached garages, sheds, old concrete slabs, and driveways. Debris is [hauled off](/services/hauling-delivery) and the site is left graded. Permits are pulled when required by the city.
+
+### Grading for New Construction
+
+Harrisville still has vacant and infill lots where new homes are going up. [Site grading](/services/grading-land-clearing) on these lots involves stripping organic material, establishing the building pad at the correct elevation, compacting subgrade to engineering specifications, and establishing drainage slope away from the foundation. On lots that transition toward the bench, cut-and-fill work may be necessary to create a level building area.
+
+We coordinate with your builder's timeline, handing off a compacted, properly graded pad that's ready for the foundation crew.
+
+### Septic Systems on Harrisville's East Edge
+
+Properties on the eastern edge of Harrisville and in adjacent unincorporated areas may not connect to municipal sewer. For these lots, [septic system excavation](/services/septic-systems) is part of the site prep process. We dig tank pits and drain field trenches to the specifications from your system designer, coordinating with Weber-Morgan Health Department on permitting requirements.
+
+### Water Features
+
+Harrisville's residential character and generous lot sizes in some areas make it a candidate for [water features and ponds](/services/water-features-ponds). We handle the excavation and grading work required to create decorative ponds and water features, including liner bed preparation and drainage integration.
+
+### Commercial Projects Along Washington Boulevard
+
+Washington Boulevard runs through the western side of Harrisville, carrying a mix of [commercial](/services/commercial-projects) and service-oriented businesses. We handle commercial site prep, utility trenching, parking lot subgrade work, and light commercial demolition along this corridor. Commercial projects in Harrisville follow the same permit process through Harrisville City's Building Department.
+
+### Harrisville's Soil Transition Zone
+
+What makes Harrisville interesting from an excavation standpoint is the soil transition. Properties on the west side of the city, closer to Washington Boulevard, sit on standard valley floor clay that behaves predictably. But move east toward the bench, and the ground changes rapidly. Clay gives way to heavier clay mixed with cobbles, then to rocky terrain with larger fragments. Some properties span both zones, meaning a single lot might have clay at one end and rocky material at the other.
+
+This variability is exactly why we do a thorough site assessment before pricing any Harrisville project. A single soil assumption won't cover a property that straddles two distinct geological zones. We probe and visually assess the site so our estimate reflects what's actually in the ground.
 
 ### Serving Harrisville and Nearby Communities
 
-We work throughout Weber County and can easily reach properties in Harrisville, North Ogden, Ogden, and surrounding areas. Call us or submit a contact form to schedule a free on-site estimate.
+We work throughout Weber County and can easily reach properties in Harrisville, [North Ogden](/locations/north-ogden), [Ogden](/locations/ogden), [Pleasant View](/locations/pleasant-view), and [Farr West](/locations/farr-west). Whether you need [residential excavation](/services/residential-excavation), [retaining walls](/services/rock-walls-retaining-walls), or [underground utility work](/services/underground-utilities), call us or submit a contact form to schedule a free on-site estimate.

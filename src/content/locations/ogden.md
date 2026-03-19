@@ -21,6 +21,7 @@ faqs:
     answer: "Yes. Many Ogden east bench lots need significant cut-and-fill work along with a retaining wall to hold the grade. We handle the full sequence: excavation, grading, and wall construction. See our retaining wall services for details on rock walls, concrete block, and timber options suited to Ogden's bench terrain."
   - question: "Does AccuRite work in historic downtown Ogden?"
     answer: "We do. Downtown redevelopment has been active and we have completed commercial demo and utility work in the historic core. Tight lot lines, existing utilities, and proximity to neighboring buildings require careful planning. We do a site walk before every downtown job to map utilities and plan equipment staging."
+landmarkImage: "/src/assets/images/locations/ogden-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -37,7 +38,7 @@ That difference matters for scheduling and cost. Clay moves slowly and predictab
 
 Residential and commercial sites on the valley floor, especially anything west of Washington Blvd, tend to have dense clay with poor natural drainage. On low-lying streets near the Ogden River and in some western neighborhoods, the water table is shallow enough that dewatering is part of the plan from day one.
 
-We've done utility trenching, foundation digs, and site prep throughout midtown and west Ogden. Clay slows things down but it's manageable with the right equipment and a crew that doesn't underestimate it.
+We've done [utility trenching](/services/underground-utilities), foundation digs, and [site prep](/services/grading-land-clearing) throughout midtown and west Ogden. Clay slows things down but it's manageable with the right equipment and a crew that doesn't underestimate it.
 
 ### East Bench Projects
 
@@ -55,7 +56,7 @@ For bench properties, rock walls tend to perform best. They handle the soil pres
 
 The historic downtown corridor has seen significant redevelopment over the past decade. We've worked on commercial demo projects in the core, removing older structures to make way for new mixed-use buildings and adaptive reuse projects.
 
-Downtown work comes with constraints. Lot lines are tight, neighboring buildings are close, and the utility grid under old Ogden streets is complex. Every downtown job starts with a utility locate and a plan for equipment staging that keeps the project moving without damaging what's around it.
+Downtown work comes with constraints. Lot lines are tight, neighboring buildings are close, and the utility grid under old Ogden streets is complex. Every downtown [demolition](/services/demolition) job starts with a utility locate and a plan for equipment staging that keeps the project moving without damaging what's around it.
 
 ### What We Handle Downtown
 
@@ -90,6 +91,6 @@ Pre-construction clearing, tree and stump removal, and old structure demo all ha
 
 ## Serving Ogden and Surrounding Weber County
 
-From the neighborhoods near Ogden City Hall to the bench communities approaching the canyon, AccuRite covers the full Ogden service area. We also regularly work in nearby [Roy](/locations/roy), [Riverdale](/locations/riverdale), and throughout Weber County.
+From the neighborhoods near Ogden City Hall to the bench communities approaching the canyon, AccuRite covers the full Ogden service area. We also regularly work in nearby [Roy](/locations/roy), [Riverdale](/locations/riverdale), [South Ogden](/locations/south-ogden), [North Ogden](/locations/north-ogden), and throughout Weber County.
 
-For questions about your project, soil conditions on your specific lot, or what permits you'll need, call us at (801) 814-6975 or request a free estimate online.
+Whether you need [residential excavation](/services/residential-excavation), [commercial site work](/services/commercial-projects), [septic system installation](/services/septic-systems), or [hauling and material delivery](/services/hauling-delivery), we bring the right crew and equipment for the job. Call us at (801) 814-6975 or request a free estimate online.

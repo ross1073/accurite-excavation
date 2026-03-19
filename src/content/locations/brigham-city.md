@@ -17,6 +17,7 @@ faqs:
     answer: "Yes. Septic system excavation is common in rural Box Elder County where city sewer service doesn't reach. That includes excavating the tank pit and the drain field trenches to the dimensions specified by the system designer. Box Elder County Environmental Health handles septic system permits, and the design typically requires a percolation test first. We coordinate with your system designer and the county on the excavation portion."
   - question: "What soil conditions will affect my Brigham City project?"
     answer: "Most of the valley floor around Brigham City is clay over gravel, with the clay being more prominent in lower-lying areas. Agricultural land often has a significant topsoil layer that needs to come off before grading. Closer to either mountain range, you'll encounter rockier conditions. The lake bed clay characteristic of northern Utah can be particularly sticky when wet, which affects excavation timing in spring."
+landmarkImage: "/src/assets/images/locations/brigham-city-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -77,4 +78,4 @@ Box Elder County Building Department is the permitting authority for most excava
 
 AccuRite travels to Brigham City and takes projects throughout Box Elder County. We're about 30 minutes north of our Ogden base on I-15. For projects farther north or into rural Box Elder County, call us to discuss access and scope.
 
-We also serve communities throughout Weber County including [Ogden](/locations/ogden) and [Roy](/locations/roy). For Brigham City and Box Elder County projects, call (801) 814-6975 or request a free estimate online.
+We also serve nearby [Perry](/locations/perry) and [Willard](/locations/willard) in Box Elder County, plus communities throughout Weber County including [Ogden](/locations/ogden) and [Roy](/locations/roy). Whether you need [residential excavation](/services/residential-excavation), [commercial site prep](/services/commercial-projects), [retaining walls](/services/rock-walls-retaining-walls), [grading and land clearing](/services/grading-land-clearing), or [demolition](/services/demolition), call (801) 814-6975 or request a free estimate online.

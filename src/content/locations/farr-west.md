@@ -15,6 +15,7 @@ faqs:
     answer: "Yes. Raw lot grading on former agricultural ground is something we do regularly in Farr West. Agricultural land often has a layer of topsoil and organic material that needs to be stripped and hauled or stockpiled, and the subgrade may need some work to achieve the compaction spec your engineer requires. We handle all of that."
   - question: "Do you work with builders on multiple lots in a subdivision?"
     answer: "Yes. We work with both individual homeowners and production builders. For builders with multiple lots, we can sequence work to keep things moving and coordinate with your construction schedule. Call us early in the process to talk about what's coming up."
+landmarkImage: "/src/assets/images/locations/farr-west-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -65,6 +66,24 @@ Most Farr West lots are flat, but not all. Where grade changes exist between lot
 
 Site prep generates material that needs to go somewhere. We haul off unsuitable fill, excess cut material, and debris, and we can source and deliver structural fill, base gravel, and topsoil when your project requires it.
 
-### Get a Quote for Your Farr West Project
+### Demolition and Clearing
 
-We offer free on-site estimates in Farr West and throughout Weber County. If you have plans or a site plan available, bring them along; it helps us give you an accurate number faster.
+Farr West properties that include old agricultural structures, irrigation sheds, or deteriorated outbuildings may need [demolition](/services/demolition) work before new construction begins. We handle concrete slab removal, structure teardowns, and [hauling](/services/hauling-delivery) of all debris off site. The area is left graded and ready for the next phase.
+
+### Underground Utilities for Rural Properties
+
+Some Farr West properties, particularly those on the western edge of town, require longer [utility runs](/services/underground-utilities) from the main connections to the building site. Water service, sewer connections, gas lines, and electrical conduit all require trenching at proper depth with correct bedding material. On properties where municipal sewer doesn't reach, [septic system excavation](/services/septic-systems) is part of the site prep scope.
+
+### Water Features and Ponds
+
+Farr West's larger lot sizes give homeowners space for amenities that smaller urban lots don't support. [Water features and ponds](/services/water-features-ponds) are an increasingly popular addition to residential properties in the area. We handle the excavation, grading, and liner bed preparation for decorative ponds and water features on Farr West properties.
+
+### Farr West Soil Conditions and What They Mean for Your Project
+
+The clay-over-gravel soil profile in Farr West has practical implications for every excavation project. The clay layer on top holds moisture, expands, and creates drainage challenges when not managed properly. However, once you get through the clay to the gravel layer beneath, you often find excellent bearing material for foundations and stable drainage paths for utility trenches.
+
+Agricultural ground that hasn't been built on before can have additional complications. Organic material in the topsoil decomposes over time and creates voids if it isn't stripped before building. Old irrigation channels may have altered natural drainage patterns. We identify these issues during the site walk and account for them in our scope and pricing.
+
+### Serving Farr West and Nearby Communities
+
+We serve Farr West as part of our Weber County coverage, along with nearby [West Haven](/locations/west-haven), [Ogden](/locations/ogden), [Pleasant View](/locations/pleasant-view), and [Roy](/locations/roy). Whether you need [residential excavation](/services/residential-excavation), [commercial site prep](/services/commercial-projects), or [grading and land clearing](/services/grading-land-clearing), call us or bring your plans for a free on-site estimate.

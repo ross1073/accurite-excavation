@@ -19,6 +19,7 @@ faqs:
     answer: "Rock walls perform well on the bench east of Layton Hills because they handle hillside soil pressure and look natural against the terrain. Concrete block walls are a good option for more formal landscaping projects or where precise dimensions matter. We assess each site and recommend what will hold the grade long-term, not just what's fastest to build."
   - question: "Does Layton have any special requirements near Hill Air Force Base?"
     answer: "Projects within Hill Air Force Base itself are handled by the federal government and are outside our typical scope. For private property adjacent to the base in civilian Layton, standard Davis County permit rules apply. Some areas near the base have utility easements or setback restrictions worth checking before you dig. We help identify those issues during the pre-project site visit."
+landmarkImage: "/src/assets/images/locations/layton-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -57,7 +58,7 @@ Segmental concrete block is a strong option where precise dimensions matter, suc
 
 Older neighborhoods in western Layton and areas near Hill Air Force Base have aging utility infrastructure. Water line replacements, sewer lateral work, and electrical conduit runs all require trenching. We handle residential and light commercial utility work throughout Layton and coordinate with the relevant utility providers on connection and inspection.
 
-For new construction, utility trenching is typically part of the site prep package. We trench for water, sewer, and gas lines at the right depth, properly bedded, before backfilling and compacting to spec.
+For new construction, [utility trenching](/services/underground-utilities) is typically part of the site prep package. We trench for water, sewer, and gas lines at the right depth, properly bedded, before backfilling and compacting to spec.
 
 ## Davis County Permit Process
 
@@ -69,10 +70,14 @@ We handle permitting for every project we take on in Layton. That means the appl
 
 Layton's commercial corridor along Main Street and the areas near I-15 exchanges support retail, industrial, and mixed-use development. We handle commercial site clearing, demo, and excavation for new construction and tenant improvement projects that require significant site work.
 
-Commercial jobs in Layton often involve tighter schedules and more coordination with other trades than residential projects. We're experienced at fitting our work into a general contractor's timeline and communicating clearly when conditions on the ground change the plan.
+Commercial jobs in Layton often involve tighter schedules and more coordination with other trades than residential projects. We handle [commercial site prep](/services/commercial-projects), [demolition](/services/demolition), and [grading and land clearing](/services/grading-land-clearing) for projects that need to stay on a general contractor's timeline.
+
+## Hauling and Material Delivery
+
+Excavation produces material that needs to go somewhere. On Layton projects, we [haul away](/services/hauling-delivery) excess cut material, demolished concrete, and unsuitable fill. We also deliver structural fill, base gravel, and topsoil when your project requires it. Having our own trucks means we control the hauling schedule without relying on third-party availability.
 
 ## Serving Layton and Surrounding Davis County
 
-From the newer subdivisions near Layton Hills to the neighborhoods around Fort Lane Park and the East Layton communities, AccuRite covers the city. We also serve nearby [Clearfield](/locations/clearfield), [Kaysville](/locations/kaysville), and other Davis County communities.
+From the newer subdivisions near Layton Hills to the neighborhoods around Fort Lane Park and the East Layton communities, AccuRite covers the city. We also serve nearby [Clearfield](/locations/clearfield), [Kaysville](/locations/kaysville), [Syracuse](/locations/syracuse), and other Davis County communities.
 
-Call (801) 814-6975 or request a free estimate online to talk through your project.
+Whether you need [residential excavation](/services/residential-excavation), [septic systems](/services/septic-systems), or [water feature excavation](/services/water-features-ponds), call (801) 814-6975 or request a free estimate online to talk through your project.

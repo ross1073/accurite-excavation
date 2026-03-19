@@ -17,6 +17,7 @@ faqs:
     answer: "Utility replacement in Clearfield typically covers water line replacements, sewer lateral repairs, and gas line work. We start with a utility locate to map everything underground before the first bucket drops. Trench depth, pipe bedding, and backfill compaction are all done to spec, and Clearfield City inspection is required on water and sewer work. We coordinate the inspection as part of the job."
   - question: "What soil conditions should I expect in Clearfield?"
     answer: "The valley floor in Clearfield has clay over sand, with drainage varying by neighborhood. Lower areas hold moisture longer than slightly elevated ground. Near Clearfield Station and the old rail corridor, you may encounter compacted historical fill that behaves differently from native soil. We identify any unusual conditions during the site walk before pricing the job."
+landmarkImage: "/src/assets/images/locations/clearfield-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -61,10 +62,28 @@ The area around the old Clearfield rail station has soil conditions worth noting
 
 We recommend a site walk on any project near the former rail corridor. If there's evidence of historical fill, we document it and communicate with your engineer before digging so the foundation design accounts for actual subsurface conditions.
 
+## Grading and Drainage in Clearfield
+
+Clay soil and flat terrain are a combination that demands intentional drainage work. Without proper [grading](/services/grading-land-clearing), water pools against foundations, saturates yards, and creates long-term moisture problems that lead to cracked concrete, mold, and settling.
+
+We grade every Clearfield project with drainage as a primary consideration. Positive slope away from the foundation perimeter, surface drainage directed to the street or designated outlets, and proper compaction during backfill all contribute to a site that stays dry through Utah's wet spring season.
+
+For existing homes with drainage problems, we re-grade foundation perimeters, install French drains, and correct low spots that have developed as the original grading settled over decades.
+
+## Demolition Services in Clearfield
+
+Older Clearfield neighborhoods have structures that need to come down before new construction can begin. We handle [demolition](/services/demolition) of detached garages, concrete slabs, driveways, and outbuildings. Commercial demolition along the State Street corridor is also part of our Clearfield work, including building teardowns and parking lot removal for redevelopment projects.
+
+All debris is loaded and [hauled off site](/services/hauling-delivery), and the area is left graded to rough finish. We pull demolition permits through Clearfield City when required.
+
+## Retaining Walls and Grade Management
+
+While Clearfield is mostly flat, properties along the eastern edge near the Hill AFB boundary sometimes have grade changes that benefit from a [retaining wall](/services/rock-walls-retaining-walls). We handle excavation for wall footings, drainage installation behind the wall, and backfill. Block walls and boulder walls are both options depending on the height and aesthetic requirements.
+
 ## Davis County Permit Process in Clearfield
 
 Clearfield City Building Department handles permits for excavation and grading within city limits. If your address is in unincorporated Davis County, the permit goes through Davis County instead. We identify which jurisdiction applies to your project and handle the paperwork, including any stormwater-related permits required for larger disturbed areas.
 
 ## Serving Clearfield and Nearby Davis County
 
-AccuRite covers all of Clearfield and works regularly in [Layton](/locations/layton) to the north and [Kaysville](/locations/kaysville) to the south. For residential or commercial excavation in Clearfield, call (801) 814-6975 or request a free estimate online.
+AccuRite covers all of Clearfield and works regularly in [Layton](/locations/layton) to the north, [Kaysville](/locations/kaysville) to the south, [Roy](/locations/roy) to the northwest, and [Clinton](/locations/clinton) to the west. Whether you need [residential excavation](/services/residential-excavation), [commercial site work](/services/commercial-projects), or [underground utility work](/services/underground-utilities), call (801) 814-6975 or request a free estimate online.

@@ -17,6 +17,7 @@ faqs:
     answer: "Absolutely. New residential construction in Roy usually involves clearing the lot, rough grading to establish drainage slope, foundation excavation, and utility trenching. Flat lots make the grading work faster than on bench properties, but clay soils still require attention to drainage so water moves away from the foundation. We coordinate with your builder or general contractor to keep the schedule on track."
   - question: "Roy soil is clay, does that cause problems for foundations?"
     answer: "It can if the site isn't graded properly. Clay expands when wet and contracts when dry, and that cycle puts pressure on foundations over time. The fix is correct drainage grading during site prep, so water never pools against the foundation to begin with. We've seen what poorly graded clay sites do to concrete over five or ten years, and it's preventable with the right work upfront."
+landmarkImage: "/src/assets/images/locations/roy-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -51,6 +52,10 @@ Old galvanized or clay water service lines fail in predictable ways: pinhole lea
 
 Sewer laterals in older Roy neighborhoods are often clay tile pipe that has cracked, settled, or been infiltrated by roots. Replacement follows a similar process to water line work. If the main sewer line in the street is also deteriorated, we coordinate the scope with Roy City utilities.
 
+### Septic Systems on Rural Roy Properties
+
+Some properties on Roy's western edge and in adjacent unincorporated areas aren't connected to municipal sewer. For these lots, [septic system excavation](/services/septic-systems) is required. We dig tank pits and drain field trenches to the specifications provided by your system designer, and we coordinate with Weber County Health Department on the permit process.
+
 ## Foundation Excavation in Roy
 
 New home construction and additions in Roy require foundation excavation. Flat terrain makes equipment access easy, and there's no rock to hammer through. The main variable is soil moisture. Wet clay is slow to cut and needs time to dry before backfilling or it will slump back into the trench. We schedule around weather when we can and have equipment suited to wet conditions when we can't.
@@ -65,4 +70,12 @@ Roy City handles permits for excavation and grading within city limits. For addr
 
 ## Serving Roy and Nearby Weber County Communities
 
-AccuRite covers all of Roy and the surrounding corridor, including work in [Ogden](/locations/ogden) to the north and Riverdale and South Ogden to the east. If you're in Weber County and need excavation work done right, call (801) 814-6975 or request a free estimate online.
+## Demolition and Site Clearing in Roy
+
+Older Roy properties occasionally need [demolition](/services/demolition) work before new construction or renovation can begin. We handle concrete slab removal, detached garage teardowns, driveway demolition, and full lot clearing. All debris is hauled off and the site is left graded and ready for the next phase of construction.
+
+For properties with old outbuildings, sheds, or deteriorated concrete flatwork, we can remove the structures, [haul away the material](/services/hauling-delivery), and leave the site clean.
+
+## Serving Roy and Nearby Weber County Communities
+
+AccuRite covers all of Roy and the surrounding corridor, including work in [Ogden](/locations/ogden) to the north, [Riverdale](/locations/riverdale) and [South Ogden](/locations/south-ogden) to the east, and [West Haven](/locations/west-haven) to the west. Whether you need [residential excavation](/services/residential-excavation), [grading and land clearing](/services/grading-land-clearing), or [underground utility work](/services/underground-utilities), we bring the right equipment and experience. Call (801) 814-6975 or request a free estimate online.

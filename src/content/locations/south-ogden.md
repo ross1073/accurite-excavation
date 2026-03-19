@@ -15,6 +15,7 @@ faqs:
     answer: "Yes. Older utility lines in South Ogden are frequently clay tile or early plastic pipe that has deteriorated over time. We excavate and replace the failed section, backfill and compact properly, and restore the surface. We can also camera-inspect the line first if you want to confirm the extent of the problem before digging."
   - question: "How do I know if I need a permit for my South Ogden excavation project?"
     answer: "It depends on scope. Utility work connecting to city infrastructure typically requires permits through South Ogden City. Grading that moves significant soil volume triggers county review. We review permit requirements for every project before work starts and handle the application process for you."
+landmarkImage: "/src/assets/images/locations/south-ogden-landmark.png"
 projects: []
 testimonials: []
 ---
@@ -61,10 +62,20 @@ South Ogden's clay soils hold water. Properties with drainage problems see water
 
 We install French drains, swales, and catch basins to intercept surface and subsurface water and channel it away from structures. Proper grading to establish positive drainage away from the foundation is part of most grading projects we do.
 
+### Septic Systems on South Ogden's East Bench
+
+Some larger lots on the upper east bench in South Ogden require [septic systems](/services/septic-systems) rather than a connection to municipal sewer. We dig tank pits and leach field trenches to designer specifications and coordinate with Weber-Morgan Health Department on the permit requirements. Rocky bench terrain can complicate septic excavation, but we have the equipment and experience to handle it.
+
+### Hauling and Material Delivery
+
+Excavation projects generate material. Whether it is clay from a basement dig, broken concrete from a [demolition](/services/demolition) project, or rock from a bench excavation, we [haul it away](/services/hauling-delivery) and dispose of it properly. We also deliver structural fill, drain rock, and topsoil for projects that need imported material.
+
 ### Our Process in South Ogden
 
 We start with a site visit before quoting. Valley floor lots and east bench lots in South Ogden have different soil conditions, access situations, and permit requirements. Seeing the site lets us give you an accurate quote rather than a guess.
 
 We handle permit applications where required, coordinate with South Ogden City and Weber County Engineering, and schedule work to minimize disruption to your property and neighbors. South Ogden is a residential city; we work accordingly.
 
-Call Accurite for a free on-site estimate anywhere in South Ogden.
+### Serving South Ogden and Nearby Communities
+
+AccuRite covers all of South Ogden as well as neighboring [Ogden](/locations/ogden), [Washington Terrace](/locations/washington-terrace), [Riverdale](/locations/riverdale), and the surrounding Weber County area. Whether you need [residential excavation](/services/residential-excavation), [commercial site work](/services/commercial-projects), [grading and land clearing](/services/grading-land-clearing), or [underground utility work](/services/underground-utilities), call us for a free on-site estimate.
