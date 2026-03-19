@@ -26,7 +26,7 @@ relatedServices:
 
 ## Demolition Contractor in Ogden and Northern Utah
 
-Sometimes the fastest path to a new project is a clean slate. AccuRite Excavating handles demolition work across Weber and Davis counties, from full residential teardowns to concrete removal and selective interior demo. We're licensed, insured, and have been doing this work in Northern Utah since 1993.
+Sometimes the fastest path to a new project is a clean slate. AccuRite Excavating handles demolition work across Weber and Davis counties, from full residential teardowns to concrete removal and selective interior demo. We're licensed, insured, and have been doing this work in Northern Utah since 1995.
 
 Demolition isn't just knocking things down. It involves permits, utility coordination, asbestos testing for older structures, debris disposal, and site grading when it's done. We manage the whole process.
 
@@ -126,7 +126,7 @@ We don't dump on-site or use unlicensed disposal methods. Proper disposal is par
 
 We're an excavation company first, which means we have the equipment for the job. A full excavator with a hydraulic thumb or breaker attachment is the right tool for residential and commercial demolition. We're not bringing in a small machine and hoping for the best.
 
-Our 31 years in Weber County means we know the permit process, the local utility companies, and the disposal facilities. We've done this enough times to move quickly through the parts that slow other contractors down.
+Our 30+ years in Weber County means we know the permit process, the local utility companies, and the disposal facilities. We've done this enough times to move quickly through the parts that slow other contractors down.
 
 We carry general liability insurance and workers' compensation. On a demolition job, that matters.
 

@@ -1,7 +1,9 @@
 ---
+import { Image } from 'astro:assets';
 import business from '../data/business.json';
 import services from '../data/services.json';
 import locations from '../data/locations.json';
+import logo from '../assets/images/accurite-logo-full.webp';
 
 const year = new Date().getFullYear();
 
@@ -19,9 +21,14 @@ const locationsByCounty = countyOrder.reduce((acc, county) => {
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
       <!-- Company Info / NAP -->
       <div>
-        <p class="font-heading text-xl font-bold mb-4">
-          Accu<span class="text-gold">Rite</span> Excavation
-        </p>
+        <div class="bg-white rounded-lg px-5 py-3 inline-block mb-4">
+          <Image
+            src={logo}
+            alt="AccuRite Excavation & Hauling"
+            class="h-14 w-auto"
+            loading="lazy"
+          />
+        </div>
         <address class="not-italic text-sm text-gray-300 space-y-2">
           <p>{business.address.street}</p>
           <p>{business.address.city}, {business.address.state} {business.address.zip}</p>

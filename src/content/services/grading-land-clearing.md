@@ -26,7 +26,7 @@ relatedServices:
 
 ## Land Grading Contractor in Ogden and Northern Utah
 
-Good grading is what separates a site that drains properly from one that floods every spring. AccuRite Excavating has been the land grading contractor Ogden Utah homeowners and builders rely on since 1993. We do grading right, with the right equipment, to the right elevations, so the work that follows goes smoothly.
+Good grading is what separates a site that drains properly from one that floods every spring. AccuRite Excavating has been the land grading contractor Ogden Utah homeowners and builders rely on since 1995. We do grading right, with the right equipment, to the right elevations, so the work that follows goes smoothly.
 
 We cover residential lots, commercial sites, and agricultural properties across Weber and Davis counties. Whether you're clearing raw land for a new home or re-grading an existing yard that's been a drainage problem for years, we handle the full scope.
 
@@ -120,7 +120,7 @@ We handle permit applications as part of our service. Permit fees are separate f
 
 ## Why AccuRite for Grading and Land Clearing
 
-We've been grading land in Northern Utah for over 16 years. We own and operate the equipment we work with, which means we're not marking up rental costs or waiting on machines to arrive. Our operators know the local soils and terrain.
+We've been grading land in Northern Utah for over 30 years. We own and operate the equipment we work with, which means we're not marking up rental costs or waiting on machines to arrive. Our operators know the local soils and terrain.
 
 We also handle what comes before and after grading. [Residential excavation](/services/residential-excavation) for foundations and basements, utility trenching, and demolition of existing structures are all in our scope. That means fewer contractors to coordinate on your project.
 

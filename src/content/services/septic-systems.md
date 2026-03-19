@@ -32,7 +32,7 @@ relatedServices:
 
 Properties outside Ogden's municipal sewer service area need a septic system. That includes most of Ogden Valley, rural Weber County, Morgan County, and portions of Davis County. AccuRite Excavating handles septic system installation, repair, replacement, and perc testing across all three counties.
 
-Septic work involves more than digging a hole. It requires soil testing, permit approval from the county health department, precise excavation, and inspection at multiple stages. We've done this in Northern Utah since 1993 and know the local permitting process well.
+Septic work involves more than digging a hole. It requires soil testing, permit approval from the county health department, precise excavation, and inspection at multiple stages. We've done this in Northern Utah since 1995 and know the local permitting process well.
 
 ---
 

@@ -12,19 +12,47 @@ import services from '../data/services.json';
 import reviews from '../data/reviews.json';
 import clients from '../data/clients.json';
 import heroImage from '../assets/images/hero/excavation-ogden-utah-hero.jpg';
+
+// Service card images
+import imgResidential from '../assets/images/services/residential-excavation-utah.jpg';
+import imgCommercial from '../assets/images/services/commercial-excavation-utah.jpg';
+import imgGovernment from '../assets/images/services/government-military-excavation.jpg';
+import imgRockWalls from '../assets/images/services/retaining-wall-boulder-utah.png';
+import imgUtilities from '../assets/images/services/underground-utilities-utah.jpg';
+import imgGrading from '../assets/images/services/grading-land-clearing-utah.jpg';
+import imgDemolition from '../assets/images/services/demolition-contractor-utah.png';
+import imgSeptic from '../assets/images/services/septic-systems-utah.jpg';
+import imgHauling from '../assets/images/services/hauling-delivery-utah.jpg';
+import imgWater from '../assets/images/services/pond-excavation-utah.png';
+
+const serviceImages: Record<string, ImageMetadata> = {
+  'residential-excavation': imgResidential,
+  'commercial-projects': imgCommercial,
+  'government-projects': imgGovernment,
+  'rock-walls-retaining-walls': imgRockWalls,
+  'underground-utilities': imgUtilities,
+  'grading-land-clearing': imgGrading,
+  'demolition': imgDemolition,
+  'septic-systems': imgSeptic,
+  'hauling-delivery': imgHauling,
+  'water-features-ponds': imgWater,
+};
+
+import type { ImageMetadata } from 'astro';
 ---
 
 <BaseLayout
   title="Utah Excavation Specialist | AccuRite Excavation"
-  description="AccuRite Excavation & Hauling - Ogden's trusted excavation contractor since 2010. Residential, commercial, and government excavation across the Wasatch Front. Call (801) 814-6975."
+  description="AccuRite Excavation & Hauling - Ogden's trusted excavation contractor since 1995. Residential, commercial, and government excavation across the Wasatch Front. Call (801) 814-6975."
   schemaType="home"
   hideBreadcrumbs={true}
 >
-  <!-- Hero -->
+  <!-- Hero with Contact Form -->
   <Hero
-    headline="Ogden's Trusted Excavation Contractor Since 2010"
+    headline="Ogden's Trusted Excavation Contractor Since 1995"
     subheadline="Residential, commercial, and government excavation across the Wasatch Front. E100 licensed, fully insured, and backed by 49 five-star reviews."
     backgroundImage={heroImage}
+    showForm={true}
   />
 
   <!-- Trust Bar -->
@@ -45,6 +73,7 @@ import heroImage from '../assets/images/hero/excavation-ogden-utah-hero.jpg';
             slug={service.slug}
             name={service.name}
             description={service.description}
+            image={serviceImages[service.slug]}
           />
         ))}
       </div>
@@ -61,7 +90,8 @@ import heroImage from '../assets/images/hero/excavation-ogden-utah-hero.jpg';
         <p class="mt-4 text-gray-600 leading-relaxed">
           Founded by Shawn Durrant in {business.founded}, AccuRite Excavation has been serving
           the Wasatch Front for over {new Date().getFullYear() - business.founded} years.
-          From residential basement digs to government military projects, we bring the equipment,
+          From <a href="/services/residential-excavation" class="text-gold-dark hover:underline">residential basement digs</a> to
+          <a href="/services/government-projects" class="text-gold-dark hover:underline">government military projects</a>, we bring the equipment,
           expertise, and reliability that Northern Utah trusts. E100 licensed and fully insured.
         </p>
         <a

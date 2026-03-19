@@ -1,10 +1,10 @@
 ---
 title: "Excavation Services in Morgan, UT"
-description: "AccuRite Excavation serves Morgan, Utah with excavation, septic systems, and site prep for rural mountain properties. 16+ years of experience in mountain valley terrain. Call (801) 814-6975."
+description: "AccuRite Excavation serves Morgan, Utah with excavation, septic systems, and site prep for rural mountain properties. 30+ years of experience in mountain valley terrain. Call (801) 814-6975."
 city: "Morgan"
 county: "Morgan"
 metaTitle: "Excavation Morgan UT | AccuRite Excavation & Hauling"
-metaDescription: "Morgan UT excavation contractor. Septic systems, land clearing, driveways on mountain lots. Licensed & insured since 2010. Call (801) 814-6975."
+metaDescription: "Morgan UT excavation contractor. Septic systems, land clearing, driveways on mountain lots. Licensed & insured since 1995. Call (801) 814-6975."
 localIntro: "Morgan sits in its own valley east of the Wasatch Range, separated from the Ogden metro by the winding climb over Trappers Loop or the narrow corridor of Weber Canyon. That geographic isolation shapes the kind of excavation work we do here. Lots are bigger, many properties rely on septic systems rather than city sewer, and the soil is a mix of rocky mountain alluvium and clay deposited by the ancient Weber River. AccuRite Excavation has been working in Morgan County since our early years, and we understand how different this terrain is from the valley floor communities along I-15."
 permitInfo: "Morgan County handles excavation permits through its Planning and Building Department. Septic system installations require a separate permit from the Weber-Morgan Health Department, which involves a perc test and soil evaluation before any digging begins. For projects near waterways like the Weber River or East Canyon Creek, additional setback requirements may apply. We coordinate all permits before starting work so property owners can focus on the build, not the paperwork."
 soilInfo: "The Morgan Valley floor has a mix of alluvial gravel and clay deposited by the Weber River over thousands of years. Dig on a property near the river bottom and you'll hit rounded cobble mixed with silty clay within a few feet. Move to the benches and foothills on either side of the valley and the ground gets rockier fast, with decomposed granite and sandstone fragments that require heavy equipment to move. The frost line in Morgan runs deeper than valley communities below — plan on 30 to 36 inches, which matters for foundation depth and water line burial."

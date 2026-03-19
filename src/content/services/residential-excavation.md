@@ -28,7 +28,7 @@ relatedServices:
 
 ## Residential Excavation in Ogden and Northern Utah
 
-Residential excavation Ogden Utah homeowners need runs the full range, from digging a new basement to clearing land for a home addition. AccuRite Excavating has been doing this work in Weber County since 1993. We're E100 licensed, fully insured, and have handled hundreds of residential projects across the Wasatch Front.
+Residential excavation Ogden Utah homeowners need runs the full range, from digging a new basement to clearing land for a home addition. AccuRite Excavating has been doing this work in Weber County since 1995. We're E100 licensed, fully insured, and have handled hundreds of residential projects across the Wasatch Front.
 
 Whether you need a basement dug, a foundation prepped, a driveway cut in, or a lot cleared for new construction, we bring the right equipment and handle everything from permits to cleanup.
 
@@ -110,7 +110,7 @@ Permits in Ogden City and unincorporated Weber County are required for most foun
 
 ## Why AccuRite for Residential Excavation
 
-We've been digging in Northern Utah since 1993. That's 31 years of working in Wasatch Front soil conditions, dealing with Weber County permit offices, and figuring out how to get equipment into tight residential lots.
+We've been digging in Northern Utah since 1995. That's 30+ years of working in Wasatch Front soil conditions, dealing with Weber County permit offices, and figuring out how to get equipment into tight residential lots.
 
 Our E100 contractor license covers the full scope of excavation work. We carry general liability and workers' comp insurance. With 49 reviews on Google and an established track record in the area, we're not a new company figuring things out on your yard.
 

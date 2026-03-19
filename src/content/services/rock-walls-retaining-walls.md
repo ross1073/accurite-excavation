@@ -32,7 +32,7 @@ relatedServices:
 
 If you own property along the Wasatch bench or in any of Ogden's hillside neighborhoods, a rock retaining wall is often the difference between a usable yard and a slope that keeps eroding. AccuRite Excavating builds boulder retaining walls, rock walls, and engineered retaining structures across Weber, Davis, and Morgan counties.
 
-We've been building walls in Northern Utah since 1993. We understand the soil, the freeze-thaw cycles, and what it takes to build a wall that holds for decades, not just a couple of winters.
+We've been building walls in Northern Utah since 1995. We understand the soil, the freeze-thaw cycles, and what it takes to build a wall that holds for decades, not just a couple of winters.
 
 ---
 

@@ -28,7 +28,7 @@ relatedServices:
 
 Every home and building depends on what's buried under the yard: water lines coming in, sewer lines going out, storm drains moving surface water away, gas service feeding the furnace and appliances. When those lines need to be installed, repaired, or replaced, the work starts with an excavator and someone who knows what they're doing underground.
 
-AccuRite Excavating handles underground utility installation across Weber and Davis counties. We're E100 licensed, fully insured, and have been doing utility work in Northern Utah since 1993. We work on residential projects, commercial sites, and subdivisions.
+AccuRite Excavating handles underground utility installation across Weber and Davis counties. We're E100 licensed, fully insured, and have been doing utility work in Northern Utah since 1995. We work on residential projects, commercial sites, and subdivisions.
 
 ---
 
@@ -135,7 +135,7 @@ If your project also involves [residential excavation](/services/residential-exc
 
 ## Why AccuRite for Underground Utility Work
 
-We've been doing utility work in Weber and Davis County for over 16 years. We know the local code requirements, the permit process, and the soil conditions in different parts of the valley. We know which areas are likely to hit rock and which run sandy loam all the way down.
+We've been doing utility work in Weber and Davis County for over 30 years. We know the local code requirements, the permit process, and the soil conditions in different parts of the valley. We know which areas are likely to hit rock and which run sandy loam all the way down.
 
 Our E100 license covers this scope of work. We carry general liability and workers' comp. And we handle Blue Stakes coordination as a standard part of every project, not as an afterthought.
 

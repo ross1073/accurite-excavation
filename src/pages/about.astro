@@ -7,19 +7,19 @@ import { Image } from 'astro:assets';
 
 import business from '../data/business.json';
 import clients from '../data/clients.json';
-import ownerImage from '../assets/images/about/accurite-owner-equipment.png';
-import equipmentImage from '../assets/images/about/accurite-equipment-fleet.jpg';
+import ownerImage from '../assets/images/about/shawn-durrant-owner.jpeg';
+import equipmentImage from '../assets/images/about/accurite-equipment-fleet-real.jpg';
 import teamImage from '../assets/images/about/accurite-team-jobsite.png';
 ---
 
 <BaseLayout
-  title="About AccuRite Excavation | Ogden, UT Since 2010"
-  description="Family-owned excavation contractor serving Northern Utah since 2010. E100 licensed, fully insured, and trusted by government agencies and homeowners alike."
+  title="About AccuRite Excavation | Ogden, UT Since 1995"
+  description="Family-owned excavation contractor serving Northern Utah since 1995. E100 licensed, fully insured, and trusted by government agencies and homeowners alike."
   schemaType="page"
 >
   <Hero
-    headline="Family-Owned. Locally Trusted. Since 2010."
-    subheadline="Over 16 years of excavation expertise across the Wasatch Front — from residential basements to federal military contracts."
+    headline="Family-Owned. Locally Trusted. Since 1995."
+    subheadline="Over 30 years of excavation expertise across the Wasatch Front — from residential basements to federal military contracts."
     compact={true}
   />
 
@@ -36,7 +36,7 @@ import teamImage from '../assets/images/about/accurite-team-jobsite.png';
               {business.owner} founded {business.shortName} in {business.founded} with a single excavator and a commitment to doing the job right. What started as a small residential operation in Ogden has grown into one of Northern Utah's most trusted excavation contractors.
             </p>
             <p>
-              Over {new Date().getFullYear() - business.founded} years later, AccuRite has completed thousands of projects across Weber, Davis, and Morgan counties. We've dug basements in Ogden neighborhoods, built retaining walls along the Wasatch bench, installed septic systems in Morgan Valley, and completed military construction at Hill Air Force Base and Camp Williams.
+              Over {new Date().getFullYear() - business.founded} years later, AccuRite has completed thousands of projects across Weber, Davis, and Morgan counties. We've dug <a href="/services/residential-excavation" class="text-gold-dark hover:underline">basements in Ogden neighborhoods</a>, built <a href="/services/rock-walls-retaining-walls" class="text-gold-dark hover:underline">retaining walls</a> along the Wasatch bench, installed <a href="/services/septic-systems" class="text-gold-dark hover:underline">septic systems</a> in Morgan Valley, and completed <a href="/services/government-projects" class="text-gold-dark hover:underline">military construction</a> at Hill Air Force Base and Camp Williams.
             </p>
             <p>
               We've earned the trust of federal agencies, municipal governments, and commercial general contractors — but we still treat every residential homeowner with the same professionalism and attention to detail that built our reputation.
@@ -73,11 +73,19 @@ import teamImage from '../assets/images/about/accurite-team-jobsite.png';
           </h2>
           <div class="mt-6 space-y-4 text-gray-600 leading-relaxed">
             <p>
-              Shawn has been in the excavation industry for over 16 years. He personally oversees every project, from the initial site visit through final grading. His hands-on approach means clients work directly with the owner — not a sales rep or project manager.
+              Shawn has been in the excavation industry for over 30 years. He personally oversees every project, from the initial site visit through final grading. His hands-on approach means clients work directly with the owner — not a sales rep or project manager.
             </p>
             <p>
-              Born and raised in Northern Utah, Shawn knows the local soil conditions, terrain challenges, and municipal requirements across every city we serve. That local expertise is why contractors, homeowners, and government agencies keep calling AccuRite back.
+              Born and raised in Northern Utah, Shawn knows the local soil conditions, terrain challenges, and municipal requirements across every <a href="/locations" class="text-gold-dark hover:underline">city we serve</a>. That local expertise is why contractors, homeowners, and government agencies keep calling AccuRite back.
             </p>
+            <div class="mt-6">
+              <a href="/reviews" class="inline-flex items-center gap-1 text-gold-dark font-medium hover:underline">
+                Read what our customers say
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -129,7 +137,7 @@ import teamImage from '../assets/images/about/accurite-team-jobsite.png';
           Our Equipment
         </h2>
         <p class="mt-4 text-gray-600 leading-relaxed">
-          AccuRite maintains a full fleet of excavation equipment — from compact mini-excavators for tight residential lots to large track hoes for commercial and government projects. We own our equipment outright, which means no rental delays and lower costs passed on to you.
+          AccuRite maintains a full fleet of excavation equipment — from compact mini-excavators for tight <a href="/services/residential-excavation" class="text-gold-dark hover:underline">residential lots</a> to large track hoes for <a href="/services/commercial-projects" class="text-gold-dark hover:underline">commercial</a> and <a href="/services/government-projects" class="text-gold-dark hover:underline">government projects</a>. We own our equipment outright, which means no rental delays and lower costs passed on to you.
         </p>
         <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-600">
           <li class="flex items-center gap-2">

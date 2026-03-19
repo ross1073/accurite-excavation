@@ -24,7 +24,7 @@ relatedServices:
 
 ## Commercial Excavation Contractor in Utah
 
-When a general contractor or developer needs site work done on time and within budget, the excavation contractor they choose determines whether the schedule holds. AccuRite Excavating has been the commercial excavation contractor Utah builders have counted on since 1993. We're E100 licensed, commercially bonded, and have completed projects for retail centers, multi-family developments, industrial sites, and subdivisions across the Wasatch Front.
+When a general contractor or developer needs site work done on time and within budget, the excavation contractor they choose determines whether the schedule holds. AccuRite Excavating has been the commercial excavation contractor Utah builders have counted on since 1995. We're E100 licensed, commercially bonded, and have completed projects for retail centers, multi-family developments, industrial sites, and subdivisions across the Wasatch Front.
 
 We run a full fleet of heavy equipment and have the bonding and insurance required for commercial contracts. If you're a GC coordinating multiple trades on a tight schedule, we understand what that means.
 
