@@ -14,7 +14,7 @@ We share this not to pat ourselves on the back, but because it reflects somethin
 
 ## The Project
 
-The work AccuRite performed for the National Park Service involved site preparation and ground disturbance work in a federally managed area near Ogden. Projects in NPS-managed land come with requirements that go well beyond what a typical commercial or municipal job involves.
+The work AccuRite performed for the National Park Service involved [site preparation and grading](/services/grading-land-clearing) in a federally managed area near [Ogden](/locations/ogden). Projects in NPS-managed land come with requirements that go well beyond what a typical commercial or municipal job involves.
 
 Environmental protection measures are built into the contract. Disturbance must be limited to the approved footprint. Vegetation and topsoil outside the work zone are protected. Erosion controls are installed and maintained, not just placed and forgotten. In some areas, work may be constrained by seasonal windows to protect wildlife or minimize impact to sensitive resources.
 
@@ -40,4 +40,4 @@ Federal contracting is a long game. Agencies keep records of contractor performa
 
 AccuRite holds an E100 General Engineering Contractor license, which is required to bid and perform public works projects in Utah. We have experience with military installations, federal land management agencies, and municipal public works departments.
 
-Learn more about our [government project work](/services/government-projects), or [contact us](/contact) to discuss a project.
+Learn more about our [government project work](/services/government-projects), or [contact us](/contact) to discuss a project. We serve communities throughout northern Utah, including [Morgan](/locations/morgan), [Huntsville](/locations/huntsville), and [Eden](/locations/eden) — areas where federal land borders residential development.

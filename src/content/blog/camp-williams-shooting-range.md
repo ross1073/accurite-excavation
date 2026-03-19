@@ -5,14 +5,14 @@ pubDate: 2024-06-15
 author: "AccuRite Excavation"
 tags: ["government projects", "military", "case study"]
 relatedServices: ["government-projects", "grading-land-clearing"]
-relatedLocations: []
+relatedLocations: ["salt-lake-city", "ogden"]
 ---
 
 Camp Williams is not the kind of job site where you figure things out as you go. The Utah National Guard's primary training installation sits south of Salt Lake City, and every contractor who works there knows that military specifications are not suggestions. When AccuRite was awarded a contract to build out a new shooting range facility at Camp Williams, we understood what we were signing up for.
 
 ## The Project
 
-The scope covered full site preparation for an active-use shooting range. That meant clearing and grubbing the range corridor, precision grading of the firing line and target areas, constructing earthen berms and ballistic backstops to proper height and compaction standards, and installing drainage that would hold up through Utah's freeze-thaw cycles.
+The scope covered full site preparation for an active-use shooting range. That meant clearing and grubbing the range corridor, precision [grading](/services/grading-land-clearing) of the firing line and target areas, constructing earthen berms and ballistic backstops to proper height and compaction standards, and installing drainage that would hold up through Utah's freeze-thaw cycles.
 
 Earthen backstops on a shooting range are not a simple pile of dirt. They need to be built to specific geometry, compacted in lifts to prevent erosion and penetration, and tied into the surrounding grade so water does not undercut them over time. We brought in our larger excavation equipment for the heavy moving and finished the berms with motor grader passes to hold tight tolerances on the slopes.
 
@@ -38,4 +38,4 @@ The shooting range came in on schedule and passed all specification reviews. The
 
 Work at Camp Williams reinforced something we already believed: government clients come back to contractors who do what they say they will do and document it properly. Compliance is not an obstacle to doing good work; it is part of doing good work.
 
-If your organization is looking for an excavation contractor with government project experience, [contact AccuRite](/contact) or learn more about our [government project capabilities](/services/government-projects).
+If your organization is looking for an excavation contractor with government project experience, [contact AccuRite](/contact) or learn more about our [government project capabilities](/services/government-projects). We serve clients throughout northern Utah, from [Ogden](/locations/ogden) to [Salt Lake City](/locations/salt-lake-city) and everywhere in between.

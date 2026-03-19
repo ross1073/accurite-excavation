@@ -70,14 +70,23 @@ import clients from '../data/clients.json';
         <div class="text-center p-6 border border-gray-200 rounded-lg">
           <div class="text-3xl font-bold text-gold-dark">{business.license}</div>
           <div class="mt-2 text-sm text-gray-600">Utah Contractor License</div>
+          <div class="mt-2">
+            <a href="https://dopl.utah.gov/" target="_blank" rel="noopener" class="text-sm text-gold-dark hover:underline">Utah DOPL verified</a>
+          </div>
         </div>
         <div class="text-center p-6 border border-gray-200 rounded-lg">
           <div class="text-3xl font-bold text-gold-dark">{new Date().getFullYear() - business.founded}+</div>
           <div class="mt-2 text-sm text-gray-600">Years in Business</div>
+          <div class="mt-2">
+            <a href={business.social.bbb} target="_blank" rel="noopener" class="text-sm text-gold-dark hover:underline">BBB Accredited</a>
+          </div>
         </div>
         <div class="text-center p-6 border border-gray-200 rounded-lg">
           <div class="text-3xl font-bold text-gold-dark">{business.reviews.rating}</div>
           <div class="mt-2 text-sm text-gray-600">Google Star Rating</div>
+          <div class="mt-2">
+            <a href={business.social.google} target="_blank" rel="noopener" class="text-sm text-gold-dark hover:underline">See our Google reviews</a>
+          </div>
         </div>
         <div class="text-center p-6 border border-gray-200 rounded-lg">
           <div class="text-3xl font-bold text-gold-dark">{business.reviews.count}</div>

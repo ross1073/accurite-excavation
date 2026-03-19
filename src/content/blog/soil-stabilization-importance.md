@@ -28,7 +28,7 @@ Clay is the problem soil for construction. It expands significantly when it gets
 
 On the bench areas east of Ogden, soils are typically coarser and better-draining, but you often encounter fill from previous development sitting on top of native material. That fill may or may not have been properly placed. When we excavate on the bench, we take nothing for granted about what is under the existing grade.
 
-Layton and the Davis County corridor have similar clay conditions in the lower-elevation areas, particularly as you move toward the lake side of I-15.
+[Layton](/locations/layton) and the Davis County corridor have similar clay conditions in the lower-elevation areas, particularly as you move toward the lake side of I-15. Our crews regularly handle soil stabilization work in [Clearfield](/locations/clearfield), [Kaysville](/locations/kaysville), and throughout the Weber-Davis county line.
 
 ## Methods for Stabilizing Soil
 

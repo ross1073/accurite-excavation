@@ -8,7 +8,7 @@ relatedServices: ["government-projects", "underground-utilities"]
 relatedLocations: ["clearfield", "layton"]
 ---
 
-Hill Air Force Base sits in the flatlands between Clearfield and Layton, and it is one of the largest Air Force installations in the country by land area. When a project came up for excavation work tied to a steam plant facility on base, we knew it would require a different level of coordination than a typical commercial utility job.
+Hill Air Force Base sits in the flatlands between [Clearfield](/locations/clearfield) and [Layton](/locations/layton), and it is one of the largest Air Force installations in the country by land area. When a project came up for excavation work tied to a steam plant facility on base, we knew it would require a different level of coordination than a typical commercial utility job.
 
 Steam plants are not simple. The infrastructure that distributes heat across a large installation involves buried steam lines, condensate return lines, and the mechanical room below grade where it all comes together. Our scope covered the excavation side: foundation work, utility trenching, and final grading.
 
@@ -30,7 +30,7 @@ Security restrictions on base also limited what equipment we could bring in and 
 
 ## Proximity to Clearfield and Layton
 
-Hill AFB's location makes it a natural fit for our operation. We are based in Ogden, and the Clearfield-Layton corridor is where we do a significant amount of our work. Familiarity with northern Utah's soil conditions, the local permitting environment, and the area's utility infrastructure all translated directly to this project.
+Hill AFB's location makes it a natural fit for our operation. We are based in [Ogden](/locations/ogden), and the Clearfield-Layton corridor is where we do a significant amount of our [commercial and government excavation work](/services/commercial-projects). Familiarity with northern Utah's soil conditions, the local permitting environment, and the area's utility infrastructure all translated directly to this project.
 
 The soils in the Davis County lowlands around the base run toward silty and clayey conditions, which affects compaction behavior and how backfill needs to be placed. Our crews know what to expect and bring the right approach from day one.
 

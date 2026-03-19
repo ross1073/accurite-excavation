@@ -60,7 +60,7 @@ Footing drains installed during foundation construction are the most effective v
 
 Retrofitting a French drain after the house is built is possible, but it requires excavating alongside the foundation wall, which is not cheap. Installing it correctly during the original excavation costs a fraction of what a retrofit does.
 
-For properties in Roy or West Haven where water tables are elevated, a perimeter footing drain is close to a requirement. We recommend it on most projects we do in the lower-elevation western areas of Weber County.
+For properties in [Roy](/locations/roy) or [West Haven](/locations/west-haven) where water tables are elevated, a perimeter footing drain is close to a requirement. We recommend it on most projects we do in the lower-elevation western areas of Weber County.
 
 ## Sump Pumps
 
