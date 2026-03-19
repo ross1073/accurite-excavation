@@ -11,13 +11,13 @@ keywords:
     - "utility trenching Northern Utah"
 faqs:
   - question: "How much does utility line installation cost in Utah?"
-    answer: "Utility installation costs depend on trench depth, linear footage, soil conditions (especially rock), and the type of utility being installed. Water and sewer lines require deeper trenches than electrical conduit, which affects cost. Contact us for a [free estimate](/free-estimate) based on your specific project."
+    answer: "Utility installation costs depend on trench depth, linear footage, soil conditions (especially rock), and the type of utility being installed. Water and sewer lines require deeper trenches than electrical conduit, which affects cost. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
   - question: "How deep are utility lines buried in Utah?"
     answer: "Water lines must be buried below the frost line, typically 42-48 inches in Weber and Davis counties. Sewer lines are usually 36-60 inches deep. Gas lines require a minimum of 18 inches of cover."
   - question: "What is Blue Stakes/811 and when do I need it?"
     answer: "Blue Stakes (Utah's 811 service) marks existing underground utilities before any digging begins. It is required by Utah law before excavation and is free. Call 811 at least 48 hours before digging. We handle this on every project."
   - question: "How much does trenching cost per foot?"
-    answer: "Trenching costs depend on depth, linear footage, and soil conditions. Rocky soil or deep trenches cost more than shallow runs in sandy loam. Total project cost includes trenching, pipe or conduit, backfill, and compaction. Contact us for a [free estimate](/free-estimate) based on your specific project."
+    answer: "Trenching costs depend on depth, linear footage, and soil conditions. Rocky soil or deep trenches cost more than shallow runs in sandy loam. Total project cost includes trenching, pipe or conduit, backfill, and compaction. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
 relatedServices:
   - "residential-excavation"
   - "septic-systems"

@@ -30,8 +30,7 @@ const { faqs, heading = 'Frequently Asked Questions' } = Astro.props;
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
-            <div class="px-6 pb-4 text-sm text-gray-600 leading-relaxed">
-              {faq.answer}
+            <div class="px-6 pb-4 text-sm text-gray-600 leading-relaxed" set:html={faq.answer}>
             </div>
           </details>
         ))}

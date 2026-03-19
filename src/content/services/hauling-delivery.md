@@ -11,13 +11,13 @@ keywords:
     - "dump truck hauling Northern Utah"
 faqs:
   - question: "How much does gravel delivery cost in Ogden?"
-    answer: "Gravel delivery costs depend on the type of gravel, quantity ordered, and delivery distance from our yard. Minimum delivery is usually one dump truck load (10-14 tons). Contact us for a [free estimate](/free-estimate) based on your specific needs."
+    answer: "Gravel delivery costs depend on the type of gravel, quantity ordered, and delivery distance from our yard. Minimum delivery is usually one dump truck load (10-14 tons). Contact us for a <a href="/free-estimate">free estimate</a> based on your specific needs."
   - question: "How do I calculate how much gravel I need?"
     answer: "Measure the area in square feet and multiply by the desired depth in feet. Divide by 27 to get cubic yards, then multiply by 1.4 to convert to tons. Or just call us with your measurements and we will calculate it for you."
   - question: "What is the difference between fill dirt and topsoil?"
     answer: "Fill dirt is subsoil used to raise grade levels and fill holes. It compacts well but does not support plant growth. Topsoil is the nutrient-rich surface layer used for landscaping, gardens, and lawns."
   - question: "How much does road base delivery cost?"
-    answer: "Road base pricing depends on quantity and delivery distance. It is a compactable blend of crushed rock and fines used for driveways, parking areas, and construction access roads. Contact us for a [free estimate](/free-estimate) based on your specific needs."
+    answer: "Road base pricing depends on quantity and delivery distance. It is a compactable blend of crushed rock and fines used for driveways, parking areas, and construction access roads. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific needs."
 relatedServices:
   - "grading-land-clearing"
   - "demolition"

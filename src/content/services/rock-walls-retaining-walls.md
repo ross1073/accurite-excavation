@@ -11,7 +11,7 @@ keywords:
     - "retaining wall installation Utah"
 faqs:
   - question: "How much does a rock retaining wall cost in Utah?"
-    answer: "Retaining wall costs depend on wall height and length, material type (boulder, block, or concrete), site access, and whether engineering is required. Taller walls need heavier materials and more extensive base preparation, which increases the scope. Contact us for a [free estimate](/free-estimate) based on your specific project."
+    answer: "Retaining wall costs depend on wall height and length, material type (boulder, block, or concrete), site access, and whether engineering is required. Taller walls need heavier materials and more extensive base preparation, which increases the scope. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
   - question: "Do I need a permit for a retaining wall in Ogden?"
     answer: "In Ogden and Weber County, retaining walls over 4 feet tall require a building permit. Walls near property lines or on slopes may need engineering. We handle the permit process."
   - question: "Rock wall vs concrete retaining wall: which is better?"

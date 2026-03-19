@@ -11,7 +11,7 @@ keywords:
     - "septic repair Northern Utah"
 faqs:
   - question: "How much does a septic system cost in Utah?"
-    answer: "Septic system costs depend on the system type (conventional gravity, pressure distribution, or mound), soil conditions, property layout, and permit requirements. Engineered systems for challenging soil cost more than conventional gravity systems in good soil. Contact us for a [free estimate](/free-estimate) based on your specific property."
+    answer: "Septic system costs depend on the system type (conventional gravity, pressure distribution, or mound), soil conditions, property layout, and permit requirements. Engineered systems for challenging soil cost more than conventional gravity systems in good soil. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific property."
   - question: "What is the septic permit process in Weber County?"
     answer: "Weber County requires a septic permit ($535 application fee plus $40 UDEQ fee, totaling $575). You need an approved perc test, site evaluation, and system design before the permit is issued."
   - question: "How much does a perc test cost in Utah?"
