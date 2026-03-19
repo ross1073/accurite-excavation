@@ -1,5 +1,6 @@
 ---
 title: "Steam Plant Excavation at Hill Air Force Base"
+metaTitle: "Steam Plant Excavation at Hill AFB"
 description: "How AccuRite Excavation handled utility and foundation work for a steam plant facility at Hill AFB in Northern Utah."
 pubDate: 2024-03-20
 author: "AccuRite Excavation"

@@ -1,5 +1,6 @@
 ---
 title: "Basement Excavation vs. Basement Dig-Out: What's the Difference?"
+metaTitle: "Basement Excavation vs. Dig-Out"
 description: "New basement excavation and basement dig-outs are two different projects with different costs, methods, and use cases. Here's how to tell which one applies to your home."
 pubDate: 2026-03-18
 author: "AccuRite Excavation"

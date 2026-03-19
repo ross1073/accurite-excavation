@@ -1,5 +1,6 @@
 ---
 title: "How Much Does Excavation Cost in Utah? (2026 Price Guide)"
+metaTitle: "Utah Excavation Cost Guide (2026)"
 description: "Comprehensive cost guide for excavation in Utah. Typical price ranges for basement digs, grading, trenching, and retaining walls — plus the factors that move the number up or down."
 pubDate: 2026-03-18
 author: "AccuRite Excavation"

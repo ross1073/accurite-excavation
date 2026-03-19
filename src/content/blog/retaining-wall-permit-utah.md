@@ -1,5 +1,6 @@
 ---
 title: "Do You Need a Permit for a Retaining Wall in Utah?"
+metaTitle: "Retaining Wall Permit Rules in Utah"
 description: "Retaining wall permit requirements for Weber, Davis, Salt Lake, and Morgan counties. When you need a permit, when you don't, and what happens if you skip it."
 pubDate: 2026-03-18
 author: "AccuRite Excavation"

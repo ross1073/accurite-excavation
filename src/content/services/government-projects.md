@@ -1,5 +1,6 @@
 ---
 title: "Government & Public Works Excavation in Utah"
+metaTitle: "Government & Public Works Excavation — Utah"
 description: "Government and military excavation contractor with security clearance, bonding, and Davis-Bacon compliance. Trusted by Army Corps of Engineers and National Park Service."
 keywords:
   primary: "government excavation contractor Utah"

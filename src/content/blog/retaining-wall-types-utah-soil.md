@@ -1,5 +1,6 @@
 ---
 title: "Retaining Wall Types for Utah Soil: Boulder, Block, or Concrete?"
+metaTitle: "Retaining Wall Types for Utah Soil"
 description: "Which type of retaining wall works best on Utah's clay and rocky soils? A practical comparison of boulder walls, segmental block walls, and poured concrete for northern Utah properties."
 pubDate: 2026-03-18
 author: "AccuRite Excavation"

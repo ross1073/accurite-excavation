@@ -1,5 +1,6 @@
 ---
 title: "Demolition Services in Ogden & Northern Utah"
+metaTitle: "Demolition Services — Northern Utah"
 description: "Licensed demolition contractor for residential, commercial, and concrete removal in Weber and Davis counties. Fully insured with 31+ years experience."
 keywords:
   primary: "demolition contractor Ogden Utah"

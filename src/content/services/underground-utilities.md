@@ -1,5 +1,6 @@
 ---
 title: "Underground Utility Installation in Ogden & Northern Utah"
+metaTitle: "Underground Utility Installation — Utah"
 description: "Water lines, sewer lines, storm drains, gas lines, and utility trenching across Weber and Davis counties. E100 licensed, fully insured."
 keywords:
   primary: "underground utilities contractor Ogden Utah"

@@ -1,5 +1,6 @@
 ---
 title: "Water Features & Pond Construction in Northern Utah"
+metaTitle: "Water Features & Pond Construction — Utah"
 description: "Custom koi ponds, natural ponds, waterfalls, and decorative water feature excavation across the Wasatch Front."
 keywords:
   primary: "pond construction Utah"

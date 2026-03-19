@@ -28,7 +28,7 @@ const relatedLocations = locationsData.filter(l => relatedLocationSlugs.includes
 ---
 
 <BaseLayout
-  title={entry.data.title + ' | AccuRite Excavation Blog'}
+  title={(entry.data.metaTitle || entry.data.title) + ' | AccuRite Excavation Blog'}
   description={entry.data.description}
   schemaType="blog"
   schemaData={{ post: entry }}

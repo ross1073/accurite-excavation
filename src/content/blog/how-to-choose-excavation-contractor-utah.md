@@ -1,5 +1,6 @@
 ---
 title: "How to Choose an Excavation Contractor in Utah"
+metaTitle: "Choosing a Utah Excavation Contractor"
 description: "A practical buyer's guide for hiring an excavation contractor in Utah. What to look for, questions to ask, and red flags that should make you walk away."
 pubDate: 2026-03-18
 author: "AccuRite Excavation"

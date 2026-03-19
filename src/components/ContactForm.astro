@@ -16,7 +16,7 @@ const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/uRXK3vFHqEQHApRA
 
 {variant === 'hero' ? (
   <div class="bg-white rounded-lg shadow-lg p-6">
-    <h2 class="font-heading text-xl font-bold text-charcoal mb-4">{heading}</h2>
+    {heading && <h2 class="font-heading text-xl font-bold text-charcoal mb-4">{heading}</h2>}
     <div data-form-container style="min-height: 400px;">
       <form
         data-contact-form

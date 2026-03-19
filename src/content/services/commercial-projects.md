@@ -1,5 +1,6 @@
 ---
 title: "Commercial Excavation in Ogden & Northern Utah"
+metaTitle: "Commercial Excavation — Northern Utah"
 description: "Commercial excavation contractor for building pads, parking lots, subdivisions, and multi-family developments across the Wasatch Front."
 keywords:
   primary: "commercial excavation contractor Utah"

@@ -1,5 +1,6 @@
 ---
 title: "Grading & Land Clearing in Ogden & Northern Utah"
+metaTitle: "Grading & Land Clearing — Northern Utah"
 description: "Professional land grading, lot clearing, and site preparation for residential and commercial construction across Weber and Davis counties."
 keywords:
   primary: "land grading contractor Ogden Utah"

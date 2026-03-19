@@ -1,5 +1,6 @@
 ---
 title: "Building a Shooting Range at Camp Williams"
+metaTitle: "Camp Williams Shooting Range Project"
 description: "AccuRite Excavation's work on the shooting range facility at Camp Williams military installation in Utah."
 pubDate: 2024-06-15
 author: "AccuRite Excavation"

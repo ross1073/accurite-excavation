@@ -1,5 +1,6 @@
 ---
 title: "Hauling & Material Delivery in Ogden & Northern Utah"
+metaTitle: "Hauling & Material Delivery — Northern Utah"
 description: "Gravel, topsoil, fill dirt, sand, and boulder delivery plus debris removal and dump truck hauling across Weber and Davis counties."
 keywords:
   primary: "material hauling Ogden Utah"

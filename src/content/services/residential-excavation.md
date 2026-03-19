@@ -1,5 +1,6 @@
 ---
 title: "Residential Excavation in Ogden & Northern Utah"
+metaTitle: "Residential Excavation — Northern Utah"
 description: "Professional residential excavation for foundations, basements, grading, and site prep across the Wasatch Front. E100 licensed with 31+ years of experience."
 keywords:
   primary: "residential excavation Ogden Utah"

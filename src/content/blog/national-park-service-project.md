@@ -1,5 +1,6 @@
 ---
 title: "AccuRite Receives Praise from the National Park Service"
+metaTitle: "AccuRite National Park Service Project"
 description: "A National Park Service project that showcased AccuRite Excavation's government contracting capabilities and earned official recognition."
 pubDate: 2023-09-10
 author: "AccuRite Excavation"

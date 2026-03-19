@@ -41,7 +41,7 @@ const faqs = entry.data.faqs || [];
 ---
 
 <BaseLayout
-  title={entry.data.title + ' | AccuRite Excavation'}
+  title={(entry.data.metaTitle || entry.data.title) + ' | AccuRite Excavation'}
   description={entry.data.description}
   schemaType="service"
   schemaData={{ service: serviceJson, faqs }}

@@ -1,5 +1,6 @@
 ---
 title: "Why Soil Stabilization Matters for Utah Construction"
+metaTitle: "Soil Stabilization for Utah Builders"
 description: "Understanding soil stabilization and why it is critical for building on Utah's clay soils along the Wasatch Front."
 pubDate: 2024-01-15
 author: "AccuRite Excavation"

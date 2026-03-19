@@ -1,5 +1,6 @@
 ---
 title: "How to Avoid Flooding in Your New Utah Home"
+metaTitle: "Avoid Flooding in Your New Utah Home"
 description: "Proper grading and drainage during excavation prevents basement flooding and water damage in Utah homes."
 pubDate: 2024-04-10
 author: "AccuRite Excavation"

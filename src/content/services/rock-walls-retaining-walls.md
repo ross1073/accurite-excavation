@@ -1,5 +1,6 @@
 ---
 title: "Rock Walls & Retaining Walls in Ogden & Northern Utah"
+metaTitle: "Rock Walls & Retaining Walls — Utah"
 description: "Boulder retaining walls, rock walls, and engineered retaining wall construction across the Wasatch Front. E100 licensed, 31+ years experience."
 keywords:
   primary: "rock retaining wall Ogden Utah"
