@@ -10,6 +10,10 @@ interface Props {
 }
 
 const { faqs, heading = 'Frequently Asked Questions' } = Astro.props;
+
+function renderAnswer(text: string): string {
+  return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-gold-dark underline hover:text-charcoal transition-colors">$1</a>');
+}
 ---
 
 {faqs.length > 0 && (
@@ -30,7 +34,7 @@ const { faqs, heading = 'Frequently Asked Questions' } = Astro.props;
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
-            <div class="px-6 pb-4 text-sm text-gray-600 leading-relaxed" set:html={faq.answer}>
+            <div class="px-6 pb-4 text-sm text-gray-600 leading-relaxed" set:html={renderAnswer(faq.answer)}>
             </div>
           </details>
         ))}

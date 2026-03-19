@@ -11,13 +11,13 @@ keywords:
     - "residential demolition contractor Utah"
 faqs:
   - question: "How much does it cost to demolish a house in Utah?"
-    answer: "Demolition costs depend on the structure's size, construction type, whether asbestos abatement is needed, and site access. Every demolition project is unique, so we quote after a site walk. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
+    answer: "Demolition costs depend on the structure's size, construction type, whether asbestos abatement is needed, and site access. Every demolition project is unique, so we quote after a site walk. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "What are the demolition permit requirements in Ogden?"
     answer: "Ogden City requires a demolition permit ($50-$100 application fee plus $50/month inspection fee). You also need utility disconnection confirmation and, for structures built before 1981, asbestos testing."
   - question: "Do I need asbestos testing before demolition in Utah?"
     answer: "Yes, if the structure was built before 1981. Weber County Health Department requires a certified asbestos inspection before any demolition permit is issued. We can coordinate this testing as part of the project."
   - question: "How much does concrete demolition and removal cost?"
-    answer: "Concrete demolition and removal costs depend on the slab's square footage, thickness, and whether it contains rebar. Reinforced concrete takes longer to break and costs more to remove. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
+    answer: "Concrete demolition and removal costs depend on the slab's square footage, thickness, and whether it contains rebar. Reinforced concrete takes longer to break and costs more to remove. Contact us for a [free estimate](/free-estimate) based on your specific project."
 relatedServices:
   - "commercial-projects"
   - "hauling-delivery"

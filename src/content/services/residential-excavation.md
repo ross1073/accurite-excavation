@@ -11,9 +11,9 @@ keywords:
     - "residential site prep Utah"
 faqs:
   - question: "How much does residential excavation cost in Utah?"
-    answer: "Residential excavation costs depend on lot size, soil conditions (rock vs clay), excavation depth, and equipment access to the site. Every project is different, so we provide detailed quotes after a site visit. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
+    answer: "Residential excavation costs depend on lot size, soil conditions (rock vs clay), excavation depth, and equipment access to the site. Every project is different, so we provide detailed quotes after a site visit. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "How much does it cost to dig a basement in Utah?"
-    answer: "Basement excavation costs vary by project based on square footage, depth, soil conditions, and how easy it is to get equipment to the site. Rocky soil on the Wasatch bench costs more than sandy valley-floor lots. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
+    answer: "Basement excavation costs vary by project based on square footage, depth, soil conditions, and how easy it is to get equipment to the site. Rocky soil on the Wasatch bench costs more than sandy valley-floor lots. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "Do I need a permit for excavation in Ogden?"
     answer: "Yes. Most excavation work in Ogden requires a permit from Ogden City or Weber County Engineering. We handle the permit process as part of our service."
   - question: "How long does basement excavation take?"

@@ -11,7 +11,7 @@ keywords:
     - "backyard pond construction"
 faqs:
   - question: "How much does a koi pond cost in Utah?"
-    answer: "Koi pond costs depend on pond size, design complexity, materials (liner vs concrete), and the filtration system required. Smaller backyard ponds cost significantly less than large custom features with waterfalls and streams. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
+    answer: "Koi pond costs depend on pond size, design complexity, materials (liner vs concrete), and the filtration system required. Smaller backyard ponds cost significantly less than large custom features with waterfalls and streams. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "Do I need a permit for a pond in Utah?"
     answer: "Small decorative ponds (under 24 inches deep) typically do not require a permit. Larger ponds, especially those that alter drainage patterns, may need a grading permit. We will advise you during the design phase."
   - question: "How deep does a pond need to be in Utah?"

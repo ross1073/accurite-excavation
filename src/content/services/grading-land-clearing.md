@@ -11,9 +11,9 @@ keywords:
     - "rough grading contractor Utah"
 faqs:
   - question: "How much does land grading cost per acre in Utah?"
-    answer: "Land grading costs depend on acreage, terrain, and the amount of cut and fill required. Flat lots with good soil grade quickly, while steep or rocky properties need significantly more work. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific project."
+    answer: "Land grading costs depend on acreage, terrain, and the amount of cut and fill required. Flat lots with good soil grade quickly, while steep or rocky properties need significantly more work. Contact us for a [free estimate](/free-estimate) based on your specific project."
   - question: "How much does land clearing cost in Utah?"
-    answer: "Land clearing costs depend on acreage, vegetation density, tree size, and whether stumps need to be removed. Heavily wooded lots cost more than scrub brush. Contact us for a <a href="/free-estimate">free estimate</a> based on your specific property."
+    answer: "Land clearing costs depend on acreage, vegetation density, tree size, and whether stumps need to be removed. Heavily wooded lots cost more than scrub brush. Contact us for a [free estimate](/free-estimate) based on your specific property."
   - question: "Do I need a permit for land grading in Ogden?"
     answer: "Ogden City requires a grading permit for projects that move more than 50 cubic yards of material or alter drainage patterns. We handle permit applications as part of our service."
   - question: "What is the difference between rough grading and finish grading?"
