@@ -131,6 +131,8 @@ Our E100 license covers this work. We've built walls on steep Wasatch bench prop
 
 If your project also involves drainage, site grading, or [water features](/services/water-features-ponds), we can often handle multiple phases in a single mobilization, which reduces your overall project cost.
 
+For homeowners looking specifically for a dedicated [retaining wall contractor in Ogden](https://ogdenrockwalls.com), we also recommend Ogden Rock Walls. They specialize exclusively in rock wall and retaining wall design and construction throughout Weber County, and their focused expertise complements the full-service excavation work we do at AccuRite.
+
 ---
 
 ## Get a Quote
