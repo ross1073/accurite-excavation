@@ -27,7 +27,7 @@ The Cottonwood Canyons were carved by glaciers during the last ice age, and thos
 
 This isn't ordinary rocky soil. Moraine deposits contain everything from fine sand to granite boulders the size of pickup trucks. There's no predicting exactly where the boulders are until you're digging. A foundation trench might go smoothly for twenty feet and then hit a six-ton boulder that has to be broken or hauled out.
 
-We approach east Sandy projects knowing that rock hammering is likely and boulder removal is possible. Our equipment includes hydraulic hammers for breaking rock and machines with enough lift capacity to handle oversized material. Timelines for foundation digs on the east side account for the reality that some days you move less material than planned because the ground had something to say about it.
+We approach east Sandy projects knowing that rock hammering is likely and boulder removal is possible. Our equipment includes hydraulic hammers for breaking rock and machines with enough lift capacity to handle oversized material. [Hauling and material removal](/services/hauling-delivery) is a significant part of every east-side dig. Timelines for foundation digs on the east side account for the reality that some days you move less material than planned because the ground had something to say about it.
 
 ### The Drainage Advantage
 
@@ -39,7 +39,7 @@ The Sandy Civic Center area, the TRAX line corridor, and the neighborhoods west 
 
 Excavation on the valley floor is straightforward in terms of material. The clay moves without hammering and the terrain is flat. The challenges are the clay's moisture reactivity and, in low-lying western Sandy areas approaching the Jordan River, a moderate water table.
 
-Commercial development along the State Street corridor and the TRAX-adjacent areas generates steady demand for site prep, foundation work, and [demolition](/services/demolition) of older commercial structures being redeveloped. We handle commercial excavation at the scale these corridor projects require.
+Commercial development along the State Street corridor and the TRAX-adjacent areas generates steady demand for [commercial site prep](/services/commercial-projects), foundation work, and [demolition](/services/demolition) of older commercial structures being redeveloped. We handle commercial excavation at the scale these corridor projects require.
 
 ## The 9400 South Corridor
 
@@ -59,7 +59,7 @@ Whether it's a new custom home on an east-side canyon lot or an addition to an e
 - **Central Sandy neighborhoods**: Mixed soil, some rock on the upper streets, moderate grading needs
 - **West side and valley floor**: Clay management, compaction, drainage-focused grading
 
-We price each project based on its actual location and soil conditions, not a city-wide average.
+We price each project based on its actual location and soil conditions, not a city-wide average. Sandy's varied terrain also makes it a strong market for [grading and drainage work](/services/grading-land-clearing), particularly on transitional lots between the valley floor and the bench.
 
 ## Utility Work and Infrastructure
 

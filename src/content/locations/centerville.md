@@ -27,7 +27,7 @@ The Parrish Lane area is the commercial heart of Centerville, running east-west 
 
 Excavation here works through Bonneville-era lake deposits — silty clay that digs cleanly but holds water. For commercial site prep and foundation work along Parrish Lane, dewatering is occasionally necessary, especially on the west end closer to the freeway where the water table rises in spring.
 
-The residential neighborhoods north and south of Parrish Lane, including the blocks along Chase Lane and Main Street, have homes ranging from the 1950s to the 1990s. Foundation repair, utility replacement, and basement waterproofing digs are common in this area. The clay soil puts long-term stress on foundations, and homes past the 40-year mark often need attention.
+The residential neighborhoods north and south of Parrish Lane, including the blocks along Chase Lane and Main Street, have homes ranging from the 1950s to the 1990s. Foundation repair, [utility replacement](/services/underground-utilities), and basement waterproofing digs are common in this area. The clay soil puts long-term stress on foundations, and homes past the 40-year mark often need attention.
 
 ## Upper Centerville: Foothills and Rock
 
@@ -63,4 +63,4 @@ We also handle [demolition](/services/demolition) for tear-down rebuilds, which 
 
 Centerville sits between [Bountiful](/locations/bountiful) to the south and [Farmington](/locations/farmington) to the north. We work all three cities regularly, along with [Kaysville](/locations/kaysville) and other Davis County communities. Our Ogden base means we travel I-15 south daily.
 
-For a free estimate on your Centerville project, call (801) 814-6975. We'll assess your lot, identify the soil and slope conditions, and provide a quote that accounts for what's actually in the ground.
+Whether you need [hauling and material delivery](/services/hauling-delivery), [commercial site work](/services/commercial-projects), or [septic system excavation](/services/septic-systems) on a larger lot, call (801) 814-6975 for a free estimate on your Centerville project. We'll assess your lot, identify the soil and slope conditions, and provide a quote that accounts for what's actually in the ground.

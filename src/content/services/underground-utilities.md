@@ -28,7 +28,7 @@ relatedServices:
 
 Every home and building depends on what's buried under the yard: water lines coming in, sewer lines going out, storm drains moving surface water away, gas service feeding the furnace and appliances. When those lines need to be installed, repaired, or replaced, the work starts with an excavator and someone who knows what they're doing underground.
 
-AccuRite Excavating handles underground utility installation across Weber and Davis counties. We're E100 licensed, fully insured, and have been doing utility work in Northern Utah since 1995. We work on residential projects, commercial sites, and subdivisions.
+AccuRite Excavating handles underground utility installation across Weber and Davis counties, serving [Ogden](/locations/ogden), [Layton](/locations/layton), [Clearfield](/locations/clearfield), and the surrounding communities. We're E100 licensed, fully insured, and have been doing utility work in Northern Utah since 1995. We work on residential projects, commercial sites, and subdivisions.
 
 ---
 
@@ -40,7 +40,7 @@ Sewer line work is one of the most common calls we get. Whether it's a new home 
 
 Sewer lines in Weber and Davis counties are typically 4-inch PVC for residential service, running from the house cleanout to the city main at the street. Slope matters: sewer lines need to maintain a consistent fall of 1/4 inch per foot to drain properly. We set that grade carefully during installation.
 
-Old clay tile sewer laterals in Ogden's older neighborhoods, homes built before the 1970s, are frequently failing and need replacement. Root intrusion and joint separation are the most common failure modes. We excavate and replace with new PVC, then restore the trench with properly compacted backfill.
+Old clay tile sewer laterals in [Ogden's](/locations/ogden) older neighborhoods, homes built before the 1970s, are frequently failing and need replacement. Root intrusion and joint separation are the most common failure modes. We excavate and replace with new PVC, then restore the trench with properly compacted backfill.
 
 ### Water Line Installation and Replacement
 
@@ -140,4 +140,4 @@ Our E100 license covers this scope of work. We carry general liability and worke
 
 ## Get a Quote
 
-Call us to discuss your utility project. We serve Ogden, Roy, Clearfield, Layton, South Weber, Farr West, North Ogden, Pleasant View, and throughout Weber and Davis counties.
+Call us to discuss your utility project. We serve [Ogden](/locations/ogden), [Roy](/locations/roy), [Clearfield](/locations/clearfield), [Layton](/locations/layton), South Weber, Farr West, North Ogden, Pleasant View, and throughout Weber and Davis counties.

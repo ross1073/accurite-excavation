@@ -27,7 +27,7 @@ The neighborhoods east of Redwood Road — the areas along 3100 South, 3500 Sout
 
 Foundation repair excavation is a steady part of our West Valley City work. The pattern is consistent: clay absorbs moisture in spring and swells, then dries and shrinks in summer, creating a push-pull cycle that cracks basement walls, shifts footings, and opens gaps between slabs. After 40 to 50 years of this, many homes need professional attention.
 
-We excavate around the foundation perimeter to expose the footing, allowing waterproofing, crack repair, reinforcement, or underpinning. Then we install drain tile and backfill with gravel to give the foundation the drainage protection it should have had from the start.
+We excavate around the foundation perimeter to expose the footing, allowing waterproofing, crack repair, reinforcement, or underpinning. Then we install drain tile and backfill with gravel to give the foundation the drainage protection it should have had from the start. This type of [residential excavation](/services/residential-excavation) is detail work that requires a crew familiar with aging foundations.
 
 ### Utility Replacement
 
@@ -45,13 +45,13 @@ New [residential construction](/services/residential-excavation) on the west sid
 
 3500 South is West Valley City's main commercial street, running east-west from the I-215 interchange deep into the city. The corridor has a mix of older commercial properties and newer development, and the churn creates [demolition](/services/demolition) and site clearing work.
 
-Commercial site preparation along 3500 South involves removing existing structures, clearing old foundations and utilities, grading to new elevations, and installing utility connections for the new development. The high-traffic corridor requires traffic management planning during excavation, and the density of underground utilities along a major road demands careful utility locate work before the first cut.
+[Commercial site preparation](/services/commercial-projects) along 3500 South involves removing existing structures, clearing old foundations and utilities, grading to new elevations, and installing [utility connections](/services/underground-utilities) for the new development. The high-traffic corridor requires traffic management planning during excavation, and the density of underground utilities along a major road demands careful utility locate work before the first cut.
 
 ## USANA Amphitheatre and Surrounding Development
 
 The area around USANA Amphitheatre in western West Valley City has seen commercial and entertainment-oriented development. Site preparation in this area involves the alluvial fan soils typical of western West Valley City — coarser than the east side, with the potential for caliche.
 
-The USANA area also represents the transition zone between the developed valley floor and the less developed land approaching the Oquirrh foothills. As development continues to push west, new infrastructure — roads, utilities, stormwater systems — needs to be installed, and excavation is the first step.
+The USANA area also represents the transition zone between the developed valley floor and the less developed land approaching the Oquirrh foothills. As development continues to push west, new infrastructure — roads, utilities, stormwater systems — needs to be installed, and excavation is the first step. We also provide [hauling and material delivery](/services/hauling-delivery) for projects that need fill, gravel, or debris removal.
 
 ## Grading and Drainage Across the City
 

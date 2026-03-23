@@ -43,7 +43,7 @@ We use sump pumps and temporary well points to control groundwater during excava
 
 Clinton has grown significantly, with new residential subdivisions pushing west and south into formerly agricultural land. The area between 2000 West and 3000 West has seen particular development activity, with new single-family subdivisions, townhome projects, and the infrastructure that supports them.
 
-For new construction, we handle [residential excavation](/services/residential-excavation) from initial lot grading through foundation dig, utility connection trenching, and final grade. Clinton's flat terrain means site prep is mostly about establishing proper drainage grade rather than managing slope, but that drainage work is critical given the clay and water table conditions.
+For new construction, we handle [residential excavation](/services/residential-excavation) from initial lot [grading](/services/grading-land-clearing) through foundation dig, [utility connection trenching](/services/underground-utilities), and final grade. Clinton's flat terrain means site prep is mostly about establishing proper drainage grade rather than managing slope, but that drainage work is critical given the clay and water table conditions.
 
 ### Subdivision-Scale Work
 
@@ -71,4 +71,4 @@ We've also worked on [government and municipal projects](/services/government-pr
 
 Clinton sits in the center of the west Davis County corridor. We also work in neighboring [Clearfield](/locations/clearfield), [Syracuse](/locations/syracuse), [West Point](/locations/west-point), and [Roy](/locations/roy) to the north. Our Ogden base puts us within 20 minutes of any Clinton job site.
 
-Call (801) 814-6975 for a free estimate. We'll assess your soil and water conditions and build a plan that works with Clinton's ground, not against it.
+We also handle [demolition](/services/demolition), [hauling and material delivery](/services/hauling-delivery), and [retaining walls](/services/rock-walls-retaining-walls) throughout the area. Call (801) 814-6975 for a free estimate. We'll assess your soil and water conditions and build a plan that works with Clinton's ground, not against it.

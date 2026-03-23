@@ -21,7 +21,7 @@ relatedServices:
 
 ## Government Excavation Contractor in Utah
 
-AccuRite Excavating has been a trusted government excavation contractor in Utah for over 30+ years. We hold the credentials, bonding, and compliance documentation that federal, state, and municipal contracts require. From military installations to national park infrastructure, we've completed public works projects that demand more than just equipment. They demand accountability.
+AccuRite Excavating has been a trusted government excavation contractor in Utah for over 30+ years. Based in [Ogden](/locations/ogden), we hold the credentials, bonding, and compliance documentation that federal, state, and municipal contracts require. From military installations to national park infrastructure, we've completed public works projects that demand more than just equipment. They demand accountability.
 
 If you're a contracting officer or public works director reviewing bids, here's what you need to know about us.
 
@@ -45,7 +45,7 @@ If you're a contracting officer or public works director reviewing bids, here's 
 
 ### Military Installations
 
-AccuRite has completed excavation and site work at Camp Williams and Hill Air Force Base. Military projects require strict adherence to installation security procedures, schedule coordination with base personnel, and documentation requirements that go beyond standard commercial contracts. We've navigated these requirements successfully on multiple projects.
+AccuRite has completed excavation and site work at Camp Williams and Hill Air Force Base near [Clearfield](/locations/clearfield) and [Layton](/locations/layton). Military projects require strict adherence to installation security procedures, schedule coordination with base personnel, and documentation requirements that go beyond standard commercial contracts. We've navigated these requirements successfully on multiple projects.
 
 ### Army Corps of Engineers
 
@@ -73,7 +73,7 @@ County public works projects, including road improvements, drainage infrastructu
 
 Public works excavation projects typically include one or more of the following scopes.
 
-**Grading and site preparation:** Building pads, parking areas, access roads, and facility grounds for government facilities require precise grading to design elevations with proper drainage and compaction.
+**[Grading and site preparation](/services/grading-land-clearing):** Building pads, parking areas, access roads, and facility grounds for government facilities require precise grading to design elevations with proper drainage and compaction.
 
 **Underground utility installation:** [Underground utilities](/services/underground-utilities) for government facilities follow the same basic process as commercial projects but with more detailed specifications, inspection hold points, and documentation requirements.
 
@@ -111,4 +111,4 @@ For [commercial site work](/services/commercial-projects) that doesn't fall unde
 
 We respond to formal bid invitations, informal quotes, and direct procurement requests. Send plans, specifications, and scope documents to our office and we will provide a complete bid response.
 
-AccuRite Excavating is based in Ogden, Utah, and operates throughout the Wasatch Front and surrounding counties.
+AccuRite Excavating is based in [Ogden](/locations/ogden), Utah, and operates throughout the Wasatch Front and surrounding counties including [Layton](/locations/layton), [Salt Lake City](/locations/salt-lake-city), and [Brigham City](/locations/brigham-city).

@@ -28,7 +28,7 @@ relatedServices:
 
 Good grading is what separates a site that drains properly from one that floods every spring. AccuRite Excavating has been the land grading contractor Ogden Utah homeowners and builders rely on since 1995. We do grading right, with the right equipment, to the right elevations, so the work that follows goes smoothly.
 
-We cover residential lots, commercial sites, and agricultural properties across Weber and Davis counties. Whether you're clearing raw land for a new home or re-grading an existing yard that's been a drainage problem for years, we handle the full scope.
+We cover residential lots, commercial sites, and agricultural properties across Weber and Davis counties, including [Ogden](/locations/ogden), [Layton](/locations/layton), and [Salt Lake City](/locations/salt-lake-city). Whether you're clearing raw land for a new home or re-grading an existing yard that's been a drainage problem for years, we handle the full scope.
 
 ---
 
@@ -80,7 +80,7 @@ Northern Utah's soil varies considerably depending on where you are along the Wa
 
 **Benchland properties** in neighborhoods above Harrison Boulevard, along the east benches of Ogden, and in areas like Huntsville and Eden frequently encounter caliche hardpan and fractured sandstone. Grading these lots takes more time and sometimes requires ripping before a dozer can move material effectively.
 
-**Valley floor properties** in West Ogden, Roy, Harrisville, and Farr West tend toward sandy loam and silt soils. These excavate and grade quickly but may need compaction testing to confirm subgrade stability before paving or construction.
+**Valley floor properties** in West Ogden, [Roy](/locations/roy), Harrisville, and Farr West tend toward sandy loam and silt soils. These excavate and grade quickly but may need compaction testing to confirm subgrade stability before paving or construction.
 
 **Fill sites and disturbed ground** anywhere along the Wasatch Front may have variable fill materials placed decades ago without documentation. These need careful evaluation before grading work begins, especially if a structure will bear on the graded area.
 
@@ -123,7 +123,7 @@ We handle permit applications as part of our service. Permit fees are separate f
 
 We've been grading land in Northern Utah for over 30 years. We own and operate the equipment we work with, which means we're not marking up rental costs or waiting on machines to arrive. Our operators know the local soils and terrain.
 
-We also handle what comes before and after grading. [Residential excavation](/services/residential-excavation) for foundations and basements, utility trenching, and demolition of existing structures are all in our scope. That means fewer contractors to coordinate on your project.
+We also handle what comes before and after grading. [Residential excavation](/services/residential-excavation) for foundations and basements, [underground utility](/services/underground-utilities) trenching, and [demolition](/services/demolition) of existing structures are all in our scope. That means fewer contractors to coordinate on your project.
 
 ---
 
@@ -131,4 +131,4 @@ We also handle what comes before and after grading. [Residential excavation](/se
 
 Call us or send a message with your property address and what you're trying to accomplish. We'll schedule a site visit and give you a straight quote.
 
-AccuRite Excavating serves Ogden, Roy, Harrisville, North Ogden, Pleasant View, Farr West, Riverdale, South Ogden, and communities throughout Weber and Davis counties.
+AccuRite Excavating serves [Ogden](/locations/ogden), [Roy](/locations/roy), Harrisville, North Ogden, Pleasant View, Farr West, Riverdale, South Ogden, and communities throughout Weber and Davis counties including [Kaysville](/locations/kaysville) and [Clearfield](/locations/clearfield).

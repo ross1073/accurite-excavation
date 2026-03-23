@@ -28,7 +28,7 @@ Excavation demand in Brigham City is real but different in character from cities
 
 ## Residential Excavation in Brigham City
 
-New home construction in Brigham City typically involves site prep on relatively flat or gently sloping ground, with valley clay as the primary soil type. Rocky conditions increase on lots closer to the mountains on either side of the valley, but most in-town lots don't require rock hammering.
+New home construction in Brigham City typically involves [residential site prep](/services/residential-excavation) on relatively flat or gently sloping ground, with valley clay as the primary soil type. Rocky conditions increase on lots closer to the mountains on either side of the valley, but most in-town lots don't require rock hammering.
 
 ### Foundation Excavation
 
@@ -36,7 +36,7 @@ Full basement and crawl space foundation digs in Brigham City take one to two da
 
 ### Lot Clearing and Grading
 
-New construction sites often need clearing before excavation starts. Brigham City lots on former agricultural land may have mature trees, old irrigation infrastructure, or debris that comes off before grading begins. We handle clearing and topsoil stripping, stockpiling good topsoil for reuse in final landscaping.
+New construction sites often need [clearing](/services/grading-land-clearing) before excavation starts. Brigham City lots on former agricultural land may have mature trees, old irrigation infrastructure, or debris that comes off before grading begins. We handle clearing and topsoil stripping, stockpiling good topsoil for reuse in final landscaping.
 
 ## Agricultural Land Conversion
 
@@ -52,7 +52,7 @@ Old irrigation lines, head gates, and ditches on former farm ground need to be r
 
 ## Septic System Excavation in Rural Box Elder County
 
-Many properties in the Brigham City area and throughout rural Box Elder County are not on city sewer. Septic system installation requires excavation for both the tank pit and the drain field trenches, sized and positioned according to a design prepared by a licensed engineer or system designer.
+Many properties in the Brigham City area and throughout rural Box Elder County are not on city sewer. [Septic system installation](/services/septic-systems) requires excavation for both the tank pit and the drain field trenches, sized and positioned according to a design prepared by a licensed engineer or system designer.
 
 ### The Septic Excavation Process
 
@@ -64,7 +64,7 @@ Clay soils, which are common in the Brigham City valley, can complicate septic d
 
 ## Utility Trenching in Brigham City
 
-Older neighborhoods in central Brigham City have utility infrastructure that reflects the city's age. Water line replacements, sewer lateral repairs, and gas line work are common requests. We trench for utility replacement and repair throughout the city, coordinating with Box Elder County and Brigham City utilities on inspections and connections.
+Older neighborhoods in central Brigham City have utility infrastructure that reflects the city's age. Water line replacements, sewer lateral repairs, and gas line work are common requests. We trench for [utility replacement and repair](/services/underground-utilities) throughout the city, coordinating with Box Elder County and Brigham City utilities on inspections and connections.
 
 ### Main Street and Downtown Utility Work
 

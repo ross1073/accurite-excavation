@@ -28,7 +28,7 @@ relatedServices:
 
 ## Residential Excavation in Ogden and Northern Utah
 
-Residential excavation Ogden Utah homeowners need runs the full range, from digging a new basement to clearing land for a home addition. AccuRite Excavating has been doing this work in Weber County since 1995. We're E100 licensed, fully insured, and have handled hundreds of residential projects across the Wasatch Front.
+Residential excavation Ogden Utah homeowners need runs the full range, from digging a new basement to clearing land for a home addition. AccuRite Excavating has been doing this work in Weber County since 1995. We're E100 licensed, fully insured, and have handled hundreds of residential projects across the Wasatch Front, from [Ogden](/locations/ogden) hillside lots to valley-floor homes in [Layton](/locations/layton) and [Roy](/locations/roy).
 
 Whether you need a basement dug, a foundation prepped, a driveway cut in, or a lot cleared for new construction, we bring the right equipment and handle everything from permits to cleanup.
 
@@ -99,7 +99,7 @@ We provide detailed quotes after a site visit because these variables can't be a
 
 ## Northern Utah Soil and Permit Considerations
 
-Weber County soil conditions are a real factor in residential excavation. The benchland areas, neighborhoods above Harrison Boulevard and into the foothills, often encounter hardpan caliche and fractured rock. Valley-floor properties in West Ogden or Roy tend toward sandy loam and silt, which excavates easily but may need compaction work.
+Weber County soil conditions are a real factor in residential excavation. The benchland areas, neighborhoods above Harrison Boulevard and into the foothills, often encounter hardpan caliche and fractured rock. Valley-floor properties in West Ogden or [Roy](/locations/roy) tend toward sandy loam and silt, which excavates easily but may need compaction work.
 
 Permits in Ogden City and unincorporated Weber County are required for most foundation and basement excavations. Permit fees vary by project scope. We handle the application, coordinate with the city or county engineering department, and schedule required inspections.
 
@@ -119,4 +119,4 @@ We also do the work that often follows residential excavation, including [septic
 
 Call us to discuss your project. We'll schedule a site visit and give you a detailed quote based on your actual site conditions, not a ballpark number off a website.
 
-AccuRite Excavating serves Ogden, Roy, Riverdale, South Ogden, North Ogden, Pleasant View, Harrisville, Farr West, and throughout Weber and Davis counties.
+AccuRite Excavating serves [Ogden](/locations/ogden), [Roy](/locations/roy), Riverdale, South Ogden, North Ogden, Pleasant View, Harrisville, Farr West, and throughout Weber and Davis counties including [Layton](/locations/layton) and [Clearfield](/locations/clearfield).

@@ -29,9 +29,9 @@ Taylorsville homes were built during the boom decades of the 1970s through 1990s
 
 ### What Foundation Repair Excavation Looks Like
 
-When a Taylorsville home needs foundation repair, excavation is the first step. We dig a trench along the exterior of the affected wall, down to the bottom of the footing — usually six to eight feet deep. The trench needs to be wide enough for workers and waterproofing materials. We work in controlled lifts to avoid disturbing the foundation further and brace the trench walls in the clay soil.
+When a Taylorsville home needs foundation repair, [residential excavation](/services/residential-excavation) is the first step. We dig a trench along the exterior of the affected wall, down to the bottom of the footing — usually six to eight feet deep. The trench needs to be wide enough for workers and waterproofing materials. We work in controlled lifts to avoid disturbing the foundation further and brace the trench walls in the clay soil.
 
-Once the foundation is exposed, repair contractors apply waterproofing membrane, install drain tile, and make structural repairs as needed. We then backfill with gravel and compacted fill, grading the surface to drain away from the foundation. This drainage improvement is often the most important part — it reduces future moisture fluctuation and slows the clay's expansion-contraction cycle.
+Once the foundation is exposed, repair contractors apply waterproofing membrane, install drain tile, and make structural repairs as needed. We then backfill with gravel and compacted fill, [grading the surface](/services/grading-land-clearing) to drain away from the foundation. This drainage improvement is often the most important part — it reduces future moisture fluctuation and slows the clay's expansion-contraction cycle.
 
 ## Utility Replacement Across the City
 
@@ -63,4 +63,4 @@ The flat terrain and poor-draining clay make these problems common throughout th
 
 ## Serving Taylorsville and the Central Valley
 
-Taylorsville borders [Murray](/locations/murray) to the east, [West Valley City](/locations/west-valley-city) to the north, and [West Jordan](/locations/west-jordan) to the south. We work throughout the central Salt Lake Valley. Call (801) 814-6975 for a free estimate on your Taylorsville excavation project.
+Taylorsville borders [Murray](/locations/murray) to the east, [West Valley City](/locations/west-valley-city) to the north, and [West Jordan](/locations/west-jordan) to the south. We work throughout the central Salt Lake Valley. Whether you need [hauling and material delivery](/services/hauling-delivery), [retaining walls](/services/rock-walls-retaining-walls), or utility work, call (801) 814-6975 for a free estimate on your Taylorsville excavation project.

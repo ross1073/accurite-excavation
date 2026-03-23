@@ -24,7 +24,7 @@ projects: []
 testimonials: []
 ---
 
-Kaysville is one of the more demanding excavation markets on the Wasatch Front. The city's east bench terrain means that a large share of residential lots, especially anything above Kaysville Parkway and up toward the foothills, involve rock, steep grades, and significant cut-and-fill work. Custom home building is active here, and the clientele expects careful, quality work that respects the investment they're making in their property.
+Kaysville is one of the more demanding [residential excavation](/services/residential-excavation) markets on the Wasatch Front. The city's east bench terrain means that a large share of lots, especially anything above Kaysville Parkway and up toward the foothills, involve rock, steep grades, and significant cut-and-fill work. Custom home building is active here, and the clientele expects careful, quality work that respects the investment they're making in their property.
 
 AccuRite Excavation has the equipment and experience that Kaysville bench projects require: hydraulic rock hammers for the sandstone and limestone, retaining wall expertise for the grade changes, and the planning approach that hillside sites demand before the first bucket swings.
 

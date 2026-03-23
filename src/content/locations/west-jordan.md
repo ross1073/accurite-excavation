@@ -25,7 +25,7 @@ West Jordan spans roughly seven miles from the Jordan River to the Oquirrh Mount
 
 West Jordan's eastern neighborhoods — the areas along Redwood Road, 1300 West, and the streets approaching the river — were built primarily in the 1980s and 1990s. These homes are now 30 to 40 years old, which is the age when clay-affected foundations start showing problems and original utility lines begin to fail.
 
-The soil is silty clay with alluvial influence from the Jordan River. It's workable material that digs without hammering, but it holds moisture and moves with the seasons. Foundation walls in these neighborhoods commonly show diagonal cracking from the clay's expansion and contraction cycles. When repair is needed, we excavate along the foundation wall to expose the footing, allowing repair contractors access to waterproof, reinforce, or underpin the foundation.
+The soil is silty clay with alluvial influence from the Jordan River. It's workable material that digs without hammering, but it holds moisture and moves with the seasons. Foundation walls in these neighborhoods commonly show diagonal cracking from the clay's expansion and contraction cycles. When repair is needed, we provide [residential excavation](/services/residential-excavation) along the foundation wall to expose the footing, allowing repair contractors access to waterproof, reinforce, or underpin the foundation.
 
 The Jordan River's proximity raises the water table on the east side, particularly in spring when snowmelt from the Wasatch and Oquirrh ranges feeds the river system. Properties within a few blocks of the river corridor may need dewatering during excavation, and some fall within FEMA-designated flood zones that impose additional foundation requirements.
 
@@ -70,4 +70,4 @@ The mix of excavation work in West Jordan is broad:
 
 ## Serving West Jordan and Southwest Salt Lake Valley
 
-West Jordan borders [South Jordan](/locations/south-jordan) to the south, [Taylorsville](/locations/taylorsville) to the north, and [West Valley City](/locations/west-valley-city) to the northwest. We work throughout the southwest Salt Lake Valley. For a free estimate on your West Jordan project, call (801) 814-6975.
+West Jordan borders [South Jordan](/locations/south-jordan) to the south, [Taylorsville](/locations/taylorsville) to the north, and [West Valley City](/locations/west-valley-city) to the northwest. We work throughout the southwest Salt Lake Valley. Whether you need [demolition](/services/demolition), [hauling and delivery](/services/hauling-delivery), or [grading and land clearing](/services/grading-land-clearing), call (801) 814-6975 for a free estimate on your West Jordan project.

@@ -18,7 +18,7 @@ faqs:
   - question: "How long does a typical excavation project take in Ogden?"
     answer: "A standard residential foundation dig on the valley floor usually takes one to two days. East bench projects where we hit rock can run three to five days depending on depth and volume. Commercial site prep and demolition projects in the downtown corridor vary widely. We give you a realistic timeline upfront, not an optimistic guess."
   - question: "Can AccuRite handle both the excavation and the retaining walls?"
-    answer: "Yes. Many Ogden east bench lots need significant cut-and-fill work along with a retaining wall to hold the grade. We handle the full sequence: excavation, grading, and wall construction. See our retaining wall services for details on rock walls, concrete block, and timber options suited to Ogden's bench terrain."
+    answer: "Yes. Many Ogden east bench lots need significant cut-and-fill work along with a retaining wall to hold the grade. We handle the full sequence: excavation, grading, and wall construction. See our [retaining wall services](/services/rock-walls-retaining-walls) for details on rock walls, concrete block, and timber options suited to Ogden's bench terrain."
   - question: "Does AccuRite work in historic downtown Ogden?"
     answer: "We do. Downtown redevelopment has been active and we have completed commercial demo and utility work in the historic core. Tight lot lines, existing utilities, and proximity to neighboring buildings require careful planning. We do a site walk before every downtown job to map utilities and plan equipment staging."
 landmarkImage: "/src/assets/images/locations/ogden-landmark.png"
@@ -38,7 +38,7 @@ That difference matters for scheduling and cost. Clay moves slowly and predictab
 
 Residential and commercial sites on the valley floor, especially anything west of Washington Blvd, tend to have dense clay with poor natural drainage. On low-lying streets near the Ogden River and in some western neighborhoods, the water table is shallow enough that dewatering is part of the plan from day one.
 
-We've done [utility trenching](/services/underground-utilities), foundation digs, and [site prep](/services/grading-land-clearing) throughout midtown and west Ogden. Clay slows things down but it's manageable with the right equipment and a crew that doesn't underestimate it.
+We've done [utility trenching](/services/underground-utilities), [residential foundation digs](/services/residential-excavation), and [site prep](/services/grading-land-clearing) throughout midtown and west Ogden. Clay slows things down but it's manageable with the right equipment and a crew that doesn't underestimate it.
 
 ### East Bench Projects
 

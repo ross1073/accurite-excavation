@@ -37,7 +37,7 @@ Clay is clay — it sticks to buckets, won't compact when it's too wet, and move
 
 Syracuse's residential growth has been concentrated in several areas. The neighborhoods south of Antelope Drive between 2000 West and 3000 West have seen heavy subdivision activity. The Bluff Ridge area and developments near Syracuse Arts Academy have filled in rapidly. Farther north toward the West Point border, new subdivisions are consuming the last large tracts of agricultural land.
 
-For new home construction, we handle the full excavation scope: lot grading to establish building pad elevation, foundation excavation, utility trenching for water, sewer, and storm drain connections, and final grading after construction. Most Syracuse lots are flat with straightforward access, which keeps costs reasonable compared to the foothill communities to the east.
+For new home construction, we handle the full [residential excavation](/services/residential-excavation) scope: lot grading to establish building pad elevation, foundation excavation, utility trenching for water, sewer, and storm drain connections, and final grading after construction. Most Syracuse lots are flat with straightforward access, which keeps costs reasonable compared to the foothill communities to the east.
 
 ### Subdivision-Scale Work
 
@@ -65,4 +65,4 @@ Syracuse's proximity to Antelope Island State Park isn't just scenic — the cau
 
 Syracuse borders [Clinton](/locations/clinton) to the south, [West Point](/locations/west-point) to the north, and [Clearfield](/locations/clearfield) and [Layton](/locations/layton) to the east. We work throughout this corridor and often have crews in multiple west Davis County cities on the same day. From our Ogden base, we're on a Syracuse job site in about 25 minutes.
 
-Call (801) 814-6975 for a free estimate on your Syracuse project. Whether it's a single lot foundation dig or a multi-acre subdivision prep, we'll give you a plan that accounts for what's actually in the ground here.
+We also provide [demolition](/services/demolition), [hauling and material delivery](/services/hauling-delivery), and [commercial site prep](/services/commercial-projects) throughout the area. Call (801) 814-6975 for a free estimate on your Syracuse project. Whether it's a single lot foundation dig or a multi-acre subdivision prep, we'll give you a plan that accounts for what's actually in the ground here.

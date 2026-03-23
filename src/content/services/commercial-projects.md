@@ -24,7 +24,7 @@ relatedServices:
 
 ## Commercial Excavation Contractor in Utah
 
-When a general contractor or developer needs site work done on time and within budget, the excavation contractor they choose determines whether the schedule holds. AccuRite Excavating has been the commercial excavation contractor Utah builders have counted on since 1995. We're E100 licensed, commercially bonded, and have completed projects for retail centers, multi-family developments, industrial sites, and subdivisions across the Wasatch Front.
+When a general contractor or developer needs site work done on time and within budget, the excavation contractor they choose determines whether the schedule holds. AccuRite Excavating has been the commercial excavation contractor Utah builders have counted on since 1995. We're E100 licensed, commercially bonded, and have completed projects for retail centers, multi-family developments, industrial sites, and subdivisions across the Wasatch Front — from [Ogden](/locations/ogden) and [Layton](/locations/layton) to [Salt Lake City](/locations/salt-lake-city) and the surrounding metro area.
 
 We run a full fleet of heavy equipment and have the bonding and insurance required for commercial contracts. If you're a GC coordinating multiple trades on a tight schedule, we understand what that means.
 
@@ -36,7 +36,7 @@ We run a full fleet of heavy equipment and have the bonding and insurance requir
 
 Getting a building pad to the right elevation and compaction is the foundation of every commercial build. We handle clearing and grubbing, cut and fill work, rough grading, and fine grading to design elevations. We work from civil plans and coordinate directly with your project engineer.
 
-Wasatch Front soil conditions vary by location. Sites closer to the foothills may require blasting or rock grinding. Valley-floor properties in West Ogden, Roy, or Riverdale tend toward sandy soils that excavate quickly but need careful compaction testing.
+Wasatch Front soil conditions vary by location. Sites closer to the foothills may require blasting or rock grinding. Valley-floor properties in West Ogden, [Roy](/locations/roy), or Riverdale tend toward sandy soils that excavate quickly but need careful compaction testing.
 
 ### Parking Lots and Paved Areas
 
@@ -92,7 +92,7 @@ After mass grading, we bring the site to design grade with a motor grader, then 
 
 ### Phase 5: Utility Coordination
 
-[Underground utility installation](/services/underground-utilities) often runs alongside or immediately after grading. We can handle utilities as part of the same contract, which simplifies scheduling and accountability.
+[Underground utility installation](/services/underground-utilities) often runs alongside or immediately after grading. We can handle utilities as part of the same contract, which simplifies scheduling and accountability. For projects that also need site clearing, our [grading and land clearing](/services/grading-land-clearing) crew works in coordination with the grading phase.
 
 ---
 
@@ -110,4 +110,4 @@ If you're bidding a commercial project and need a reliable excavation sub, call 
 
 We work directly with developers, general contractors, architects, and project owners. Bring us your plans and we'll provide a detailed proposal.
 
-AccuRite Excavating serves commercial projects across Ogden, Roy, Riverdale, Layton, Clearfield, Bountiful, and throughout the Wasatch Front. Call to discuss your project or submit plans for a quote.
+AccuRite Excavating serves commercial projects across [Ogden](/locations/ogden), [Roy](/locations/roy), Riverdale, [Layton](/locations/layton), [Clearfield](/locations/clearfield), Bountiful, and throughout the Wasatch Front. Call to discuss your project or submit plans for a quote.

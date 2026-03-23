@@ -30,7 +30,7 @@ AccuRite Excavation works in Roy regularly as part of our Weber County service a
 
 Clay soils are Roy's most common excavation challenge. Dense clay holds moisture, expands with seasonal wet cycles, and drains poorly unless the site is actively graded to move water away from structures. Getting drainage right at the grading stage is not optional here; it's what separates a foundation that stays dry from one that develops moisture problems within a few years.
 
-We grade every site with drainage as the first priority. That means establishing the right slope away from the foundation, identifying any low spots where water will collect, and addressing them before backfill and finish grade.
+We [grade every site](/services/grading-land-clearing) with drainage as the first priority. That means establishing the right slope away from the foundation, identifying any low spots where water will collect, and addressing them before backfill and finish grade.
 
 ### Site Grading for New Construction
 
@@ -58,7 +58,7 @@ Some properties on Roy's western edge and in adjacent unincorporated areas aren'
 
 ## Foundation Excavation in Roy
 
-New home construction and additions in Roy require foundation excavation. Flat terrain makes equipment access easy, and there's no rock to hammer through. The main variable is soil moisture. Wet clay is slow to cut and needs time to dry before backfilling or it will slump back into the trench. We schedule around weather when we can and have equipment suited to wet conditions when we can't.
+New home construction and additions in Roy require [residential foundation excavation](/services/residential-excavation). Flat terrain makes equipment access easy, and there's no rock to hammer through. The main variable is soil moisture. Wet clay is slow to cut and needs time to dry before backfilling or it will slump back into the trench. We schedule around weather when we can and have equipment suited to wet conditions when we can't.
 
 ### Basement and Crawl Space Digs
 

@@ -28,7 +28,7 @@ relatedServices:
 
 ## Pond Construction and Water Features in Northern Utah
 
-A well-built backyard pond or water feature is one of those projects that changes how you use your yard. Pond construction in Utah presents specific challenges, mainly the freeze depth during winter, the alkaline water chemistry along the Wasatch Front, and the rocky soil conditions on bench properties. AccuRite Excavating handles the excavation, grading, and groundwork that makes a water feature last.
+A well-built backyard pond or water feature is one of those projects that changes how you use your yard. Pond construction in Utah presents specific challenges, mainly the freeze depth during winter, the alkaline water chemistry along the Wasatch Front, and the rocky soil conditions on bench properties. AccuRite Excavating handles the excavation, grading, and groundwork that makes a water feature last, serving homeowners across [Ogden](/locations/ogden), [Layton](/locations/layton), and [Salt Lake City](/locations/salt-lake-city).
 
 We're an excavation contractor, not a landscape designer. That means we focus on doing the earthwork correctly so your pond holds water, drains properly, and doesn't shift with freeze-thaw cycles.
 
@@ -92,7 +92,7 @@ We'll give you an honest recommendation based on your project, not what produces
 
 ### Design and Site Assessment
 
-Before excavation begins, we look at the site conditions. What's the slope? Where does drainage flow? Are there utilities in the area? What's the soil? On benchland properties east of Ogden, we may hit rock close to the surface, which affects the design.
+Before excavation begins, we look at the site conditions. What's the slope? Where does drainage flow? Are there utilities in the area? What's the soil? On benchland properties east of [Ogden](/locations/ogden), we may hit rock close to the surface, which affects the design.
 
 We'll talk through the shape, depth, and features you want and advise on what's realistic for the site.
 
@@ -134,4 +134,4 @@ The scope may also include surrounding [retaining walls](/services/rock-walls-re
 
 Call us with the general size and type of feature you're considering. We'll schedule a site visit, look at the conditions, and give you a detailed quote based on your actual yard, not generic estimates.
 
-AccuRite Excavating serves Ogden, North Ogden, Pleasant View, Huntsville, Eden, Roy, Riverdale, and communities throughout Weber and Davis counties.
+AccuRite Excavating serves [Ogden](/locations/ogden), North Ogden, Pleasant View, Huntsville, Eden, [Roy](/locations/roy), Riverdale, and communities throughout Weber and Davis counties including [Sandy](/locations/sandy) and [South Jordan](/locations/south-jordan).

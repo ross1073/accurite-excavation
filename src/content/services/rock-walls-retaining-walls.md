@@ -30,7 +30,7 @@ relatedServices:
 
 ## Rock Retaining Walls in Ogden and Northern Utah
 
-If you own property along the Wasatch bench or in any of Ogden's hillside neighborhoods, a rock retaining wall is often the difference between a usable yard and a slope that keeps eroding. AccuRite Excavating builds boulder retaining walls, rock walls, and engineered retaining structures across Weber, Davis, and Morgan counties.
+If you own property along the Wasatch bench or in any of Ogden's hillside neighborhoods, a rock retaining wall is often the difference between a usable yard and a slope that keeps eroding. AccuRite Excavating builds boulder retaining walls, rock walls, and engineered retaining structures across Weber, Davis, and Morgan counties. We serve homeowners throughout [Ogden](/locations/ogden), [Layton](/locations/layton), [Kaysville](/locations/kaysville), and the surrounding area.
 
 We've been building walls in Northern Utah since 1995. We understand the soil, the freeze-thaw cycles, and what it takes to build a wall that holds for decades, not just a couple of winters.
 
@@ -139,4 +139,4 @@ For homeowners looking specifically for a dedicated [retaining wall contractor i
 
 We'll come out, look at your slope, assess the soil and drainage situation, and give you a detailed quote. Most retaining wall projects in Northern Utah take 2-5 days depending on wall length and height.
 
-AccuRite Excavating serves Ogden, North Ogden, South Ogden, Pleasant View, Roy, Harrisville, Farr West, Eden, Huntsville, and throughout Weber, Davis, and Morgan counties.
+AccuRite Excavating serves [Ogden](/locations/ogden), North Ogden, South Ogden, Pleasant View, [Roy](/locations/roy), Harrisville, Farr West, Eden, Huntsville, and throughout Weber, Davis, and Morgan counties.

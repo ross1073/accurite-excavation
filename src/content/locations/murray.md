@@ -27,13 +27,13 @@ Murray doesn't have the hillside drama of a Draper or the new-subdivision energy
 
 Drive through Murray's residential neighborhoods — the blocks around Murray Park, the streets off 5300 South, the homes along Vine Street and 4800 South — and you'll see the evidence of clay soil at work. Cracked foundations, bowed basement walls, uneven driveways, and misaligned garage doors are all symptoms of soil that has been pushing and pulling against these structures for decades.
 
-When these problems get serious enough for repair, excavation is the first step. We dig down along the exterior foundation wall to the bottom of the footing, creating a working space for foundation repair contractors to waterproof, seal, reinforce, or install piers. The depth is usually six to eight feet, and the trench has to be wide enough for workers and materials.
+When these problems get serious enough for repair, [residential excavation](/services/residential-excavation) is the first step. We dig down along the exterior foundation wall to the bottom of the footing, creating a working space for foundation repair contractors to waterproof, seal, reinforce, or install piers. The depth is usually six to eight feet, and the trench has to be wide enough for workers and materials.
 
 This isn't aggressive digging. Working next to a 60-year-old foundation requires controlled excavation in shallow lifts to avoid undermining the wall. We brace when necessary and maintain the trench at a safe angle of repose for the clay soil. The goal is to expose the foundation without making the problem worse.
 
 ### Basement Waterproofing
 
-Murray basements get wet. The Bonneville clay holds water against foundation walls, and many homes built before modern waterproofing standards don't have adequate exterior drainage. We excavate for basement waterproofing — digging down to the footing, applying waterproof membrane, installing drain tile, and backfilling with gravel to create a drainage path that keeps water from pressing against the wall.
+Murray basements get wet. The Bonneville clay holds water against foundation walls, and many homes built before modern waterproofing standards don't have adequate exterior drainage. We excavate for basement waterproofing — digging down to the footing, applying waterproof membrane, installing drain tile, and backfilling with gravel to create a drainage path that keeps water from pressing against the wall. Proper [grading and drainage](/services/grading-land-clearing) around the home is essential to keep the fix permanent.
 
 ## Utility Replacement in Aging Neighborhoods
 
@@ -47,7 +47,7 @@ In Murray's established neighborhoods, utility trenching means working around ma
 
 State Street through Murray has been the city's commercial spine for decades, and redevelopment has been accelerating. Older commercial buildings, gas stations, and strip malls are being replaced with new development — mixed-use buildings, retail centers, and medical offices.
 
-[Commercial demolition](/services/demolition) and site clearing along State Street is part of this transformation. We remove old buildings, foundations, and site improvements to create clean pads for new construction. Some State Street properties have environmental considerations from previous uses (gas stations in particular), and we coordinate with environmental consultants when contaminated soil management is part of the scope.
+[Commercial demolition](/services/demolition) and [site clearing](/services/grading-land-clearing) along State Street is part of this transformation. We remove old buildings, foundations, and site improvements to create clean pads for new construction. Some State Street properties have environmental considerations from previous uses (gas stations in particular), and we coordinate with environmental consultants when contaminated soil management is part of the scope.
 
 ## Murray Park Area
 
@@ -61,4 +61,4 @@ The 5300 South corridor through Murray carries heavy traffic and has a mix of co
 
 ## Serving Murray and Central Salt Lake Valley
 
-Murray borders [Midvale](/locations/midvale) to the south, [Taylorsville](/locations/taylorsville) to the west, and [Holladay](/locations/holladay) to the east. We work throughout the central Salt Lake Valley and are familiar with the uniform clay conditions that connect these communities. Call (801) 814-6975 for a free estimate on your Murray excavation project.
+Murray borders [Midvale](/locations/midvale) to the south, [Taylorsville](/locations/taylorsville) to the west, and [Holladay](/locations/holladay) to the east. We work throughout the central Salt Lake Valley and are familiar with the uniform clay conditions that connect these communities. Whether you need [hauling and material delivery](/services/hauling-delivery), [commercial site prep](/services/commercial-projects), or foundation work, call (801) 814-6975 for a free estimate on your Murray excavation project.

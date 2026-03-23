@@ -39,7 +39,7 @@ We build walls on Point of the Mountain properties using both natural rock and e
 
 Draper's eastern side climbs into the Wasatch foothills with the same glacial and alluvial geology found in Sandy to the north. The neighborhoods east of 1300 East and approaching the mouth of Corner Canyon sit on rocky alluvial deposits — granite cobble, quartzite fragments, and coarse gravelly sand.
 
-Corner Canyon has become one of Draper's premier residential areas, with custom homes on large lots that back up to open space and trail systems. These properties require significant site preparation:
+Corner Canyon has become one of Draper's premier residential areas, with custom homes on large lots that back up to open space and trail systems. These properties require significant site preparation, including [grading and land clearing](/services/grading-land-clearing) before the foundation work begins:
 
 - Foundation excavation through rock and glacial deposits
 - Cut-and-fill earthwork on sloped lots
@@ -68,7 +68,7 @@ Draper City takes hillside development seriously, and the permit requirements re
 - Stormwater management plan
 - Retaining wall engineering for walls over four feet
 
-We coordinate all of these requirements before starting work. The permit process for hillside properties takes longer than flat land projects, and we factor that timeline into project planning.
+We coordinate all of these requirements before starting work. [Hauling and material removal](/services/hauling-delivery) is built into every hillside project scope, as the volume of cut material on Draper's upper lots is significant. The permit process for hillside properties takes longer than flat land projects, and we factor that timeline into project planning.
 
 ## Serving Draper and the Point of the Mountain
 

@@ -26,7 +26,7 @@ relatedServices:
 
 ## Demolition Contractor in Ogden and Northern Utah
 
-Sometimes the fastest path to a new project is a clean slate. AccuRite Excavating handles demolition work across Weber and Davis counties, from full residential teardowns to concrete removal and selective interior demo. We're licensed, insured, and have been doing this work in Northern Utah since 1995.
+Sometimes the fastest path to a new project is a clean slate. AccuRite Excavating handles demolition work across Weber and Davis counties — from [Ogden](/locations/ogden) to [Layton](/locations/layton) and [Salt Lake City](/locations/salt-lake-city) — including full residential teardowns, concrete removal, and selective interior demo. We're licensed, insured, and have been doing this work in Northern Utah since 1995.
 
 Demolition isn't just knocking things down. It involves permits, utility coordination, asbestos testing for older structures, debris disposal, and site grading when it's done. We manage the whole process.
 
@@ -42,7 +42,7 @@ We work with the property owner to disconnect utilities, pull permits through Og
 
 ### Commercial Demolition
 
-Commercial demolition typically involves larger structures, more complex permitting, and sometimes selective removal to preserve certain structural elements. We have the equipment to handle commercial-scale work and the experience to coordinate with general contractors on larger redevelopment projects.
+Commercial demolition typically involves larger structures, more complex permitting, and sometimes selective removal to preserve certain structural elements. We have the equipment to handle commercial-scale work and the experience to coordinate with general contractors on larger redevelopment and [commercial excavation](/services/commercial-projects) projects.
 
 For commercial work, we can coordinate closely with your GC on sequencing, debris handling, and site prep for [grading and land clearing](/services/grading-land-clearing) after demolition wraps.
 
@@ -135,4 +135,4 @@ We carry general liability insurance and workers' compensation. On a demolition 
 
 Call us to walk the property. We'll give you a clear quote that covers permit coordination, demo, haul-off, and site grading so you know the full cost before we start.
 
-AccuRite Excavating serves Ogden, Clearfield, Layton, Roy, Riverdale, South Ogden, North Ogden, and throughout Weber and Davis counties.
+AccuRite Excavating serves [Ogden](/locations/ogden), [Clearfield](/locations/clearfield), [Layton](/locations/layton), [Roy](/locations/roy), Riverdale, South Ogden, North Ogden, and throughout Weber and Davis counties.

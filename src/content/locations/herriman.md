@@ -35,7 +35,7 @@ Working in this environment requires flexibility and coordination. We sequence o
 
 If there's one soil feature that defines Herriman excavation, it's caliche. This naturally cemented calcium carbonate layer is widespread across the city at depths ranging from one to six feet below the surface. It forms in the semi-arid climate as mineral-laden groundwater evaporates, leaving a concrete-like deposit that can be inches to feet thick.
 
-Standard excavation equipment struggles with caliche. A bucket that moves through clay or loose gravel will bounce off a caliche layer. We use ripping teeth and hydraulic hammers to break through it, then remove the material and replace it with drainable fill where necessary.
+Standard excavation equipment struggles with caliche. A bucket that moves through clay or loose gravel will bounce off a caliche layer. We use ripping teeth and hydraulic hammers to break through it, then [haul away](/services/hauling-delivery) the material and replace it with drainable fill where necessary.
 
 Caliche's impermeability is the other problem. Water won't pass through it, so any drainage system that relies on water moving downward through the soil profile will fail if caliche sits in the way. Around foundations, we break through the caliche and install gravel drains that route water past the impermeable layer and away from the structure.
 
@@ -48,6 +48,8 @@ A significant portion of Herriman's buildable land is on slopes. The hillside lo
 - **Driveway construction** — cutting access from the road to building pads that may sit significantly above or below road grade
 - **Drainage systems** — intercepting and routing hillside runoff around structures
 - **Erosion control** — managing exposed slopes during and after construction to prevent sediment from affecting neighboring properties and stormwater systems
+
+[Underground utility work](/services/underground-utilities) is also part of the hillside scope, with water, sewer, and gas lines trenched through rocky terrain at proper depth.
 
 We've done this work throughout Herriman's hillside developments. Each lot has its own character — the rock depth varies, the slope angle changes, and the caliche appears in unpredictable patterns. Site-specific evaluation before pricing is essential, and we do it on every Herriman project.
 

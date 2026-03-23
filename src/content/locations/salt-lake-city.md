@@ -47,7 +47,7 @@ The drainage is better up here than on the valley floor — the gravelly soil le
 
 Sugar House sits on an ancient lake terrace that gives it soil conditions different from both the valley floor and the East Bench. The ground is a variable mix of gravel, sand, and clay depending on the specific block. Some Sugar House lots dig easily through well-drained gravelly soil. Others, particularly in the lower areas near Sugarhouse Park, hit clay with water.
 
-Sugar House has seen intense redevelopment, with older single-family homes and small commercial buildings giving way to mixed-use development, townhomes, and apartment buildings. This creates steady excavation demand for [demolition](/services/demolition), site clearing, and new foundation work.
+Sugar House has seen intense redevelopment, with older single-family homes and small commercial buildings giving way to mixed-use development, townhomes, and apartment buildings. This creates steady excavation demand for [demolition](/services/demolition), [site clearing](/services/grading-land-clearing), and new [residential foundation work](/services/residential-excavation).
 
 The neighborhood's 2100 South and 1100 East corridors carry heavy traffic, and excavation projects along these streets require traffic management plans and coordination with UDOT or SLC transportation. We plan staging and access to minimize traffic impact.
 
@@ -57,7 +57,7 @@ The west side of Salt Lake City — from the Jordan River west to the airport �
 
 The clay here is heavy and moisture-reactive, similar to what we work in Davis County's west-side communities. The water table is moderate but rises near the Jordan River and the North Temple corridor. Foundation excavation is straightforward digging in terms of material but requires proper clay management — compaction, drainage, and moisture control.
 
-These neighborhoods are also seeing new investment, with infill construction and renovation projects replacing aging housing stock. We handle [residential excavation](/services/residential-excavation) for both new construction and foundation repair on the west side.
+These neighborhoods are also seeing new investment, with infill construction and renovation projects replacing aging housing stock. We handle [residential excavation](/services/residential-excavation) for both new construction and foundation repair on the west side. Proper [grading and drainage work](/services/grading-land-clearing) is essential on these clay-heavy lots to protect foundations from moisture damage.
 
 ## Downtown Core
 
@@ -80,4 +80,4 @@ We navigate all of these and include permit management in every SLC project scop
 
 AccuRite works across Salt Lake City's neighborhoods, from the Jordan River to the mountain front. We also serve the surrounding Salt Lake County communities including [Sandy](/locations/sandy), [Murray](/locations/murray), [Holladay](/locations/holladay), and [Cottonwood Heights](/locations/cottonwood-heights).
 
-For a free estimate on your Salt Lake City project, call (801) 814-6975. Tell us the neighborhood and we'll come prepared for what's in the ground there.
+Whether you need [hauling and material delivery](/services/hauling-delivery), [septic systems](/services/septic-systems) for rural parcels, or [government project excavation](/services/government-projects), call (801) 814-6975 for a free estimate on your Salt Lake City project. Tell us the neighborhood and we'll come prepared for what's in the ground there.

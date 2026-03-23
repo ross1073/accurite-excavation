@@ -28,7 +28,7 @@ relatedServices:
 
 Need gravel delivered, fill dirt brought in, or a load of debris hauled off? AccuRite Excavating handles material hauling Ogden Utah homeowners and contractors need, from a single dump truck load of road base to multi-trip deliveries for large projects.
 
-We're not just a delivery service. We're an excavation contractor with our own fleet, which means we can deliver material, grade it in place, and handle the broader site work if needed. That's useful when a delivery job turns into a bigger project.
+We're not just a delivery service. We're an excavation contractor with our own fleet, which means we can deliver material, [grade it in place](/services/grading-land-clearing), and handle the broader site work if needed. That's useful when a delivery job turns into a bigger project.
 
 ---
 
@@ -90,7 +90,7 @@ Large landscaping projects, lot clearing, and property cleanups generate materia
 
 We deliver throughout Weber and Davis counties, including:
 
-Ogden, Roy, Riverdale, South Ogden, North Ogden, Pleasant View, Harrisville, Farr West, Washington Terrace, Clearfield, Layton, Clinton, Syracuse, and surrounding communities.
+[Ogden](/locations/ogden), [Roy](/locations/roy), Riverdale, South Ogden, North Ogden, Pleasant View, Harrisville, Farr West, Washington Terrace, [Clearfield](/locations/clearfield), [Layton](/locations/layton), Clinton, Syracuse, and surrounding communities.
 
 Deliveries to Morgan County, Box Elder County, and Cache Valley may be available. Call to ask about delivery to your location.
 
@@ -137,4 +137,4 @@ Because we're a full excavation contractor, not just a delivery service, we can 
 
 Call us with your address, the material you need, and the quantity. We'll give you a price and schedule the delivery. For debris removal and hauling, describe what needs to go and we'll give you a hauling quote.
 
-AccuRite Excavating serves all of Weber and Davis counties from our Ogden base.
+AccuRite Excavating serves all of Weber and Davis counties from our [Ogden](/locations/ogden) base, with regular deliveries to [Layton](/locations/layton), [Kaysville](/locations/kaysville), and [Salt Lake City](/locations/salt-lake-city).

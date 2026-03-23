@@ -31,13 +31,13 @@ That said, engineered fill has its own characteristics. Compaction specification
 
 ### Infrastructure in Daybreak
 
-Daybreak's infrastructure — water, sewer, storm drain, streets — was built as part of the master plan. Individual lot connections to these systems follow the development's specifications. We handle utility trenching from homes to the mains, following Daybreak's specific connection requirements and depth specifications.
+Daybreak's infrastructure — water, sewer, storm drain, streets — was built as part of the master plan. Individual lot connections to these systems follow the development's specifications. We handle [utility trenching](/services/underground-utilities) from homes to the mains, following Daybreak's specific connection requirements and depth specifications.
 
 ## East Side and the Jordan River Corridor
 
 South Jordan's eastern side along Redwood Road and the streets approaching the Jordan River has older development and different soil. This is valley floor terrain — Bonneville clay and river alluvium with a water table influenced by the Jordan River system.
 
-The established neighborhoods here have homes from the 1990s and 2000s that are beginning to need the maintenance excavation work we do across the valley: foundation repair, utility replacement, and drainage improvements. The clay soil puts the same seasonal stress on foundations that it does everywhere on the Wasatch Front valley floor.
+The established neighborhoods here have homes from the 1990s and 2000s that are beginning to need the maintenance excavation work we do across the valley: foundation repair, [utility replacement](/services/underground-utilities), and [drainage improvements](/services/grading-land-clearing). The clay soil puts the same seasonal stress on foundations that it does everywhere on the Wasatch Front valley floor.
 
 Properties near the Jordan River parkway may fall within FEMA flood zones, which affects foundation design and permitting. We account for flood zone requirements when planning excavation near the river corridor.
 
@@ -47,7 +47,7 @@ The western edge of South Jordan climbs into the Oquirrh Mountain foothills, and
 
 The soil transitions from the valley floor to Oquirrh alluvial fan deposits — gravel, sand, cobble, and rocky material washed down from the mountains. Caliche layers appear at varying depths, creating hardpan zones that need breaking. Upper lots hit rock and require hammering.
 
-For foothill projects, we provide complete site preparation:
+For foothill projects, we provide complete [residential site preparation](/services/residential-excavation):
 
 - **Foundation excavation** with rock management as needed
 - **Cut-and-fill grading** to create level building pads from sloped terrain
@@ -63,4 +63,4 @@ We handle [commercial site prep](/services/commercial-projects) including pad pr
 
 ## Serving South Jordan and Southwest Salt Lake County
 
-South Jordan borders [West Jordan](/locations/west-jordan) to the north, [Riverton](/locations/riverton) and [Herriman](/locations/herriman) to the south and west, and [Draper](/locations/draper) to the east. We work throughout the southwest valley. Call (801) 814-6975 for a free estimate on your South Jordan excavation project.
+South Jordan borders [West Jordan](/locations/west-jordan) to the north, [Riverton](/locations/riverton) and [Herriman](/locations/herriman) to the south and west, and [Draper](/locations/draper) to the east. We work throughout the southwest valley. Whether you need [demolition](/services/demolition), [hauling](/services/hauling-delivery), or [grading and land clearing](/services/grading-land-clearing), call (801) 814-6975 for a free estimate on your South Jordan excavation project.

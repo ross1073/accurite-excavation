@@ -30,7 +30,7 @@ relatedServices:
 
 ## Septic System Installation in Northern Utah
 
-Properties outside Ogden's municipal sewer service area need a septic system. That includes most of Ogden Valley, rural Weber County, Morgan County, and portions of Davis County. AccuRite Excavating handles septic system installation, repair, replacement, and perc testing across all three counties.
+Properties outside [Ogden's](/locations/ogden) municipal sewer service area need a septic system. That includes most of Ogden Valley, rural Weber County, Morgan County, and portions of Davis County. AccuRite Excavating handles septic system installation, repair, replacement, and perc testing across all three counties.
 
 Septic work involves more than digging a hole. It requires soil testing, permit approval from the county health department, precise excavation, and inspection at multiple stages. We've done this in Northern Utah since 1995 and know the local permitting process well.
 
@@ -52,7 +52,7 @@ We can dig to expose failing components, assess the damage, and make targeted re
 
 ### Septic System Replacement
 
-Older systems in the Ogden area, particularly those installed in the 1970s and 1980s, were often built to standards that don't meet current requirements. A failing system in a home that's changed hands a few times may have components that were never upgraded.
+Older systems in the [Ogden](/locations/ogden) area, particularly those installed in the 1970s and 1980s, were often built to standards that don't meet current requirements. A failing system in a home that's changed hands a few times may have components that were never upgraded.
 
 Replacing a septic system involves abandoning the old tank (pumping it out and filling it in), removing or reusing the drain field area, and installing a new system to current Weber County specifications. In some cases, a failed drain field means the new system goes in a different location on the property.
 
@@ -158,4 +158,4 @@ We also handle related work: [underground utility](/services/underground-utiliti
 
 ## Get a Quote
 
-We serve Weber, Davis, and Morgan counties. Give us a call and we'll discuss your site, walk through the permit requirements for your specific location, and give you a clear quote for the full project scope.
+We serve Weber, Davis, and Morgan counties — including properties near [Ogden](/locations/ogden), [Roy](/locations/roy), and [Brigham City](/locations/brigham-city). Give us a call and we'll discuss your site, walk through the permit requirements for your specific location, and give you a clear quote for the full project scope.

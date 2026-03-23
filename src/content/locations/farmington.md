@@ -37,7 +37,7 @@ The historic district's utility infrastructure is also old. Original water lines
 
 The development around Station Park and the Farmington FrontRunner station has reshaped western Farmington. What was largely open ground is now a mixed-use district with retail, residential, and office development.
 
-Excavation in this area is valley floor work — deep Bonneville clay with no rock to speak of. The challenges are the clay's moisture reactivity, the moderate water table, and the need for engineered compaction on commercial projects. We've done site prep, foundation excavation, and utility trenching in the Station Park area and the neighboring commercial development along Park Lane.
+[Residential](/services/residential-excavation) and commercial excavation in this area is valley floor work — deep Bonneville clay with no rock to speak of. The challenges are the clay's moisture reactivity, the moderate water table, and the need for engineered compaction on commercial projects. We've done site prep, foundation excavation, and utility trenching in the Station Park area and the neighboring commercial development along Park Lane.
 
 For [commercial projects](/services/commercial-projects) near the freeway corridor, soil preparation is especially important. Clay that isn't properly compacted under commercial slabs leads to settlement, cracking, and expensive repairs. We compact in lifts, test density, and ensure the subgrade meets the project engineer's specifications before concrete is placed.
 
@@ -60,7 +60,7 @@ The terrain above Farmington Pond and along the roads climbing toward the Bonnev
 Excavation on these upper lots involves:
 
 - **Foundation excavation with rock hammering** — solid bedrock at shallow depths is standard
-- **Cut-and-fill earthwork** — creating level building pads from sloped terrain
+- **[Cut-and-fill earthwork](/services/grading-land-clearing)** — creating level building pads from sloped terrain
 - **[Retaining wall](/services/rock-walls-retaining-walls) construction** — holding grade changes of four to ten feet or more
 - **Driveway cuts** — building access from the road to building pads that sit above or below road grade
 - **Hillside drainage systems** — managing the water that runs downhill through the property
@@ -75,4 +75,4 @@ Lagoon Amusement Park is one of Farmington's most recognizable landmarks, and th
 
 Farmington sits between [Centerville](/locations/centerville) to the south and [Kaysville](/locations/kaysville) to the north. The [Fruit Heights](/locations/fruit-heights) bench community borders Farmington's eastern foothills. We work all these communities regularly. From our Ogden base, Farmington is about a 20-minute drive south on I-15.
 
-Call (801) 814-6975 for a free estimate on your Farmington project, whether it's a careful dig in the historic core, a commercial pad near Station Park, or a hillside lot above the city.
+Whether you need [demolition](/services/demolition) for a tear-down rebuild, [hauling and material delivery](/services/hauling-delivery), or [septic system excavation](/services/septic-systems) on a larger lot, call (801) 814-6975 for a free estimate on your Farmington project.

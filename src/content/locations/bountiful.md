@@ -31,7 +31,7 @@ The elevation change from Bountiful's western edge near I-15 to the upper bench 
 
 The older neighborhoods along Main Street, Center Street, and the blocks radiating from the Bountiful Tabernacle sit on clay-heavy soil that was deposited by ancient Lake Bonneville. This clay is workable but problematic. It expands when wet and shrinks when dry, putting seasonal stress on foundations and sidewalks. If you've noticed cracked basement walls or sticking doors in an older Bountiful home, the clay is almost certainly a factor.
 
-Excavation on the valley floor is straightforward from a digging standpoint — the material moves without hammering. The challenge is managing water. Mill Creek and Barton Creek both run through residential areas, and the water table is shallow in some blocks. Deeper digs for basements or utility mains may require dewatering pumps running throughout the excavation.
+Excavation on the valley floor is straightforward from a digging standpoint — the material moves without hammering. [Hauling and material delivery](/services/hauling-delivery) is part of most valley floor projects. The challenge is managing water. Mill Creek and Barton Creek both run through residential areas, and the water table is shallow in some blocks. Deeper digs for basements or utility mains may require dewatering pumps running throughout the excavation.
 
 ### The Bench Above Bountiful Blvd
 
@@ -63,7 +63,7 @@ The hillside overlay zone adds additional requirements for properties in the upp
 
 ## Projects We Handle in Bountiful
 
-**Residential foundation excavation** is our most common Bountiful job, from valley floor homes to bench lots. **Utility trenching and replacement** keeps us busy in the older central neighborhoods. **Retaining walls** are part of nearly every bench project. We also do [demolition](/services/demolition) for tear-down rebuilds, which are increasingly common as older Bountiful lots get redeveloped with new construction.
+**[Residential foundation excavation](/services/residential-excavation)** is our most common Bountiful job, from valley floor homes to bench lots. **Utility trenching and replacement** keeps us busy in the older central neighborhoods. **Retaining walls** are part of nearly every bench project. We also do [demolition](/services/demolition) for tear-down rebuilds, which are increasingly common as older Bountiful lots get redeveloped with new construction.
 
 For larger properties, we handle full [site grading and land clearing](/services/grading-land-clearing) to prepare building pads on raw or previously undeveloped lots.
 
