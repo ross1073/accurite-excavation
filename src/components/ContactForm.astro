@@ -51,10 +51,12 @@ const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/uRXK3vFHqEQHApRA
             placeholder="Email *"
             class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
           />
+          <label for="hero-service" class="sr-only">Service Needed</label>
           <select
             id="hero-service"
             name="service"
             required
+            aria-label="Service Needed"
             class="w-full border border-gray-300 rounded px-3 py-2 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent bg-white"
           >
             <option value="">Service Needed *</option>
@@ -159,10 +161,12 @@ const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/uRXK3vFHqEQHApRA
               placeholder="Email *"
               class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
             />
+            <label for="section-service" class="sr-only">Service Needed</label>
             <select
               id="section-service"
               name="service"
               required
+              aria-label="Service Needed"
               class="w-full border border-gray-500 rounded px-3 py-2 text-sm text-charcoal bg-white focus:outline-none focus:ring-2 focus:ring-gold-dark focus:border-transparent"
             >
               <option value="">Service Needed *</option>
