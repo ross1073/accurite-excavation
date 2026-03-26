@@ -220,6 +220,13 @@
 /blog/page/*                                        /blog           301
 
 # ============================================
+# GSC Alternate Canonical Fixes (old Divi/WP query params & slugs)
+# ============================================
+/about-us-2                                         /about          301
+/blog/page/2?et_blog                                /blog           301
+/blog?et_blog                                       /blog           301
+
+# ============================================
 # GSC Crawled-Not-Indexed Fixes
 # ============================================
 /qualified-general-engineers-in-utah                /about                              301
