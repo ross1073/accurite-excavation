@@ -64,7 +64,7 @@ Subdivision site development starts with mass grading to rough finished lot grad
 
 AccuRite runs a fleet that includes excavators, bulldozers, scrapers, motor graders, and compaction equipment. We're not a one-machine operation that will slow your schedule down waiting on equipment.
 
-**Commercial bonding and insurance:** We carry the bonding required for commercial contracts along with general liability and workers' compensation coverage. Your general contractor and project owner will receive certificates of insurance before work begins.
+**Commercial bonding and insurance:** We carry the bonding required for commercial contracts along with general liability and workers' compensation coverage. Our [0.91 EMOD safety rating](/safety) reflects over 30 years of responsible operations. Your general contractor and project owner will receive certificates of insurance before work begins.
 
 **E100 license:** Utah's E100 Excavation Contractor license covers the full scope of commercial site work. We're current on all licensing requirements.
 
@@ -100,7 +100,7 @@ After mass grading, we bring the site to design grade with a motor grader, then 
 
 We know that as a GC, your reputation is tied to the subcontractors you use. We don't disappear when things get complicated. We communicate schedule changes, flag issues when we see them, and show up for the work we commit to.
 
-AccuRite has worked with general contractors across Weber, Davis, and Box Elder counties on projects ranging from $50,000 site prep jobs to multi-million dollar subdivision developments. We're familiar with the documentation requirements, lien waiver processes, and scheduling demands of commercial construction.
+AccuRite has worked with general contractors across Weber, Davis, and Box Elder counties on projects ranging from $50,000 site prep jobs to multi-million dollar subdivision developments. We're familiar with the documentation requirements, lien waiver processes, and scheduling demands of commercial construction. For prequalification documentation including our EMOD letter, insurance certificates, and bonding capacity, visit our [safety and prequalification page](/safety).
 
 If you're bidding a commercial project and need a reliable excavation sub, call us early. We can provide detailed take-offs from your civil plans.
 

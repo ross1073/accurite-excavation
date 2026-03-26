@@ -30,6 +30,8 @@ Ask for a certificate of insurance showing:
 
 A legitimate contractor will provide a current certificate without hesitation. If a contractor is reluctant to provide proof of insurance, that is a serious red flag.
 
+For commercial projects, also ask for the contractor's **Experience Modification Rate (EMOD)**. This workers' comp metric reveals their actual safety record over the past three years. An EMOD below 1.0 means the contractor is safer than the industry average. Learn more about [what EMOD means and what a good score looks like](/blog/what-is-emod-experience-modification-rate).
+
 ## Look at Their Track Record with Local Soil Conditions
 
 Northern Utah soil is not forgiving of contractors who do not understand it. The clay-heavy Lake Bonneville sediments that underlie the valley floor from [Ogden](/locations/ogden) down through [Salt Lake City](/locations/salt-lake-city) behave differently from sandy soils or rocky mountain terrain. Clay requires specific compaction techniques, drainage attention, and material handling.
@@ -90,6 +92,6 @@ A contractor worth hiring will:
 - Be honest about what could go wrong and how they would handle it
 - Show up on time and communicate proactively if anything changes
 
-AccuRite has been doing this work in northern Utah since 1995. Our work spans [residential excavation](/services/residential-excavation), grading and drainage, retaining walls, and government contracts. We are based in Ogden, and we know the soil, the terrain, and the local jurisdictions across Weber, Davis, and Salt Lake counties.
+AccuRite has been doing this work in northern Utah since 1995. Our work spans [residential excavation](/services/residential-excavation), grading and drainage, retaining walls, and government contracts. We carry a [0.91 EMOD safety rating](/safety) and are based in Ogden. We know the soil, the terrain, and the local jurisdictions across Weber, Davis, and Salt Lake counties.
 
 If you are planning a project and want a straight conversation about what it will involve, [contact us](/contact). We do site visits, give you a complete written quote, and tell you exactly what to expect.

@@ -41,6 +41,6 @@ The soils in the Davis County lowlands around the base run toward silty and clay
 
 Documentation requirements are more thorough. Compaction testing, material certifications, as-built drawings, and daily construction reports are all standard deliverables. The contracting structure also tends to involve more layers of review and approval before certain phases can proceed.
 
-AccuRite holds the [E100 General Engineering Contractor license](/services/government-projects) that government utility work in Utah requires. We have built the administrative processes to handle government project documentation without it slowing down our field work.
+AccuRite holds the [E100 General Engineering Contractor license](/services/government-projects) that government utility work in Utah requires. Our [0.91 EMOD safety rating](/safety) meets the prequalification thresholds that federal and military contracts demand. We have built the administrative processes to handle government project documentation without it slowing down our field work.
 
 If you have a government or military project that needs excavation or utility work, [reach out to our team](/contact).

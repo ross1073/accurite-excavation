@@ -35,6 +35,8 @@ If you're a contracting officer or public works director reviewing bids, here's 
 
 **Insurance:** Full general liability, workers' compensation, and equipment coverage. Certificates of insurance are provided as required by contract specifications.
 
+**Experience Modification Rate (EMOD):** Our current EMOD is [0.91](/safety) — 9% below the industry average. This safety metric is a standard prequalification requirement on government and military contracts.
+
 **Davis-Bacon Act compliance:** We maintain certified payroll records and comply with prevailing wage requirements on all federally funded projects where Davis-Bacon applies.
 
 **Security clearance coordination:** Several of our key personnel have experience working on controlled military installations. We follow installation security protocols and can work within the access requirements of federal facilities.
