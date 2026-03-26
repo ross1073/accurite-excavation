@@ -2,6 +2,14 @@
   command = "npm run build"
   publish = "dist"
 
+# Remove trailing slashes to match Astro's trailingSlash: 'never' config
+# Prevents trailing-slash URLs from hitting the 404 page (which has noindex)
+[[redirects]]
+  from = "/:splat/"
+  to = "/:splat"
+  status = 301
+  force = false
+
 [[headers]]
   for = "/*"
   [headers.values]

@@ -155,3 +155,66 @@
 # Category and tag catch-alls (for any we missed)
 /category/*                                         /services       301
 /tag/*                                              /               301
+
+# ============================================
+# WordPress Date Archive Redirects
+# ============================================
+/2023/*                                             /blog           301
+/2024/*                                             /blog           301
+/2025/*                                             /blog           301
+/2026/*                                             /blog           301
+
+# ============================================
+# WordPress Sitemap Redirects
+# ============================================
+/sitemap.xml                                        /sitemap-index.xml  301
+/wp-sitemap.xml                                     /sitemap-index.xml  301
+/wp-sitemap-posts-page-1.xml                        /sitemap-index.xml  301
+/wp-sitemap-posts-post-1.xml                        /sitemap-index.xml  301
+/wp-sitemap*                                        /sitemap-index.xml  301
+
+# ============================================
+# Additional WordPress Infrastructure Redirects
+# ============================================
+/wp-signup.php                                      /               301
+/wp-register.php                                    /               301
+/wp-cron.php                                        /               301
+/wp-comments-post.php                               /               301
+/wp-includes/*                                      /               301
+
+# ============================================
+# Common Page Slug Variations
+# ============================================
+/contact-us                                         /contact        301
+/about-us                                           /about          301
+/testimonials                                       /reviews        301
+/hello-world                                        /blog           301
+/sample-page                                        /               301
+/my-account                                         /               301
+/excavation-services                                /services       301
+/excavation-contractor                              /services       301
+/utah-excavation                                    /               301
+
+# ============================================
+# Service URL Shorthand Redirects
+# ============================================
+/services/excavation                                /services/residential-excavation     301
+/services/retaining-walls                           /services/rock-walls-retaining-walls 301
+/services/utilities                                 /services/underground-utilities      301
+/services/water-features                            /services/water-features-ponds       301
+/services/land-clearing                             /services/grading-land-clearing      301
+/services/grading                                   /services/grading-land-clearing      301
+/services/foundation                                /services/residential-excavation     301
+/services/septic                                    /services/septic-systems             301
+
+# ============================================
+# Location Variations
+# ============================================
+/locations/weber-county                             /locations/ogden          301
+/locations/davis-county                             /locations/layton         301
+/locations/salt-lake-county                         /locations/salt-lake-city 301
+
+# ============================================
+# Blog Pagination
+# ============================================
+/blog/page/*                                        /blog           301
