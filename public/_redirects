@@ -218,3 +218,17 @@
 # Blog Pagination
 # ============================================
 /blog/page/*                                        /blog           301
+
+# ============================================
+# GSC Crawled-Not-Indexed Fixes
+# ============================================
+/qualified-general-engineers-in-utah                /about                              301
+/utah-ogden-excavation-5                            /                                   301
+/utah-ogden-excavation-7                            /                                   301
+/utah-ogden-excavation-8                            /                                   301
+/commercial-construction-begins-here-precision-excavation-services-in-utah-by-accurite  /services/commercial-projects  301
+/services/s-3                                       /services                           301
+/gallery/golden-spike-monument-block-retaining-wall /gallery                            301
+/gallery/rail-road-construction-at-orbital-atk      /gallery                            301
+/gallery/*                                          /gallery                            301
+/category/*/feed                                    /                                   301
