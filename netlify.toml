@@ -48,11 +48,77 @@
   to = "/services/commercial-projects"
   status = 301
 
-# Kill old WordPress paths — 410 Gone
+# Old WP blog posts → closest current equivalents
+[[redirects]]
+  from = "/qualified-general-engineers-in-utah"
+  to = "/services/government-projects"
+  status = 301
+
+[[redirects]]
+  from = "/utah-ogden-excavation-*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/steam-plant-hill-air-force-base-utah/*"
+  to = "/blog/hill-afb-steam-plant-project"
+  status = 301
+
+# Old WP service/category paths → current equivalents
+[[redirects]]
+  from = "/our-services/*"
+  to = "/services"
+  status = 301
+
+[[redirects]]
+  from = "/services/s-3"
+  to = "/services"
+  status = 301
+
+[[redirects]]
+  from = "/category/commercial"
+  to = "/services/commercial-projects"
+  status = 301
+
+[[redirects]]
+  from = "/category/residential*"
+  to = "/services/residential-excavation"
+  status = 301
+
+[[redirects]]
+  from = "/category/*"
+  to = "/services"
+  status = 301
+
+# Old WP gallery items → current gallery
+[[redirects]]
+  from = "/gallery/*"
+  to = "/gallery"
+  status = 301
+
+# Kill old WordPress junk — 410 Gone
 [[redirects]]
   from = "/wp-admin/*"
   to = "/404"
   status = 410
+  force = true
+
+[[redirects]]
+  from = "/author/*"
+  to = "/404"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/blog/page/*"
+  to = "/blog"
+  status = 301
+
+# Block WP search URLs
+[[redirects]]
+  from = "/?s=*"
+  to = "/"
+  status = 301
   force = true
 
 [[headers]]
