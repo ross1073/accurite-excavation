@@ -8,7 +8,7 @@
   from = "/:splat/"
   to = "/:splat"
   status = 301
-  force = false
+  force = true
 
 # Block WP search URLs — _redirects can't match query strings
 [[redirects]]
