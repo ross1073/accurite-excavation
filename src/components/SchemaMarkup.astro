@@ -141,6 +141,27 @@ if (type === 'location' && data.location) {
   });
 }
 
+if (type === 'blog' && data.post) {
+  const post = data.post;
+  const slug = post.id.replace(/\.md$/, '');
+  schemas.push({
+    '@type': 'BlogPosting',
+    headline: post.data.title,
+    description: post.data.description,
+    datePublished: post.data.pubDate.toISOString(),
+    author: {
+      '@type': 'Organization',
+      name: business.name,
+      url: siteUrl,
+    },
+    publisher: { '@id': `${siteUrl}/#organization` },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${siteUrl}/blog/${slug}`,
+    },
+  });
+}
+
 if (data.faqs && data.faqs.length > 0) {
   schemas.push({
     '@type': 'FAQPage',
