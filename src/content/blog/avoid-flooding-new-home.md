@@ -6,7 +6,7 @@ pubDate: 2024-04-10
 author: "AccuRite Excavation"
 tags: ["education", "drainage", "residential"]
 relatedServices: ["residential-excavation", "grading-land-clearing"]
-relatedLocations: ["ogden", "roy", "west-haven"]
+relatedLocations: ["ogden", "roy", "west-haven", "clinton", "syracuse", "centerville"]
 ---
 
 Water in a basement is one of the most common and most preventable problems in Utah residential construction. Most of the time, it comes down to decisions that were made during excavation and grading, well before the framing crew showed up.
@@ -29,7 +29,7 @@ Backfill that was placed and compacted correctly does not settle this way. Backf
 
 ### High Water Tables in Western Weber County
 
-The areas west of I-15 in Weber County sit at lower elevation and have higher water tables than the bench communities to the east. Roy and West Haven in particular have areas where the water table is close enough to the surface that it affects basements and crawl spaces regardless of how much rain has fallen recently.
+The areas west of I-15 in Weber and Davis counties sit at lower elevation and have higher water tables than the bench communities to the east. [Roy](/locations/roy) and [West Haven](/locations/west-haven) in particular have areas where the water table is close enough to the surface that it affects basements and crawl spaces. [Clinton](/locations/clinton) and [Syracuse](/locations/syracuse) in Davis County have similar low-lying conditions where drainage planning is critical.
 
 In these areas, drainage systems are not optional. The water is there, and it will find its way in if there is no plan to manage it.
 
@@ -80,4 +80,4 @@ Questions to ask before your excavation starts:
 - Is a footing drain included in the foundation plan?
 - What will the final grade look like around the foundation, and how does site drainage exit the property?
 
-If you are building or planning a major project in Ogden, Roy, West Haven, or anywhere in northern Utah, [contact AccuRite](/contact) to talk through the drainage plan before work starts. Getting this right from the beginning is far simpler than dealing with a wet basement after the fact.
+If you are building or planning a major project in Ogden, Roy, West Haven, [Centerville](/locations/centerville), or anywhere in northern Utah, [contact AccuRite](/contact) to talk through the drainage plan before work starts. Getting this right from the beginning is far simpler than dealing with a wet basement after the fact.

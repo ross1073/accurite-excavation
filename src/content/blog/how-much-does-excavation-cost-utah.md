@@ -6,7 +6,7 @@ pubDate: 2026-03-18
 author: "AccuRite Excavation"
 tags: ["education", "cost guide", "residential", "utah"]
 relatedServices: ["residential-excavation", "grading-land-clearing", "rock-walls-retaining-walls"]
-relatedLocations: ["ogden", "layton", "salt-lake-city", "west-haven"]
+relatedLocations: ["ogden", "layton", "salt-lake-city", "west-haven", "sandy", "draper", "riverdale"]
 ---
 
 Excavation pricing in Utah is one of those topics where a Google search gives you a national average that may or may not apply to your actual project. The range is genuinely wide — and it varies so much by site that quoting a number without seeing the property is not useful. Understanding what drives the cost is more valuable than any price range you will find online.
@@ -57,7 +57,7 @@ Smaller jobs are typically priced by the hour based on equipment size and operat
 
 This is the biggest variable for northern Utah projects. The valley floor from Ogden down through [Salt Lake City](/locations/salt-lake-city) sits on Lake Bonneville sediment — heavy clay that is slower to cut and harder to work than the sandy soils that make excavation fast and cheap elsewhere.
 
-Rocky soil is the other major cost driver. Once you hit competent rock, you need a rock hammer attachment, which slows production significantly and adds rental or machine cost. Bench areas east of [Ogden](/locations/ogden) and the Wasatch foothills frequently have rock close to the surface.
+Rocky soil is the other major cost driver. Once you hit competent rock, you need a rock hammer attachment, which slows production significantly and adds rental or machine cost. Bench areas east of [Ogden](/locations/ogden), the [Sandy](/locations/sandy)–[Draper](/locations/draper) corridor, and the Wasatch foothills frequently have rock close to the surface.
 
 ### Depth
 
@@ -99,4 +99,4 @@ Before accepting any excavation quote, get clear answers on these:
 
 The only way to get a reliable price for your specific project is a site visit. Aerial estimates and phone quotes based on square footage are starting points, not firm numbers. Soil conditions, access, and existing site features all affect cost in ways that only become clear on the ground.
 
-If you are in [Ogden](/locations/ogden), [Layton](/locations/layton), or anywhere in northern Utah and want an honest estimate for your excavation project, [request a free estimate](/free-estimate). We do site visits, give you a straight number, and tell you exactly what is included.
+If you are in [Ogden](/locations/ogden), [Layton](/locations/layton), [Riverdale](/locations/riverdale), or anywhere in northern Utah and want an honest estimate for your excavation project, [request a free estimate](/free-estimate). We do site visits, give you a straight number, and tell you exactly what is included.

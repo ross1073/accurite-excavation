@@ -6,7 +6,7 @@ pubDate: 2026-03-18
 author: "AccuRite Excavation"
 tags: ["education", "hiring guide", "utah", "residential"]
 relatedServices: ["residential-excavation", "grading-land-clearing", "government-projects"]
-relatedLocations: ["ogden", "layton", "salt-lake-city", "morgan"]
+relatedLocations: ["ogden", "layton", "salt-lake-city", "morgan", "brigham-city", "murray", "west-valley-city"]
 ---
 
 Hiring an excavation contractor is not like hiring a plumber. The stakes are different. A poor excavation job can mean a cracked foundation, a wet basement, a collapsed wall, or a project that costs twice what it should have. Choosing the right contractor before work starts is worth real time and attention.
@@ -92,6 +92,6 @@ A contractor worth hiring will:
 - Be honest about what could go wrong and how they would handle it
 - Show up on time and communicate proactively if anything changes
 
-AccuRite has been doing this work in northern Utah since 1995. Our work spans [residential excavation](/services/residential-excavation), grading and drainage, retaining walls, and government contracts. We carry a [0.91 EMOD safety rating](/safety) and are based in Ogden. We know the soil, the terrain, and the local jurisdictions across Weber, Davis, and Salt Lake counties.
+AccuRite has been doing this work in northern Utah since 1995. Our work spans [residential excavation](/services/residential-excavation), grading and drainage, retaining walls, and government contracts. We carry a [0.91 EMOD safety rating](/safety) and are based in [Ogden](/locations/ogden). We know the soil, the terrain, and the local jurisdictions across Weber, Davis, and Salt Lake counties — from [Brigham City](/locations/brigham-city) down through [Murray](/locations/murray) and [West Valley City](/locations/west-valley-city).
 
 If you are planning a project and want a straight conversation about what it will involve, [contact us](/contact). We do site visits, give you a complete written quote, and tell you exactly what to expect.

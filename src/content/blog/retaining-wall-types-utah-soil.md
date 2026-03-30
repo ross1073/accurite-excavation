@@ -6,7 +6,7 @@ pubDate: 2026-03-18
 author: "AccuRite Excavation"
 tags: ["education", "retaining walls", "utah", "soil"]
 relatedServices: ["rock-walls-retaining-walls", "grading-land-clearing"]
-relatedLocations: ["ogden", "north-ogden", "layton", "morgan", "salt-lake-city"]
+relatedLocations: ["ogden", "north-ogden", "layton", "morgan", "salt-lake-city", "farmington", "syracuse"]
 ---
 
 Not all retaining walls perform equally on Utah soil. The clay-heavy, freeze-thaw conditions in northern Utah have a way of exposing walls that were built with the wrong system, or built correctly for a different climate. Boulder walls that thrive in the Wasatch foothills may not be the right choice on a West Haven lot with a high water table. Segmental block systems that work well in temperate climates can develop drainage problems in Utah's wet springs.
@@ -106,7 +106,7 @@ For most northern Utah residential retaining walls in the 2–5 foot range, the 
 
 For [Salt Lake City](/locations/salt-lake-city) bench communities with sloped lots and significant grade changes, engineered solutions — whether SRW with geogrid or concrete — are more common because the wall heights required to manage the terrain demand more than a simple gravity system.
 
-In [Layton](/locations/layton) and Davis County flatlands, most residential walls are shorter and SRW systems are common. On the bench in Weber County, boulders fit the terrain and the aesthetic.
+In [Layton](/locations/layton), [Farmington](/locations/farmington), [Syracuse](/locations/syracuse), and the Davis County flatlands, most residential walls are shorter and SRW systems are common. On the bench in Weber County, boulders fit the terrain and the aesthetic.
 
 ## Getting the Right System for Your Site
 

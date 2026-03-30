@@ -6,7 +6,7 @@ pubDate: 2026-03-18
 author: "AccuRite Excavation"
 tags: ["education", "permits", "retaining walls", "utah"]
 relatedServices: ["rock-walls-retaining-walls", "residential-excavation"]
-relatedLocations: ["ogden", "layton", "salt-lake-city", "morgan"]
+relatedLocations: ["ogden", "layton", "salt-lake-city", "morgan", "roy", "west-haven", "north-ogden", "pleasant-view", "clearfield", "kaysville", "farmington", "bountiful", "murray", "west-valley-city", "west-jordan", "south-jordan", "sandy", "draper"]
 ---
 
 The question of whether you need a permit for a retaining wall in Utah depends on where you are and how tall the wall is. The answer is not universal, and getting it wrong can mean tearing out finished work or dealing with code violations when you sell the property.
@@ -33,7 +33,7 @@ Work with a contractor familiar with Ogden's building department if you are plan
 
 ### North Ogden and Pleasant View
 
-These cities apply standard Utah Building Code provisions. Walls under 4 feet of retained height in most cases do not require a permit, but check with each city if you are close to the threshold or if the wall is adjacent to a structure.
+[North Ogden](/locations/north-ogden) and [Pleasant View](/locations/pleasant-view) apply standard Utah Building Code provisions. Walls under 4 feet of retained height in most cases do not require a permit, but check with each city if you are close to the threshold or if the wall is adjacent to a structure.
 
 ## Davis County
 
@@ -43,7 +43,7 @@ These cities apply standard Utah Building Code provisions. Walls under 4 feet of
 
 ### Clearfield, Kaysville, and Farmington
 
-These cities follow similar permit triggers to Layton. Each city processes its own permits, so timelines can vary. [Clearfield](/locations/clearfield) and [Kaysville](/locations/kaysville) are typically efficient for residential permits.
+[Farmington](/locations/farmington) and these cities follow similar permit triggers to Layton. Each city processes its own permits, so timelines can vary. [Clearfield](/locations/clearfield) and [Kaysville](/locations/kaysville) are typically efficient for residential permits.
 
 ### Bountiful
 
@@ -53,13 +53,13 @@ These cities follow similar permit triggers to Layton. Each city processes its o
 
 ### Salt Lake City and Surrounding Cities
 
-[Salt Lake City](/locations/salt-lake-city) requires permits for retaining walls 4 feet or taller, and engineered drawings for walls above that threshold. Salt Lake County and the surrounding cities (Murray, Midvale, West Valley) apply similar standards.
+[Salt Lake City](/locations/salt-lake-city) requires permits for retaining walls 4 feet or taller, and engineered drawings for walls above that threshold. Salt Lake County and the surrounding cities — [Murray](/locations/murray), [West Valley City](/locations/west-valley-city), [West Jordan](/locations/west-jordan), and [South Jordan](/locations/south-jordan) — apply similar standards.
 
 The Cottonwood Heights and Holladay areas east of Salt Lake have many sloped lots where significant retaining walls are common. These areas require permits and engineering for most meaningful wall projects.
 
 ### Sandy and Draper
 
-Sandy and Draper follow standard Davis/Salt Lake permit thresholds. Draper in particular has significant topography in the eastern portions of the city, and engineered retaining walls are routine there.
+[Sandy](/locations/sandy) and [Draper](/locations/draper) follow standard Salt Lake County permit thresholds. [Draper](/locations/draper) in particular has significant topography in the eastern portions of the city, and engineered retaining walls are routine there.
 
 ## Morgan County
 

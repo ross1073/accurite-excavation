@@ -6,7 +6,7 @@ pubDate: 2026-03-18
 author: "AccuRite Excavation"
 tags: ["education", "basement", "residential", "utah"]
 relatedServices: ["residential-excavation"]
-relatedLocations: ["ogden", "north-ogden", "roy", "layton"]
+relatedLocations: ["ogden", "north-ogden", "south-ogden", "bountiful", "roy", "layton"]
 ---
 
 Homeowners in northern Utah often use "basement excavation" and "basement dig-out" to mean the same thing, but they are actually two distinct projects. Understanding the difference matters because they have different scopes, different costs, and different structural implications.
@@ -35,7 +35,7 @@ Our [residential excavation](/services/residential-excavation) work includes new
 
 A basement dig-out — also called basement lowering or basement underpinning — is a different kind of project. This is done on an existing house where the basement headroom is inadequate or where a crawl space is being converted to a usable basement.
 
-Many homes in [Ogden](/locations/ogden), [North Ogden](/locations/north-ogden), and other older northern Utah neighborhoods were built with basements that have 6-foot or 6.5-foot ceiling heights. As these homes are renovated and finished basements become more valuable, owners want to lower the floor to get 8-foot ceilings.
+Many homes in [Ogden](/locations/ogden), [North Ogden](/locations/north-ogden), [South Ogden](/locations/south-ogden), and [Bountiful](/locations/bountiful) were built with basements that have 6-foot or 6.5-foot ceiling heights. As these homes are renovated and finished basements become more valuable, owners want to lower the floor to get 8-foot ceilings.
 
 The challenge is that you cannot simply dig down under an existing foundation. The foundation is already bearing on the soil. If you remove soil beneath it without support, the foundation — and the house — can move or fail.
 

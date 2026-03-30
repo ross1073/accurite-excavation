@@ -6,7 +6,7 @@ pubDate: 2024-01-15
 author: "AccuRite Excavation"
 tags: ["education", "soil", "site prep"]
 relatedServices: ["grading-land-clearing", "residential-excavation"]
-relatedLocations: ["ogden", "layton"]
+relatedLocations: ["ogden", "layton", "clearfield", "kaysville", "farmington", "syracuse"]
 ---
 
 If you have ever watched a sidewalk heave up, seen a basement wall crack, or noticed a driveway that seems to be slowly sinking on one end, you have seen the result of soil that was not properly stabilized before construction. In Utah, this is not an occasional problem. It is something excavation contractors deal with on almost every job.
@@ -29,7 +29,7 @@ Clay is the problem soil for construction. It expands significantly when it gets
 
 On the bench areas east of Ogden, soils are typically coarser and better-draining, but you often encounter fill from previous development sitting on top of native material. That fill may or may not have been properly placed. When we excavate on the bench, we take nothing for granted about what is under the existing grade.
 
-[Layton](/locations/layton) and the Davis County corridor have similar clay conditions in the lower-elevation areas, particularly as you move toward the lake side of I-15. Our crews regularly handle soil stabilization work in [Clearfield](/locations/clearfield), [Kaysville](/locations/kaysville), and throughout the Weber-Davis county line.
+[Layton](/locations/layton) and the Davis County corridor have similar clay conditions in the lower-elevation areas, particularly as you move toward the lake side of I-15. Our crews regularly handle soil stabilization work in [Clearfield](/locations/clearfield), [Kaysville](/locations/kaysville), [Farmington](/locations/farmington), [Syracuse](/locations/syracuse), and throughout the Weber-Davis county line.
 
 ## Methods for Stabilizing Soil
 
