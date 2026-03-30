@@ -227,6 +227,28 @@
 /blog?et_blog                                       /blog           301
 
 # ============================================
+# GSC 404 Fixes — blog .md source file URLs
+# ============================================
+/blog/basement-excavation-vs-dig-out.md             /blog/basement-excavation-vs-dig-out             301
+/blog/avoid-flooding-new-home.md                    /blog/avoid-flooding-new-home                    301
+/blog/soil-stabilization-importance.md              /blog/soil-stabilization-importance               301
+/blog/national-park-service-project.md              /blog/national-park-service-project               301
+/blog/how-much-does-excavation-cost-utah.md         /blog/how-much-does-excavation-cost-utah          301
+/blog/retaining-wall-permit-utah.md                 /blog/retaining-wall-permit-utah                  301
+/blog/how-to-choose-excavation-contractor-utah.md   /blog/how-to-choose-excavation-contractor-utah    301
+/blog/hill-afb-steam-plant-project.md               /blog/hill-afb-steam-plant-project                301
+/blog/camp-williams-shooting-range.md               /blog/camp-williams-shooting-range                301
+/blog/retaining-wall-types-utah-soil.md             /blog/retaining-wall-types-utah-soil              301
+/blog/what-is-emod-experience-modification-rate.md  /blog/what-is-emod-experience-modification-rate   301
+/blog/evaluate-excavation-subcontractors-utah.md    /blog/evaluate-excavation-subcontractors-utah     301
+
+# ============================================
+# GSC 404 Fixes — old WP slugs Google still crawls
+# ============================================
+/best-utah-excavation-company                       /                                       301
+/residential-excavation-by-accurite-excavation-in-utah  /services/residential-excavation    301
+
+# ============================================
 # GSC Crawled-Not-Indexed Fixes
 # ============================================
 /qualified-general-engineers-in-utah                /about                              301
