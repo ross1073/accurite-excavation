@@ -196,6 +196,12 @@
 /utah-excavation                                    /               301
 
 # ============================================
+# GSC 404 Fixes — renamed service/page slugs
+# ============================================
+/services/hauling                                   /services/hauling-delivery              301
+/new/reviews                                        /reviews                                301
+
+# ============================================
 # Service URL Shorthand Redirects
 # ============================================
 /services/excavation                                /services/residential-excavation     301
