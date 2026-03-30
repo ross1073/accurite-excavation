@@ -48,6 +48,13 @@
   to = "/services/commercial-projects"
   status = 301
 
+# Kill all old WP RSS feed URLs
+[[redirects]]
+  from = "/*/feed"
+  to = "/blog"
+  status = 301
+  force = true
+
 # Old WP blog posts → closest current equivalents
 [[redirects]]
   from = "/qualified-general-engineers-in-utah"
