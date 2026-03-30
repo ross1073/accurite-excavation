@@ -10,6 +10,51 @@
   status = 301
   force = false
 
+# Block raw .md source files from being served
+[[redirects]]
+  from = "/blog/*.md"
+  to = "/blog/:splat"
+  status = 301
+  force = true
+
+# Old WordPress URLs → current equivalents
+[[redirects]]
+  from = "/services/hauling"
+  to = "/services/hauling-delivery"
+  status = 301
+
+[[redirects]]
+  from = "/new/reviews"
+  to = "/reviews"
+  status = 301
+
+[[redirects]]
+  from = "/services/retaining-walls/*"
+  to = "/services/rock-walls-retaining-walls"
+  status = 301
+
+[[redirects]]
+  from = "/best-utah-excavation-company"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/residential-excavation-by-accurite-excavation-in-utah"
+  to = "/services/residential-excavation"
+  status = 301
+
+[[redirects]]
+  from = "/commercial-construction-begins-here-precision-excavation-services-in-utah-by-accurite"
+  to = "/services/commercial-projects"
+  status = 301
+
+# Kill old WordPress paths — 410 Gone
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/404"
+  status = 410
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
