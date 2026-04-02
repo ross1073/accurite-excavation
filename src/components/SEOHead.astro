@@ -19,6 +19,8 @@ const {
 
 import business from '../data/business.json';
 const siteName = business.shortName;
+const siteUrl = 'https://accuriteexcavation.com';
+const absoluteOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 ---
 
 <meta charset="utf-8" />
@@ -33,14 +35,14 @@ const siteName = business.shortName;
 <meta property="og:description" content={description} />
 <meta property="og:type" content={ogType} />
 <meta property="og:url" content={canonical} />
-<meta property="og:image" content={ogImage} />
+<meta property="og:image" content={absoluteOgImage} />
 <meta property="og:site_name" content={siteName} />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={ogImage} />
+<meta name="twitter:image" content={absoluteOgImage} />
 
 <!-- Fonts (self-hosted, eliminates render-blocking Google Fonts chain) -->
 <link rel="preload" href="/fonts/barlow-condensed-600.woff2" as="font" type="font/woff2" crossorigin />

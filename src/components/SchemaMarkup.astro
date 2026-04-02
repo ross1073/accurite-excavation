@@ -106,6 +106,19 @@ if (type === 'home') {
   schemas.push(localBusiness);
 }
 
+if (type === 'reviews') {
+  schemas.push({
+    ...localBusiness,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: business.reviews.rating,
+      bestRating: 5,
+      worstRating: 1,
+      reviewCount: business.reviews.count,
+    },
+  });
+}
+
 if (type === 'service' && data.service) {
   schemas.push({
     '@type': 'Service',
