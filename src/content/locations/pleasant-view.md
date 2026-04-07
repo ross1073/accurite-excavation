@@ -1,11 +1,11 @@
 ---
 title: "Excavation Contractor Pleasant View Utah"
-description: "Accurite Excavation serves Pleasant View with hillside grading, retaining walls, and site prep on Weber County's north mountain bench."
+description: "AccuRite Excavation serves Pleasant View with hillside grading, retaining walls, and site prep on Weber County's north mountain bench."
 city: "Pleasant View"
 county: "Weber"
-metaTitle: "Excavation Contractor Pleasant View Utah | Accurite Excavation"
-metaDescription: "Hillside excavation, retaining walls, and site prep in Pleasant View UT. Accurite Excavation handles rocky bench terrain and steep lots. Free estimates."
-localIntro: "Pleasant View sits along the mountain bench north of Ogden, and the views it's named for come with terrain that makes excavation work genuinely challenging. Rocky clay soils, limestone at shallow depth on upper bench lots, and steep grades mean this isn't the place for contractors who don't know what they're doing on hillside properties. Accurite Excavation works Pleasant View's mountain bench regularly and brings the right equipment and experience for it."
+metaTitle: "Excavation Contractor Pleasant View Utah | AccuRite Excavation"
+metaDescription: "Hillside excavation, retaining walls, and site prep in Pleasant View UT. AccuRite Excavation handles rocky bench terrain and steep lots. Free estimates."
+localIntro: "Pleasant View sits along the mountain bench north of Ogden, and the views it's named for come with terrain that makes excavation work genuinely challenging. Rocky clay soils, limestone at shallow depth on upper bench lots, and steep grades mean this isn't the place for contractors who don't know what they're doing on hillside properties. AccuRite Excavation works Pleasant View's mountain bench regularly and brings the right equipment and experience for it."
 soilInfo: "Rocky clay soil with cobble and limestone characterizes Pleasant View's bench properties. Lower elevations have standard clay, but properties on the bench frequently hit rock at shallow depth. Limestone and cobble layers require hydraulic hammering on many upper bench lots. Seasonal clay movement adds complexity to grading and foundation work on steeper slopes."
 permitInfo: "Pleasant View City requires building permits for excavation and construction work within city limits. Weber County Engineering handles grading permits for projects meeting county thresholds. Hillside development may require a geotechnical report from a soils engineer before permit approval. We can advise on what your project will need and coordinate the permit process."
 faqs:

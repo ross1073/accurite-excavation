@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Harrisville, Utah"
-description: "Accurite Excavation serves Harrisville, UT with residential excavation, retaining walls, utility work, and grading. Weber County contractor between Ogden and North Ogden."
+description: "AccuRite Excavation serves Harrisville, UT with residential excavation, retaining walls, utility work, and grading. Weber County contractor between Ogden and North Ogden."
 city: "Harrisville"
 county: "Weber"
-metaTitle: "Excavation Contractor Harrisville Utah | Accurite Excavation"
-metaDescription: "Accurite Excavation handles excavation, retaining walls, utility trenching, and grading in Harrisville, UT. Serving Weber County homeowners. Free on-site estimates."
+metaTitle: "Excavation Contractor Harrisville Utah | AccuRite Excavation"
+metaDescription: "AccuRite Excavation handles excavation, retaining walls, utility trenching, and grading in Harrisville, UT. Serving Weber County homeowners. Free on-site estimates."
 localIntro: "Harrisville is a quiet residential community tucked between Ogden and North Ogden, and the terrain here shifts noticeably as you move from the valley floor toward the bench. Properties on the lower, flatter sections deal mostly with drainage and utility needs, while homes closer to the foothills run into rockier conditions and the kind of grade changes that call for retaining walls. We work in both zones regularly."
 permitInfo: "Excavation and building permits in Harrisville are handled through Harrisville City's Building Department. Utility work connecting to Weber Basin Water Conservancy District infrastructure may require separate coordination. We pull required permits on jobs where we're the contractor of record."
 soilInfo: "Harrisville soil conditions vary more than many valley cities because the city spans from flat valley floor to the lower bench areas. Lower elevations have primarily clay soils typical of the Weber County valley floor. Properties toward the eastern edge and bench areas encounter heavier clay mixed with cobbles and occasional rock outcroppings. Grade changes on bench properties often require retaining structures."

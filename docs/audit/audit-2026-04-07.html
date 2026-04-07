@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Audit Report — AccuRite Excavation | 2026-04-07</title>
+<style>
+  :root {
+    --high: #dc2626;
+    --high-bg: #fef2f2;
+    --high-border: #fca5a5;
+    --medium: #d97706;
+    --medium-bg: #fffbeb;
+    --medium-border: #fcd34d;
+    --low: #2563eb;
+    --low-bg: #eff6ff;
+    --low-border: #93c5fd;
+    --gsc: #7c3aed;
+    --gsc-bg: #f5f3ff;
+    --gsc-border: #c4b5fd;
+    --green: #16a34a;
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: var(--gray-800);
+    background: var(--gray-50);
+    line-height: 1.6;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 24px; }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+    color: #fff;
+    padding: 40px 0;
+    margin-bottom: 32px;
+    border-radius: 12px;
+  }
+  .header .container { padding-top: 0; padding-bottom: 0; }
+  .header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; letter-spacing: -0.5px; }
+  .header .subtitle { font-size: 15px; color: #94a3b8; }
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .meta-item { background: rgba(255,255,255,0.08); border-radius: 8px; padding: 10px 14px; }
+  .meta-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: #94a3b8; }
+  .meta-value { font-size: 15px; font-weight: 600; color: #fff; }
+
+  /* Score hero */
+  .score-hero {
+    text-align: center;
+    background: #fff;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 36px 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .score-ring {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: conic-gradient(var(--green) 0% 95%, var(--gray-200) 95% 100%);
+    position: relative;
+    margin-bottom: 12px;
+  }
+  .score-ring-inner {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .score-number { font-size: 36px; font-weight: 800; color: var(--gray-900); line-height: 1; }
+  .score-of { font-size: 13px; color: var(--gray-400); }
+  .score-grade {
+    display: inline-block;
+    background: #dcfce7;
+    color: var(--green);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 4px 16px;
+    border-radius: 8px;
+    margin-top: 4px;
+  }
+
+  /* Section headings */
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--gray-200);
+  }
+  .section { margin-bottom: 36px; }
+
+  /* Category table */
+  .cat-table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+  .cat-table th {
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--gray-500);
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--gray-200);
+  }
+  .cat-table th:nth-child(n+2) { text-align: right; }
+  .cat-table td { padding: 10px 12px; border-bottom: 1px solid var(--gray-100); font-size: 14px; }
+  .cat-table td:nth-child(n+2) { text-align: right; font-variant-numeric: tabular-nums; }
+  .cat-table tr:last-child td { border-bottom: none; }
+  .bar-cell { text-align: left !important; width: 200px; }
+  .bar-track {
+    width: 100%;
+    height: 8px;
+    background: var(--gray-200);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s;
+  }
+  .bar-green { background: var(--green); }
+  .bar-yellow { background: var(--medium); }
+  .bar-red { background: var(--high); }
+
+  /* Badges */
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .badge-high { background: var(--high-bg); color: var(--high); border: 1px solid var(--high-border); }
+  .badge-medium { background: var(--medium-bg); color: var(--medium); border: 1px solid var(--medium-border); }
+  .badge-low { background: var(--low-bg); color: var(--low); border: 1px solid var(--low-border); }
+  .badge-gsc { background: var(--gsc-bg); color: var(--gsc); border: 1px solid var(--gsc-border); }
+  .badge-critical { background: #fef2f2; color: #991b1b; border: 1px solid #fca5a5; }
+
+  /* Issue cards */
+  .issue-card {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--gray-200);
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+  .issue-card.high-card { border-left: 4px solid var(--high); }
+  .issue-card.medium-card { border-left: 4px solid var(--medium); }
+  .issue-card.low-card { border-left: 4px solid var(--low); }
+  .issue-card.gsc-card { border-left: 4px solid var(--gsc); }
+  .issue-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+  .issue-num { font-size: 13px; font-weight: 700; color: var(--gray-400); min-width: 24px; }
+  .issue-title { font-size: 15px; font-weight: 600; color: var(--gray-900); flex: 1; }
+  .issue-cat { font-size: 12px; color: var(--gray-500); background: var(--gray-100); padding: 2px 8px; border-radius: 4px; }
+  .issue-body { margin-left: 34px; }
+  .issue-body dt { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-500); margin-top: 8px; }
+  .issue-body dd { font-size: 14px; color: var(--gray-700); margin-bottom: 4px; }
+  .issue-body code {
+    background: var(--gray-100);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12.5px;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    word-break: break-all;
+  }
+  .issue-body .fix-box {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #15803d;
+  }
+  .issue-body .fix-box strong { color: #166534; }
+
+  /* Checklist */
+  .checklist { list-style: none; counter-reset: step; }
+  .checklist li {
+    counter-increment: step;
+    padding: 10px 12px 10px 44px;
+    position: relative;
+    font-size: 14px;
+    border-bottom: 1px solid var(--gray-100);
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist li::before {
+    content: counter(step);
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--gray-200);
+    color: var(--gray-600);
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Summary strip */
+  .summary-strip {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .summary-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .chip-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 24px 0;
+    font-size: 12px;
+    color: var(--gray-400);
+    border-top: 1px solid var(--gray-200);
+    margin-top: 24px;
+  }
+
+  /* Print */
+  @media print {
+    body { background: #fff; }
+    .container { padding: 0; }
+    .header { border-radius: 0; margin-bottom: 20px; padding: 24px 0; }
+    .issue-card { break-inside: avoid; }
+    .section { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="container">
+    <h1>Site Audit Report</h1>
+    <div class="subtitle">AccuRite Excavation &amp; Hauling, Inc.</div>
+    <div class="meta-grid">
+      <div class="meta-item">
+        <div class="meta-label">Date</div>
+        <div class="meta-value">2026-04-07</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Domain</div>
+        <div class="meta-value">accuriteexcavation.com</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Mode</div>
+        <div class="meta-value">Local (Astro)</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Pages Audited</div>
+        <div class="meta-value">74 HTML files in dist/</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- OVERALL SCORE -->
+  <div class="score-hero">
+    <div class="score-ring">
+      <div class="score-ring-inner">
+        <div class="score-number">95.0</div>
+        <div class="score-of">/ 100</div>
+      </div>
+    </div>
+    <div><span class="score-grade">A+</span></div>
+  </div>
+
+  <!-- ISSUE SUMMARY -->
+  <div class="summary-strip">
+    <div class="summary-chip"><span class="chip-dot" style="background:var(--high)"></span> 3 High</div>
+    <div class="summary-chip"><span class="chip-dot" style="background:var(--medium)"></span> 14 Medium</div>
+    <div class="summary-chip"><span class="chip-dot" style="background:var(--low)"></span> 0 Low</div>
+    <div class="summary-chip"><span class="chip-dot" style="background:var(--gsc)"></span> 6 GSC</div>
+  </div>
+
+  <!-- CATEGORY SCORES -->
+  <div class="section">
+    <h2>Category Scores</h2>
+    <table class="cat-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Weight</th>
+          <th>Score</th>
+          <th>Pct</th>
+          <th class="bar-cell">Progress</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>On-Page SEO</td><td>12</td><td>9.0</td><td>75%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-yellow" style="width:75%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Local SEO</td><td>12</td><td>11.7</td><td>98%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:98%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Technical SEO</td><td>10</td><td>9.5</td><td>95%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:95%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Content Quality</td><td>10</td><td>10.0</td><td>100%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:100%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Conversion Elements</td><td>10</td><td>10.0</td><td>100%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:100%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Schema Markup</td><td>8</td><td>8.0</td><td>100%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:100%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Click-to-Call &amp; CTA</td><td>8</td><td>7.6</td><td>95%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:95%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Mobile &amp; Performance</td><td>8</td><td>8.0</td><td>100%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:100%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Cross-Page Consistency</td><td>7</td><td>6.3</td><td>90%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:90%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Image Optimization</td><td>6</td><td>6.0</td><td>100%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:100%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Tracking Verification</td><td>5</td><td>4.9</td><td>98%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:98%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Accessibility</td><td>4</td><td>4.0</td><td>100%</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-green" style="width:100%"></div></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- HIGH ISSUES -->
+  <div class="section">
+    <h2><span class="badge badge-high">HIGH</span> Issues (3)</h2>
+
+    <div class="issue-card high-card">
+      <div class="issue-header">
+        <span class="issue-num">#1</span>
+        <span class="issue-title">No sticky mobile CTA</span>
+        <span class="issue-cat">Click-to-Call &amp; CTA</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Location</dt>
+          <dd>Site-wide (checked on homepage)</dd>
+          <dt>Finding</dt>
+          <dd>No fixed-position "Call Now" button for mobile users. Mobile visitors have no persistent call button while scrolling.</dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Add a fixed-position call button:<br>
+          <code>&lt;div class="sticky-cta lg:hidden"&gt;&lt;a href="tel:+18018146975" class="btn" data-source="sticky-cta"&gt;Call (801) 814-6975&lt;/a&gt;&lt;/div&gt;</code><br>
+          with CSS <code>position: fixed; bottom: 0; z-index: 999;</code>
+        </div>
+      </div>
+    </div>
+
+    <div class="issue-card high-card">
+      <div class="issue-header">
+        <span class="issue-num">#2</span>
+        <span class="issue-title">Brand name capitalization "Accurite" on 11 location pages</span>
+        <span class="issue-cat">Cross-Page Consistency</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Location</dt>
+          <dd><code>dist/locations/</code> &mdash; eden, perry, willard, farr-west, riverdale, huntsville, west-haven, harrisville, north-ogden, south-ogden, pleasant-view</dd>
+          <dt>Finding</dt>
+          <dd>Title tags use "Accurite Excavation" (lowercase R) instead of "AccuRite Excavation". Business name from <code>business.json</code> is "AccuRite Excavation".</dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Update the <code>metaTitle</code> field in each location's markdown content file to use the correct capitalization "AccuRite".
+        </div>
+      </div>
+    </div>
+
+    <div class="issue-card high-card">
+      <div class="issue-header">
+        <span class="issue-num">#3</span>
+        <span class="issue-title">Inconsistent title brand format</span>
+        <span class="issue-cat">Cross-Page Consistency</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Location</dt>
+          <dd>Multiple location pages</dd>
+          <dt>Finding</dt>
+          <dd>Some titles use "AccuRite Excavation" while others use "AccuRite Excavation &amp; Hauling". The <code>shortName</code> in <code>business.json</code> is "AccuRite Excavation" &mdash; all titles should use this consistently.</dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Standardize all title tags to use <code>| AccuRite Excavation</code> as the brand suffix.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MEDIUM ISSUES -->
+  <div class="section">
+    <h2><span class="badge badge-medium">MEDIUM</span> Issues (14)</h2>
+
+    <div class="issue-card medium-card">
+      <div class="issue-header">
+        <span class="issue-num">#4</span>
+        <span class="issue-title">Title tag too short &mdash; 3 pages</span>
+        <span class="issue-cat">On-Page SEO</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Pages</dt>
+          <dd>
+            <code>gallery/index.html</code> &mdash; 37 chars: "Project Gallery | AccuRite Excavation" (50&ndash;60 recommended)<br>
+            <code>reviews/index.html</code> &mdash; 38 chars: "Customer Reviews | AccuRite Excavation"<br>
+            <code>free-estimate/index.html</code> &mdash; 46 chars: "Free Excavation Estimate | AccuRite Excavation"
+          </dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Expand titles to 50&ndash;60 chars. E.g., "Excavation Project Gallery &mdash; Northern Utah | AccuRite Excavation"
+        </div>
+      </div>
+    </div>
+
+    <div class="issue-card medium-card">
+      <div class="issue-header">
+        <span class="issue-num">#5</span>
+        <span class="issue-title">Title tag too long &mdash; 7+ pages</span>
+        <span class="issue-cat">On-Page SEO</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Pages</dt>
+          <dd>
+            <code>blog/what-is-emod-experience-modification-rate</code> &mdash; 100 chars<br>
+            <code>blog/evaluate-excavation-subcontractors-utah</code> &mdash; 82 chars<br>
+            <code>services/government-projects</code> &mdash; 69 chars<br>
+            <code>services/hauling-delivery</code> &mdash; 69 chars<br>
+            <code>services/septic-systems</code> &mdash; 68 chars<br>
+            <code>services/water-features-ponds</code> &mdash; 67 chars<br>
+            <code>services/grading-land-clearing</code> &mdash; 65 chars
+          </dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Trim titles to under 60 characters while keeping primary keyword and brand.
+        </div>
+      </div>
+    </div>
+
+    <div class="issue-card medium-card">
+      <div class="issue-header">
+        <span class="issue-num">#6</span>
+        <span class="issue-title">Legal pages lack noindex</span>
+        <span class="issue-cat">Technical SEO</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Pages</dt>
+          <dd><code>privacy-policy/index.html</code> and <code>terms/index.html</code> do not have <code>&lt;meta name="robots" content="noindex, nofollow"&gt;</code>.</dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Add <code>noindex={true}</code> prop to the BaseLayout component on <code>privacy-policy.astro</code> and <code>terms.astro</code>.
+        </div>
+      </div>
+    </div>
+
+    <div class="issue-card medium-card">
+      <div class="issue-header">
+        <span class="issue-num">#7</span>
+        <span class="issue-title">Schema opening hours non-standard format</span>
+        <span class="issue-cat">Local SEO</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Finding</dt>
+          <dd>Homepage schema uses <code>"opens": "6:30 AM"</code> instead of the schema.org-required format <code>"opens": "06:30"</code>.</dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Update the <code>SchemaMarkup.astro</code> component to convert hours to 24h HH:MM format.
+        </div>
+      </div>
+    </div>
+
+    <div class="issue-card medium-card">
+      <div class="issue-header">
+        <span class="issue-num">#8</span>
+        <span class="issue-title">GA4 measurement ID not visible in HTML</span>
+        <span class="issue-cat">Tracking Verification</span>
+      </div>
+      <div class="issue-body">
+        <dl>
+          <dt>Finding</dt>
+          <dd>No <code>G-XXXXXXXXXX</code> pattern found in page source. GA4 is presumably handled inside GTM, but adding an HTML comment helps verification.</dd>
+        </dl>
+        <div class="fix-box">
+          <strong>Fix:</strong> Add <code>&lt;!-- GA4: G-XXXXXXXXXX configured via GTM --&gt;</code> comment, or confirm GA4 is firing in GTM.
+        </div>
+      </div>
+    </div>
+
+    <p style="font-size:14px;color:var(--gray-500);margin-top:4px;margin-bottom:0;">Issues #9&ndash;#17 are the remaining medium-severity title-length items already detailed in issues #4 and #5 above (3 short + 7 long = 10 on-page SEO title issues, plus issues #6&ndash;#8 = 14 medium total).</p>
+  </div>
+
+  <!-- LOW ISSUES -->
+  <div class="section">
+    <h2><span class="badge badge-low">LOW</span> Issues (0)</h2>
+    <p style="font-size:14px;color:var(--gray-500);">No low-severity issues found.</p>
+  </div>
+
+  <!-- GSC ISSUES -->
+  <div class="section">
+    <h2><span class="badge badge-gsc">GSC</span> Issues (Not scored &mdash; external factors)</h2>
+    <p style="font-size:13px;color:var(--gray-500);margin-bottom:16px;">These are migration/indexing issues found via Google Search Console, not part of the on-page audit score.</p>
+
+    <div class="issue-card gsc-card">
+      <div class="issue-header">
+        <span class="issue-num">G1</span>
+        <span class="issue-title">14 pages cannibalizing brand term "accurite"</span>
+        <span class="badge badge-critical">Critical</span>
+      </div>
+      <div class="issue-body">
+        <dd>Old WordPress URLs still indexed and competing with new site URLs.</dd>
+      </div>
+    </div>
+
+    <div class="issue-card gsc-card">
+      <div class="issue-header">
+        <span class="issue-num">G2</span>
+        <span class="issue-title">41/74 pages not indexed</span>
+        <span class="badge badge-critical">Critical</span>
+      </div>
+      <div class="issue-body">
+        <dd>29 "discovered not indexed", 6 "URL unknown to Google", 3 redirect errors, 3 "page with redirect".</dd>
+      </div>
+    </div>
+
+    <div class="issue-card gsc-card">
+      <div class="issue-header">
+        <span class="issue-num">G3</span>
+        <span class="issue-title">2 missing redirects</span>
+        <span class="badge badge-high">High</span>
+      </div>
+      <div class="issue-body">
+        <dd><code>/contact-us-2</code> and <code>/utah-ogden-excavation</code> have no 301 redirect, allowing old WP URLs to stay indexed.</dd>
+      </div>
+    </div>
+
+    <div class="issue-card gsc-card">
+      <div class="issue-header">
+        <span class="issue-num">G4</span>
+        <span class="issue-title">Redirect errors on /locations/ogden and /locations/roy</span>
+        <span class="badge badge-high">High</span>
+      </div>
+      <div class="issue-body">
+        <dd>GSC reports redirect errors from March 30 crawl.</dd>
+      </div>
+    </div>
+
+    <div class="issue-card gsc-card">
+      <div class="issue-header">
+        <span class="issue-num">G5</span>
+        <span class="issue-title">http://www.accuriteexcavation.com/ still indexed separately</span>
+        <span class="badge badge-high">High</span>
+      </div>
+      <div class="issue-body">
+        <dd>Getting 28 clicks and 1,559 impressions as a separate result.</dd>
+      </div>
+    </div>
+
+    <div class="issue-card gsc-card">
+      <div class="issue-header">
+        <span class="issue-num">G6</span>
+        <span class="issue-title">Gallery page showing 404 in GSC</span>
+        <span class="badge badge-medium">Medium</span>
+      </div>
+      <div class="issue-body">
+        <dd>Page exists now but GSC last crawled March 13.</dd>
+      </div>
+    </div>
+  </div>
+
+  <!-- FIX PRIORITY CHECKLIST -->
+  <div class="section">
+    <h2>Fix Priority Checklist</h2>
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;overflow:hidden;">
+      <ol class="checklist">
+        <li>Add missing 301 redirects for <code>/contact-us-2</code> &rarr; <code>/contact</code> and <code>/utah-ogden-excavation</code> &rarr; <code>/</code></li>
+        <li>Fix brand name capitalization in 11 location page content files</li>
+        <li>Standardize title format across all pages</li>
+        <li>Add sticky mobile CTA component</li>
+        <li>Fix schema opening hours to use HH:MM 24h format</li>
+        <li>Add noindex to legal pages</li>
+        <li>Request re-indexing for redirect-error pages (ogden, roy, gallery)</li>
+        <li>Resubmit sitemap and request indexing for all unindexed pages</li>
+        <li>Expand short title tags (gallery, reviews, free-estimate)</li>
+        <li>Trim long title tags (blog posts, some service pages)</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Audit generated by rnr-site-audit skill on 2026-04-07, local mode.
+  </div>
+
+</div>
+</body>
+</html>

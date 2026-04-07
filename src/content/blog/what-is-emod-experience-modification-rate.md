@@ -1,6 +1,6 @@
 ---
 title: "What Is EMOD? Why Experience Modification Rate Matters When Hiring an Excavation Contractor"
-metaTitle: "What Is EMOD (Experience Modification Rate)? Guide for Hiring Contractors"
+metaTitle: "What Is EMOD (EMR)? Hiring Guide"
 description: "The Experience Modification Rate (EMOD/EMR) is one of the most important numbers to check before hiring an excavation contractor. Learn what it is, what a good score looks like, and why it matters for your project."
 pubDate: 2026-03-26
 author: "AccuRite Excavation"

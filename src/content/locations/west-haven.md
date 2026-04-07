@@ -1,11 +1,11 @@
 ---
 title: "Excavation Contractor West Haven Utah"
-description: "Accurite Excavation supports West Haven's rapid growth with site prep, grading, and utility work for new construction and subdivision development."
+description: "AccuRite Excavation supports West Haven's rapid growth with site prep, grading, and utility work for new construction and subdivision development."
 city: "West Haven"
 county: "Weber"
-metaTitle: "Excavation Contractor West Haven Utah | Accurite Excavation"
-metaDescription: "Site prep, grading, and utility excavation in West Haven UT. Accurite Excavation serves new construction and subdivision development in Weber County's fastest-growing city."
-localIntro: "West Haven has been one of Weber County's fastest-growing cities for several years running, and the development boom shows no signs of slowing down. Agricultural land is being converted to subdivisions at a rapid pace, new roads and utilities are going in, and home builders need dependable excavation contractors who can keep pace with the schedule. Accurite Excavation works across West Haven's new construction landscape."
+metaTitle: "Excavation Contractor West Haven Utah | AccuRite Excavation"
+metaDescription: "Site prep, grading, and utility excavation in West Haven UT. AccuRite Excavation serves new construction and subdivision development in Weber County's fastest-growing city."
+localIntro: "West Haven has been one of Weber County's fastest-growing cities for several years running, and the development boom shows no signs of slowing down. Agricultural land is being converted to subdivisions at a rapid pace, new roads and utilities are going in, and home builders need dependable excavation contractors who can keep pace with the schedule. AccuRite Excavation works across West Haven's new construction landscape."
 soilInfo: "West Haven sits on former agricultural land with clay over gravel layers, typical of the Ogden valley floor. The flat terrain makes grading efficient, but the clay soil requires proper compaction procedures during backfill and subgrade prep. Some lower-lying areas have higher water tables that need dewatering during excavation, particularly in spring."
 permitInfo: "West Haven City handles building permits for individual lots. Weber County Engineering oversees grading and excavation permits for larger developments that exceed city thresholds. Subdivision infrastructure work typically goes through county review. We handle permit coordination and can advise on what your project scope requires before breaking ground."
 faqs:
@@ -24,7 +24,7 @@ testimonials: []
 
 ## Excavation Services in West Haven
 
-West Haven has gone from a quiet agricultural community to one of the most active construction markets in Weber County. The city is adding residents, homes, and infrastructure at a pace that keeps excavation contractors busy. Accurite Excavation is positioned to serve West Haven's growth with site prep, grading, and utility work scaled to meet new construction demand.
+West Haven has gone from a quiet agricultural community to one of the most active construction markets in Weber County. The city is adding residents, homes, and infrastructure at a pace that keeps excavation contractors busy. AccuRite Excavation is positioned to serve West Haven's growth with site prep, grading, and utility work scaled to meet new construction demand.
 
 The flat terrain here is a different kind of work from the hillside projects up in North Ogden or Pleasant View. It's not simpler, just different. Clay soils, high water tables in some areas, and the scale of subdivision development all require their own expertise.
 

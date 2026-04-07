@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Farr West, Utah"
-description: "Accurite Excavation serves Farr West, UT with site grading, subdivision prep, utility trenching, and residential excavation. Weber County contractor for new construction and development."
+description: "AccuRite Excavation serves Farr West, UT with site grading, subdivision prep, utility trenching, and residential excavation. Weber County contractor for new construction and development."
 city: "Farr West"
 county: "Weber"
-metaTitle: "Excavation Contractor Farr West Utah | Accurite Excavation"
-metaDescription: "Accurite Excavation handles new home site prep, grading, and utility work in Farr West, UT. Serving Weber County builders and homeowners. Call for a free estimate."
+metaTitle: "Excavation Contractor Farr West Utah | AccuRite Excavation"
+metaDescription: "AccuRite Excavation handles new home site prep, grading, and utility work in Farr West, UT. Serving Weber County builders and homeowners. Call for a free estimate."
 localIntro: "Farr West is one of the faster-growing communities in Weber County, with new subdivisions filling in what was agricultural land just a few years ago. That growth means a steady demand for site preparation, grading, and utility work on new construction. We work with builders and individual landowners throughout Farr West on everything from raw lot grading to full site prep packages for new homes."
 permitInfo: "Building and excavation permits in Farr West are issued through Farr West City. The city is actively processing permits for new residential construction, and turnaround times can vary depending on current workload. Earthmoving that disturbs an acre or more requires a UPDES Construction General Permit. We assist with erosion control plans and permit documentation when acting as the excavation contractor of record."
 soilInfo: "Farr West sits on former agricultural land on the valley floor west of Ogden. Soils are typically clay over gravel, with the clay layer ranging from a few feet to several feet deep depending on the location. Agricultural ground that hasn't been built on before can have uneven compaction and organic material in the top layers that needs to be stripped before building. Gravel layers underneath provide good bearing once you get past the clay."

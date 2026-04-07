@@ -1,13 +1,13 @@
 ---
 title: "Excavation Contractor North Ogden Utah"
-description: "Accurite Excavation serves North Ogden with hillside grading, retaining walls, and site prep. Local expertise on Ben Lomond bench terrain."
+description: "AccuRite Excavation serves North Ogden with hillside grading, retaining walls, and site prep. Local expertise on Ben Lomond bench terrain."
 city: "North Ogden"
 county: "Weber"
-metaTitle: "Excavation Contractor North Ogden Utah | Accurite Excavation"
-metaDescription: "Hillside excavation, retaining walls, and site prep in North Ogden UT. Accurite Excavation handles steep bench terrain and rocky soil. Call for a free estimate."
-localIntro: "North Ogden sits at the foot of Ben Lomond Peak, and the terrain shows it. Lots along the mountain bench climb fast, soils shift from clay to cobble to fractured limestone, and grading projects here take more planning than a flat valley lot. Accurite Excavation has worked these hillsides and knows what it takes to get the job done right."
+metaTitle: "Excavation Contractor North Ogden Utah | AccuRite Excavation"
+metaDescription: "Hillside excavation, retaining walls, and site prep in North Ogden UT. AccuRite Excavation handles steep bench terrain and rocky soil. Call for a free estimate."
+localIntro: "North Ogden sits at the foot of Ben Lomond Peak, and the terrain shows it. Lots along the mountain bench climb fast, soils shift from clay to cobble to fractured limestone, and grading projects here take more planning than a flat valley lot. AccuRite Excavation has worked these hillsides and knows what it takes to get the job done right."
 soilInfo: "Lower North Ogden properties sit on a mix of clay and cobble left behind by ancient Lake Bonneville. Move up the bench and you hit fractured rock and limestone at increasingly shallow depths. Steep grades along the mountain face often require engineered grading plans before a shovel touches the ground."
-permitInfo: "Weber County Engineering handles permits for North Ogden. Grading permits are required for hillside lots with significant slope or cut-and-fill work. Retaining walls over 4 feet in height require engineered plans stamped by a licensed engineer. Accurite can walk you through what your project will need before work starts."
+permitInfo: "Weber County Engineering handles permits for North Ogden. Grading permits are required for hillside lots with significant slope or cut-and-fill work. Retaining walls over 4 feet in height require engineered plans stamped by a licensed engineer. AccuRite can walk you through what your project will need before work starts."
 faqs:
   - question: "What makes hillside excavation in North Ogden different from valley floor work?"
     answer: "Steep grades, rock close to the surface, and clay soils that shift seasonally all add complexity. Many hillside lots require engineered grading plans, and rock hammering is common on upper bench properties. We assess site conditions before quoting so there are no surprises mid-project."

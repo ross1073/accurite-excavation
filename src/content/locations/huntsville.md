@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Huntsville, Utah"
-description: "Accurite Excavation serves Huntsville, UT with septic system digging, custom home site prep, retaining walls, and mountain terrain excavation. Ogden Valley Weber County contractor."
+description: "AccuRite Excavation serves Huntsville, UT with septic system digging, custom home site prep, retaining walls, and mountain terrain excavation. Ogden Valley Weber County contractor."
 city: "Huntsville"
 county: "Weber"
-metaTitle: "Excavation Contractor Huntsville Utah | Accurite Excavation"
-metaDescription: "Accurite Excavation handles septic systems, custom home site prep, and excavation in Huntsville, UT. Ogden Valley specialists in Weber County. Call for a free estimate."
+metaTitle: "Excavation Contractor Huntsville Utah | AccuRite Excavation"
+metaDescription: "AccuRite Excavation handles septic systems, custom home site prep, and excavation in Huntsville, UT. Ogden Valley specialists in Weber County. Call for a free estimate."
 localIntro: "Huntsville is one of Utah's oldest communities, a small historic town on the valley floor of Ogden Valley with Pineview Reservoir at its doorstep. It's a place where long-established ranch properties sit alongside newer luxury builds and Pineview waterfront homes. Every property in town is on a septic system, mountain terrain starts just outside the valley floor, and the building permit process runs through Huntsville Town. We work in Ogden Valley regularly and bring that experience to every Huntsville project."
 permitInfo: "Building permits in Huntsville are issued through Huntsville Town, which has its own permit process separate from Weber County. Contact Huntsville Town offices for current requirements and timelines. Septic system permits are issued by the Weber-Morgan Health Department. The health department monitors seasonal high water table conditions in Ogden Valley and recommends avoiding new septic installations from January through May when water tables are elevated."
 soilInfo: "Huntsville soil conditions range from valley floor clay and organic-rich meadow soils near the town center and Pineview Reservoir to rocky mountain terrain at higher elevations. Valley floor soils can have a higher seasonal water table, particularly in late winter and spring. Properties at elevation or on hillside sites encounter cobbles, rocky subsoil, and in some areas shallow bedrock. We assess conditions on every Huntsville project before finalizing scope and pricing."

@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Perry, Utah"
-description: "Accurite Excavation serves Perry, UT with residential excavation, septic system digging, site grading, and utility work. Box Elder County contractor near Brigham City."
+description: "AccuRite Excavation serves Perry, UT with residential excavation, septic system digging, site grading, and utility work. Box Elder County contractor near Brigham City."
 city: "Perry"
 county: "Box Elder"
-metaTitle: "Excavation Contractor Perry Utah | Accurite Excavation"
-metaDescription: "Need excavation work in Perry, UT? Accurite Excavation handles septic systems, site grading, utility trenching, and retaining walls in Box Elder County. Free estimates."
+metaTitle: "Excavation Contractor Perry Utah | AccuRite Excavation"
+metaDescription: "Need excavation work in Perry, UT? AccuRite Excavation handles septic systems, site grading, utility trenching, and retaining walls in Box Elder County. Free estimates."
 localIntro: "Perry sits at the northern end of the Wasatch Front corridor, just south of Brigham City in Box Elder County. It's a growing community with a mix of older rural properties and newer residential development, and the range of work we see here reflects that. Some calls are from longtime residents replacing aging infrastructure, others are from homeowners on larger lots who need septic systems, and some are builders putting in new homes on sites that haven't been developed before."
 permitInfo: "Building and excavation permits in Perry are issued through Perry City. Box Elder County Health Department handles septic system permits for properties that can't connect to municipal sewer. We work with the health department's requirements and can coordinate with your septic designer to ensure excavation matches the approved system plan."
 soilInfo: "Perry's soils are a mix of alluvial clay and gravel deposited by historic lake processes. The valley floor properties have predictable clay-dominated soil, while properties toward the mountain bench to the east encounter gravel layers, cobbles, and occasionally harder material as elevation increases. Septic system designers typically require percolation testing to confirm appropriate soil conditions before an installation permit is issued."

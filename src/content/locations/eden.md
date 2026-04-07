@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Eden, Utah"
-description: "Accurite Excavation serves Eden, UT with custom home site prep, septic system excavation, mountain terrain grading, and retaining walls. Ogden Valley Weber County contractor."
+description: "AccuRite Excavation serves Eden, UT with custom home site prep, septic system excavation, mountain terrain grading, and retaining walls. Ogden Valley Weber County contractor."
 city: "Eden"
 county: "Weber"
-metaTitle: "Excavation Contractor Eden Utah | Accurite Excavation"
-metaDescription: "Accurite Excavation handles custom home excavation, septic systems, and mountain site prep in Eden, UT. Ogden Valley specialists. Serving Weber County. Call for a free estimate."
+metaTitle: "Excavation Contractor Eden Utah | AccuRite Excavation"
+metaDescription: "AccuRite Excavation handles custom home excavation, septic systems, and mountain site prep in Eden, UT. Ogden Valley specialists. Serving Weber County. Call for a free estimate."
 localIntro: "Eden is in the heart of Ogden Valley, surrounded by Powder Mountain, Nordic Valley, and the Wasatch backcountry. The area has been drawing custom home builders for years, and with the Town Eden development and the new city incorporation taking shape in 2026, that pace is accelerating. Every project here has character: steep terrain, rocky soils, views worth protecting, and no municipal sewer anywhere in the valley. We know Ogden Valley excavation well, and we plan each project for the conditions that are actually here."
 permitInfo: "Building permits in Eden are currently issued through Weber County for unincorporated properties, though this will shift as the new city incorporation takes effect in 2026. Contact the Weber County Building Department or the new Eden City administration for current permit requirements. Septic systems require a permit from the Weber-Morgan Health Department, which also monitors seasonal high water table conditions in the valley. The Weber-Morgan Health Department recommends scheduling septic work outside the January through May high water table period."
 soilInfo: "Eden's soils vary significantly by elevation and position. Valley floor areas have clay and organic material typical of mountain meadow terrain. As elevation rises toward the foothills and bench areas, soils become rockier, with cobbles, angular rock fragments, and in many areas, shallow bedrock that requires specialized equipment or blasting. Building sites on steep slopes may have variable soil depth before encountering refusal. We assess conditions during the estimate process on all Eden projects."

@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Washington Terrace, Utah"
-description: "Accurite Excavation provides residential excavation, utility trenching, demolition, and basement work in Washington Terrace, UT. Serving Weber County homeowners and contractors."
+description: "AccuRite Excavation provides residential excavation, utility trenching, demolition, and basement work in Washington Terrace, UT. Serving Weber County homeowners and contractors."
 city: "Washington Terrace"
 county: "Weber"
-metaTitle: "Excavation Contractor Washington Terrace UT | AccuRite"
-metaDescription: "Accurite Excavation serves Washington Terrace, UT with basement excavation, utility line replacement, demolition, and drainage grading. Weber County licensed contractor. Free estimates."
+metaTitle: "Excavation Contractor Washington Terrace UT | AccuRite Excavation"
+metaDescription: "AccuRite Excavation serves Washington Terrace, UT with basement excavation, utility line replacement, demolition, and drainage grading. Weber County licensed contractor. Free estimates."
 localIntro: "Washington Terrace is an established residential community sandwiched between Ogden and South Ogden, and a lot of its housing was built in the postwar decades. That means aging water and sewer infrastructure, original-spec basements that owners want to expand, and demolition work on detached garages and sheds that have outlived their usefulness. We work in these neighborhoods regularly and know what to expect from the soil and the tight lot sizes."
 permitInfo: "Building and excavation permits in Washington Terrace are issued through the city's Building Department. For utility work, coordination with Weber Basin Water Conservancy District may be required depending on the scope. We handle permit applications on projects where we're the general excavation contractor."
 soilInfo: "Soils in Washington Terrace are primarily clay with some gravel found at greater depths. The flat to gently sloping terrain across most of the city means water can pool near foundations if grading has settled over time. Clay soils shrink and swell seasonally, which affects older utility lines and can cause slow drainage issues in yards that were once graded correctly."

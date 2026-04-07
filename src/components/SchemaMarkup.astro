@@ -58,11 +58,19 @@ const localBusiness = {
     .filter(([, v]) => v !== 'Closed')
     .map(([day, hours]) => {
       const parts = (hours as string).split(' - ');
+      // Convert "6:30 AM" / "6:00 PM" to schema.org HH:MM 24h format
+      const to24h = (t: string) => {
+        const [time, period] = t.trim().split(' ');
+        let [h, m] = time.split(':').map(Number);
+        if (period === 'PM' && h !== 12) h += 12;
+        if (period === 'AM' && h === 12) h = 0;
+        return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+      };
       return {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: day.charAt(0).toUpperCase() + day.slice(1),
-        opens: parts[0],
-        closes: parts[1],
+        opens: to24h(parts[0]),
+        closes: to24h(parts[1]),
       };
     }),
   aggregateRating: {

@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Riverdale, Utah"
-description: "Accurite Excavation serves Riverdale, UT with excavation, grading, utility trenching, and demolition. Licensed contractor for Weber County commercial and residential projects."
+description: "AccuRite Excavation serves Riverdale, UT with excavation, grading, utility trenching, and demolition. Licensed contractor for Weber County commercial and residential projects."
 city: "Riverdale"
 county: "Weber"
-metaTitle: "Excavation Contractor Riverdale Utah | Accurite Excavation"
-metaDescription: "Need an excavation contractor in Riverdale, UT? Accurite Excavation handles commercial site prep, utility work, grading, and demolition along the Riverdale Road corridor. Call for a free estimate."
+metaTitle: "Excavation Contractor Riverdale Utah | AccuRite Excavation"
+metaDescription: "Need an excavation contractor in Riverdale, UT? AccuRite Excavation handles commercial site prep, utility work, grading, and demolition along the Riverdale Road corridor. Call for a free estimate."
 localIntro: "Riverdale sits along one of the busiest commercial corridors in Weber County, with Riverdale Road running through a dense stretch of retail, automotive, and service businesses. We've worked on site prep and utility projects throughout this corridor, and we understand the tight schedules and access challenges that come with commercial excavation work in a built-out area. Whether it's a pad demo and rebuild or a utility replacement behind an operating business, we work around your project's constraints."
 permitInfo: "Excavation permits in Riverdale are issued through Riverdale City's Building Department. Projects that disturb more than one acre also require a UPDES stormwater permit from the Utah Division of Water Quality. We pull permits and handle the paperwork on jobs where we're the contractor of record."
 soilInfo: "Riverdale sits on the flat valley floor west of the Wasatch bench. Soils here are predominantly clay, which holds moisture well but can be sticky and difficult to work during wet periods. Clay soils also expand and contract seasonally, which matters for utility trench backfill and foundation excavation. We account for this in how we compact and backfill to avoid settling over time."

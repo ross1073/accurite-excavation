@@ -255,8 +255,10 @@
 # ============================================
 # GSC 404 Fixes — old WP slugs Google still crawls
 # ============================================
-/best-utah-excavation-company                       /                                       301
-/residential-excavation-by-accurite-excavation-in-utah  /services/residential-excavation    301
+/contact-us-2                                        /contact                                301
+/utah-ogden-excavation                               /                                       301
+/best-utah-excavation-company                        /                                       301
+/residential-excavation-by-accurite-excavation-in-utah  /services/residential-excavation     301
 
 # ============================================
 # GSC Crawled-Not-Indexed Fixes

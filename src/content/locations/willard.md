@@ -1,10 +1,10 @@
 ---
 title: "Excavation Contractor in Willard, Utah"
-description: "Accurite Excavation serves Willard, UT with septic system excavation, site grading, utility work, and residential excavation. Box Elder County contractor along I-15."
+description: "AccuRite Excavation serves Willard, UT with septic system excavation, site grading, utility work, and residential excavation. Box Elder County contractor along I-15."
 city: "Willard"
 county: "Box Elder"
-metaTitle: "Excavation Contractor Willard Utah | Accurite Excavation"
-metaDescription: "Accurite Excavation handles septic systems, site grading, and utility trenching in Willard, UT. Box Elder County licensed contractor. Free on-site estimates. Call today."
+metaTitle: "Excavation Contractor Willard Utah | AccuRite Excavation"
+metaDescription: "AccuRite Excavation handles septic systems, site grading, and utility trenching in Willard, UT. Box Elder County licensed contractor. Free on-site estimates. Call today."
 localIntro: "Willard is a small Box Elder County community along I-15 between Brigham City and Ogden, and it's attracting more residential interest as people look for larger lots without going too far from the Wasatch Front. Properties here range from older farmsteads with aging infrastructure to new construction on lots that have never been developed. The mix of soil conditions, proximity to Willard Bay, and the absence of municipal sewer on many properties makes excavation work here varied."
 permitInfo: "Building and excavation permits in Willard are issued through Willard City. Septic permits are handled by Box Elder County Health Department. Properties near Willard Bay may face additional review depending on proximity to the Great Salt Lake wetlands buffer. We're familiar with permit requirements in this area and can help you navigate the process."
 soilInfo: "Willard has two distinct soil zones. Properties away from the bay sit on clay and gravel layers typical of the Wasatch Front valley floor. Properties near Willard Bay and lower-lying areas can have sandy soil with a higher seasonal water table, which complicates both septic system design and excavation. We assess water table conditions during our site visits on bay-area properties before committing to scope and pricing."

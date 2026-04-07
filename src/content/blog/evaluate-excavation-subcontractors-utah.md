@@ -1,6 +1,6 @@
 ---
 title: "How General Contractors Should Evaluate Excavation Subcontractors in Utah"
-metaTitle: "Evaluating Excavation Subcontractors in Utah — GC Guide"
+metaTitle: "Evaluate Excavation Subs in Utah"
 description: "A practical guide for general contractors evaluating excavation subcontractors in Utah. What to check, what to ask, and the prequalification criteria that separate reliable subs from risky ones."
 pubDate: 2026-03-26
 author: "AccuRite Excavation"

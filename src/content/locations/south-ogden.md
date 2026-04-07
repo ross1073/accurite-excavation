@@ -1,11 +1,11 @@
 ---
 title: "Excavation Contractor South Ogden Utah"
-description: "Accurite Excavation handles site prep, utility work, and retaining walls in South Ogden. Local crew familiar with Weber County soil conditions."
+description: "AccuRite Excavation handles site prep, utility work, and retaining walls in South Ogden. Local crew familiar with Weber County soil conditions."
 city: "South Ogden"
 county: "Weber"
-metaTitle: "Excavation Contractor South Ogden Utah | Accurite Excavation"
-metaDescription: "Site prep, utility trenching, and retaining walls in South Ogden UT. Accurite Excavation knows the local terrain. Free estimates, Weber County licensed."
-localIntro: "South Ogden runs from the valley floor east up to the Wasatch bench, and the mix of lot types reflects that. Older neighborhoods with homes built in the 50s and 60s sit alongside newer development pushing up the hillside. Accurite Excavation works across all of it, from utility replacements in aging subdivisions to grading on east bench lots where soil conditions get tougher."
+metaTitle: "Excavation Contractor South Ogden Utah | AccuRite Excavation"
+metaDescription: "Site prep, utility trenching, and retaining walls in South Ogden UT. AccuRite Excavation knows the local terrain. Free estimates, Weber County licensed."
+localIntro: "South Ogden runs from the valley floor east up to the Wasatch bench, and the mix of lot types reflects that. Older neighborhoods with homes built in the 50s and 60s sit alongside newer development pushing up the hillside. AccuRite Excavation works across all of it, from utility replacements in aging subdivisions to grading on east bench lots where soil conditions get tougher."
 soilInfo: "Valley floor properties in South Ogden sit on heavier clay soils that expand and contract seasonally. Heading east toward 40th Street and above, soil transitions to rocky terrain with clay over cobble and occasional hard layers. East bench lots hit harder digging conditions and sometimes encounter rock that requires hydraulic hammering."
 permitInfo: "South Ogden City requires permits for excavation and grading work within city limits. Weber County Engineering handles grading permits for larger projects that meet county thresholds. We handle permit coordination as part of the project and can explain what your specific scope will require."
 faqs:
@@ -24,7 +24,7 @@ testimonials: []
 
 South Ogden is a city that's been established for decades in some areas and still growing in others. That range of development means the excavation work here is varied. Some customers need us because they're updating old infrastructure that's finally failed. Others are adding to their properties or building on undeveloped east bench lots. We handle both ends of that spectrum.
 
-Accurite Excavation is based in the Ogden area and works regularly in South Ogden. We know the terrain shifts as you move east, and we adjust our approach depending on what a given lot looks like.
+AccuRite Excavation is based in the Ogden area and works regularly in South Ogden. We know the terrain shifts as you move east, and we adjust our approach depending on what a given lot looks like.
 
 ### Site Preparation and Grading
 
