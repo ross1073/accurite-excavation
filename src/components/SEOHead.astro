@@ -28,7 +28,7 @@ const absoluteOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogIm
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
-{noindex && <meta name="robots" content="noindex, nofollow" />}
+{noindex ? <meta name="robots" content="noindex, nofollow" /> : <meta name="robots" content="index, follow" />}
 
 <!-- Open Graph -->
 <meta property="og:title" content={title} />
