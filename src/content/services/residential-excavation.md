@@ -1,6 +1,7 @@
 ---
 title: "Residential Excavation in Ogden & Northern Utah"
-metaTitle: "Residential Excavation — Northern Utah"
+metaTitle: "Residential Excavation — Basements & Foundations, Ogden UT"
+metaDescription: "Basement excavation, foundation digs, site prep, and grading for homes across Weber and Davis counties. E100 licensed since 1995. Call (801) 814-6975."
 description: "Professional residential excavation for foundations, basements, grading, and site prep across the Wasatch Front. E100 licensed with 31+ years of experience."
 keywords:
   primary: "residential excavation Ogden Utah"
@@ -34,13 +35,19 @@ Whether you need a basement dug, a foundation prepped, a driveway cut in, or a l
 
 ---
 
+## Basement Excavation in Utah
+
+New basement construction is one of the most common residential excavation jobs we do in Northern Utah. Most Wasatch Front homes are built with full or daylight basements, and getting the dig right sets up everything that follows — foundation pour, waterproofing, backfill, and final grade.
+
+A standard residential basement excavation runs 8 to 10 feet deep depending on the foundation design and whether the basement is below grade or walk-out. We work from your builder's foundation plan, stake the excavation to the dimensions and depth called for, and cut the hole with enough overdig to allow for wall forms and drainage work. On a typical Ogden-area lot, a basement dig takes one to two days once we're on site.
+
+Soil conditions shape how the work goes. Valley-floor basements in [Roy](/locations/roy), West Haven, or [Riverdale](/locations/riverdale) usually dig cleanly in sand and silt. Bench lots above Harrison Boulevard or in [North Ogden](/locations/north-ogden) often hit hardpan caliche or fractured rock that requires hydraulic hammering. We'll know what to expect once we walk the site and review the geotech report if one has been done. If water comes up during excavation — common in lower West Haven and parts of [Bountiful](/locations/bountiful) in spring — we have dewatering equipment to manage it without stalling the foundation schedule.
+
+Basement excavation costs depend on depth, soil, equipment access, and haul-off. Rocky bench lots cost more than valley dirt. Tight infill lots in older Ogden neighborhoods take longer than open new-construction subdivisions. We quote basement excavation after a site visit, not from photos or square footage. Call (801) 814-6975 for a free estimate.
+
+---
+
 ## Common Residential Excavation Projects
-
-### New Basement Excavation
-
-Digging a basement is one of the most common residential excavation jobs we do. A full basement dig involves excavating to the required depth, typically 8-10 feet below grade, shaping the footprint to the foundation plan, and creating a clean floor for the concrete crew to work from.
-
-Soil conditions in Ogden vary significantly. Properties closer to the Wasatch bench often hit rock or hardpan. Lower-elevation lots near the valley floor tend to run sandy or silty. Both affect dig time and cost.
 
 ### Foundation Excavation for New Homes
 

@@ -96,7 +96,7 @@ const galleryPhotos = Object.entries(galleryImages)
 
 <BaseLayout
   title={(entry.data.metaTitle || entry.data.title) + ' | AccuRite Excavation'}
-  description={entry.data.description}
+  description={entry.data.metaDescription || entry.data.description}
   schemaType="service"
   schemaData={{ service: serviceJson, faqs }}
 >

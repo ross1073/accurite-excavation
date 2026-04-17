@@ -1,6 +1,7 @@
 ---
 title: "Grading & Land Clearing in Ogden & Northern Utah"
-metaTitle: "Grading & Land Clearing — Northern Utah"
+metaTitle: "Grading & Land Clearing Contractor — Ogden, UT"
+metaDescription: "Site grading, lot clearing, and drainage correction across Weber and Davis counties. E100 licensed, 31+ years in Northern Utah. Free estimates — call (801) 814-6975."
 description: "Professional land grading, lot clearing, and site preparation for residential and commercial construction across Weber and Davis counties."
 keywords:
   primary: "land grading contractor Ogden Utah"

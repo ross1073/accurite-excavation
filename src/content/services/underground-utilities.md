@@ -1,6 +1,7 @@
 ---
 title: "Underground Utility Installation in Ogden & Northern Utah"
-metaTitle: "Underground Utility Installation — Utah"
+metaTitle: "Underground Utility Contractor — Ogden, UT"
+metaDescription: "Water lines, sewer, storm drain, and utility trenching for residential and commercial projects across Weber and Davis counties. Free estimates — call (801) 814-6975."
 description: "Water lines, sewer lines, storm drains, gas lines, and utility trenching across Weber and Davis counties. E100 licensed, fully insured."
 keywords:
   primary: "underground utilities contractor Ogden Utah"

@@ -92,7 +92,7 @@ import business from '../data/business.json';
             {business.name}<br />
             {business.address.street}<br />
             {business.address.city}, {business.address.state} {business.address.zip}<br />
-            Phone: <a href={`tel:${business.phoneTel}`} class="text-gold-dark">{business.phone}</a>
+            Phone: <a href={`tel:${business.phoneTel}`} data-ghl-phone class="text-gold-dark">{business.phone}</a>
           </address>
         </div>
       </div>
