@@ -2,14 +2,26 @@
   command = "npm run build"
   publish = "dist"
 
-# Remove trailing slashes to match Astro's trailingSlash: 'never' config
-# force = true ensures /page/ always 301s to /page, even when Netlify
-# can serve index.html at both paths — prevents Google canonical mismatch
+# IndexNow verification key — serve as-is, no redirects
+[[redirects]]
+  from = "/e03de1ac69fc4666a18fe5ec07b68436.txt"
+  to = "/e03de1ac69fc4666a18fe5ec07b68436.txt"
+  status = 200
+  force = true
+
+# Remove trailing slashes to match Astro's trailingSlash: 'never' config.
+# force = false because Astro emits /page/index.html, which Netlify serves
+# at /page directly. With force = true Netlify canonicalizes the served
+# path back to /page/, the rule matches again, and every top-level page
+# loops infinitely (bug shipped in d3a266d, reverted 2026-04-17 after
+# /about, /contact, /reviews, /services etc. were verified broken live).
+# Pretty-URL handling keeps /page/ from indexing separately, so the
+# canonical-mismatch motivation for force=true is already handled.
 [[redirects]]
   from = "/:splat/"
   to = "/:splat"
   status = 301
-  force = true
+  force = false
 
 # Block WP search URLs — _redirects can't match query strings
 [[redirects]]
@@ -17,6 +29,22 @@
   to = "/"
   status = 301
   query = {s = ":value"}
+  force = true
+
+# Consolidate www host to non-www in a single hop. Netlify's default
+# www alias 301s https://www → https://non-www already, but the http://www
+# → https://www → https://non-www chain is two hops; the full-URL forms
+# below make it one.
+[[redirects]]
+  from = "https://www.accuriteexcavation.com/*"
+  to = "https://accuriteexcavation.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.accuriteexcavation.com/*"
+  to = "https://accuriteexcavation.com/:splat"
+  status = 301
   force = true
 
 [[headers]]
