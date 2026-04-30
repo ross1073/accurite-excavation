@@ -204,6 +204,8 @@
 # ============================================
 /services/hauling                                   /services/hauling-delivery              301
 /new/reviews                                        /reviews                                301
+/services/grading-and-site-prep                     /services/grading-land-clearing         301
+/services/commercial-excavation                     /services/commercial-projects           301
 
 # ============================================
 # Service URL Shorthand Redirects
