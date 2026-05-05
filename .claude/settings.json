@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__gsc__gsc_check_indexing",
+      "mcp__gsc__gsc_performance",
+      "mcp__gsc__gsc_top_queries",
+      "mcp__gsc__gsc_compare_periods",
+      "mcp__gsc__gsc_cannibalization",
+      "mcp__gsc__gsc_inspect_url",
+      "mcp__gsc__gsc_submit_sitemap",
+      "mcp__gsc__gsc_quick_wins",
+      "mcp__claude_ai_Teamwork_MCP__twprojects-list_users",
+      "mcp__claude_ai_Teamwork_MCP__twprojects-create_tasklist",
+      "mcp__claude_ai_Teamwork_MCP__twprojects-create_task",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/rosswalker/.claude/projects/-Users-rosswalker/memory"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/session-start-load-context.sh",
+            "timeout": 120
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "Run the memory-keeper agent (.claude/agents/memory-keeper.md). Read the session transcript and docs/status.md, then update docs/status.md in place with: decisions made, work completed, items closed, items changed, items deferred, new open items. Edit directly — do not stage for approval. If the session was trivial (no commits, no decisions, no state changes), exit silently with no edits.",
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  },
+  "autoMode": {
+    "allow": [
+      "$defaults",
+      "Direct git push to main / origin main / origin HEAD is explicitly allowed in this repo. AccuRite Excavation (accuriteexcavation.com) is a single-developer client website where Ross is the sole maintainer; he uses direct push as his standard workflow and has accepted the risk. Do not block 'git push', 'git push origin main', or equivalent default-branch pushes. PR + merge is the fallback only when the user asks for it explicitly."
+    ]
+  }
+}
