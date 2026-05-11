@@ -41,6 +41,17 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/session-beacon.sh",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   },
   "autoMode": {
