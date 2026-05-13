@@ -27,6 +27,10 @@ Client website for **AccuRite Excavation** (accuriteexcavation.com). This is Ros
 
 SEO maintenance dominates: GSC 404 fixes, redirect cleanup, title/meta CTR rewrites, lead-gen markup (DNI, basement content). Recent commits hit homepage CTR rewrite (16f79a0), 404 fixes for grading-and-site-prep / commercial-excavation (3aefbdf), redirect-loop fix + www consolidation (c33f8b9), and meta robots additions.
 
+## Monthly client report
+
+Branded PDF SEO report fires on the 1st of each month via `launchd` and lands as a Teamwork task assigned to Ross for review before forwarding to the client. Pipeline lives at `/Users/rosswalker/projects/3sm_code/monthly-reports/accurite/` (see its README for editing instructions and the GBP API approval state). Standing rule: only good news — see `~/.claude/projects/-Users-rosswalker-projects-accurite-excavation/memory/feedback_monthly_report_positive_framing.md`.
+
 ## Conventions / gotchas
 
 - Netlify trailing-slash redirect uses `force = false`. Setting it to `true` causes infinite-loop on top-level pages (verified breakage in d3a266d, reverted 2026-04-17). Comment in `netlify.toml` explains.
