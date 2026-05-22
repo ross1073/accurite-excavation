@@ -49,5 +49,25 @@ else
   log "FAIL (exit=${rc}): ${output:0:500}"
 fi
 
+# Notes-only auto-commit safety net. Commit (and push) ONLY the daily note
+# the agent just wrote, scoped strictly to docs/memory/. This keeps routine
+# notes from ever accumulating as uncommitted drift even when /wrap is
+# skipped. It deliberately never touches site content, config, plans, or
+# anything that needs human judgment — those wait for a deliberate /wrap.
+if ! git diff --quiet -- docs/memory/ 2>/dev/null \
+   || [[ -n "$(git ls-files --others --exclude-standard docs/memory/ 2>/dev/null)" ]]; then
+  git add docs/memory/ 2>/dev/null
+  if git commit -q \
+       -m "docs(memory): auto-commit daily note (SessionEnd hook)" \
+       -m "Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>" 2>/dev/null; then
+    log "auto-committed docs/memory/ daily note"
+    if git push -q 2>/dev/null; then
+      log "pushed daily note"
+    else
+      log "WARN: daily note committed locally but push failed"
+    fi
+  fi
+fi
+
 completed=1
 exit 0
