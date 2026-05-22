@@ -31,17 +31,6 @@
         ]
       }
     ],
-    "SessionEnd": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": ".claude/hooks/session-end-memory-keeper.sh",
-            "timeout": 600
-          }
-        ]
-      }
-    ],
     "Stop": [
       {
         "hooks": [
