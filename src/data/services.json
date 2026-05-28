@@ -66,6 +66,17 @@
     }
   },
   {
+    "slug": "land-clearing",
+    "name": "Land Clearing",
+    "shortName": "Land Clearing",
+    "description": "Lot clearing, tree and brush removal, stump removal, and site clearing across Weber and Davis counties.",
+    "icon": "grading",
+    "keywords": {
+      "primary": "land clearing Ogden Utah",
+      "secondary": ["lot clearing Ogden", "land clearing Weber County", "tree and brush removal Utah", "stump removal Ogden"]
+    }
+  },
+  {
     "slug": "demolition",
     "name": "Demolition",
     "shortName": "Demolition",
