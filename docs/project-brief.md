@@ -20,7 +20,7 @@ Active work is dominated by SEO maintenance (GSC 404 fixes, redirect cleanup, ti
 **Content layout**
 
 - `src/pages/` — top-level routes: `index.astro`, `about`, `contact`, `free-estimate`, `gallery`, `reviews`, `safety`, `privacy-policy`, `terms`, `404`, `blog/`, plus dynamic catch-alls `services/[...slug].astro` and `locations/[...slug].astro`.
-- `src/content/services/` — 7 service pages on disk (residential excavation, demolition, grading & land clearing, hauling/delivery, rock & retaining walls, commercial projects, government projects).
+- `src/content/services/` — 11 service pages on disk (residential excavation, demolition, grading & land clearing, land clearing, hauling/delivery, rock & retaining walls, commercial projects, government projects, septic systems, underground utilities, water features & ponds). The standalone `land-clearing` page was added 2026-05-28 as a focused sub-page to target the "land clearing ogden" Map Pack gap query; the combined grading-land-clearing page remains as the topical hub.
 - `src/content/locations/` — 40 Wasatch Front city pages (Ogden corridor + SLC south to Riverton/Sandy).
 - `src/content/blog/` — 12 blog posts (cost guides, contractor evaluation, retaining walls, soil, EMOD, project case studies).
 - `src/content/config.ts` — content collection schemas.

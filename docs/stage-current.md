@@ -6,11 +6,14 @@ Monthly SEO report pipeline is live and shipped its first run (April report deli
 
 ## In flight
 
-- Re-check the homepage CTR title/meta rewrite (commit `16f79a0`) after the May 2026 Google core update finishes (~early June; started 2026-05-21). 2026-05-22 evaluation: title/meta confirmed live; CTR test is unmeasurable (~0-1 clicks/window); decision = **keep, don't revert**. "excavation company" slid to organic #13 ~May 11 but holds Map Pack #2 — re-pull post-update. (Tracked in Shawn Durrant Teamwork tasks 36495489 / 36495490.)
+- Re-check the homepage CTR title/meta rewrite (commit `16f79a0`) after the May 2026 Google core update finishes (~early June; started 2026-05-21). 2026-05-22 evaluation: title/meta confirmed live; CTR test is unmeasurable (~0-1 clicks/window); decision = **keep, don't revert**. 2026-05-28 mid-update checkpoint: "excavation company" organic recovering toward #1 (3 of 4 post-baseline days at #1) but impressions too thin to call; Map Pack steady (Ogden #1, Pleasant View #3, Layton improved #4→#3). Re-pull post-rollout. (Tracked in Shawn Durrant Teamwork tasks 36495489 / 36495490, both now closed.)
 - Monitor the first fully-automated monthly report run on **2026-06-01 at 8am local** — confirm `launchd` fires cleanly and the May report lands as a Teamwork task.
+- Re-check `/services/land-clearing` (shipped 2026-05-28) indexation + "land clearing ogden" impressions in GSC in ~10-14 days. If page picks up impressions, validate split-out strategy and consider parallel `/services/grading` split.
 
 ## Recently shipped
 
+- **2026-05-28** — `/services/land-clearing` focused sub-page targeting the "land clearing ogden" Map Pack gap query (option C from session: coexists with combined `/services/grading-land-clearing` hub, no redirect). Live and verified at https://accuriteexcavation.com/services/land-clearing.
+- **2026-05-28** — GBP categories overhauled with Shawn from 4 → 7 (Excavating contractor primary; +Drainage service, Trucking company, Earth works company; kept Septic system service, Demolition contractor, Retaining wall supplier). Picker is now maxed for Excavating-contractor primary — see `~/.claude/projects/-Users-rosswalker-projects-accurite-excavation/memory/reference_accurite_gbp_categories.md`.
 - Monthly SEO report pipeline end-to-end: leads extractor, GBP stub client, Jinja2/WeasyPrint PDF template (AccuRite gold `#E8C840` / charcoal `#333333`), GSC wiring via existing `GSCClient`, positive-framing visibility table, launchd wrapper. All in `/Users/rosswalker/projects/3sm_code/monthly-reports/accurite/`.
 - April client report delivered: 4 qualified leads (+100% vs March), 82 clicks (+61%), 10,913 impressions (+205%), 597 unique queries ranking (+90%). PDF at `~/Documents/accurite-reports/accurite-seo-2026-04.pdf`.
 - Project-scoped memory bootstrapped at `~/.claude/projects/-Users-rosswalker-projects-accurite-excavation/memory/` with `MEMORY.md` index and `feedback_monthly_report_positive_framing.md` standing rule.
