@@ -4,7 +4,7 @@ Client website + project hub for **AccuRite Excavation**.
 
 ## Important — this is Ross's only client site
 
-Every other folder under `~/projects/` is rank-and-rent (R&R) that Ross owns. AccuRite is a real client. That changes the rules: changes here go live on someone else's business. Move slowly. Don't ship experimental SEO tactics or copy changes without explicit approval. Memory: see `project_accurite_client.md` and `project_accurite_seo_state.md` for current SEO state, fixes already shipped, and known constraints.
+Every other folder under `~/projects/` is rank-and-rent (R&R) that Ross owns. AccuRite is a real client. That changes the rules: changes here go live on someone else's business. Move slowly. Don't ship experimental SEO tactics or copy changes without explicit approval. Memory: see `project_accurite_client.md` for client context, and `docs/memory/2026-05-22.md` (GSC + local-pack baseline), `docs/seo/accurite-directory-listings.md`, and `docs/seo/accurite-seo-action-plans.md` for current SEO state, fixes already shipped, and known constraints.
 
 ## Stack and deploy
 
@@ -15,7 +15,7 @@ Every other folder under `~/projects/` is rank-and-rent (R&R) that Ross owns. Ac
 
 ## Recurring work
 
-Most recent work has been SEO maintenance: fixing GSC 404s, redirect cleanup, title/meta rewrites for CTR. Before adding new pages or rewriting copy, check `project_accurite_seo_state.md` so we don't undo a deliberate decision.
+Most recent work has been SEO maintenance: fixing GSC 404s, redirect cleanup, title/meta rewrites for CTR. Before adding new pages or rewriting copy, check `docs/memory/2026-05-22.md` (baseline numbers), `docs/seo/accurite-directory-listings.md`, and `docs/seo/accurite-seo-action-plans.md` so we don't undo a deliberate decision.
 
 ## Conventions
 
