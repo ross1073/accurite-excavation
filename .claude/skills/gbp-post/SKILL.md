@@ -37,7 +37,7 @@ Generate a ready-to-paste Google Business Profile post for AccuRite Excavation &
 ## Business info (use exactly)
 
 - **Name:** AccuRite Excavation & Hauling, Inc.
-- **Phone:** (801) 814-6975
+- **Phone:** (801) 814-6975 — reference only. NEVER write this (or any phone number) into the post text. Google prohibits it. Use the "Call now" button instead.
 - **Website:** accuriteexcavation.com
 - **Location:** Ogden, UT
 - **Service area:** Weber, Davis, Box Elder, and Morgan counties (Northern Utah / Wasatch Front)
@@ -56,16 +56,26 @@ Residential Excavation, Commercial Projects, Government Projects, Rock Walls & R
 
 Ogden, North Ogden, South Ogden, Roy, Riverdale, Clearfield, Layton, Kaysville, Farmington, Centerville, Bountiful, Woods Cross, Brigham City, Perry, Willard, Pleasant View, Farr West, West Haven, Harrisville, Washington Terrace, Eden, Huntsville, Liberty, Morgan, Syracuse, Clinton, West Point, Fruit Heights
 
+## Google policy — HARD RULES (never violate)
+
+Google Business Profile post content has rules. Breaking them gets posts rejected or the profile flagged. Reference: https://support.google.com/business/answer/7213077
+
+- **NEVER put a phone number in the post text.** Google's exact rule: "We do not allow your post content to include a phone number." This is the rule that got a prior post flagged. No phone number — not (801) 814-6975, not any other format, not spelled out, not anywhere in the body.
+- **To let customers call, use the post's "Call now" button instead.** The button pulls the verified Business Profile phone number automatically — that's the compliant way to surface the phone. The button is set when publishing, not typed into the post text (see "How to publish" below).
+- Post content must comply with all applicable laws and regulations.
+- No deals/promotions/discounts framing that reads like a hotel offer (AccuRite isn't a hotel, but keep posts informational, not coupon-style).
+
+When in doubt, drive the CTA to the website (accuriteexcavation.com) and the "Call now" button — never a typed number.
+
 ## Post rules
 
 - 150-300 words max
-- Include a call to action (call or visit website)
-- Include phone number: (801) 814-6975
+- Include a call to action — direct to the website and/or the post's "Call now" button, NEVER a typed phone number
 - Mention a specific in-service-area city when possible
 - Sound like a real contractor, not marketing copy — direct, confident, no fluff
 - No hashtags (GBP isn't Instagram)
 - No emojis unless specifically requested
-- End with a clear CTA
+- End with a clear CTA (website + "tap Call" — no number in the text)
 
 ## Templates
 
@@ -77,7 +87,7 @@ Ogden, North Ogden, South Ogden, Roy, Riverdale, Clearfield, Layton, Kaysville, 
 
 [1 sentence credibility: years in business, license, or general 5-star rating]
 
-Planning a similar project? Call (801) 814-6975 for a free estimate or visit accuriteexcavation.com.
+Planning a similar project? Request a free estimate at accuriteexcavation.com, or tap the Call button on this post.
 ```
 
 ### Seasonal tip
@@ -88,7 +98,7 @@ Planning a similar project? Call (801) 814-6975 for a free estimate or visit acc
 
 [Tie it back to AccuRite's experience in the area]
 
-Ready to get started? Call (801) 814-6975 or request a free estimate at accuriteexcavation.com.
+Ready to get started? Request a free estimate at accuriteexcavation.com, or tap the Call button to reach our team.
 ```
 
 ### Service highlight
@@ -99,7 +109,7 @@ Ready to get started? Call (801) 814-6975 or request a free estimate at accurite
 
 [1 sentence about service area or experience]
 
-Need [service]? Call (801) 814-6975 for a free on-site estimate.
+Need [service]? Tap the Call button for a free on-site estimate, or visit accuriteexcavation.com.
 ```
 
 ### Review / Trust
@@ -110,7 +120,7 @@ Need [service]? Call (801) 814-6975 for a free on-site estimate.
 
 [1 sentence about commitment to Weber/Davis County community]
 
-See what our customers say on Google, or call (801) 814-6975 to start your project.
+See what our customers say on Google. Visit accuriteexcavation.com or tap the Call button to start your project.
 ```
 
 ## Photo selection
@@ -185,7 +195,7 @@ After the post and photo are ready, create a task in Teamwork:
 ## What to check
 
 - [ ] Reads naturally, not like marketing copy
-- [ ] Phone number is correct: (801) 814-6975
+- [ ] NO phone number anywhere in the post text (Google policy — set the "Call now" button instead)
 - [ ] CTA at the end is clear
 - [ ] City named is in service area (Weber, Davis, Box Elder, or Morgan County — NOT Salt Lake County)
 - [ ] No typos
@@ -197,7 +207,8 @@ After the post and photo are ready, create a task in Teamwork:
 2. Click "Add update" or "Post"
 3. Paste the post text above
 4. Attach the photo (download from this task if needed)
-5. Click "Post"
+5. Set the button to "Call now" so customers can call without a number in the text (Google prohibits phone numbers in post content)
+6. Click "Post"
 
 If you have any questions, review with Ross.
 ```
