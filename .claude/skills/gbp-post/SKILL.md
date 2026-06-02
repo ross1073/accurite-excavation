@@ -5,15 +5,16 @@ description: Use when generating a Google Business Profile post for AccuRite Exc
 
 # GBP Post Generator — AccuRite Excavation
 
-Generate a ready-to-paste Google Business Profile post for AccuRite Excavation & Hauling, attach a real photo from the website, and route it to Cassandra in Teamwork for proofreading + approval.
+Generate a ready-to-paste Google Business Profile post for AccuRite Excavation & Hauling, name a real photo from the website for it, and route it to Cassandra in Teamwork for proofreading + approval. Posts are informational only — no advertising, no calls to action, and never any invented facts.
 
 ## Usage
 
 `/gbp-post` — generates the next post in the rotation
-`/gbp-post project "retaining wall in Layton"` — project spotlight post
+`/gbp-post educational` — educational / know-before-you-dig post
 `/gbp-post seasonal` — seasonal tip post
 `/gbp-post service "demolition"` — service highlight post
 `/gbp-post review` — review/trust post
+`/gbp-post project "<real, verified job details>"` — MANUAL real-project spotlight. Only use when you have actual job facts (real city, real work). Never invent a project — see the No fabrication hard rule.
 
 ## How it works
 
@@ -21,7 +22,7 @@ Generate a ready-to-paste Google Business Profile post for AccuRite Excavation &
 2. Determine post type from the 4-week rotation (or honor the explicit arg)
 3. Generate post text following the rules + template below
 4. Pick a real photo from the website matching the post type (see Photo Selection)
-5. Create a Teamwork task assigned to Cassandra with the post text + photo attached
+5. Create a Teamwork task assigned to Cassandra with the post text and the photo's filename + repo path (the connector can't attach files — Cassandra pulls the photo from the repo/website)
 6. Show the user a preview of what was sent
 7. Log the post to the log file (date, type, post text, photo used, TW task ID)
 
@@ -29,7 +30,7 @@ Generate a ready-to-paste Google Business Profile post for AccuRite Excavation &
 
 | Week of month | Post type |
 |---------------|-----------|
-| 1st | Project photo spotlight |
+| 1st | Educational / know-before-you-dig |
 | 2nd | Seasonal tip |
 | 3rd | Service highlight |
 | 4th | Review / trust |
@@ -37,7 +38,7 @@ Generate a ready-to-paste Google Business Profile post for AccuRite Excavation &
 ## Business info (use exactly)
 
 - **Name:** AccuRite Excavation & Hauling, Inc.
-- **Phone:** (801) 814-6975 — reference only. NEVER write this (or any phone number) into the post text. Google prohibits it. Use the "Call now" button instead.
+- **Phone:** (801) 814-6975 — reference only. NEVER write this (or any phone number) into the post text. Google prohibits it. Do not surface it via a "Call now" button either — these posts carry no CTA or button (see hard rule below).
 - **Website:** accuriteexcavation.com
 - **Location:** Ogden, UT
 - **Service area:** Weber, Davis, Box Elder, and Morgan counties (Northern Utah / Wasatch Front)
@@ -61,73 +62,111 @@ Ogden, North Ogden, South Ogden, Roy, Riverdale, Clearfield, Layton, Kaysville, 
 Google Business Profile post content has rules. Breaking them gets posts rejected or the profile flagged. Reference: https://support.google.com/business/answer/7213077
 
 - **NEVER put a phone number in the post text.** Google's exact rule: "We do not allow your post content to include a phone number." This is the rule that got a prior post flagged. No phone number — not (801) 814-6975, not any other format, not spelled out, not anywhere in the body.
-- **To let customers call, use the post's "Call now" button instead.** The button pulls the verified Business Profile phone number automatically — that's the compliant way to surface the phone. The button is set when publishing, not typed into the post text (see "How to publish" below).
+- **Do not add a "Call now" button (or any button) either.** Per AccuRite's no-CTA rule below, these posts are informational only — no button, no phone, no ask. (A button is technically permitted by Google; leaving it off is an editorial choice.)
 - Post content must comply with all applicable laws and regulations.
 - No deals/promotions/discounts framing that reads like a hotel offer (AccuRite isn't a hotel, but keep posts informational, not coupon-style).
 
-When in doubt, drive the CTA to the website (accuriteexcavation.com) and the "Call now" button — never a typed number.
+When in doubt, leave it out and keep the post purely informational. See the two hard-rule sections below.
+
+## No advertising or calls to action — HARD RULE (never violate)
+
+These posts are informational only. They must NOT read like an ad and must NOT ask the reader to do anything. Banned in the post text:
+
+- Calls to action of any kind: "request a free estimate", "call us", "tap the Call button", "visit our website", "get started", "contact us today", "book now", etc.
+- The website URL used as a pitch, and any promotional / coupon / "act now" framing.
+
+Just deliver useful, true information and stop. End on the information, not an invitation.
+
+(For accuracy: Google does technically permit CTAs and CTA buttons in posts. Removing them is AccuRite's editorial choice to keep the profile non-promotional — enforced here as a hard rule.)
+
+## No fabrication — HARD RULE (never violate)
+
+This is a real client's live Google Business Profile. Every factual claim in a post must be verifiably true. NEVER invent or imply:
+
+- A specific project or job ("last month we completed a basement in Roy") unless real job details were explicitly provided to you. **The auto-rotation must never claim a specific job** — that is exactly the failure that put a fabricated Roy basement on the profile.
+- A specific customer, testimonial, quote, or named person.
+- A specific number (review count, years on a job, crew size, jobs completed) unless it appears in the verified Business info above.
+- Having done work in a named city as a stated fact — even as an "example" ("whether it's a retaining wall in Farmington…") — unless it really happened and you were told so.
+
+You MAY state these, because they are verified (see Business info): in business since 1995, Utah E100 licensed, serves Weber/Davis/Box Elder/Morgan counties, the listed services, 5-star rated (no specific count), based in Ogden. You MAY give general, true educational or seasonal information about excavation work and Northern Utah conditions. When unsure whether something is true, leave it out.
 
 ## Post rules
 
 - 150-300 words max
-- Include a call to action — direct to the website and/or the post's "Call now" button, NEVER a typed phone number
-- Mention a specific in-service-area city when possible
+- Informational only — NO call to action and NO advertising language (see hard rule above)
+- Only verifiable facts — NO invented projects, jobs, places, people, or numbers (see hard rule above)
+- A city may be named only for general/regional context (e.g. service area), never as a claim that we did a specific job there
 - Sound like a real contractor, not marketing copy — direct, confident, no fluff
 - No hashtags (GBP isn't Instagram)
 - No emojis unless specifically requested
-- End with a clear CTA (website + "tap Call" — no number in the text)
+- End on the information — no sign-off CTA
 
 ## Templates
 
-### Project spotlight
+Every template ends ON the information — no closing CTA. None of them may state or imply a specific job unless real details were provided (see No fabrication hard rule).
+
+### Educational / know-before-you-dig
 ```
-[1-2 sentences about the specific project — what was done, where, any challenges]
+[1-2 sentences of genuinely useful, generally-true information about a type of excavation or site work — what's involved, what affects cost or timing, a common consideration for Northern Utah ground. No specific job, no customer, no "we did".]
 
-[1 sentence about why this type of work matters or what makes it tricky]
+[1-2 sentences expanding the practical knowledge a property owner or general contractor would find useful.]
 
-[1 sentence credibility: years in business, license, or general 5-star rating]
+[1 sentence of verifiable context about AccuRite — e.g. Utah E100 licensed, in business since 1995, serving Weber/Davis/Box Elder/Morgan counties. Stated as fact, not a pitch.]
 
-Planning a similar project? Request a free estimate at accuriteexcavation.com, or tap the Call button on this post.
+[End on the information. No CTA.]
 ```
 
 ### Seasonal tip
 ```
-[1-2 sentences about what's timely right now — spring ground thaw, fall prep, winter considerations]
+[1-2 sentences about what's timely right now in Northern Utah — spring ground thaw, fall prep, winter considerations. Generally true, not a specific event.]
 
-[1-2 sentences of practical advice a homeowner or contractor would find useful]
+[1-2 sentences of practical advice a homeowner or contractor would find useful.]
 
-[Tie it back to AccuRite's experience in the area]
+[Optional: 1 sentence of verifiable context about AccuRite's experience in the region — factual, not a pitch.]
 
-Ready to get started? Request a free estimate at accuriteexcavation.com, or tap the Call button to reach our team.
+[End on the information. No CTA.]
 ```
 
 ### Service highlight
 ```
-[1 sentence naming the service and what it covers]
+[1 sentence naming a real AccuRite service (from the Services list) and what it covers.]
 
-[2-3 sentences about common projects, what's involved, or what makes AccuRite's approach different]
+[2-3 sentences about what that kind of work generally involves or what to consider — general knowledge, NOT a specific job we did.]
 
-[1 sentence about service area or experience]
+[1 sentence of verifiable context — service area or years in business.]
 
-Need [service]? Tap the Call button for a free on-site estimate, or visit accuriteexcavation.com.
+[End on the information. No CTA.]
 ```
 
 ### Review / Trust
 ```
-[Thank customers — reference 5-star rating without a specific count unless verified current]
+[Thank customers generally and reference the 5-star rating WITHOUT a specific count (unless a current count was verified). No invented testimonials, quotes, or specific jobs.]
 
-[1-2 sentences about what drives the reviews — showing up on time, clean sites, honest pricing, etc.]
+[1-2 sentences about the company's standards — showing up on time, clean sites, honest pricing — stated as how AccuRite works, not as a claim about a specific job.]
 
-[1 sentence about commitment to Weber/Davis County community]
+[1 sentence about commitment to the Weber/Davis/Box Elder/Morgan community — the real service area.]
 
-See what our customers say on Google. Visit accuriteexcavation.com or tap the Call button to start your project.
+[End on the information. No CTA.]
+```
+
+### Manual project spotlight (NOT in the auto-rotation)
+```
+Only generate this when REAL, verified job details have been provided (via `/gbp-post project "<details>"` or by Ross). If you have no real job, do NOT write this type — pick an auto-rotation type instead. Never invent the project.
+
+[1-2 sentences about the ACTUAL provided project — what was really done, the real in-service-area city, any real detail you were given.]
+
+[1 sentence on why that type of work matters or what makes it tricky — general truth.]
+
+[1 sentence of verifiable credibility — Utah E100 license, years in business, or service area.]
+
+[End on the information. No CTA.]
 ```
 
 ## Photo selection
 
-The skill must select a real photo from one of these directories and attach it to the Teamwork task. Pick by post type:
+The skill must select a real photo from one of these directories and name it (filename + repo path) in the Teamwork task — the connector cannot attach files, so Cassandra pulls the photo from the repo/website. Pick by post type:
 
-**Project spotlight** — pick from `/Users/rosswalker/projects/accurite-excavation/src/assets/images/gallery/`:
+**Educational / know-before-you-dig (and manual project spotlight)** — pick from `/Users/rosswalker/projects/accurite-excavation/src/assets/images/gallery/`:
 - `residential-basement-excavation-01.jpg` / `-02.jpg`
 - `residential-excavation-foundation-03.jpg` / `-04.jpg`
 - `commercial-site-work-oreillys.jpg`
@@ -141,7 +180,7 @@ The skill must select a real photo from one of these directories and attach it t
 - `dirt-work-excavation-utah.jpg`
 - `heavy-equipment-ogden-utah.jpg`
 
-Match the photo to the project being described. If the post is about a basement dig, use a basement photo. If it's about utility trenching, use a trenching photo. Don't pick a hauling photo for a grading post.
+Match the photo to the topic being described. If the post is about basement/foundation work, use a basement photo. If it's about utility trenching, use a trenching photo. Don't pick a hauling photo for a grading post.
 
 **Seasonal tip** — pick from `/Users/rosswalker/projects/accurite-excavation/src/assets/images/gallery/` (any equipment or jobsite shot):
 - `excavator-equipment-utah-01.jpg` / `-02.jpg` / `-03.jpg`
@@ -183,8 +222,9 @@ After the post and photo are ready, create a task in Teamwork:
 ```markdown
 ## Post to approve
 
-**Type:** [Project Spotlight / Seasonal Tip / Service Highlight / Review-Trust]
-**Suggested photo:** [filename] (attached)
+**Type:** [Educational / Seasonal Tip / Service Highlight / Review-Trust / Project Spotlight (manual only)]
+**Photo to use:** [filename] — repo path: `src/assets/images/.../[filename]`
+(NOT attached — the Teamwork connector can't attach files. Cassandra: download this image from the repo or the website before posting.)
 
 ---
 
@@ -194,10 +234,11 @@ After the post and photo are ready, create a task in Teamwork:
 
 ## What to check
 
-- [ ] Reads naturally, not like marketing copy
-- [ ] NO phone number anywhere in the post text (Google policy — set the "Call now" button instead)
-- [ ] CTA at the end is clear
-- [ ] City named is in service area (Weber, Davis, Box Elder, or Morgan County — NOT Salt Lake County)
+- [ ] Reads naturally, like real information — not like an ad
+- [ ] NO call to action or advertising language anywhere (no "free estimate", "call us", "visit our site", etc.)
+- [ ] NO invented or unverifiable specifics — no projects, jobs, places we worked, people, or numbers we can't stand behind
+- [ ] NO phone number anywhere in the post text (Google policy)
+- [ ] Any city named is in service area (Weber, Davis, Box Elder, or Morgan County — NOT Salt Lake County)
 - [ ] No typos
 - [ ] Photo matches the post topic
 
@@ -206,14 +247,14 @@ After the post and photo are ready, create a task in Teamwork:
 1. Open Google Business Profile: search "AccuRite Excavation" on Google while signed in to the business account
 2. Click "Add update" or "Post"
 3. Paste the post text above
-4. Attach the photo (download from this task if needed)
-5. Set the button to "Call now" so customers can call without a number in the text (Google prohibits phone numbers in post content)
+4. Add the photo named above (download it from the repo/website first)
+5. Leave the post informational — do not add a promotional button or any phone number
 6. Click "Post"
 
 If you have any questions, review with Ross.
 ```
 
-- **Attach the photo file** to the task. Use the photo path identified above and pass it as a file attachment in the create-task call.
+The photo is referenced by filename + repo path in the description above — the Teamwork connector has no file-attachment capability, so do NOT claim the photo is "attached." Cassandra retrieves it from the repo/website.
 
 ## Output format
 
@@ -221,7 +262,7 @@ After creating the TW task, show the user this summary:
 
 ```
 GBP Post — [Type] — [Date]
-Photo: [filename]
+Photo (named for Cassandra to pull, not attached): [filename]
 Teamwork task: [link to TW task]
 Cassandra has been assigned. Due in 3 days.
 
@@ -268,4 +309,4 @@ docs/memory-to-main workflow and does not change the live site.
 
 ## Scheduling
 
-This skill is scheduled to run automatically every Tuesday at 12:03 PM Denver time via a persistent routine. When called from that routine, behave the same as when invoked manually — generate the post, attach photo, create TW task, log it. No user confirmation step required for the scheduled run; ship straight to Cassandra.
+This skill is scheduled to run automatically every Tuesday at 12:03 PM Denver time via a persistent routine. When called from that routine, behave the same as when invoked manually — generate the post, name the photo, create TW task, log it (and commit+push the log). No user confirmation step required for the scheduled run; ship straight to Cassandra.
