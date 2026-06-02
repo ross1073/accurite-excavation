@@ -30,13 +30,16 @@ See what our customers say on Google, or call (801) 814-6975 to start your proje
 
 ---
 
-## 2026-06-02 — Project Spotlight — TW 36551189
-**Photo:** residential-basement-excavation-01.jpg
+## 2026-06-02 — Educational / know-before-you-dig — TW 36551189
+**Photo:** underground-utilities-trenching-01.jpg
+**Note:** Regenerated 2026-06-02. Replaced the original "Project Spotlight" draft, which was
+withdrawn before publishing — it invented a basement job in Roy (fabrication) and ended on a
+call-to-action. This version is informational only: no CTA, no phone, all verifiable facts.
 **Post:**
-Last month we completed a full basement excavation for a new custom home in Roy. The site had compacted clay soil and tight access between existing structures — we used our compact excavator to open up the foundation footprint without disturbing the neighboring property lines.
+Before any excavation starts, the most important work happens before a single bucket of dirt moves: knowing what's buried underground. Gas, power, water, and communication lines run through more properties than most owners realize, and striking one is dangerous and costly.
 
-Basement digs in Weber County often come with surprises: high water tables near the river corridor, caliche layers, or rock close to grade. Knowing what you're working with before the first bucket drops saves significant time and money. We grade and backfill properly from the start so footings go in level and drainage flows away from the structure.
+In Utah, the law requires notifying Blue Stakes of Utah before you dig — on any project, from a fence post to a full foundation. They mark the approximate location of public utility lines at no charge, and it pays to put in that request well before the work is scheduled to start.
 
-AccuRite Excavation & Hauling has handled residential foundation work across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, fully insured.
+A few things that help once the lines are marked: leave the paint and flags in place until the job is finished, hand-dig within a couple of feet of any marked line, and remember that private lines — like the feed to a detached garage or a sprinkler system — usually aren't covered by the public locate, so those have to be identified separately.
 
-Planning a similar project? Request a free estimate at accuriteexcavation.com, or tap the Call button on this post.
+Good excavation starts with good information. AccuRite Excavation & Hauling has worked across Weber, Davis, Box Elder, and Morgan counties since 1995, treating utility locating and site prep as the foundation of every job. Utah E100 licensed.
