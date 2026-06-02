@@ -247,6 +247,25 @@ Create the log file if it doesn't exist. Read the log file first to:
 1. Avoid repeating the same service, city, or photo as the last 3 posts
 2. Determine which rotation slot is next if `/gbp-post` is called without args
 
+### Persisting the log — REQUIRED
+
+After appending the entry, the log MUST be committed and pushed, or it is lost.
+The weekly scheduled routine runs in an ephemeral cloud checkout (`persist_session: false`):
+a plain file write is discarded when the sandbox is destroyed, even though the Teamwork
+task — created via API — survives. That is exactly why no log existed before 2026-06-02.
+
+Commit and push only the log file (scoped, so nothing else can ride along):
+
+```bash
+git add .claude/skills/gbp-post/post-log.md
+git commit -m "chore(gbp-post): log <date> <post type> post (TW <task id>)"
+git push origin main
+```
+
+If `git push` fails (auth, conflict, etc.), output the error clearly — do NOT swallow it.
+Pushing a `.claude/` doc file to `main` is consistent with this repo's existing
+docs/memory-to-main workflow and does not change the live site.
+
 ## Scheduling
 
 This skill is scheduled to run automatically every Tuesday at 12:03 PM Denver time via a persistent routine. When called from that routine, behave the same as when invoked manually — generate the post, attach photo, create TW task, log it. No user confirmation step required for the scheduled run; ship straight to Cassandra.
