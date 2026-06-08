@@ -1,0 +1,97 @@
+{
+  "date": "2026-06-08",
+  "queries": [],
+  "rows": [
+    {
+      "query": "excavation companies near me",
+      "geo": "Ogden",
+      "accurite_rank": 1,
+      "pack_size": 3,
+      "top3": [
+        "AccuRite Excavation & Hauling, Inc.",
+        "Skinner Excavating, Inc.",
+        "Triple H Excavating"
+      ]
+    },
+    {
+      "query": "excavation companies near me",
+      "geo": "Pleasant View",
+      "accurite_rank": 4,
+      "pack_size": 4,
+      "top3": [
+        "E.K. Bailey Construction        My Ad Ce",
+        "JMB Earthworks",
+        "Skinner Excavating, Inc."
+      ]
+    },
+    {
+      "query": "excavation companies near me",
+      "geo": "Layton",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "Simple Excavation Services",
+        "Ashland Excavation & Construction",
+        "RJT Excavating"
+      ]
+    },
+    {
+      "query": "land clearing ogden",
+      "geo": "Ogden",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "SoundGround Tree Service",
+        "RGJ Construction & Excavation LLC",
+        "Sage Demolition & Land Clearing"
+      ]
+    },
+    {
+      "query": "land clearing ogden",
+      "geo": "Pleasant View",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "JMB Earthworks",
+        "Watts Build & Siteworx",
+        "RGJ Construction & Excavation LLC"
+      ]
+    },
+    {
+      "query": "land clearing ogden",
+      "geo": "Layton",
+      "accurite_rank": null,
+      "pack_size": 4,
+      "top3": [
+        "All Wood's Tree Service        My Ad Cen",
+        "Sage Demolition & Land Clearing",
+        "SoundGround Tree Service"
+      ]
+    },
+    {
+      "query": "grading contractor near me",
+      "geo": "Ogden",
+      "accurite_rank": null,
+      "pack_size": 0,
+      "top3": []
+    },
+    {
+      "query": "grading contractor near me",
+      "geo": "Pleasant View",
+      "accurite_rank": null,
+      "pack_size": 0,
+      "top3": []
+    },
+    {
+      "query": "grading contractor near me",
+      "geo": "Layton",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "Ashland Excavation & Construction",
+        "Simple Excavation Services",
+        "D&J Grading"
+      ]
+    }
+  ]
+}
