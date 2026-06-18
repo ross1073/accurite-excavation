@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-18",
+  "queries": [],
+  "rows": [
+    {
+      "query": "excavation companies near me",
+      "geo": "Ogden",
+      "accurite_rank": 2,
+      "pack_size": 3,
+      "top3": [
+        "Skinner Excavating, Inc.",
+        "AccuRite Excavation & Hauling, Inc.",
+        "Triple H Excavating"
+      ]
+    },
+    {
+      "query": "excavation companies near me",
+      "geo": "Pleasant View",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "JMB Earthworks",
+        "Parker Rock 'N' Dirt",
+        "Skinner Excavating, Inc."
+      ]
+    },
+    {
+      "query": "excavation companies near me",
+      "geo": "Layton",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "Simple Excavation Services",
+        "Ashland Excavation & Construction",
+        "Sage Demolition & Land Clearing"
+      ]
+    },
+    {
+      "query": "land clearing ogden",
+      "geo": "Ogden",
+      "accurite_rank": null,
+      "pack_size": 4,
+      "top3": [
+        "SoundGround Tree Service",
+        "RGJ Construction & Excavation LLC",
+        "Ogden Excavation"
+      ]
+    },
+    {
+      "query": "land clearing ogden",
+      "geo": "Pleasant View",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "Sage Demolition & Land Clearing",
+        "JMB Earthworks",
+        "RGJ Construction & Excavation LLC"
+      ]
+    },
+    {
+      "query": "land clearing ogden",
+      "geo": "Layton",
+      "accurite_rank": null,
+      "pack_size": 3,
+      "top3": [
+        "Sage Demolition & Land Clearing",
+        "RGJ Construction & Excavation LLC",
+        "SoundGround Tree Service"
+      ]
+    },
+    {
+      "query": "grading contractor near me",
+      "geo": "Ogden",
+      "accurite_rank": null,
+      "pack_size": 0,
+      "top3": []
+    },
+    {
+      "query": "grading contractor near me",
+      "geo": "Pleasant View",
+      "accurite_rank": null,
+      "pack_size": 0,
+      "top3": []
+    },
+    {
+      "query": "grading contractor near me",
+      "geo": "Layton",
+      "accurite_rank": null,
+      "pack_size": 0,
+      "top3": []
+    }
+  ]
+}
