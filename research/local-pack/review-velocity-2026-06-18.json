@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-18",
+  "seed_query": "excavation companies near me",
+  "geo": "Ogden",
+  "businesses": [
+    {
+      "title": "AccuRite Excavation & Hauling, Inc.",
+      "rating_value": 4.9,
+      "rating_count": 60,
+      "cid": "1216175507896020359",
+      "place_id": "ChIJ_RbcV7QPU4cRhy2sTC654BA",
+      "rank_absolute": 3,
+      "metrics": {
+        "pulled": 60,
+        "with_dates": 60,
+        "most_recent": "2026-06-03",
+        "days_since_last": 14,
+        "last_30d": 1,
+        "last_60d": 1,
+        "last_90d": 2
+      }
+    },
+    {
+      "title": "Skinner Excavating, Inc.",
+      "rating_value": 5,
+      "rating_count": 9,
+      "cid": "17008964775650735705",
+      "place_id": "ChIJNZADRg4MU4cRWTbLmVj7C-w",
+      "rank_absolute": 1,
+      "metrics": {
+        "pulled": 9,
+        "with_dates": 9,
+        "most_recent": "2023-10-26",
+        "days_since_last": 965,
+        "last_30d": 0,
+        "last_60d": 0,
+        "last_90d": 0
+      }
+    },
+    {
+      "title": "Triple H Excavating",
+      "rating_value": 4.9,
+      "rating_count": 11,
+      "cid": "3819807538324585097",
+      "place_id": "ChIJA85-lxIOU4cRiToyyLeuAjU",
+      "rank_absolute": 2,
+      "metrics": {
+        "pulled": 11,
+        "with_dates": 11,
+        "most_recent": "2026-03-25",
+        "days_since_last": 85,
+        "last_30d": 0,
+        "last_60d": 0,
+        "last_90d": 1
+      }
+    }
+  ]
+}
