@@ -49,6 +49,13 @@ If you're a contracting officer or public works director reviewing bids, here's 
 
 AccuRite has completed excavation and site work at Camp Williams and Hill Air Force Base near [Clearfield](/locations/clearfield) and [Layton](/locations/layton). Military projects require strict adherence to installation security procedures, schedule coordination with base personnel, and documentation requirements that go beyond standard commercial contracts. We've navigated these requirements successfully on multiple projects.
 
+After we completed the excavation scope on the B1286 Steam Plant Project at Hill AFB, the general contractor — HHI Corporation — sent an unsolicited letter recognizing our crew's safety performance, confirming the work followed both **OSHA and EM385 standards** (the U.S. Army Corps of Engineers safety manual that governs federal job sites). It was signed by HHI's superintendent, onsite safety officer, QC manager, and project engineer.
+
+<figure class="my-8 mx-auto max-w-xl border border-gray-200 rounded-lg overflow-hidden bg-white shadow-sm">
+  <img src="/images/hill-afb-safety-letter-hhi.png" alt="Letter from HHI Corporation recognizing AccuRite Excavation's safety performance on the B1286 Steam Plant Project at Hill Air Force Base" class="w-full h-auto" loading="lazy" />
+  <figcaption class="p-4 bg-gray-50 border-t border-gray-200 text-center text-sm text-gray-500">HHI Corporation's safety performance letter — Hill AFB B1286 Steam Plant Project, November 2023. Read the full story on <a href="/blog/excavation-safety-on-federal-projects">our blog</a>.</figcaption>
+</figure>
+
 ### Army Corps of Engineers
 
 Site work projects coordinated through the Army Corps of Engineers involve detailed specifications and inspection requirements. We've completed projects to Corps standards and understand the documentation and inspection process these contracts require.

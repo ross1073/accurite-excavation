@@ -1,0 +1,245 @@
+{
+  "date": "2026-06-22",
+  "rows": [
+    {
+      "keyword": "excavation contractor near me",
+      "cluster": "C_utah_commercial",
+      "ut_volume": 110,
+      "us_volume": 9900,
+      "cpc": 8,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "trench safety",
+      "cluster": "B_safety_educational",
+      "ut_volume": 30,
+      "us_volume": 1000,
+      "cpc": 6.89,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "em 385-1-1",
+      "cluster": "A_federal_military",
+      "ut_volume": 10,
+      "us_volume": 1600,
+      "cpc": 5.19,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "osha excavation standards",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 480,
+      "cpc": 1.8,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "osha trench safety",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 390,
+      "cpc": 4.25,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "excavation safety",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 320,
+      "cpc": 7.34,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "trenching and excavation safety",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 320,
+      "cpc": 8.66,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "trench box requirements",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 110,
+      "cpc": 3.16,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "competent person excavation",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 90,
+      "cpc": 6.62,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "excavation safety toolbox talk",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 40,
+      "cpc": 4.34,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "excavation subcontractor",
+      "cluster": "D_b2b_credential",
+      "ut_volume": 10,
+      "us_volume": 30,
+      "cpc": 8.03,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "hill afb contractors",
+      "cluster": "A_federal_military",
+      "ut_volume": 10,
+      "us_volume": 20,
+      "cpc": null,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "trench safety requirements",
+      "cluster": "B_safety_educational",
+      "ut_volume": 10,
+      "us_volume": 20,
+      "cpc": null,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "excavation safety plan",
+      "cluster": "B_safety_educational",
+      "ut_volume": 0,
+      "us_volume": 10,
+      "cpc": null,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "hill air force base construction",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "federal excavation contractor",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "government excavation contractor",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "military base construction contractor",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "em385 compliance",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "davis bacon contractor utah",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "prevailing wage contractor utah",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "government construction contractor utah",
+      "cluster": "A_federal_military",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "commercial excavation utah",
+      "cluster": "C_utah_commercial",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "excavation contractor utah",
+      "cluster": "C_utah_commercial",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "excavation companies ogden",
+      "cluster": "C_utah_commercial",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "site work contractor utah",
+      "cluster": "C_utah_commercial",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "grading contractor utah",
+      "cluster": "C_utah_commercial",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "how to choose an excavation contractor",
+      "cluster": "D_b2b_credential",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "bonded excavation contractor",
+      "cluster": "D_b2b_credential",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "questions to ask excavation contractor",
+      "cluster": "D_b2b_credential",
+      "ut_volume": null,
+      "us_volume": null,
+      "cpc": null,
+      "competition": null
+    }
+  ]
+}

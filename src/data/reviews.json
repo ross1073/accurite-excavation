@@ -62,5 +62,13 @@
     "service": "rock-walls-retaining-walls",
     "location": "north-ogden",
     "source": "google"
+  },
+  {
+    "name": "Craig Eckley, Superintendent — HHI Corporation",
+    "rating": 5,
+    "text": "During the excavation work at the B1286 Steam Plant Project on Hill AFB, the AccuRite crew performed their tasks without any safety concerns and followed all OSHA & EM385 standards. AccuRite was able to perform their scope of work with exceptional attention to safety.",
+    "service": "government-projects",
+    "location": "layton",
+    "source": "letter"
   }
 ]

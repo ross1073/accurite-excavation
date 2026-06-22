@@ -43,4 +43,15 @@ Documentation requirements are more thorough. Compaction testing, material certi
 
 AccuRite holds the [E100 General Engineering Contractor license](/services/government-projects) that government utility work in Utah requires. Our [0.91 EMOD safety rating](/safety) meets the prequalification thresholds that federal and military contracts demand. We have built the administrative processes to handle government project documentation without it slowing down our field work.
 
+## Recognized for Safety Performance
+
+When we completed our excavation scope on the steam plant project, the general contractor — HHI Corporation — sent an unsolicited letter recognizing our crew's safety performance, confirming the work followed both OSHA and EM385 standards (the stricter federal safety manual that applies on military installations). It was signed by HHI's superintendent, onsite safety officer, QC manager, and project engineer.
+
+<figure class="my-8 mx-auto max-w-xl border border-gray-200 rounded-lg overflow-hidden bg-white shadow-sm">
+  <img src="/images/hill-afb-safety-letter-hhi.png" alt="Letter from HHI Corporation recognizing AccuRite Excavation's safety performance on the B1286 Steam Plant Project at Hill Air Force Base" class="w-full h-auto" loading="lazy" />
+  <figcaption class="p-4 bg-gray-50 border-t border-gray-200 text-center text-sm text-gray-500">HHI Corporation's safety performance letter for the B1286 Steam Plant Project, November 2023.</figcaption>
+</figure>
+
+We wrote more about what excavation safety actually looks like day to day — and what OSHA and EM385 require — in [this companion post](/blog/excavation-safety-on-federal-projects).
+
 If you have a government or military project that needs excavation or utility work, [reach out to our team](/contact).
