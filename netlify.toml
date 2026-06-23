@@ -23,6 +23,15 @@
   status = 301
   force = false
 
+# Clean up stale /blog/<slug>.md 404s. The blog index linked to post.id
+# (which carries the .md extension in Astro 5) from launch until 63a48c3,
+# so Googlebot crawled /blog/*.md for months. 301 them to the real clean
+# URL. Target has no .md suffix, so the rule can't re-match (no loop).
+[[redirects]]
+  from = "/blog/:slug.md"
+  to = "/blog/:slug"
+  status = 301
+
 # Block WP search URLs — _redirects can't match query strings
 [[redirects]]
   from = "/"
