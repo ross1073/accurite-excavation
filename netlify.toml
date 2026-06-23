@@ -28,8 +28,8 @@
 # so Googlebot crawled /blog/*.md for months. 301 them to the real clean
 # URL. Target has no .md suffix, so the rule can't re-match (no loop).
 [[redirects]]
-  from = "/blog/:slug.md"
-  to = "/blog/:slug"
+  from = "/blog/*.md"
+  to = "/blog/:splat"
   status = 301
 
 # Block WP search URLs — _redirects can't match query strings
