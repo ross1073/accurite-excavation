@@ -25,11 +25,61 @@
 
 # Clean up stale /blog/<slug>.md 404s. The blog index linked to post.id
 # (which carries the .md extension in Astro 5) from launch until 63a48c3,
-# so Googlebot crawled /blog/*.md for months. 301 them to the real clean
-# URL. Target has no .md suffix, so the rule can't re-match (no loop).
+# so Googlebot crawled /blog/*.md for months. 301 each to its clean URL.
+# Enumerated per-slug because Netlify won't capture a splat/placeholder
+# that precedes a literal suffix (/blog/*.md and /blog/:slug.md both fail).
+# This is the full historical set; the fixed index emits no new .md URLs.
 [[redirects]]
-  from = "/blog/*.md"
-  to = "/blog/:splat"
+  from = "/blog/avoid-flooding-new-home.md"
+  to = "/blog/avoid-flooding-new-home"
+  status = 301
+[[redirects]]
+  from = "/blog/basement-excavation-vs-dig-out.md"
+  to = "/blog/basement-excavation-vs-dig-out"
+  status = 301
+[[redirects]]
+  from = "/blog/camp-williams-shooting-range.md"
+  to = "/blog/camp-williams-shooting-range"
+  status = 301
+[[redirects]]
+  from = "/blog/evaluate-excavation-subcontractors-utah.md"
+  to = "/blog/evaluate-excavation-subcontractors-utah"
+  status = 301
+[[redirects]]
+  from = "/blog/excavation-safety-on-federal-projects.md"
+  to = "/blog/excavation-safety-on-federal-projects"
+  status = 301
+[[redirects]]
+  from = "/blog/hill-afb-steam-plant-project.md"
+  to = "/blog/hill-afb-steam-plant-project"
+  status = 301
+[[redirects]]
+  from = "/blog/how-much-does-excavation-cost-utah.md"
+  to = "/blog/how-much-does-excavation-cost-utah"
+  status = 301
+[[redirects]]
+  from = "/blog/how-to-choose-excavation-contractor-utah.md"
+  to = "/blog/how-to-choose-excavation-contractor-utah"
+  status = 301
+[[redirects]]
+  from = "/blog/national-park-service-project.md"
+  to = "/blog/national-park-service-project"
+  status = 301
+[[redirects]]
+  from = "/blog/retaining-wall-permit-utah.md"
+  to = "/blog/retaining-wall-permit-utah"
+  status = 301
+[[redirects]]
+  from = "/blog/retaining-wall-types-utah-soil.md"
+  to = "/blog/retaining-wall-types-utah-soil"
+  status = 301
+[[redirects]]
+  from = "/blog/soil-stabilization-importance.md"
+  to = "/blog/soil-stabilization-importance"
+  status = 301
+[[redirects]]
+  from = "/blog/what-is-emod-experience-modification-rate.md"
+  to = "/blog/what-is-emod-experience-modification-rate"
   status = 301
 
 # Block WP search URLs — _redirects can't match query strings
