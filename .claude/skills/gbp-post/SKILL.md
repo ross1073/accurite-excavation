@@ -209,7 +209,32 @@ Match the photo to the topic being described. If the post is about basement/foun
 
 ## Teamwork submission
 
-After the post and photo are ready, create a task in Teamwork:
+**Use the REST API. Never the Teamwork MCP connector.**
+
+The MCP connector authenticates with interactive OAuth: its token expires and only a human
+clicking through claude.ai connector settings can renew it. The scheduled run has no human,
+so when the token lapses the run fails *silently*. That is precisely how this post vanished
+for three consecutive weeks (2026-06-23, 06-30, 07-07) with no error and no warning.
+
+The REST client is vendored in this repo and uses a static token that does not expire:
+
+```bash
+# reads $TEAMWORK_API_TOKEN, else ~/.config/secrets/secrets.env
+python3 scripts/teamwork.py tasks 628283 --search 'GBP Post for AccuRite'   # post history
+python3 scripts/teamwork.py create --tasklist 2504854 \
+    --name "GBP Post for AccuRite — Proof & Approve — [type] — [YYYY-MM-DD]" \
+    --desc-file /tmp/desc.md --assignee cassandra --due YYYY-MM-DD
+```
+
+(Locally, the same client is on PATH as `tw` — `tw create ...` is equivalent.)
+
+If Teamwork auth fails, fix the token. Do NOT fall back to MCP, and do NOT continue silently.
+
+**Teamwork is the source of truth for post history**, not `post-log.md` — the scheduled run
+executes in an ephemeral sandbox whose `git push` can be refused, so the log may be stale or
+missing entries. Derive the rotation slot from the task list; treat the log as a convenience.
+
+Task parameters:
 
 - **Project ID:** 628283
 - **Tasklist ID:** 2504854 (General tasks — there is no AccuRite-specific tasklist yet)
@@ -288,14 +313,10 @@ Create the log file if it doesn't exist. Read the log file first to:
 1. Avoid repeating the same service, city, or photo as the last 3 posts
 2. Determine which rotation slot is next if `/gbp-post` is called without args
 
-### Persisting the log — REQUIRED
+### Persisting the log — best effort, NOT load-bearing
 
-After appending the entry, the log MUST be committed and pushed, or it is lost.
-The weekly scheduled routine runs in an ephemeral cloud checkout (`persist_session: false`):
-a plain file write is discarded when the sandbox is destroyed, even though the Teamwork
-task — created via API — survives. That is exactly why no log existed before 2026-06-02.
-
-Commit and push only the log file (scoped, so nothing else can ride along):
+After appending the entry, try to commit and push the log. Scope the `git add` to that one
+file so a run can never push site code:
 
 ```bash
 git add .claude/skills/gbp-post/post-log.md
@@ -303,9 +324,15 @@ git commit -m "chore(gbp-post): log <date> <post type> post (TW <task id>)"
 git push origin main
 ```
 
-If `git push` fails (auth, conflict, etc.), output the error clearly — do NOT swallow it.
-Pushing a `.claude/` doc file to `main` is consistent with this repo's existing
-docs/memory-to-main workflow and does not change the live site.
+**If the push fails, report it and move on — do not fail the run and do not retry in a loop.**
+The scheduled cloud run is only permitted to push to `claude/*` branches unless "Allow
+unrestricted branch pushes" is enabled for the repo on the routine, so a push to `main` from
+the sandbox can be refused. That refusal is why the log has no entries after 2026-06-02 even
+though the 06-09 and 06-16 posts really were created.
+
+This is why **Teamwork — not this file — is the source of truth for post history.** The
+Teamwork task is the deliverable; the log is a human-readable convenience. Never let a failed
+log push block or abort the actual post.
 
 ## Scheduling
 
