@@ -134,18 +134,54 @@ organization as a customer when it isn't is the single fastest way to get a clie
 and Cal Ranch already proved this site does it (see CONFIRMED above). Every name below is
 UNCONFIRMED and the gate flags any of them until Shawn confirms each one individually.
 
-- **UNCONFIRMED** Army Corps of Engineers
-- **UNCONFIRMED** National Park Service
-- **UNCONFIRMED** U.S. Postal Service
-- **UNCONFIRMED** Ogden City Airport
-- **UNCONFIRMED** Weber County Engineering
-- **UNCONFIRMED** Big D Construction
-- **UNCONFIRMED** Alpine Community Church
-- **UNCONFIRMED** O'Reilly's
-- **UNCONFIRMED** HHI
-- **UNCONFIRMED** Hill Air Force Base
-- **UNCONFIRMED** Camp Williams
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Army Corps of Engineers
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** National Park Service
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** U.S. Postal Service
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Ogden City Airport
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Weber County Engineering
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Big D Construction
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Alpine Community Church
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** O'Reilly's
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** HHI
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Hill Air Force Base
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Camp Williams
   - Source (all of the above): /about/ live page — 2026-07-14
+  - Superseded by the CONFIRMED client-list entries below — Shawn via Ross, 2026-07-14.
+
+---
+
+## Confirmed — client list, 2026-07-14
+
+Shawn confirmed the named-client list from /about/ individually. These eleven supersede the
+UNCONFIRMED block above. **This confirmation covers the client list only** — it says nothing
+about the service-area counts, the review counts, or the equipment list, all of which remain
+UNCONFIRMED.
+
+- **CONFIRMED** Army Corps of Engineers is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** National Park Service is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** U.S. Postal Service is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** Ogden City Airport is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** Weber County Engineering is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** Big D Construction is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** Alpine Community Church is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** O'Reilly's is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** HHI is a genuine past client.
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** Hill Air Force Base is a genuine past client (military construction).
+  - Source: Shawn via Ross — 2026-07-14
+- **CONFIRMED** Camp Williams is a genuine past client (military construction).
+  - Source: Shawn via Ross — 2026-07-14
+
+Cal Ranch remains **NOT a client** (see Confirmed, above). This confirmation does not
+reinstate it.
 
 ---
 
@@ -153,9 +189,9 @@ UNCONFIRMED and the gate flags any of them until Shawn confirms each one individ
 
 Answer these in one sitting and most of the file above flips to CONFIRMED.
 
-1. Which of the named organizations above are genuinely past clients, and which are
-   aspirational, secondhand, or invented? (Cal Ranch was already wrong — assume others may
-   be.)
+1. ~~Which of the named organizations above are genuinely past clients, and which are
+   aspirational, secondhand, or invented?~~ **ANSWERED 2026-07-14** — all eleven confirmed
+   by Shawn via Ross. See "Confirmed — client list" above. Cal Ranch stays out.
 2. Is the E100 license current, and is the 0.91 EMOD rating current-year?
 3. Is the service area 39 cities or 45+? The two pages disagree.
 4. Is the review count 49 total reviews, or 49 five-star reviews specifically?
