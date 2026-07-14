@@ -116,7 +116,7 @@ Permits in Ogden City and unincorporated Weber County are required for most foun
 
 We've been digging in Northern Utah since 1995. That's 30+ years of working in Wasatch Front soil conditions, dealing with Weber County permit offices, and figuring out how to get equipment into tight residential lots.
 
-Our E100 contractor license covers the full scope of excavation work. We carry general liability and workers' comp insurance. With 49 reviews on Google and an established track record in the area, we're not a new company figuring things out on your yard.
+Our E100 contractor license covers the full scope of excavation work. We carry general liability and workers' comp insurance. With 60 reviews on Google and an established track record in the area, we're not a new company figuring things out on your yard.
 
 We also do the work that often follows residential excavation, including [septic system installation](/services/septic-systems), [underground utilities](/services/underground-utilities), and [grading and land clearing](/services/grading-land-clearing), so you can often consolidate multiple phases of a project with one contractor.
 

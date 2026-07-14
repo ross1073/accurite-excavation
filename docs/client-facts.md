@@ -102,11 +102,19 @@ flag, but will not accept one as proof.
       (hardcoded).
     - `src/content/services/residential-excavation.md` → "With 49 reviews on Google"
       (hardcoded).
-  - **Careful when the site is updated:** "60 five-star reviews" is not the same claim as a
-    total review count of 60, and `business.json`'s `reviews.count` feeds a schema.org
-    `aggregateRating.reviewCount`, which is supposed to be the **total** number of reviews.
-    Shawn confirmed the five-star figure; the total is still unconfirmed. Do not assume
-    `count: 60` is the correct edit without asking.
+  - **Resolved:** the total is also 60 — see the entry directly below. All four stale 49s
+    were updated to 60 on 2026-07-14.
+
+- **CONFIRMED** The **total** Google review count is **60**, and **all 60 are five-star**.
+  The five-star figure and the total figure are the same number. The rating is 4.9.
+  - Source: Shawn via Ross — 2026-07-14
+  - This makes `reviews.count: 60` the correct value for the schema.org
+    `aggregateRating.reviewCount` in `src/components/SchemaMarkup.astro`, which requires a
+    **total**, not a five-star subset. Both readings now agree, so "60 reviews" and "60
+    five-star reviews" are each true and safe to publish.
+  - Site updated to 60 in all four places on 2026-07-14: `src/data/business.json`,
+    `src/pages/index.astro`, `src/content/locations/ogden.md`, and
+    `src/content/services/residential-excavation.md`.
 
 ### Services offered
 
@@ -217,7 +225,5 @@ Answer these in one sitting and most of the file above flips to CONFIRMED.
 2. Is the E100 license current, and is the 0.91 EMOD rating current-year?
 3. Is the service area 39 cities or 45+? The two pages disagree.
 4. ~~Is the review count 49 total reviews, or 49 five-star reviews specifically?~~
-   **PARTLY ANSWERED 2026-07-14** — Shawn confirms **60 five-star reviews** (49 is stale).
-   Still open: what is the **total** review count? The site's schema markup publishes
-   `reviews.count` to Google as a total, so this number is still needed.
+   **ANSWERED 2026-07-14** — 60 total, all 60 five-star, 4.9 rating. Site updated to match.
 5. What else is in the equipment fleet? The site's list is known to be incomplete.
