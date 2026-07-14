@@ -1,0 +1,7 @@
+This repo deploys to a LIVE domain. Every push runs the cold fact-check
+review gate (~/.claude/tools/review-gate.sh) over the outgoing diff before it
+ships. Fabricated claims, invented statistics, unearned legal/licensing claims,
+and third parties falsely named as clients get the push BLOCKED.
+
+Facts of record live in docs/client-facts.md. Override with SHIP ANYWAY only if
+you are certain — you own that call.
