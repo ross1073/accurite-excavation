@@ -1,11 +1,13 @@
 ---
 name: gbp-post
-description: Use when generating a Google Business Profile post for AccuRite Excavation. Invoke with /gbp-post or when asked to create a GBP post, social media post, or Google Business update. Generates the post, picks a real photo from the website, and creates a Teamwork task for Cassandra to proof and approve.
+description: Use when generating a Google Business Profile post for AccuRite Excavation. Invoke with /gbp-post or when asked to create a GBP post, social media post, or Google Business update. Generates the post text and creates a Teamwork task for Cassandra to proof, choose a photo, and approve.
 ---
 
 # GBP Post Generator — AccuRite Excavation
 
-Generate a ready-to-paste Google Business Profile post for AccuRite Excavation & Hauling, name a real photo from the website for it, and route it to Cassandra in Teamwork for proofreading + approval. Posts are informational only — no advertising, no calls to action, and never any invented facts.
+Generate a ready-to-paste Google Business Profile post for AccuRite Excavation & Hauling and route it to Cassandra in Teamwork for proofreading, photo selection, and approval. Posts are informational only — no advertising, no calls to action, and never any invented facts.
+
+**This skill does not choose the photo.** Cassandra picks it. See Photo selection.
 
 ## Usage
 
@@ -21,10 +23,9 @@ Generate a ready-to-paste Google Business Profile post for AccuRite Excavation &
 1. Read the post log at `.claude/skills/gbp-post/post-log.md` (or create it if it doesn't exist)
 2. Determine post type from the 4-week rotation (or honor the explicit arg)
 3. Generate post text following the rules + template below
-4. Pick a real photo from the website matching the post type (see Photo Selection)
-5. Create a Teamwork task assigned to Cassandra with the post text and the photo's filename + repo path (the connector can't attach files — Cassandra pulls the photo from the repo/website)
-6. Show the user a preview of what was sent
-7. Log the post to the log file (date, type, post text, photo used, TW task ID)
+4. Create a Teamwork task assigned to Cassandra with the post text, asking her to choose a suitable photo (see Photo selection)
+5. Show the user a preview of what was sent
+6. Log the post to the log file (date, type, post text, TW task ID)
 
 ## Rotation schedule
 
@@ -164,48 +165,21 @@ Only generate this when REAL, verified job details have been provided (via `/gbp
 
 ## Photo selection
 
-The skill must select a real photo from one of these directories and name it (filename + repo path) in the Teamwork task — the connector cannot attach files, so Cassandra pulls the photo from the repo/website. Pick by post type:
+**Do not pick the photo. Cassandra does.**
 
-**Educational / know-before-you-dig (and manual project spotlight)** — pick from `/Users/rosswalker/projects/accurite-excavation/src/assets/images/gallery/`:
-- `residential-basement-excavation-01.jpg` / `-02.jpg`
-- `residential-excavation-foundation-03.jpg` / `-04.jpg`
-- `commercial-site-work-oreillys.jpg`
-- `commercial-dance-studio-excavation.jpg`
-- `hill-afb-military-project.jpg` / `-02.jpg`
-- `septic-installation-utah.jpg`
-- `underground-utilities-trenching-01.jpg` / `-02.jpg`
-- `grading-land-clearing-01.jpg`
-- `grading-excavation-02.jpg`
-- `soil-stabilization-utah.jpg`
-- `dirt-work-excavation-utah.jpg`
-- `heavy-equipment-ogden-utah.jpg`
+This skill generates post text only. The Teamwork task must ask Cassandra to choose a
+photo herself and must not name, suggest, or shortlist one.
 
-Match the photo to the topic being described. If the post is about basement/foundation work, use a basement photo. If it's about utility trenching, use a trenching photo. Don't pick a hauling photo for a grading post.
+Why: the skill used to pick from a hardcoded menu, and the "preferred" choice for the
+Review/Trust category was `accurite-team-jobsite.png` — an AI-generated image of a crew
+that does not exist. It was posted to AccuRite's live Google Business Profile on
+2026-05-26 (see post-log.md). A human who knows which photos are real, and which show
+work AccuRite actually did, is the correct place for this decision.
 
-**Seasonal tip** — pick from `/Users/rosswalker/projects/accurite-excavation/src/assets/images/gallery/` (any equipment or jobsite shot):
-- `excavator-equipment-utah-01.jpg` / `-02.jpg` / `-03.jpg`
-- `heavy-equipment-ogden-utah.jpg`
-- `dirt-work-excavation-utah.jpg`
-
-**Service highlight** — pick from `/Users/rosswalker/projects/accurite-excavation/src/assets/images/services/hero/`, matching the service:
-- residential → `residential-hero.jpg`
-- commercial → `commercial-hero.jpg`
-- government → `government-hero.jpeg`
-- grading → `grading-hero.jpg`
-- hauling → `hauling-hero.jpg`
-- demolition → `demolition-hero.jpg`
-- septic → `septic-hero.jpg`
-- rock walls / retaining walls → `rockwalls-hero.jpg`
-- underground utilities → `utilities-hero.jpg`
-- water features / ponds → `water-features-hero.jpg`
-
-**Review / Trust** — pick from `/Users/rosswalker/projects/accurite-excavation/src/assets/images/about/`:
-- `accurite-team-jobsite.png` (preferred — shows the team working)
-- `accurite-equipment-fleet-real.jpg` (real fleet shot)
-- `shawn-durrant-owner.jpeg` (owner photo)
-- `accurite-owner-equipment.png` (owner with equipment)
-
-**Don't reuse the same photo in consecutive posts.** Check the log file's last 3 entries before picking.
+The task should tell Cassandra:
+- Choose a photo that matches what the post is about.
+- Use a real AccuRite job or equipment photo — never an AI-generated or stock image.
+- If nothing suitable exists, ask Ross rather than forcing a poor match.
 
 ## Teamwork submission
 
@@ -248,8 +222,11 @@ Task parameters:
 ## Post to approve
 
 **Type:** [Educational / Seasonal Tip / Service Highlight / Review-Trust / Project Spotlight (manual only)]
-**Photo to use:** [filename] — repo path: `src/assets/images/.../[filename]`
-(NOT attached — the Teamwork connector can't attach files. Cassandra: download this image from the repo or the website before posting.)
+
+**Photo: Cassandra to choose.** Pick a photo that fits what this post is about. Use a real
+AccuRite job or equipment photo — never an AI-generated or stock image. Sources: the website
+gallery at accuriteexcavation.com/gallery, or Shawn directly. If nothing fits, ask Ross
+rather than forcing a poor match.
 
 ---
 
@@ -265,21 +242,21 @@ Task parameters:
 - [ ] NO phone number anywhere in the post text (Google policy)
 - [ ] Any city named is in service area (Weber, Davis, Box Elder, or Morgan County — NOT Salt Lake County)
 - [ ] No typos
-- [ ] Photo matches the post topic
+- [ ] Photo chosen is a real AccuRite photo (not AI-generated, not stock) and matches the post topic
 
 ## How to publish
 
 1. Open Google Business Profile: search "AccuRite Excavation" on Google while signed in to the business account
 2. Click "Add update" or "Post"
 3. Paste the post text above
-4. Add the photo named above (download it from the repo/website first)
+4. Add the photo you chose
 5. Leave the post informational — do not add a promotional button or any phone number
 6. Click "Post"
 
 If you have any questions, review with Ross.
 ```
 
-The photo is referenced by filename + repo path in the description above — the Teamwork connector has no file-attachment capability, so do NOT claim the photo is "attached." Cassandra retrieves it from the repo/website.
+Do not name or attach a photo. The Teamwork connector has no file-attachment capability, and photo choice is Cassandra's call — the task only asks her to pick one.
 
 ## Output format
 
@@ -287,7 +264,7 @@ After creating the TW task, show the user this summary:
 
 ```
 GBP Post — [Type] — [Date]
-Photo (named for Cassandra to pull, not attached): [filename]
+Photo: Cassandra to choose (this skill does not pick one)
 Teamwork task: [link to TW task]
 Cassandra has been assigned. Due in 3 days.
 
@@ -304,13 +281,12 @@ Append to `.claude/skills/gbp-post/post-log.md` (create if missing):
 
 ```
 ## [Date] — [Post Type] — TW [task ID]
-**Photo:** [filename]
 **Post:**
 [post text]
 ```
 
 Create the log file if it doesn't exist. Read the log file first to:
-1. Avoid repeating the same service, city, or photo as the last 3 posts
+1. Avoid repeating the same service or city as the last 3 posts
 2. Determine which rotation slot is next if `/gbp-post` is called without args
 
 ### Persisting the log — best effort, NOT load-bearing
@@ -336,4 +312,4 @@ log push block or abort the actual post.
 
 ## Scheduling
 
-This skill is scheduled to run automatically every Tuesday at 12:03 PM Denver time via a persistent routine. When called from that routine, behave the same as when invoked manually — generate the post, name the photo, create TW task, log it (and commit+push the log). No user confirmation step required for the scheduled run; ship straight to Cassandra.
+This skill is scheduled to run automatically every Tuesday at 12:03 PM Denver time via a persistent routine. When called from that routine, behave the same as when invoked manually — generate the post, create TW task, log it (and commit+push the log). No user confirmation step required for the scheduled run; ship straight to Cassandra.
