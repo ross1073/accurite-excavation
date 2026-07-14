@@ -1,0 +1,3 @@
+# SessionEnd hook: write the daily note, do NOT commit it.
+# This repo is public — unattended machine commits do not belong in it.
+# Notes are committed deliberately via /wrap.
