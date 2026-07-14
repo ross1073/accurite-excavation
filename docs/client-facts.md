@@ -150,12 +150,41 @@ flag, but will not accept one as proof.
     CONFIRMED water-based entry above). The equipment list is therefore known to be
     incomplete — absence from this list is not evidence a machine doesn't exist.
 
+- **CONFIRMED** The **vacuum truck belongs on the equipment list.** It is **water-based**
+  (a pressurized water jet breaks up soil; a vacuum lifts the slurry). It is **NOT heated** —
+  do not describe it as heated, as a hydrovac-with-heat, or in any wording implying it heats
+  water. AccuRite owns it outright.
+  - Source: Shawn via Ross — 2026-07-14
+  - Added to the /about/ equipment list on 2026-07-14 as "Vacuum excavator (water-based)".
+    No capability claim beyond the machine's existence and that it is water-based was added.
+
 ### Service area
 
-- **UNCONFIRMED** Serves Weber, Davis, Salt Lake, Morgan, and Box Elder counties. The
-  services page lists 39 Utah municipalities; the about page says "45+ named cities." These
-  two numbers disagree and at least one is wrong.
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** Serves Weber, Davis, Salt Lake, Morgan, and Box
+  Elder counties. The services page lists 39 Utah municipalities; the about page says "45+
+  named cities." These two numbers disagree and at least one is wrong.
   - Source: /services/ and /about/ live pages — 2026-07-14
+  - **This entry was itself inaccurate.** On 2026-07-14 both strings were searched for in the
+    repo and fetched from the live site: **neither "39 municipalities" nor "45+ cities"
+    exists anywhere.** The site has never published a city *count*. It names counties only,
+    and `src/data/locations.json` holds 40 city entries which `/locations/` renders grouped
+    by county. Superseded by the CONFIRMED entry below.
+
+- **CONFIRMED** AccuRite's service area is **45+ cities**. The number 39 is wrong.
+  - Source: Shawn via Ross — 2026-07-14
+  - **Not published to the site, deliberately.** As of 2026-07-14 the site states no city
+    count anywhere, so there was no "39" to correct. Publishing "45+ cities" would have
+    *added* a brand-new claim that the site's own data contradicts on its face:
+    `src/data/locations.json` contains **40** cities, and `/locations/` lists them for a
+    visitor to count. Shipping "45+ cities" over a visible list of 40 is the kind of
+    checkable overclaim this file exists to prevent. Resolve the gap first — either add the
+    missing cities to `locations.json` so the list supports the claim, or publish a phrasing
+    that does not assert a count.
+  - Also unresolved: the site's **county** lists contradict each other page to page —
+    `index.astro` says Weber & Davis (2); `about.astro` and `contact.astro` say Weber, Davis,
+    Morgan (3); `locations/index.astro` says Weber, Davis, Box Elder, Morgan (4);
+    `safety.astro` says Weber, Davis, Salt Lake, Box Elder, Morgan (5). Which counties are
+    actually served is still UNCONFIRMED and was left untouched.
 
 ### Named third parties presented as clients — treat as radioactive
 
@@ -223,7 +252,12 @@ Answer these in one sitting and most of the file above flips to CONFIRMED.
    aspirational, secondhand, or invented?~~ **ANSWERED 2026-07-14** — all eleven confirmed
    by Shawn via Ross. See "Confirmed — client list" above. Cal Ranch stays out.
 2. Is the E100 license current, and is the 0.91 EMOD rating current-year?
-3. Is the service area 39 cities or 45+? The two pages disagree.
+3. ~~Is the service area 39 cities or 45+? The two pages disagree.~~
+   **ANSWERED 2026-07-14** — 45+ cities; 39 is wrong. The premise was faulty: the site
+   publishes no city count at all, so nothing was corrected on the site. **Still open:**
+   `locations.json` has only 40 cities, so "45+" cannot be published until the list backs it
+   up. Which 5+ cities are missing? And which counties are actually served — the site's own
+   pages claim 2, 3, 4, and 5 counties on different pages.
 4. ~~Is the review count 49 total reviews, or 49 five-star reviews specifically?~~
    **ANSWERED 2026-07-14** — 60 total, all 60 five-star, 4.9 rating. Site updated to match.
 5. What else is in the equipment fleet? The site's list is known to be incomplete.
