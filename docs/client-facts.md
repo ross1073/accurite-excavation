@@ -81,10 +81,32 @@ flag, but will not accept one as proof.
 
 ### Statistics
 
-- **UNCONFIRMED** 4.9 Google star rating with 49 reviews (site says both "49 Google
-  reviews" and "49 Five-Star Reviews" — these are not the same claim and at least one is
-  imprecise).
+- **SUPERSEDED 2026-07-14: UNCONFIRMED** 4.9 Google star rating with 49 reviews (site says
+  both "49 Google reviews" and "49 Five-Star Reviews" — these are not the same claim and at
+  least one is imprecise).
   - Source: /services/ and /about/ live pages — 2026-07-14
+  - Superseded by the CONFIRMED 60-five-star entry below — Shawn via Ross, 2026-07-14.
+
+- **CONFIRMED** AccuRite currently has **60 five-star reviews**. The number 49 is stale
+  wherever it appears.
+  - Source: Shawn via Ross — 2026-07-14
+  - **The live site is stale and still says 49.** Updating site copy is a separate task and
+    was deliberately not done when this fact was recorded. The stale 49 lives in four
+    places in the repo:
+    - `src/data/business.json` → `reviews.count: 49` (with `rating: 4.9`,
+      `lastUpdated: 2026-03-12`). This is the data source, imported across the site, and it
+      feeds the schema.org `aggregateRating` in `src/components/SchemaMarkup.astro` — so
+      Google is being served this number as structured data, not just page text.
+    - `src/pages/index.astro` → "backed by 49 five-star reviews" (hardcoded).
+    - `src/content/locations/ogden.md` → meta description, "4.9 stars from 49 reviews"
+      (hardcoded).
+    - `src/content/services/residential-excavation.md` → "With 49 reviews on Google"
+      (hardcoded).
+  - **Careful when the site is updated:** "60 five-star reviews" is not the same claim as a
+    total review count of 60, and `business.json`'s `reviews.count` feeds a schema.org
+    `aggregateRating.reviewCount`, which is supposed to be the **total** number of reviews.
+    Shawn confirmed the five-star figure; the total is still unconfirmed. Do not assume
+    `count: 60` is the correct edit without asking.
 
 ### Services offered
 
@@ -194,5 +216,8 @@ Answer these in one sitting and most of the file above flips to CONFIRMED.
    by Shawn via Ross. See "Confirmed — client list" above. Cal Ranch stays out.
 2. Is the E100 license current, and is the 0.91 EMOD rating current-year?
 3. Is the service area 39 cities or 45+? The two pages disagree.
-4. Is the review count 49 total reviews, or 49 five-star reviews specifically?
+4. ~~Is the review count 49 total reviews, or 49 five-star reviews specifically?~~
+   **PARTLY ANSWERED 2026-07-14** — Shawn confirms **60 five-star reviews** (49 is stale).
+   Still open: what is the **total** review count? The site's schema markup publishes
+   `reviews.count` to Google as a total, so this number is still needed.
 5. What else is in the equipment fleet? The site's list is known to be incomplete.
