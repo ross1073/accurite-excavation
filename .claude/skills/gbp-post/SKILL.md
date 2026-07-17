@@ -312,4 +312,17 @@ log push block or abort the actual post.
 
 ## Scheduling
 
-This skill is scheduled to run automatically every Tuesday at 12:03 PM Denver time via a persistent routine. When called from that routine, behave the same as when invoked manually — generate the post, create TW task, log it (and commit+push the log). No user confirmation step required for the scheduled run; ship straight to Cassandra.
+This skill is scheduled to run automatically every Tuesday at 12:03 PM Denver time via a
+**macOS launchd job on Ross's Mac** (`~/Library/LaunchAgents/com.rosswalker.accurite-gbp-weekly.plist`,
+which runs `scripts/run-gbp-weekly.sh` → this skill headless). When called from that runner,
+behave the same as when invoked manually — generate the post, create the TW task, log it
+(and best-effort commit+push the log). No user confirmation step required for the scheduled
+run; ship straight to Cassandra.
+
+**Why launchd and not a claude.ai cloud routine (migrated 2026-07-17):** the skill previously
+ran as a claude.ai RemoteTrigger cloud routine. Those sandboxes block outbound HTTPS to almost
+every host, including `csfund.teamwork.com`, so the REST client's task-creation call was
+rejected by the proxy (403 connect_rejected) and the post silently produced nothing for weeks.
+REST was never the problem — the cloud sandbox's network policy was. Ross's Mac has normal
+internet egress, so the REST client reaches Teamwork. If the Mac is asleep at 12:03 Tuesday,
+launchd runs the job on the next wake.
