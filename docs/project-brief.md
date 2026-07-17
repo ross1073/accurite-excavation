@@ -34,7 +34,7 @@ Active work is dominated by SEO maintenance (GSC 404 fixes, redirect cleanup, ti
 **Tooling around the site**
 
 - Monthly branded PDF SEO report runs on the 1st of each month at 8am local via `launchd`, delivered as a Teamwork task assigned to Ross for review before forwarding to the client. Pipeline lives at `/Users/rosswalker/projects/3sm_code/monthly-reports/accurite/`. Standing rule: positive framing only — see project-scoped memory `feedback_monthly_report_positive_framing.md`.
-- `.claude/skills/gbp-post/` — project-scoped skill for generating Google Business Profile posts.
+- `.claude/skills/gbp-post/` — project-scoped skill for generating Google Business Profile posts. Runs automatically every Tuesday 12:03 PM local via `launchd` (`com.rosswalker.accurite-gbp-weekly` → `scripts/run-gbp-weekly.sh`), creating a Teamwork task for Cassandra to proof. Migrated 2026-07-17 off a claude.ai cloud routine, whose sandbox blocks outbound egress to Teamwork — see project-scoped memory `reference_cloud_routine_egress_limit.md`.
 - `.claude/agents/memory-keeper.md` — SessionEnd agent that writes daily notes to `docs/memory/`.
 - `.claude/hooks/` — `session-start-load-context.sh`, `session-end-memory-keeper.sh`, `session-beacon.sh`.
 - `.claude/commands/` — `audit-brief`, `audit-memory`.

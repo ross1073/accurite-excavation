@@ -29,3 +29,6 @@ pnpm-debug.log*
 
 # Local Netlify folder
 .netlify
+
+# Head-check session snapshots (transient scratch, regenerated each head check)
+.claude/session-snapshot.md
