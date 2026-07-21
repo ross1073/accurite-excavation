@@ -43,3 +43,17 @@ In Utah, the law requires notifying Blue Stakes of Utah before you dig — on an
 A few things that help once the lines are marked: leave the paint and flags in place until the job is finished, hand-dig within a couple of feet of any marked line, and remember that private lines — like the feed to a detached garage or a sprinkler system — usually aren't covered by the public locate, so those have to be identified separately.
 
 Good excavation starts with good information. AccuRite Excavation & Hauling has worked across Weber, Davis, Box Elder, and Morgan counties since 1995, treating utility locating and site prep as the foundation of every job. Utah E100 licensed.
+
+---
+
+## 2026-07-21 — Review / Trust — TW 36817398
+**Post:**
+Earning a 5-star reputation on Google doesn't come from one job — it comes from how every job is handled, start to finish. AccuRite Excavation & Hauling has built that reputation across Northern Utah over three decades, and it reflects the way the crew operates on every site.
+
+It starts with showing up when we say we will. Excavation work affects timelines for general contractors, homeowners, and inspectors, and delays ripple fast. Being on schedule isn't a courtesy — it's how the work gets done right.
+
+On site, it means running clean operations. Proper erosion control, managing spoils so they don't end up in the neighbor's yard, protecting existing utilities and landscaping, and leaving the property in better shape than we found it. The work underground is only as good as the care taken above it.
+
+Pricing is straightforward. We walk the site, identify the conditions, and give a number. No surprises mid-job, no vague allowances that balloon later. If something changes during the dig — and on Northern Utah ground, it sometimes does — we communicate it before we bill it.
+
+AccuRite Excavation & Hauling has served Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
