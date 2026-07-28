@@ -57,3 +57,17 @@ On site, it means running clean operations. Proper erosion control, managing spo
 Pricing is straightforward. We walk the site, identify the conditions, and give a number. No surprises mid-job, no vague allowances that balloon later. If something changes during the dig — and on Northern Utah ground, it sometimes does — we communicate it before we bill it.
 
 AccuRite Excavation & Hauling has served Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
+
+---
+
+## 2026-07-28 — Educational — TW 36853273
+**Post:**
+Northern Utah soil varies more than most property owners expect, and the type of ground on a site directly shapes how excavation work is planned. Across Weber, Davis, and Box Elder counties, it's common to hit heavy clay, loose gravel, or rocky layers — sometimes all three on the same lot.
+
+Clay soil is the one that catches people off guard. It holds water, swells when wet, shrinks when dry, and puts lateral pressure on foundations and retaining walls over time. A properly engineered excavation accounts for that by getting the grade right, placing drain rock or perforated pipe where water collects, and compacting backfill in controlled lifts instead of dumping it all at once.
+
+Gravel and cobble layers are easier to dig through but harder to hold a clean trench wall in — they tend to cave, which matters when you're running a utility line or setting a footing form. Rocky ground adds time and sometimes requires a breaker attachment on the excavator instead of just a bucket.
+
+Knowing what's in the ground before the job starts — through a soil report or even a test hole — saves time and avoids mid-project surprises. It's one of the reasons a site visit matters more than a phone quote for excavation work.
+
+AccuRite Excavation & Hauling has worked in Northern Utah ground conditions since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
