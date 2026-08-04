@@ -71,3 +71,17 @@ Gravel and cobble layers are easier to dig through but harder to hold a clean tr
 Knowing what's in the ground before the job starts — through a soil report or even a test hole — saves time and avoids mid-project surprises. It's one of the reasons a site visit matters more than a phone quote for excavation work.
 
 AccuRite Excavation & Hauling has worked in Northern Utah ground conditions since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-08-04 — Seasonal Tip — TW 36893596
+**Post:**
+August is peak construction season across Northern Utah, but the window for outdoor excavation work is shorter than it looks. Once temperatures start dropping in October, the ground firms up fast — and by late November, frozen soil turns what would have been a straightforward dig into a slower, more expensive job.
+
+For homeowners or contractors planning foundation work, utility trenching, drainage improvements, or grading, late summer is the practical window to get it scheduled and completed. The soil is dry and workable, days are long enough to run full shifts, and there is still enough lead time to finish before weather becomes a factor.
+
+Drainage work is especially time-sensitive. Fall brings rain and snowmelt runoff, and a property that pools water or drains toward the foundation will see the problem get worse, not better, once precipitation picks up. Regrading, installing French drains, or correcting downspout routing is far easier to do on dry, stable ground than in saturated conditions.
+
+One thing worth planning for: excavation contractors across the Wasatch Front tend to book up in August and September as builders push to close out projects before winter. Earlier scheduling means more flexibility on timing and equipment availability.
+
+AccuRite Excavation & Hauling has worked through Northern Utah's seasonal cycles since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
