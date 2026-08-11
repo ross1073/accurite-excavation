@@ -158,6 +158,19 @@ flag, but will not accept one as proof.
   - Added to the /about/ equipment list on 2026-07-14 as "Vacuum excavator (water-based)".
     No capability claim beyond the machine's existence and that it is water-based was added.
 
+- **CONFIRMED** AccuRite operates a **GPS-guided dozer** (GPS grade control / machine
+  control on a bulldozer). Ross described drone footage of "our GPS guided dozer clearing a
+  path for a new road," grubbing organic material off the alignment.
+  - Source: Ross, directly in session — 2026-08-11
+  - **Scope of this confirmation:** the machine exists and runs GPS grade control. Nothing
+    else is confirmed. **Do not publish** a manufacturer or system name (Trimble, Topcon,
+    Leica), an accuracy or tolerance figure, whether it is 2D or 3D, whether it is owned or
+    leased, or the identity of the road project in the footage. Blog post
+    `lot-clearing-and-grading-before-road-construction.md` (2026-08-11) deliberately claims
+    only the existence of the system and what it does in general terms.
+  - Relates to open question 5 — the equipment list on /about/ is known incomplete and does
+    not currently mention grade control.
+
 ### Service area
 
 - **SUPERSEDED 2026-07-14: UNCONFIRMED** Serves Weber, Davis, Salt Lake, Morgan, and Box
