@@ -37,7 +37,7 @@ abbreviated:
 
 ## Notes
 
-- `gbp-post` skill at `.claude/skills/gbp-post/` is the project-scoped tool for generating Google Business Profile posts — separate from the monthly report pipeline.
+- `gbp-post` skill at `.claude/skills/gbp-post/` is the project-scoped tool for generating Google Business Profile posts — separate from the monthly report pipeline. **Ross also posts by hand**, so `post-log.md` and the Teamwork history are a floor, not the real post count — never quote a monthly post number from them (confirmed 2026-08-11).
 - Standing rule on the monthly client report: only good news. Suppress avg-position and CTR drops from the visible table; show queries-ranking-count instead; suppress sparkline until 4+ months of non-zero data.
 - Site is a real client property — don't ship experimental SEO or copy changes without explicit approval from Ross.
 - "Done" on a deploy task means verified live on the production URL, not just pushed to main.
