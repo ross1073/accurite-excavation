@@ -1,0 +1,81 @@
+total query rows (90d): 1778
+
+=== topic-relevant queries with impressions, last 90d (n=331) ===
+query                                              impr  clk    pos
+residential lot clearing and grading                218    0   13.4
+site clearing riverton ut                           122    0   10.0
+grading and excavating contractor                   109    0    5.7
+site preparation riverton ut                        107    0    2.4
+land clearing contractor graphite                    98    0    5.4
+land clearing ogden                                  97    0   11.6
+erosion control clearfield                           90    0   25.4
+land clearing contractor fitch point                 78    0    6.8
+grading contractor elnora                            76    0   12.4
+dirt work in farmington                              66    0   31.3
+land clearing near me                                65    0   10.7
+land clearing services ogden                         64    0   14.9
+woods cross residential stump removal                64    0   24.2
+fruit heights residential stump removal              62    0   16.7
+get quotes for commercial land clearing salt lak     59    0    5.2
+ground clearing ogden                                56    0    5.6
+south salt lake property clearing                    56    0    6.7
+drain clearing companies near me                     55    0   43.9
+clearfield commercial root grinding service          51    0   24.5
+residential stump grinding kaysville                 50    0   26.1
+excavation clearfield                                49    0   14.2
+clearfield residential root grinding service         48    0   27.5
+ground clearing near me                              48    0   11.1
+land clearing kaysville                              47    0    9.7
+holladay residential tree stump removal              45    0   45.0
+land clearing bountiful                              45    0    4.4
+land clearing riverdale                              45    0    4.4
+west bountiful residential stump grinding            44    0   25.9
+land clearing layton                                 42    0    3.8
+fruit heights commercial stump grinding              40    0   25.4
+land clearing salt lake city                         40    0    8.8
+site prep excavation ut                              40    0   33.5
+earthwork and grading west valley ut                 39    0    2.5
+soil compaction issues in ogden utah yards           39    0    8.6
+subgrade preparation services utah                   39    0    4.9
+grading contractor iron furnace                      38    0   16.5
+fruit heights residential stump grinding             37    0   17.7
+land clearing contractors dc metro,site-clearing     35    0   38.3
+south jordan commercial stump removal                35    0   47.7
+land clearing                                        34    0    1.0
+excavation contractor clearfield ut                  33    0    4.1
+construction site preparation utah                   32    0    9.8
+cottonwood heights residential stump grinding        30    0   22.5
+residential stump grinding fruit heights             30    0   42.8
+ground clearing                                      29    0    1.2
+
+=== of those: impressions>=15 and position 8-40 (real gap set) ===
+residential lot clearing and grading                218    0   13.4
+site clearing riverton ut                           122    0   10.0
+land clearing ogden                                  97    0   11.6
+erosion control clearfield                           90    0   25.4
+grading contractor elnora                            76    0   12.4
+dirt work in farmington                              66    0   31.3
+land clearing near me                                65    0   10.7
+land clearing services ogden                         64    0   14.9
+woods cross residential stump removal                64    0   24.2
+fruit heights residential stump removal              62    0   16.7
+clearfield commercial root grinding service          51    0   24.5
+residential stump grinding kaysville                 50    0   26.1
+excavation clearfield                                49    0   14.2
+clearfield residential root grinding service         48    0   27.5
+ground clearing near me                              48    0   11.1
+land clearing kaysville                              47    0    9.7
+west bountiful residential stump grinding            44    0   25.9
+fruit heights commercial stump grinding              40    0   25.4
+land clearing salt lake city                         40    0    8.8
+site prep excavation ut                              40    0   33.5
+soil compaction issues in ogden utah yards           39    0    8.6
+grading contractor iron furnace                      38    0   16.5
+fruit heights residential stump grinding             37    0   17.7
+land clearing contractors dc metro,site-clearing     35    0   38.3
+construction site preparation utah                   32    0    9.8
+cottonwood heights residential stump grinding        30    0   22.5
+west bountiful commercial stump grinding             29    0   18.5
+grading contractors utah                             28    0   11.6
+herriman residential stump removal                   28    0   16.6
+utah grading takeoffs                                28    0   21.1
