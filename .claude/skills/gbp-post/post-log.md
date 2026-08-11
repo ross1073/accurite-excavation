@@ -85,3 +85,15 @@ Drainage work is especially time-sensitive. Fall brings rain and snowmelt runoff
 One thing worth planning for: excavation contractors across the Wasatch Front tend to book up in August and September as builders push to close out projects before winter. Earlier scheduling means more flexibility on timing and equipment availability.
 
 AccuRite Excavation & Hauling has worked through Northern Utah's seasonal cycles since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-08-11 — Service Highlight — TW 36926145
+**Post:**
+Rock walls and retaining walls do more than hold back dirt — they manage the forces that soil and water put on a slope over time. In Northern Utah, where freeze-thaw cycles work on the ground for five or six months a year, a wall that isn't engineered for those conditions will lean, crack, or fail within a few seasons.
+
+The work starts below grade. A proper retaining wall needs a compacted base, adequate drainage behind the wall face, and backfill placed in lifts — not shoved in all at once. Without drainage, water builds hydrostatic pressure behind the wall, and that pressure is what pushes walls out of alignment. A perforated drain line bedded in clean gravel at the base of the wall gives that water somewhere to go.
+
+Material choice depends on the application. Segmental block systems work well for walls under four feet. Taller walls or walls carrying surcharge loads — like a driveway or structure above — typically call for poured concrete or engineered block systems with geogrid reinforcement tying back into the retained soil. The excavation and base prep is the same either way, and that is where most wall failures actually start.
+
+AccuRite Excavation & Hauling has built rock walls and retaining walls across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
