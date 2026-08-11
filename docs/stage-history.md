@@ -29,3 +29,44 @@ These are still IN FLIGHT, not shipped. Verbatim originals:
 
 - Re-check the homepage CTR title/meta rewrite (commit `16f79a0`) after the May 2026 Google core update finishes (~early June; started 2026-05-21). 2026-05-22 evaluation: title/meta confirmed live; CTR test is unmeasurable (~0-1 clicks/window); decision = **keep, don't revert**. 2026-05-28 mid-update checkpoint: "excavation company" organic recovering toward #1 (3 of 4 post-baseline days at #1) but impressions too thin to call; Map Pack steady (Ogden #1, Pleasant View #3, Layton improved #4→#3). Re-pull post-rollout. (Tracked in Shawn Durrant Teamwork tasks 36495489 / 36495490, both now closed.)
 - **Blog indexation follow-up:** TW #36664201 (Cassandra, Request Indexing for `/blog/excavation-safety-on-federal-projects` and `/blog/national-park-service-project`) is **DONE** — confirmed complete in Teamwork 2026-07-13. Still open: 3 posts are "crawled, currently not indexed" (`avoid-flooding-new-home`, `retaining-wall-permit-utah`, `retaining-wall-types-utah-soil`) — Google's quality decision, not a discovery gap; fixing needs content depth, not resubmission. Not yet scoped.
+
+---
+
+## Moved 2026-08-11
+
+Moved out of `docs/stage-current.md` — completed or superseded by the 2026-08-11
+session. Verbatim originals.
+
+### Completed — GBP weekly post verification (was "In flight")
+
+- **Verify the GBP post routine fires Tuesday 2026-07-21** — first run after the 2026-07-17 migration to a **local launchd job** (`com.rosswalker.accurite-gbp-weekly`). The 07-13 MCP→REST fix did NOT work: 07-14 also produced no task, because the claude.ai cloud sandbox blocks outbound egress to `csfund.teamwork.com` (not a token problem). Confirm a task lands in project 628283 after 12:03 PM Tue; the runner pings via `~/.local/bin/notify` on failure. See memory `reference_gbp_weekly_routine.md`.
+
+**Outcome:** confirmed working. `.claude/skills/gbp-post/post-log.md` records four
+consecutive Tuesday posts — 2026-07-21 (TW 36817398), 07-28 (TW 36853273), 08-04
+(TW 36893596), 08-11 (TW 36926145). The launchd migration held.
+
+### Completed — first automated monthly report run (was "In flight")
+
+- Monitor the first fully-automated monthly report run on **2026-06-01 at 8am local** — confirm `launchd` fires cleanly and the May report lands as a Teamwork task.
+
+**Outcome (2026-08-11): it never worked, and had never worked.** `run-monthly.sh`
+passed `--channels plugin:telegram@claude-plugins-official`, a flag the Claude Code CLI
+does not have, so the binary exited during argument parsing before reading `ROUTINE.md`.
+`~/Library/Logs/accurite-monthly-report.log` contains exactly three entries — 2026-06-01,
+07-01, 08-01 — each a "run start" followed by `error: unknown option '--channels'`. The
+May 2026 report was therefore never generated at all; June was built by hand on
+2026-07-03 and July by hand on 2026-08-11. Flag removed in commit `6d71521`. The fix is
+unverified end-to-end because Claude Code refuses to nest inside another Claude Code
+session; the real test is the 2026-09-01 08:00 run.
+
+### Superseded — GBP API approval as a blocker (was "Blocked / waiting on")
+
+- **Google Business Profile API approval.** Ross submitted the access form 2026-05-12 at https://support.google.com/business/contact/api_default using ross@rossjwalker.com. Status: pending. GBP stub client returns zeros until approved. Follow-up Teamwork task #36440438 holds the exact prompt to paste once access lands (due 2026-05-17).
+
+**Superseded 2026-08-11.** Ross's call: approval is probably never coming, and he has
+manual dashboard access anyway. The report's GBP section no longer depends on it —
+commit `4e4709f` feeds it from an optional `gbp` block in `data.json` (hand-entered
+calls / direction requests / profile views) plus an automatic public review pull via
+`pull_gbp_reviews.py`. The dormant API path remains and would take over on its own if
+approval ever landed. Teamwork task 36440438 is now obsolete and still sitting open in
+the old R&R tasklist 2518534.
