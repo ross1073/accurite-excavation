@@ -1,19 +1,26 @@
 ---
 title: "Residential Lot Clearing and Grading: What Happens Before the Road Goes In"
-metaTitle: "Lot Clearing & Grading Before Road Construction | Utah"
-description: "Why a new road sinks two years after it's paved, what grubbing actually removes, and how GPS grade control keeps the strip depth honest across an entire alignment."
+metaTitle: "Residential Lot Clearing and Grading"
+description: "Why a new road sinks two years after it's paved, what grubbing removes from the subgrade, and how GPS grade control keeps the strip depth honest."
 pubDate: 2026-08-11
 author: "AccuRite Excavation"
 tags: ["education", "site prep", "soil", "equipment"]
 relatedServices: ["land-clearing", "grading-land-clearing", "residential-excavation"]
 relatedLocations: ["ogden", "layton", "kaysville", "riverton", "west-haven", "farmington"]
+video:
+  name: "GPS-Guided Dozer Grubbing a New Road Alignment"
+  description: "Aerial footage of AccuRite Excavation's GPS grade control dozer stripping sod and organic topsoil off the alignment of a new road, windrowing the material along the edge of the cut."
+  contentUrl: "/video/gps-dozer-grubbing-road-alignment.mp4"
+  thumbnailUrl: "/images/blog/gps-dozer-grubbing-road-alignment-poster.jpg"
+  uploadDate: 2026-08-11
+  duration: "PT23S"
 ---
 
 A new road can look perfect the day it's paved and still be a failure. Two winters later there are dips where there shouldn't be dips, cracks running with the centerline, and low spots that hold water every spring.
 
 Almost none of that is a paving problem. It's a problem with what was left underneath.
 
-The work that decides whether a road holds its shape happens weeks before anyone brings asphalt to the site — during clearing and grading, when the organic material either comes off the alignment or doesn't.
+The work that decides whether a road holds its shape happens weeks before anyone brings asphalt to the site — during site clearing and grading, when the organic material either comes off the alignment or doesn't.
 
 <figure class="my-8 mx-auto max-w-3xl border border-gray-200 rounded-lg overflow-hidden bg-white shadow-sm">
   <video src="/video/gps-dozer-grubbing-road-alignment.mp4" poster="/images/blog/gps-dozer-grubbing-road-alignment-poster.jpg" class="w-full h-auto block" controls muted loop playsinline preload="metadata" aria-label="Aerial video of AccuRite Excavation's GPS-guided Caterpillar dozer grubbing sod and organic topsoil off a new road alignment on a Northern Utah pasture site, with stripped material windrowed along the edge"></video>
@@ -40,7 +47,7 @@ These get used interchangeably in conversation, and they're not the same operati
 
 **Grubbing** is what's below it. The dozer strips off the root mat and the organic topsoil layer, taking the ground down past the growing zone to material that's clean enough to build on. This is the step that actually protects the road, and it's the step that gets skipped or shortcut when someone is bidding a job cheap.
 
-The material that comes off doesn't disappear. It gets pushed into windrows, stockpiled for reuse as landscape topsoil elsewhere on the property, or [hauled off site](/services/hauling-delivery). On a subdivision or a long driveway alignment, that can be a substantial volume of dirt with somewhere to be.
+The material that comes off doesn't disappear. It gets pushed into windrows, stockpiled for reuse as landscape topsoil elsewhere on the property, or [hauled off site](/services/hauling-delivery). On a [subdivision or commercial site](/services/commercial-projects), or down a long driveway alignment, that can be a substantial volume of dirt with somewhere to be.
 
 ## How Deep Is Deep Enough?
 
@@ -79,7 +86,7 @@ Only after subgrade passes does base course go down. Everything above that point
 
 ## What to Ask Before Someone Grades Your Site
 
-If you're a builder, developer, or property owner about to put in a road, a long driveway, or a building pad, four questions will tell you a lot about the bid in front of you:
+If you're a builder, developer, or property owner about to put in a road, a long driveway, or a building pad, four questions will tell you a lot about the bid in front of you. (For the broader version of this conversation, see [how to choose an excavation contractor in Utah](/blog/how-to-choose-excavation-contractor-utah).)
 
 1. **Is stripping and grubbing in the scope, or an extra?** A low bid that treats the strip as a change order isn't a low bid.
 2. **Where does the strip depth come from?** The right answer references the soils report or the plan set. A number pulled from thin air is a guess you'll pay for later.
@@ -87,6 +94,8 @@ If you're a builder, developer, or property owner about to put in a road, a long
 4. **How is grade being held?** Stakes and a grade checker can absolutely produce a good road. GPS machine control does it more consistently and with less rework.
 
 ## Talk to Us About Your Site
+
+None of this is unique to subdivision roads. Residential lot clearing and grading is the same sequence at a smaller scale — a driveway, a shop pad, a parking area — and the organic layer has to come off there for exactly the same reason.
 
 AccuRite handles [land clearing](/services/land-clearing), [grading and site preparation](/services/grading-land-clearing), and [residential excavation](/services/residential-excavation) across the Wasatch Front — [Ogden](/locations/ogden), [Layton](/locations/layton), [Kaysville](/locations/kaysville), [Farmington](/locations/farmington), [West Haven](/locations/west-haven), and south through the Salt Lake valley.
 

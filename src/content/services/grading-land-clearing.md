@@ -73,6 +73,8 @@ These two terms come up constantly and they mean different things.
 
 Both phases matter. Sloppy rough grading creates problems that finish grading can't fully correct.
 
+Our dozer runs GPS grade control, which holds the blade to the design surface across the whole site instead of working stake to stake. You can see it stripping a new road alignment in [what happens before the road goes in](/blog/lot-clearing-and-grading-before-road-construction).
+
 ---
 
 ## Utah Soil Conditions That Affect Grading

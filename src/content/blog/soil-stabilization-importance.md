@@ -77,4 +77,6 @@ The consequences are not always immediate, which is part of why stabilization so
 
 By that point, the fix is always more expensive than doing it right the first time. You may be cutting out and replacing a slab that has moved, rebuilding a wall that has leaned, or regrading a drainage channel that has silted in because the sides eroded.
 
+The same delayed failure happens under roadways when organic material is left in the subgrade — it decomposes, and the surface settles into the void it leaves. We covered that in [lot clearing and grading before a road goes in](/blog/lot-clearing-and-grading-before-road-construction).
+
 If you are planning a construction project in Ogden, Layton, or anywhere in northern Utah and want to understand what soil conditions might mean for your site, [contact AccuRite](/contact). We can walk you through what we typically encounter in your area and what preparation your project will likely need.

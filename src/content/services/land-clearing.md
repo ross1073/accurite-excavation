@@ -91,6 +91,8 @@ Cleared land usually needs grading before the next phase starts. Lots are rarely
 
 If the cleared site is going to support construction, [residential excavation](/services/residential-excavation) for the foundation or basement is the next phase. We can handle clearing, grading, and excavation as a single coordinated scope, which is faster and less expensive than bringing in separate contractors for each phase.
 
+Where a road, driveway, or building pad is going in, clearing the surface isn't enough on its own — the organic topsoil underneath has to come off too, or it decomposes and the surface above settles. We break down that step, with drone footage of the work, in [what happens before the road goes in](/blog/lot-clearing-and-grading-before-road-construction).
+
 ---
 
 ## Land Clearing Costs

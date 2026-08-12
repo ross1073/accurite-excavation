@@ -61,6 +61,16 @@ const blog = defineCollection({
     tags: z.array(z.string()).optional(),
     relatedServices: z.array(z.string()).optional(),
     relatedLocations: z.array(z.string()).optional(),
+    // Drives schema.org VideoObject when the post embeds a video.
+    // Paths are site-root-relative (files live in public/); duration is ISO 8601.
+    video: z.object({
+      name: z.string(),
+      description: z.string(),
+      contentUrl: z.string(),
+      thumbnailUrl: z.string(),
+      uploadDate: z.date(),
+      duration: z.string(),
+    }).optional(),
   }),
 });
 

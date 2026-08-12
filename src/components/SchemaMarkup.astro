@@ -181,6 +181,20 @@ if (type === 'blog' && data.post) {
       '@id': `${siteUrl}/blog/${slug}`,
     },
   });
+
+  if (post.data.video) {
+    const v = post.data.video;
+    schemas.push({
+      '@type': 'VideoObject',
+      name: v.name,
+      description: v.description,
+      contentUrl: `${siteUrl}${v.contentUrl}`,
+      thumbnailUrl: `${siteUrl}${v.thumbnailUrl}`,
+      uploadDate: v.uploadDate.toISOString(),
+      duration: v.duration,
+      publisher: { '@id': `${siteUrl}/#organization` },
+    });
+  }
 }
 
 if (data.faqs && data.faqs.length > 0) {
