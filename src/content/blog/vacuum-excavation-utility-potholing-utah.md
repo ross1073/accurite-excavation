@@ -1,6 +1,6 @@
 ---
 title: "How We Find Buried Utilities Without Breaking Them"
-metaTitle: "Vacuum Excavation & Utility Potholing in Utah"
+metaTitle: "Utah Vacuum Excavation & Potholing"
 description: "Why AccuRite owns its own vacuum excavator, and how potholing exposes buried gas, power, and water lines before the digging starts."
 pubDate: 2026-07-14
 author: "AccuRite Excavation"

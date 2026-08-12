@@ -38,7 +38,7 @@ Once your permit is in hand and your installer is scheduled, we dig the tank pit
 
 Huntsville is increasingly a destination for custom homes and luxury cabins. The reservoir views and mountain access that make it desirable also mean many building sites have slope, rock, or terrain complexity to manage.
 
-Site prep for a Huntsville build typically means clearing organic material and vegetation, establishing access if there isn't already a road, cutting the building pad into sloping ground, and compacting subgrade for foundation bearing. [Excavation](/services/excavation) scope varies significantly based on terrain, but we price from a site visit, not assumptions.
+Site prep for a Huntsville build typically means clearing organic material and vegetation, establishing access if there isn't already a road, cutting the building pad into sloping ground, and compacting subgrade for foundation bearing. [Excavation](/services/residential-excavation) scope varies significantly based on terrain, but we price from a site visit, not assumptions.
 
 Valley floor sites in Huntsville tend to be more straightforward, while hillside and bench properties require more careful planning for pad stability and drainage management.
 

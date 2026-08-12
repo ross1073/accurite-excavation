@@ -34,7 +34,7 @@ We trench from the main to the house, coordinate with your plumber, backfill wit
 
 ### Basement Excavation and Expansion
 
-Some homeowners in Washington Terrace want more usable basement space, whether to finish a low-clearance area or to tie in a new living space under an addition. [Basement excavation](/services/excavation) in an existing structure is careful work. We assess the foundation type, soil conditions, and access before we give any numbers.
+Some homeowners in Washington Terrace want more usable basement space, whether to finish a low-clearance area or to tie in a new living space under an addition. [Basement excavation](/services/residential-excavation) in an existing structure is careful work. We assess the foundation type, soil conditions, and access before we give any numbers.
 
 For new additions with a basement component, we excavate to the required depth and work with the foundation contractor on footings and forming.
 

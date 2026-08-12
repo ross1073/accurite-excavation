@@ -36,7 +36,7 @@ We excavate for [retaining wall](/services/rock-walls-retaining-walls) footings,
 
 Clay soils hold water, and flat or gently sloping lots in Harrisville can accumulate moisture near foundations if the original grading has settled or shifted. This is a common situation in neighborhoods that were built decades ago.
 
-We reestablish proper slope away from the foundation, extend or redirect downspout discharge, and install French drains where surface grading alone isn't enough. [Drainage grading](/services/grading-drainage) done correctly is one of the better investments a homeowner can make in protecting their foundation.
+We reestablish proper slope away from the foundation, extend or redirect downspout discharge, and install French drains where surface grading alone isn't enough. [Drainage grading](/services/grading-land-clearing) done correctly is one of the better investments a homeowner can make in protecting their foundation.
 
 ### Utility Trenching
 

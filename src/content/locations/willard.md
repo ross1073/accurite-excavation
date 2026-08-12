@@ -38,13 +38,13 @@ Properties near Willard Bay in the lower-elevation areas can have elevated seaso
 
 Willard is seeing new homes built on lots that were previously agricultural or undeveloped. Site preparation for new construction includes stripping organic material from the top, cutting and filling to reach the correct building pad elevation, and compacting for foundation bearing.
 
-We handle [excavation](/services/excavation) for full basement foundations and slab-on-grade, working with your foundation contractor to hand off a properly graded and prepared site.
+We handle [excavation](/services/residential-excavation) for full basement foundations and slab-on-grade, working with your foundation contractor to hand off a properly graded and prepared site.
 
 ### Rural Property Grading
 
 Larger lots in Willard often need grading work beyond the building pad: driveways, shop or barn pads, drainage corrections, and rough grading of disturbed areas. We grade to plans when you have them or work with you to establish the grades you need when it's more informal.
 
-[Drainage grading](/services/grading-drainage) is important on rural properties where water management isn't handled by municipal storm systems. We direct surface runoff away from structures and toward appropriate outlets, whether natural drainage ways or properly designed retention areas.
+[Drainage grading](/services/grading-land-clearing) is important on rural properties where water management isn't handled by municipal storm systems. We direct surface runoff away from structures and toward appropriate outlets, whether natural drainage ways or properly designed retention areas.
 
 ### Utility Trenching
 

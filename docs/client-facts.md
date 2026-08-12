@@ -257,6 +257,29 @@ reinstate it.
 
 ---
 
+## Confirmed — licensing and safety rating, 2026-08-11
+
+- **CONFIRMED** The Utah Contractor License designation **E100** is current, and "E100
+  Licensed & Fully Insured" is accurate as published.
+  - Source: Ross, directly in session — 2026-08-11
+  - Answers open question 2. These were the two highest-risk UNCONFIRMED claims on the
+    site — a regulator can check both.
+
+- **CONFIRMED** The **0.91 EMOD** safety rating is current-year and accurate as published.
+  - Source: Ross, directly in session — 2026-08-11
+
+- **CONFIRMED** AccuRite is willing to do stump removal as part of a larger clearing job,
+  and site content saying so is fine. **But it is not a service to target or optimize for**
+  — Ross does not want that traffic. Do not add stump keywords, stump-focused meta
+  descriptions, stump landing pages, or stump content lanes.
+  - Source: Ross, directly in session — 2026-08-11
+  - Acted on 2026-08-11: removed the `stump removal Ogden` secondary keyword and the stump
+    mention in `metaDescription` from `src/content/services/land-clearing.md`. The FAQ
+    answering "yes" and the body copy describing the work were deliberately left in place,
+    per Ross.
+
+---
+
 ## Open questions for Shawn
 
 Answer these in one sitting and most of the file above flips to CONFIRMED.
@@ -264,7 +287,9 @@ Answer these in one sitting and most of the file above flips to CONFIRMED.
 1. ~~Which of the named organizations above are genuinely past clients, and which are
    aspirational, secondhand, or invented?~~ **ANSWERED 2026-07-14** — all eleven confirmed
    by Shawn via Ross. See "Confirmed — client list" above. Cal Ranch stays out.
-2. Is the E100 license current, and is the 0.91 EMOD rating current-year?
+2. ~~Is the E100 license current, and is the 0.91 EMOD rating current-year?~~
+   **ANSWERED 2026-08-11** — both confirmed current by Ross. See "Confirmed — licensing and
+   safety rating" above. Nothing on the site needed changing; it was already accurate.
 3. ~~Is the service area 39 cities or 45+? The two pages disagree.~~
    **ANSWERED 2026-07-14** — 45+ cities; 39 is wrong. The premise was faulty: the site
    publishes no city count at all, so nothing was corrected on the site. **Still open:**

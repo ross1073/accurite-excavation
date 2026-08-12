@@ -1,7 +1,7 @@
 ---
 title: "Land Clearing in Ogden & Northern Utah"
 metaTitle: "Land Clearing Contractor — Ogden, UT"
-metaDescription: "Lot clearing, tree and brush removal, stump removal, and site clearing across Weber and Davis counties. 31+ years in Northern Utah. Free estimates — call (801) 814-6975."
+metaDescription: "Lot clearing, tree and brush removal, and site clearing across Weber and Davis counties. 31+ years in Northern Utah. Free estimates — call (801) 814-6975."
 description: "Land clearing and lot clearing for residential, commercial, and agricultural sites across the Wasatch Front. Trees, stumps, brush, and debris removed and hauled off."
 keywords:
   primary: "land clearing Ogden Utah"
@@ -9,7 +9,7 @@ keywords:
     - "lot clearing Ogden"
     - "land clearing Weber County"
     - "tree and brush removal Utah"
-    - "stump removal Ogden"
+    - "site clearing Utah"
     - "land clearing contractor Northern Utah"
 faqs:
   - question: "How much does land clearing cost per acre in Utah?"

@@ -82,6 +82,19 @@
   to = "/blog/what-is-emod-experience-modification-rate"
   status = 301
 
+# Service slugs that never existed but were linked from four location pages
+# (washington-terrace, willard, harrisville, huntsville) since before 2026-08-11.
+# The in-page links were repointed on 2026-08-11; these catch anything already
+# indexed or linked externally so it lands on the right page instead of the 404.
+[[redirects]]
+  from = "/services/excavation"
+  to = "/services/residential-excavation"
+  status = 301
+[[redirects]]
+  from = "/services/grading-drainage"
+  to = "/services/grading-land-clearing"
+  status = 301
+
 # Block WP search URLs — _redirects can't match query strings
 [[redirects]]
   from = "/"

@@ -1,6 +1,6 @@
 ---
 title: "What Excavation Safety Really Looks Like on a Federal Job Site"
-metaTitle: "Excavation Safety on Federal Projects | OSHA & EM385"
+metaTitle: "Excavation Safety on Federal Projects"
 description: "A look at what excavation safety actually means day to day — toolbox talks, spotters, trench protection — through a steam plant project AccuRite completed at Hill Air Force Base."
 pubDate: 2026-06-22
 author: "AccuRite Excavation"
