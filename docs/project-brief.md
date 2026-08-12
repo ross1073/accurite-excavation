@@ -22,7 +22,7 @@ Active work is dominated by SEO maintenance (GSC 404 fixes, redirect cleanup, ti
 - `src/pages/` — top-level routes: `index.astro`, `about`, `contact`, `free-estimate`, `gallery`, `reviews`, `safety`, `privacy-policy`, `terms`, `404`, `blog/`, plus dynamic catch-alls `services/[...slug].astro` and `locations/[...slug].astro`.
 - `src/content/services/` — 11 service pages on disk (residential excavation, demolition, grading & land clearing, land clearing, hauling/delivery, rock & retaining walls, commercial projects, government projects, septic systems, underground utilities, water features & ponds). The standalone `land-clearing` page was added 2026-05-28 as a focused sub-page to target the "land clearing ogden" Map Pack gap query; the combined grading-land-clearing page remains as the topical hub.
 - `src/content/locations/` — 40 Wasatch Front city pages (Ogden corridor + SLC south to Riverton/Sandy).
-- `src/content/blog/` — 13 blog posts (cost guides, contractor evaluation, retaining walls, soil, EMOD, project case studies, excavation safety).
+- `src/content/blog/` — 14 blog posts (cost guides, contractor evaluation, retaining walls, soil, EMOD, project case studies, excavation safety, lot clearing & road subgrade). Posts may embed video: an optional `video` block in the blog frontmatter schema drives a schema.org `VideoObject` and the page's OG image.
 - `src/content/config.ts` — content collection schemas.
 - `src/components/`, `src/layouts/`, `src/data/`, `src/styles/`, `src/assets/` — supporting code and assets.
 - `plugins/` — local Astro/build plugins.
@@ -43,7 +43,8 @@ Active work is dominated by SEO maintenance (GSC 404 fixes, redirect cleanup, ti
 
 - **Deploy means live.** "Done" on any deploy task means the change is verified live on the production URL — not just pushed to git.
 - **Netlify trailing-slash redirect uses `force = false`.** Setting it to `true` causes an infinite-loop on top-level pages (verified breakage in `d3a266d`, reverted 2026-04-17). The comment in `netlify.toml` explains; do not re-flip it.
-- **www → non-www** consolidated in a single hop via explicit `netlify.toml` rules to shorten the http-www chain.
+- **www → non-www** consolidated via explicit `netlify.toml` rules. **Measured 2026-08-11:** `https://www` → non-www is 1 hop and `http://` → `https://` is 1 hop, but **`http://www` still takes 2 hops** (`http://www` → `https://www` → `https://non-www`) — Netlify's own HTTPS upgrade fires before the rule. This doc previously claimed a single hop for all entry points; that was never true for `http://www`. Cost is milliseconds; recorded so nobody re-derives it.
+- **Video lives in `public/`, not `src/assets/`** — Astro's image pipeline doesn't process it. Client footage arrives as HEVC `.mov` (DJI/iPhone), which Chrome and Firefox won't play; transcode to H.264 (`-c:v libx264 -pix_fmt yuv420p -movflags +faststart`) and ship a poster frame.
 - **WP search URLs** (`/?s=`) are blocked at the redirect layer.
 - **IndexNow key file** (`public/e03de1ac69fc4666a18fe5ec07b68436.txt`) must be served as-is with `force = true` 200 redirect.
 - **`.html → clean URL` redirects** use 301 to prevent GSC duplicate indexing (see global `feedback_netlify_gsc_duplicates.md`).

@@ -70,3 +70,38 @@ calls / direction requests / profile views) plus an automatic public review pull
 `pull_gbp_reviews.py`. The dormant API path remains and would take over on its own if
 approval ever landed. Teamwork task 36440438 is now obsolete and still sitting open in
 the old R&R tasklist 2518534.
+
+---
+
+## Moved 2026-08-11 (second wrap of the day)
+
+### `/services/land-clearing` indexation re-check — RESOLVED 2026-08-11
+Item as it stood: *"Re-check `/services/land-clearing` (shipped 2026-05-28) indexation +
+'land clearing ogden' impressions in GSC in ~10-14 days. If page picks up impressions,
+validate split-out strategy and consider parallel `/services/grading` split."*
+
+**Answered by the 90-day GSC pull on 2026-08-11** (`research/keywords/gsc-gap-clearing-grading-2026-08-11.txt`):
+`land clearing ogden` 97 impressions @ position 11.6, `land clearing services ogden` 64 @ 14.9,
+`land clearing kaysville` 47 @ 9.7, `land clearing bountiful` 45 @ 4.4, `land clearing layton`
+42 @ 3.8, `land clearing salt lake city` 40 @ 8.8, bare `land clearing` 34 @ 1.0. The page is
+indexed and pulling impressions across the whole city set, so **the split-out strategy is
+validated**. Clicks are still 0 across all of them — a position problem, not a discovery one.
+The parallel `/services/grading` split remains an open option, never actioned.
+
+### Map Pack monitoring — 2026-06-18 diagnosis detail
+Superseded in the live doc by a one-line summary; the 2026-08-11 re-pull confirmed the same
+diagnosis, so the original narrative is history rather than current state.
+
+Ogden slipped #1→#2 for "excavation companies near me" (Skinner now #1), Pleasant View dropped
+out, Layton still out; organic "excavation company" holds ~#1. Competitor review benchmark
+(`research/local-pack/review-velocity-2026-06-18.json`) showed reviews are NOT the cause —
+AccuRite led the cluster (60 reviews vs Skinner's 9, whose last review was Oct 2023).
+Diagnosis: proximity near-tie within a tightly-clustered, same-category competitor set; the
+Ogden slip likely post-core-update volatility, with the real loss at the edges (Pleasant
+View/Layton). Next step offered and deferred by Ross on 06-18: a geo-grid Share-of-Local-Voice
+scan to confirm real vs noise. Edge-city location-page deepening (Pleasant View/Layton/West
+Haven) was identified as the durable in-house lever. See `docs/memory/2026-06-18.md`.
+
+### Blog indexation follow-up — TW #36664201
+TW #36664201 marked DONE 2026-07-13. The remaining open piece (3 posts "crawled, currently not
+indexed") stays in the live stage doc.
