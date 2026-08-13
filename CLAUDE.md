@@ -31,9 +31,9 @@ Context auto-loads at SessionStart via four **global** hooks, `~/.claude/hooks/p
 <!-- BRAIN-MANIFEST-START -->
 ## Brain library manifest
 
-Generated 2026-08-11 by ~/projects/brain/scripts/manifest.py. Do not hand-edit — this block is regenerated in place. Read these with `/load`.
+Generated 2026-08-13 by ~/projects/brain/scripts/manifest.py. Do not hand-edit — this block is regenerated in place. Read these with `/load`.
 
-_No library files currently match accurite-excavation by entity._
+- `library/2026-08-13-glossary-three-step-marketing.html` — reference summary — entities: AccuRite Excavation
 
 Library root: ~/projects/brain/
 <!-- BRAIN-MANIFEST-END -->
