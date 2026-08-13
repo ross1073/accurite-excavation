@@ -105,3 +105,24 @@ Haven) was identified as the durable in-house lever. See `docs/memory/2026-06-18
 ### Blog indexation follow-up — TW #36664201
 TW #36664201 marked DONE 2026-07-13. The remaining open piece (3 posts "crawled, currently not
 indexed") stays in the live stage doc.
+
+## Moved 2026-08-13
+
+Moved out of `docs/stage-current.md` during the 2026-08-13 wrap. Both "Recently shipped"
+entries below were already detailed elsewhere in this file — these are the abbreviated
+summaries that sat in the live doc. The closed in-flight item is recorded verbatim.
+
+### Recently shipped — 2026-07-17 (abbreviated entry from the live doc)
+- **2026-07-17** — GBP weekly post migrated off the claude.ai cloud routine to a local launchd job (`com.rosswalker.accurite-gbp-weekly`), Tuesday 12:03 local. Root cause of the outage: the cloud sandbox blocks outbound HTTPS to `csfund.teamwork.com`. Commit `c258b73`.
+
+### Recently shipped — 2026-07-13 (abbreviated entry from the live doc)
+- **2026-07-13** — Winter seasonal keyword research (research only, nothing live). Winter carries the most hire-intent demand of any season; demolition peaks in winter; drainage is warm-weather; "winter excavation" has no demand. Report `research/keyword-research/seasonal-demand.html`.
+
+### In flight — closed item, `~/.claude` commit `878d750`
+- ~~**Push `~/.claude` commit `878d750`**~~ — **CLOSED 2026-08-11.** The hash no longer exists in the repo (rewritten or amended); `~/.claude` HEAD equals `origin/main` with a clean tree, so the content shipped under a different hash. Nothing outstanding. Closure also recorded in `docs/memory/2026-08-12.md`.
+
+### Recently shipped — 2026-08-11 (full entry from the live doc, moved 2026-08-13)
+- **2026-08-11** — **First new blog post since July: `/blog/lot-clearing-and-grading-before-road-construction`** (1,461 words, drone video of the GPS dozer embedded). Targets `residential lot clearing and grading` (218 impr @ pos 13.4 in GSC 90d) and the site-clearing/site-preparation cluster — chosen because the *technical* vocabulary (grubbing, subgrade, GPS grading) has **no measurable Utah search demand**. Same session repaired three pre-existing site-wide faults: a dead OG image on 77 of 79 pages, two nonexistent service slugs linked from 4 location pages, and a missing apple-touch-icon. Also: `VideoObject` schema (frontmatter-driven, reusable), per-post OG images, and all 15 blog titles pulled under the ~60-char SERP limit by aligning the title suffix to the rest of the site. Commits `616430d`, `38fa172`, `34d8ec5`, `9348db5`, `fa86582`.
+
+### Recently shipped — 2026-08-13 (full entry from the live doc, moved 2026-08-13)
+- **2026-08-13** — Tone pass on `/blog/lot-clearing-and-grading-before-road-construction` (`d711f04`, verified live). Ross found the post read unfriendly and supplied a full rewrite; the rewrite was **not** shipped — measured against the live file it cut 1,453 words to 413, dropped the `residential lot clearing and grading` target phrase, removed all 13 internal links, stopped referencing the embedded video (orphaning its `VideoObject` schema), and claimed "3D … dozers" against the 2026-08-11 CONFIRMED entry in `docs/client-facts.md`. Actual cause was four sentences taking swings at other contractors; those were rewritten in place, Ross's seven descriptive H2s and his four-question list were adopted, and length held at 1,482 words. Heading anchor IDs changed — nothing in `src/`, `public/`, or `netlify.toml` linked to the old ones.
