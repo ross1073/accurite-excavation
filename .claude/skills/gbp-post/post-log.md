@@ -97,3 +97,15 @@ The work starts below grade. A proper retaining wall needs a compacted base, ade
 Material choice depends on the application. Segmental block systems work well for walls under four feet. Taller walls or walls carrying surcharge loads — like a driveway or structure above — typically call for poured concrete or engineered block systems with geogrid reinforcement tying back into the retained soil. The excavation and base prep is the same either way, and that is where most wall failures actually start.
 
 AccuRite Excavation & Hauling has built rock walls and retaining walls across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
+
+---
+
+## 2026-08-18 — Review / Trust — TW 36957608
+**Post:**
+Most contractors get hired once. The ones worth keeping around are the ones you call back — and the ones you tell your neighbors about. That word-of-mouth trust is what AccuRite Excavation & Hauling has built across Northern Utah since 1995, and it shows in the 5-star reviews customers leave on Google.
+
+A lot of what earns that trust happens before the machine ever starts. Walking the site with the property owner, explaining what the job actually involves, and giving a price that accounts for real conditions — not a low-ball number that climbs once the work starts. Excavation isn't the kind of work where surprises should show up on the invoice.
+
+During the job, it means protecting what's already on the property. Driveways, irrigation lines, landscaping, neighboring fences — the crew works around what matters to the homeowner, not just what's convenient for the equipment. And when the machines load out, the site should look like professionals were there, not like a mess got left behind.
+
+Thirty-one years of operating in Weber, Davis, Box Elder, and Morgan counties means the crew knows the ground, knows the inspectors, and knows how to keep a project moving without cutting corners. Utah E100 licensed, based in Ogden.
