@@ -123,3 +123,17 @@ Not all soil compacts the same way. Clay needs moisture control — too dry and 
 On most residential and commercial jobs in Northern Utah, compaction testing is either required by the building department or specified by the engineer. A proctor test establishes the target density for that soil type, and a field tech verifies each lift meets it before the next layer or the concrete goes on.
 
 AccuRite Excavation & Hauling has handled compaction-critical work across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
+
+---
+
+## 2026-09-01 — Seasonal Tip — TW 37028525
+**Post:**
+September feels like summer across the Wasatch Front, but the ground is already shifting toward fall. Overnight temperatures start dropping through the month, morning dew gets heavier, and by the time October hits, the soil moisture levels that were stable all summer begin climbing. For any outdoor excavation work — grading, trenching, drainage, foundation digs — September is the last month where conditions are consistently dry and predictable.
+
+Drainage projects are the most time-sensitive. French drains, curtain drains, foundation waterproofing, and regrading work all need to be installed in dry soil to function correctly from day one. Installing drainage in saturated ground means the trench fills with water before the pipe and gravel are placed, backfill won't compact properly, and the system starts its life already compromised. The same applies to any utility trenching where the bottom of the excavation needs to stay clean and stable for inspection.
+
+Grading and site prep for fall concrete pours also depends on getting the earthwork done while the ground cooperates. A pad that's graded and compacted in dry conditions holds its shape while the forms and rebar go in. One graded in wet soil shifts before the pour and the slab pays for it later.
+
+Northern Utah's construction season doesn't end on a calendar date — it ends when the ground says so. Most years, that window starts closing in mid-October.
+
+AccuRite Excavation & Hauling has worked through three decades of Northern Utah seasons since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
