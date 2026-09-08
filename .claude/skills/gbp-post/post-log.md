@@ -137,3 +137,15 @@ Grading and site prep for fall concrete pours also depends on getting the earthw
 Northern Utah's construction season doesn't end on a calendar date — it ends when the ground says so. Most years, that window starts closing in mid-October.
 
 AccuRite Excavation & Hauling has worked through three decades of Northern Utah seasons since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-09-08 — Service Highlight — TW 37067303
+**Post:**
+Underground utility installation is one of the most detail-sensitive types of excavation work. Water lines, sewer mains, storm drains, gas feeds, and electrical conduit all have specific depth requirements, bedding material specs, and separation distances from each other — and the codes in Weber and Davis counties don't leave much room for shortcuts.
+
+The trench itself matters more than most people think. Depth and width have to match the utility being installed, but the bottom of the excavation also needs to be graded to the correct slope and bedded with the right material — usually granular fill or pea gravel — so the pipe sits uniformly and doesn't develop point loads that crack it over time. For pressurized lines like water mains, the bedding is less critical than for gravity-fed lines like sewer and storm, where even a small belly in the grade means the system doesn't drain properly.
+
+Backfill is just as important as the dig. Each lift needs to be compacted to spec before the next layer goes on, especially under driveways, roads, or any surface that carries traffic. Poorly compacted utility trenches are one of the most common reasons pavement sinks or cracks a year or two after construction — the trench settles and takes the surface with it.
+
+AccuRite Excavation & Hauling has installed underground utilities across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
