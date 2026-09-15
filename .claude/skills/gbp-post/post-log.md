@@ -149,3 +149,15 @@ The trench itself matters more than most people think. Depth and width have to m
 Backfill is just as important as the dig. Each lift needs to be compacted to spec before the next layer goes on, especially under driveways, roads, or any surface that carries traffic. Poorly compacted utility trenches are one of the most common reasons pavement sinks or cracks a year or two after construction — the trench settles and takes the surface with it.
 
 AccuRite Excavation & Hauling has installed underground utilities across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
+
+---
+
+## 2026-09-15 — Review / Trust — TW 37101967
+**Post:**
+Five-star reviews are earned one job at a time, and AccuRite Excavation & Hauling's reputation across Northern Utah reflects how the crew handles every single one — not just the big projects, but the routine residential digs and utility trenches that don't make anyone's highlight reel.
+
+A big part of it comes down to the people on site. Excavation work depends on operators who read the ground and adjust in real time — knowing when clay is too wet to compact, when a trench wall needs shoring instead of sloping, or when rock below grade is going to change the plan. That kind of judgment doesn't come from a manual. It comes from years of running equipment in Northern Utah soil conditions, and it's the difference between a job that goes smoothly and one that stalls out with problems.
+
+Communication is the other half. Customers consistently mention knowing what's happening on their project without having to chase anyone down. If conditions change mid-dig — and on Northern Utah ground, they sometimes do — the crew communicates it before it becomes a billing surprise. That straightforward approach to running a job is what turns a one-time customer into someone who refers their neighbors.
+
+AccuRite Excavation & Hauling has served Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
