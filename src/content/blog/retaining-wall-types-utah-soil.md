@@ -50,6 +50,8 @@ Boulder walls require larger machinery to place rock effectively. They are not p
 
 Segmental retaining wall (SRW) systems — sold under brand names like Versa-Lok, Allan Block, and others — are manufactured concrete blocks designed to interlock in a specific geometry. They are widely used in residential construction because they are relatively fast to install and available in many finishes.
 
+![Engineered concrete block retaining wall under construction in Utah with proper backfill and drainage](../../assets/images/services/retaining-wall-block-utah.png)
+
 ### How They Perform in Utah Soil
 
 SRW systems perform well in Utah when drainage is installed correctly. The key phrase is "when drainage is installed correctly."

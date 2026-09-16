@@ -39,6 +39,8 @@ Two things go wrong when you build a road on top of it.
 
 The engineering term for material that has to come out is *deleterious* — anything in the subgrade that will weaken it or change volume over time. Topsoil, roots, sod, buried wood, old debris, soft saturated pockets. Whatever it is, it can't stay under the road.
 
+![AccuRite Excavation installing a 48-inch elliptical concrete culvert pipe with mastic joints for low-clearance road drainage in Northern Utah](../../assets/images/blog/48-inch-elliptical-pipe-low-profile-drainage.jpg)
+
 ## Clearing vs. Grubbing
 
 These get used interchangeably in conversation, and they're not the same operation.

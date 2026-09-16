@@ -39,6 +39,8 @@ The most common method is mechanical compaction: using equipment to press soil i
 
 Lift thickness and compaction effort depend on the soil type and what is being built on it. A slab-on-grade foundation has different requirements than a road subbase. We use compaction testing to confirm that the soil has reached the required density before the next lift goes in.
 
+![Specialized 360-degree rotating tracked dump truck hauling material across steep and soft ground on a Utah excavation site](../../assets/images/blog/rotating-track-dump-truck-difficult-terrain.jpg)
+
 ### Chemical Stabilization
 
 For problem clay soils, mechanical compaction alone is sometimes not enough. Chemical stabilization uses materials like lime, Portland cement, or fly ash mixed into the soil to change its properties.
@@ -70,6 +72,8 @@ Road subbase preparation is where stabilization pays for itself most visibly. A 
 ### Drainage and Grading
 
 [Grading work](/services/grading-land-clearing) that redirects water across a site needs stable soil that will not erode when water runs over it. Swales, drainage ditches, and catch basins all depend on the surrounding soil being stable enough to hold its shape.
+
+![Managing groundwater and trench dewatering during deep utility and culinary water line excavation in Utah](../../assets/images/blog/groundwater-management-culinary-water-line-trench.jpg)
 
 ## What Happens When You Skip It
 
