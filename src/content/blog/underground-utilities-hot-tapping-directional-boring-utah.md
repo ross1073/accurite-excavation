@@ -36,7 +36,7 @@ Today, we use **hot tapping** (also known as wet tapping or live line tapping) t
 </figure>
 
 ### How the Hot Tapping Process Works:
-1. **Expose and Prep the Main:** The existing pipe (ductile iron, C900 PVC, or asbestos cement) is carefully potholed using vacuum excavation and cleared of corrosion.
+1. **Expose and Prep the Main:** The existing pipe (ductile iron, C900 PVC, or asbestos cement) is carefully potholed using [vacuum excavation](/blog/vacuum-excavation-utility-potholing-utah) and cleared of corrosion.
 2. **Mount the Tapping Sleeve & Valve:** A heavy-duty, bolted tapping sleeve with a rubber seal is torqued onto the existing line, and a permanent resilient wedge gate valve is bolted to the sleeve outlet.
 3. **Attach the Tapping Machine:** A specialized drill assembly mounts to the face of the open valve, creating a watertight seal.
 4. **Cut the Coupon:** The cutter advances through the open valve and cuts a clean hole (the coupon) out of the main pipe wall.

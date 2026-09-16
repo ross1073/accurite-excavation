@@ -15,6 +15,8 @@ Under a typical street or commercial parking lot, the answer is gas, water, sewe
 
 Hitting one of those lines is the fastest way to turn a routine dig into a very bad day. So before our excavator breaks ground, we find out where the utilities actually are.
 
+When connecting into existing municipal lines or crossing under paved roadways, potholing is paired with advanced methods like [live hot tapping and directional boring](/blog/underground-utilities-hot-tapping-directional-boring-utah) to avoid service interruptions and road closures.
+
 ![AccuRite Excavation's vacuum excavator truck locating buried utilities on a job site in Northern Utah](../../assets/images/blog/vacuum-excavator-utility-potholing-northern-utah.jpg)
 
 ## Locate Tickets Get You Close, Not Exact

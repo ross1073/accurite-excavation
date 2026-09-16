@@ -79,7 +79,7 @@ Blue Stakes is required by Utah law. It's free. The marking is typically complet
 
 We call Blue Stakes on every project before equipment touches the ground. It's not optional, and it's not something we skip to save time. Hitting an unmarked gas line or fiber optic cable causes injuries, service outages, and significant liability. We take this step seriously.
 
-On larger projects, we also do potholing, using vacuum excavation to expose existing utilities by hand before trenching nearby, to verify that the marked locations are accurate.
+On larger projects, we also do potholing, using [vacuum excavation and potholing](/blog/vacuum-excavation-utility-potholing-utah) to expose existing utilities by hand before trenching nearby, to verify that the marked locations are accurate. For complex connections and road crossings, we also utilize [live hot tapping and trenchless directional boring](/blog/underground-utilities-hot-tapping-directional-boring-utah) so municipal services remain uninterrupted and pavement stays intact.
 
 ---
 
