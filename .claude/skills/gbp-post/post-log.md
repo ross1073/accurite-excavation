@@ -161,3 +161,17 @@ A big part of it comes down to the people on site. Excavation work depends on op
 Communication is the other half. Customers consistently mention knowing what's happening on their project without having to chase anyone down. If conditions change mid-dig — and on Northern Utah ground, they sometimes do — the crew communicates it before it becomes a billing surprise. That straightforward approach to running a job is what turns a one-time customer into someone who refers their neighbors.
 
 AccuRite Excavation & Hauling has served Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
+
+---
+
+## 2026-09-22 — Educational — TW 37148905
+**Post:**
+Trenching is one of the most common types of excavation work, and one of the most hazardous when safety isn't taken seriously. A trench only has to be five feet deep before OSHA requires a protective system — shoring, shielding, or sloping the walls back — and in Northern Utah's mix of clay, gravel, and cobble, a cave-in can happen with almost no warning.
+
+Soil type determines the protection method. Cohesive clay holds a vertical wall better than loose granular material, but that stability is deceptive — clay can shear in a single slab when it fails, and wet clay loses strength fast. Sandy or gravelly soil won't hold a vertical face at all and needs either a trench box or walls sloped back to a safe angle, which means the excavation footprint at the surface is wider than most people expect.
+
+Depth matters, but so does what's happening around the trench. Heavy equipment working near the edge, spoil piles stacked too close, or water seeping into the bottom all increase the load on the trench walls. The standard practice is to keep spoils at least two feet back from the edge and never allow anyone in an unprotected trench while equipment is operating overhead.
+
+Even on residential jobs — a water line replacement, a sewer repair, a foundation drain — the physics are the same. A cubic yard of soil weighs roughly 3,000 pounds, and a partial collapse doesn't need to bury someone completely to cause serious injury.
+
+AccuRite Excavation & Hauling has managed trench safety across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
