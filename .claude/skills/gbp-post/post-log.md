@@ -175,3 +175,15 @@ Depth matters, but so does what's happening around the trench. Heavy equipment w
 Even on residential jobs — a water line replacement, a sewer repair, a foundation drain — the physics are the same. A cubic yard of soil weighs roughly 3,000 pounds, and a partial collapse doesn't need to bury someone completely to cause serious injury.
 
 AccuRite Excavation & Hauling has managed trench safety across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
+
+---
+
+## 2026-09-29 — Seasonal Tip — TW 37189125
+**Post:**
+October marks the turning point for outdoor excavation work across Northern Utah. Daytime temperatures may still feel comfortable, but overnight lows are already dropping into the 30s in Weber and Box Elder counties, and the ground responds faster than the air does. Soil that was dry and stable in September starts holding moisture, and by mid-month the top several inches can be soft enough to affect compaction and trench stability.
+
+For anyone with an unfinished project — a foundation that hasn't been backfilled, a retaining wall with exposed base material, or a graded pad waiting on concrete — October is the month to close it out. Exposed excavation work left open through freeze-thaw cycles takes damage that isn't always visible on the surface. Backfill that freezes before it's compacted won't reach spec when it thaws, and water that pools in an open trench expands as it freezes, loosening the soil structure the trench was cut into.
+
+Frost depth in the Wasatch Front region typically reaches 30 to 36 inches by midwinter. Footings, utility lines, and anything meant to sit below frost need to be installed and backfilled before the frost line starts moving down, because excavating frozen ground later means slower work and higher cost.
+
+AccuRite Excavation & Hauling has worked through Northern Utah's fall-to-winter transition since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
