@@ -187,3 +187,17 @@ For anyone with an unfinished project — a foundation that hasn't been backfill
 Frost depth in the Wasatch Front region typically reaches 30 to 36 inches by midwinter. Footings, utility lines, and anything meant to sit below frost need to be installed and backfilled before the frost line starts moving down, because excavating frozen ground later means slower work and higher cost.
 
 AccuRite Excavation & Hauling has worked through Northern Utah's fall-to-winter transition since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-10-06 — Educational — TW 37229678
+**Post:**
+Grading is one of those parts of excavation work that doesn't look dramatic, but it controls everything that happens to water on a property for years after the job is done. The goal is simple — move surface water away from structures and toward a planned drainage path — but getting the slopes right takes precision that a rake and a good eye can't deliver on their own.
+
+The standard rule for residential grading is a minimum slope of six inches of fall over the first ten feet away from a foundation wall. That sounds like a lot on paper, but spread across ten feet it's barely perceptible to the eye. The problem is that "barely perceptible" means it's easy to get wrong, and even a small section that slopes back toward the house will funnel water right where it does the most damage — against the foundation.
+
+On larger lots or commercial sites, grading also has to account for where the water goes after it leaves the building. Swales, catch basins, and tie-ins to storm systems all need to be graded to specific slopes so the system actually moves water instead of ponding it. In Northern Utah's clay-heavy soils, ponding water doesn't just sit — it saturates the subgrade and weakens the bearing capacity of the soil underneath driveways, slabs, and footings.
+
+Finish grading after construction is just as important as the rough grade before it. Backfill around foundations settles over time, and if the final grade isn't re-established after that settling, the drainage pattern reverts and water finds its way back to the foundation.
+
+AccuRite Excavation & Hauling has handled grading and drainage work across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
