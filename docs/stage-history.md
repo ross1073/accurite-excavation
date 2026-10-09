@@ -126,3 +126,9 @@ summaries that sat in the live doc. The closed in-flight item is recorded verbat
 
 ### Recently shipped — 2026-08-13 (full entry from the live doc, moved 2026-08-13)
 - **2026-08-13** — Tone pass on `/blog/lot-clearing-and-grading-before-road-construction` (`d711f04`, verified live). Ross found the post read unfriendly and supplied a full rewrite; the rewrite was **not** shipped — measured against the live file it cut 1,453 words to 413, dropped the `residential lot clearing and grading` target phrase, removed all 13 internal links, stopped referencing the embedded video (orphaning its `VideoObject` schema), and claimed "3D … dozers" against the 2026-08-11 CONFIRMED entry in `docs/client-facts.md`. Actual cause was four sentences taking swings at other contractors; those were rewritten in place, Ross's seven descriptive H2s and his four-question list were adopted, and length held at 1,482 words. Heading anchor IDs changed — nothing in `src/`, `public/`, or `netlify.toml` linked to the old ones.
+
+## Moved 2026-10-09
+
+### In flight — completed (moved 2026-10-09)
+- **Verify the monthly report fires 2026-09-01 at 8am** — the launchd job had never once succeeded (three runs, all killed by a nonexistent `--channels` flag, removed 2026-08-11 in `6d71521`). This is the first run that can actually work. Success = a task in project 210055 / tasklist Inbox. The fix could not be tested from a session because Claude Code refuses to nest inside itself. (History: `docs/stage-history.md`)
+- Outcome: the 2026-09-01 and 2026-10-01 scheduled runs both completed (log `~/Library/Logs/accurite-monthly-report.log`; PDFs archived 2026-09-01 08:08 and 2026-10-01 08:11; Teamwork #37026137 and #37203018).
