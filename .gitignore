@@ -32,3 +32,6 @@ pnpm-debug.log*
 
 # Head-check session snapshots (transient scratch, regenerated each head check)
 .claude/session-snapshot.md
+
+# DataForSEO raw pulls (multi-MB); the report .md beside each is the committed artifact
+research/keyword-research/*_raw.json

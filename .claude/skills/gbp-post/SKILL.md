@@ -93,7 +93,7 @@ You MAY state these, because they are verified (see Business info): in business 
 
 ## Post rules
 
-- 150-300 words max
+- 150-300 words max (strictly under 1,500 characters)
 - Informational only — NO call to action and NO advertising language (see hard rule above)
 - Only verifiable facts — NO invented projects, jobs, places, people, or numbers (see hard rule above)
 - A city may be named only for general/regional context (e.g. service area), never as a claim that we did a specific job there
