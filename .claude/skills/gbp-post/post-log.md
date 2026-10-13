@@ -201,3 +201,17 @@ On larger lots or commercial sites, grading also has to account for where the wa
 Finish grading after construction is just as important as the rough grade before it. Backfill around foundations settles over time, and if the final grade isn't re-established after that settling, the drainage pattern reverts and water finds its way back to the foundation.
 
 AccuRite Excavation & Hauling has handled grading and drainage work across Weber, Davis, Box Elder, and Morgan counties since 1995. Utah E100 licensed, based in Ogden.
+
+---
+
+## 2026-10-13 — Seasonal Tip — TW 37260643
+**Post:**
+Mid-October is when Northern Utah's ground starts locking up for the season. Overnight lows in Weber and Box Elder counties are already dipping below freezing, and the soil moisture that built up through September isn't going anywhere — it's settling in and waiting to expand. For homeowners and property managers, the next few weeks are the window to check that drainage systems and graded surfaces are ready to handle five months of freeze-thaw.
+
+Gutters and downspout extensions are the first line of defense, and the easiest to overlook. A downspout that dumps water right at the foundation — or one that's been knocked loose by a mower — defeats the purpose of the grading around the house. Extensions should carry water at least four to six feet away from the foundation wall, and the ground at the discharge point should slope away, not back toward the building.
+
+French drains and curtain drains need their outlets checked before the ground freezes. A clogged or crushed outlet pipe means the whole system backs up, and once the ground around the drain freezes, there's no practical fix until spring. Same goes for any catch basins or area drains on the property — clearing leaves and debris out of the grate now prevents standing water that turns into ice and blocks the inlet all winter.
+
+Graded areas around foundations are worth a quick walk-around. Backfill settles over time, and a spot that was properly graded two years ago may have developed a low area that holds water against the wall. Topping that off with clean fill and re-establishing the slope is a small job in October and a much bigger problem if water pools, freezes, and puts pressure on the foundation through the winter.
+
+AccuRite Excavation & Hauling has helped Northern Utah property owners prepare for winter ground conditions since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
