@@ -273,7 +273,20 @@ Cassandra has been assigned. Due in 3 days.
 ---
 ```
 
-Then ask: "Anything to tweak before this sits with Cassandra?" The user can say "looks good" or send a correction; if a correction comes in, update the TW task description with `update_task`.
+End on that summary. Do not ask whether anything needs tweaking — the scheduled run is headless and nobody is there to answer.
+
+### Corrections
+
+Only when the user sends a correction to a post that has already been filed. Never create a
+second task and never use the Teamwork MCP. `scripts/teamwork.py` has no command to edit a task
+description, so post the full corrected post text as a comment on the existing task:
+
+```bash
+python3 scripts/teamwork.py comment --task <task id> --body "$(cat /tmp/corrected.md)"
+```
+
+Start the comment body with `Corrected post — use this text instead of the one in the description:`
+followed by the full corrected post text. Then replace the post text in that entry of `post-log.md`.
 
 ## Logging
 
