@@ -215,3 +215,15 @@ French drains and curtain drains need their outlets checked before the ground fr
 Graded areas around foundations are worth a quick walk-around. Backfill settles over time, and a spot that was properly graded two years ago may have developed a low area that holds water against the wall. Topping that off with clean fill and re-establishing the slope is a small job in October and a much bigger problem if water pools, freezes, and puts pressure on the foundation through the winter.
 
 AccuRite Excavation & Hauling has helped Northern Utah property owners prepare for winter ground conditions since 1995. Utah E100 licensed, serving Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-10-27 — Review / Trust — TW 37337866
+**Post:**
+Thank you to the customers who have shared their feedback about AccuRite Excavation & Hauling, Inc. Our 5-star rating reflects customer experiences, and we appreciate the time people take to leave a review.
+
+Reliability in excavation is about more than equipment arriving on site. Clear communication about access, work limits, and the order of operations helps property owners and contractors understand what the work involves. When site conditions change, explaining the effect on the scope or schedule helps keep expectations grounded in what is actually happening.
+
+Equipment capability matters, too. The right machine depends on the task, available working room, ground conditions, and how material will be moved. Larger equipment is not always the best fit, especially where access is tight or existing improvements need protection.
+
+Based in Ogden and in business since 1995, AccuRite holds a Utah E100 license and serves Weber, Davis, Box Elder, and Morgan counties. Clear expectations and practical site planning are important parts of excavation work.
