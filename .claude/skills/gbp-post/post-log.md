@@ -227,3 +227,15 @@ Reliability in excavation is about more than equipment arriving on site. Clear c
 Equipment capability matters, too. The right machine depends on the task, available working room, ground conditions, and how material will be moved. Larger equipment is not always the best fit, especially where access is tight or existing improvements need protection.
 
 Based in Ogden and in business since 1995, AccuRite holds a Utah E100 license and serves Weber, Davis, Box Elder, and Morgan counties. Clear expectations and practical site planning are important parts of excavation work.
+
+---
+
+## 2026-11-03 — Educational — TW 37375268
+**Post:**
+Buried utilities are not always where surface features suggest. Before digging, public utility locates through Blue Stakes of Utah help identify participating utilities’ underground facilities in the planned work area. Those marks do not mean every buried line on a property has been identified.
+
+Public utility locating generally does not cover privately owned lines such as sprinkler piping, private sewer laterals, electrical lines to outbuildings, or landscape lighting wiring. These may require a separate private locating service. Available property records can help, but records alone do not confirm a line’s current position.
+
+Paint and flags indicate approximate horizontal locations, not exact edges or guaranteed depths. Locating methods have limits, and the marks do not show the full width of a pipe, cable, or group of lines. The space between marks is not proof that the ground is clear. Careful exposure is part of confirming the actual position before excavation proceeds nearby.
+
+AccuRite Excavation & Hauling, Inc. is based in Ogden, holds a Utah E100 license, and serves Weber, Davis, Box Elder, and Morgan counties.
