@@ -239,3 +239,17 @@ Public utility locating generally does not cover privately owned lines such as s
 Paint and flags indicate approximate horizontal locations, not exact edges or guaranteed depths. Locating methods have limits, and the marks do not show the full width of a pipe, cable, or group of lines. The space between marks is not proof that the ground is clear. Careful exposure is part of confirming the actual position before excavation proceeds nearby.
 
 AccuRite Excavation & Hauling, Inc. is based in Ogden, holds a Utah E100 license, and serves Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-11-10 — Seasonal Tip — TW 37427744
+**Post:**
+Mid-November is a useful time to plan spring excavation in Northern Utah. Winter planning can help define the work before digging begins, though the start date still depends on soil moisture, thaw, and site conditions.
+
+A clear scope separates the main excavation from related work such as hauling, grading, or utility installation. It also identifies what will stay, what will be removed, and the intended finished elevations. Those decisions affect the amount of material moved and the sequence of construction.
+
+Property boundaries and required setbacks can limit where improvements belong. Existing fences do not necessarily establish legal property lines. Permit requirements and review times vary by location and project type, so unresolved boundary or approval questions can affect the spring schedule.
+
+Site access planning includes legal access and any needed easements. Utility planning includes proposed service routes, connection requirements, and coordination with providers—not just the digging itself.
+
+AccuRite Excavation & Hauling, Inc. is based in Ogden and has been in business since 1995, serving Weber, Davis, Box Elder, and Morgan counties.
