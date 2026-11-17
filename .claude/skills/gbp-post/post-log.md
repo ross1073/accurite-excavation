@@ -253,3 +253,15 @@ Property boundaries and required setbacks can limit where improvements belong. E
 Site access planning includes legal access and any needed easements. Utility planning includes proposed service routes, connection requirements, and coordination with providers—not just the digging itself.
 
 AccuRite Excavation & Hauling, Inc. is based in Ogden and has been in business since 1995, serving Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-11-17 — Service Highlight — TW 37461845
+**Post:**
+Demolition is one of the services offered by AccuRite Excavation & Hauling, Inc. The work generally involves assessing a structure, planning its removal, taking it down in a controlled sequence, and handling the resulting debris.
+
+For a property owner, the scope matters as much as the size of the building. Removing a structure above ground is different from removing its foundation, footings, and slabs. Those details affect equipment needs, debris volume, and the condition of the property afterward. Access for equipment and trucks also affects how the work can be staged.
+
+Older buildings may contain asbestos or lead-based paint. Required inspections, permits, and material handling depend on the building and applicable regulations. Dust control and protection of nearby structures are also part of demolition planning.
+
+A clear scope identifies what stays, what gets removed, and how the site will be left. AccuRite has been in business since 1995 and serves Weber, Davis, Box Elder, and Morgan counties.
