@@ -265,3 +265,15 @@ For a property owner, the scope matters as much as the size of the building. Rem
 Older buildings may contain asbestos or lead-based paint. Required inspections, permits, and material handling depend on the building and applicable regulations. Dust control and protection of nearby structures are also part of demolition planning.
 
 A clear scope identifies what stays, what gets removed, and how the site will be left. AccuRite has been in business since 1995 and serves Weber, Davis, Box Elder, and Morgan counties.
+
+---
+
+## 2026-11-24 — Review / Trust — TW 37504209
+**Post:**
+Thank you to the customers who have shared their feedback and contributed to AccuRite Excavation & Hauling, Inc.’s 5-star rating. Taking the time to describe an experience gives other property owners useful information when comparing contractors.
+
+Trust in excavation involves more than the digging itself. Existing driveways, fences, landscaping, and nearby structures all matter when planning equipment access and material storage. Keeping work areas orderly helps reduce obstacles and makes it easier to see what still needs attention. Cleanup expectations also matter: rough grading and a surface ready for landscaping are different finishes, and the project scope should distinguish between them.
+
+Pricing deserves the same attention. An excavation estimate is more useful when it identifies what is included, such as hauling, disposal, imported material, and finish grading. Unknown ground conditions can affect the work, so clearly stated assumptions help explain potential changes.
+
+Based in Ogden, AccuRite has been in business since 1995, holds a Utah E100 license, and serves Weber, Davis, Box Elder, and Morgan counties.
