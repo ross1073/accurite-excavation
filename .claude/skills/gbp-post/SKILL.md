@@ -22,10 +22,34 @@ Generate a ready-to-paste Google Business Profile post for AccuRite Excavation &
 
 1. Read the post log at `.claude/skills/gbp-post/post-log.md` (or create it if it doesn't exist)
 2. Determine post type from the 4-week rotation (or honor the explicit arg)
-3. Generate post text following the rules + template below
+3. Get the post text from the OpenAI writer script — **do not write it yourself** (see "Who writes the post text" below)
 4. Create a Teamwork task assigned to Cassandra with the post text, asking her to choose a suitable photo (see Photo selection)
 5. Show the user a preview of what was sent
 6. Log the post to the log file (date, type, post text, TW task ID)
+
+## Who writes the post text — HARD RULE (since 2026-10-27)
+
+**Claude must not write or edit the post text.** Claude models now embed an invisible text
+watermark, and Ross does not want that on AccuRite's Google Business Profile. The text is
+written by an OpenAI model through OpenRouter:
+
+```bash
+python3 scripts/write_gbp_post.py --type "<post type>" \
+    --brief "Today is <YYYY-MM-DD>. <service or topic for this week>. Avoid repeating: <services/cities/topics from the last 3 posts>." \
+    --out /tmp/gbp-post.txt
+```
+
+The script reads the Business info, hard rules and templates from this file, so they still
+govern the content. It also rejects drafts that break the mechanical rules (length, phone
+number, hashtags, Salt Lake, obvious CTAs) and retries.
+
+- Use the script's output **exactly as written, character for character**, in the Teamwork task
+  and the log. No rewording, no polishing, no trimming, no added sentences.
+- If the output breaks a rule the script cannot catch (invented project, out-of-area city, a
+  claim not in Business info), **rerun the script** with a `--brief` that names the problem.
+  Never fix it by hand.
+- If the script fails (exit code not 0) three runs in a row, do NOT fall back to writing the
+  post yourself. Stop, and run `~/.local/bin/notify` with a one-line summary.
 
 ## Rotation schedule
 
