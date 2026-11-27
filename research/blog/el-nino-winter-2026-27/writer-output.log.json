@@ -1,0 +1,24 @@
+{
+ "model_requested": "openai/gpt-6.1-sol",
+ "provider_pin": {
+  "order": [
+   "openai"
+  ],
+  "allow_fallbacks": false
+ },
+ "notes": [],
+ "attempts": [
+  {
+   "model": "openai/gpt-6.1-sol",
+   "provider": "OpenAI",
+   "cost_usd": 0.0254435,
+   "tokens": {
+    "prompt_tokens": 2718,
+    "completion_tokens": 1865
+   },
+   "words": 1295,
+   "problems": []
+  }
+ ],
+ "total_cost_usd": 0.0254435
+}

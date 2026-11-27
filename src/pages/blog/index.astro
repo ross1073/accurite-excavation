@@ -4,7 +4,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
 import CTASection from '../../components/CTASection.astro';
 
-const posts = (await getCollection('blog')).sort(
+// Unlisted posts (review pages awaiting approval) are reachable only by direct URL.
+const posts = (await getCollection('blog', ({ data }) => !data.unlisted)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---

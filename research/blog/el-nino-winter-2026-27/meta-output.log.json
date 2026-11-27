@@ -1,0 +1,26 @@
+{
+ "model_requested": "openai/gpt-6.1-sol",
+ "provider_pin": {
+  "order": [
+   "openai"
+  ],
+  "allow_fallbacks": false
+ },
+ "target": "El Niño winter",
+ "body": "research/blog/el-nino-winter-2026-27/writer-output.md",
+ "notes": [],
+ "attempts": [
+  {
+   "model": "openai/gpt-6.1-sol",
+   "provider": "OpenAI",
+   "cost_usd": 0.0079585,
+   "tokens": {
+    "prompt_tokens": 2120,
+    "completion_tokens": 266
+   },
+   "raw": "{\n  \"title\": \"El Niño winter: Northern Utah Drainage Checks\",\n  \"metaTitle\": \"El Niño winter: Drainage Checks\",\n  \"description\": \"Learn what the El Niño winter outlook means for Northern Utah and how to check grading, ditches, culverts and drain outlets before and after runoff.\"\n}",
+   "problems": []
+  }
+ ],
+ "total_cost_usd": 0.0079585
+}

@@ -61,6 +61,9 @@ const blog = defineCollection({
     tags: z.array(z.string()).optional(),
     relatedServices: z.array(z.string()).optional(),
     relatedLocations: z.array(z.string()).optional(),
+    // Unlisted = review page: builds at its URL with noindex, but is left off the blog
+    // index and the sitemap (filter in astro.config.mjs). Set false/remove to publish.
+    unlisted: z.boolean().optional(),
     // Drives schema.org VideoObject when the post embeds a video.
     // Paths are site-root-relative (files live in public/); duration is ISO 8601.
     video: z.object({
